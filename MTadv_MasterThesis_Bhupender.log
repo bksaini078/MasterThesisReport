@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.5)  14 DEC 2021 02:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.5)  14 DEC 2021 06:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1375,23 +1375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 \openout6 = `MTadv_MasterThesis_Bhupender.toc'.
 
  [4]
-(./MTadv_MasterThesis_Bhupender.lof
-
-LaTeX Warning: Citation `jia_certified_2019' on page V undefined on input line 
-11.
-
-
-LaTeX Warning: Citation `li_textbugger_2019' on page V undefined on input line 
-12.
-
-
-LaTeX Warning: Citation `ren_generating_2019' on page V undefined on input line
- 13.
-
-
-LaTeX Warning: Citation `garg_bae_2020' on page V undefined on input line 14.
-
-)
+(./MTadv_MasterThesis_Bhupender.lof)
 \tf@lof=\write7
 \openout7 = `MTadv_MasterThesis_Bhupender.lof'.
 
@@ -1402,7 +1386,8 @@ LaTeX Warning: Citation `garg_bae_2020' on page V undefined on input line 14.
 \tf@lot=\write8
 \openout8 = `MTadv_MasterThesis_Bhupender.lot'.
 
- [6
+
+[6
 
 
 ]
@@ -1423,373 +1408,243 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface.
 
 
-LaTeX Warning: Citation `huq_adversarial_2020' on page 1 undefined on input lin
-e 102.
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
 
-
-LaTeX Warning: Citation `devlin_bert_2019' on page 1 undefined on input line 10
-3.
-
-
-LaTeX Warning: Citation `liu_roberta_2019' on page 1 undefined on input line 10
-3.
-
-
-LaTeX Warning: Citation `sanh_distilbert_2020' on page 1 undefined on input lin
-e 103.
-
-
-LaTeX Warning: Citation `lan_albert_2020' on page 1 undefined on input line 103
-.
-
-
-LaTeX Warning: Citation `szegedy_intriguing_2014' on page 1 undefined on input 
-line 104.
-
-
-LaTeX Warning: Citation `yuan_adversarial_2018' on page 1 undefined on input li
-ne 104.
-
-
-LaTeX Warning: Citation `akhtar_threat_2018' on page 1 undefined on input line 
-104.
-
-
-LaTeX Warning: Citation `huq_adversarial_2020' on page 1 undefined on input lin
-e 104.
-
-
-LaTeX Warning: Citation `zhang_adversarial_2019' on page 1 undefined on input l
-ine 104.
+ []
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 105.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 115.
 
-
-LaTeX Warning: Citation `szegedy_intriguing_2014' on page 1 undefined on input 
-line 105.
-
-<img/Introduction-Fig-1.png, id=157, 631.35875pt x 276.03125pt>
+<img/Introduction-Fig-1.png, id=180, 631.35875pt x 276.03125pt>
 File: img/Introduction-Fig-1.png Graphic file (type png)
 <use img/Introduction-Fig-1.png>
-Package pdftex.def Info: img/Introduction-Fig-1.png  used on input line 108.
+Package pdftex.def Info: img/Introduction-Fig-1.png  used on input line 120.
 (pdftex.def)             Requested size: 418.12805pt x 182.80875pt.
 
-LaTeX Warning: Citation `jin_is_2020' on page 1 undefined on input line 109.
-
-
-LaTeX Warning: Citation `jin_is_2020' on page 1 undefined on input line 109.
-
-
-LaTeX Warning: Citation `wang_towards_2021' on page 1 undefined on input line 1
-14.
-
-
-LaTeX Warning: Citation `li_bert-attack_2020' on page 1 undefined on input line
- 114.
-
-
-LaTeX Warning: Citation `li_bert-attack_2020' on page 1 undefined on input line
- 115.
-
-
-LaTeX Warning: Citation `garg_bae_2020' on page 1 undefined on input line 115.
-
-
-LaTeX Warning: Citation `sun_adv-bert_2020' on page 1 undefined on input line 1
-15.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
+
+ []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.119 
+l.140 
        [1
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 144--150
 
-LaTeX Warning: Citation `zhu_at-bert_2021' on page 2 undefined on input line 12
-0.
-
-
-LaTeX Warning: Citation `du_adversarial_2020' on page 2 undefined on input line
- 120.
-
-
-LaTeX Warning: Citation `tarvainen_mean_2018' on page 2 undefined on input line
- 122.
-
-LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 125
-.
-
-LaTeX Warning: Citation `huq_adversarial_2020' on page 2 undefined on input lin
-e 125.
-
-
-LaTeX Warning: Citation `huq_adversarial_2020' on page 2 undefined on input lin
-e 125.
+ []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 
+l.150 
        [2 <./img/Introduction-Fig-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 135--141
+Underfull \hbox (badness 10000) in paragraph at lines 170--175
 
  []
 
 [3]
 chapter 2.
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-147.
+181.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
 
-LaTeX Warning: Citation `devlin_bert_2019' on page 4 undefined on input line 16
-3.
+ []
 
-
-LaTeX Warning: Citation `vaswani_attention_2017' on page 4 undefined on input l
-ine 163.
-
-
-./MTadv_MasterThesis_Bhupender.tex:172: LaTeX Error: Something's wrong--perhaps
- a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.172 \end{itemize}
-                   
-? s
-OK, entering \scrollmode...
-
-LaTeX Warning: Citation `vaswani_attention_2017' on page 4 undefined on input l
-ine 173.
-
-<img/TransformerArchitecture.png, id=176, 562.1pt x 767.86874pt>
-File: img/TransformerArchitecture.png Graphic file (type png)
-<use img/TransformerArchitecture.png>
-Package pdftex.def Info: img/TransformerArchitecture.png  used on input line 17
-6.
-(pdftex.def)             Requested size: 215.52965pt x 294.42941pt.
-
-LaTeX Warning: Citation `vaswani_attention_2017' on page 4 undefined on input l
-ine 177.
-
-
-LaTeX Warning: Citation `vaswani_attention_2017' on page 4 undefined on input l
-ine 177.
-
-
-LaTeX Warning: Citation `vaswani_attention_2017' on page 4 undefined on input l
-ine 180.
-
-<img/encoderDecoder.png, id=178, 484.81125pt x 293.095pt>
-File: img/encoderDecoder.png Graphic file (type png)
-<use img/encoderDecoder.png>
-Package pdftex.def Info: img/encoderDecoder.png  used on input line 183.
-(pdftex.def)             Requested size: 215.52965pt x 130.2994pt.
 [4
 
 
-] [5 <./img/TransformerArchitecture.png>]
+]
+<img/TransformerArchitecture.png, id=232, 562.1pt x 767.86874pt>
+File: img/TransformerArchitecture.png Graphic file (type png)
+<use img/TransformerArchitecture.png>
+Package pdftex.def Info: img/TransformerArchitecture.png  used on input line 22
+1.
+(pdftex.def)             Requested size: 215.52965pt x 294.42941pt.
+ [5 <./img/TransformerArchitecture.png>]
+<img/encoderDecoder.png, id=243, 484.81125pt x 293.095pt>
+File: img/encoderDecoder.png Graphic file (type png)
+<use img/encoderDecoder.png>
+Package pdftex.def Info: img/encoderDecoder.png  used on input line 233.
+(pdftex.def)             Requested size: 215.52965pt x 130.2994pt.
+<img/EncoderDecoder2.png, id=245, 159.7167pt x 174.1707pt>
+File: img/EncoderDecoder2.png Graphic file (type png)
+<use img/EncoderDecoder2.png>
+Package pdftex.def Info: img/EncoderDecoder2.png  used on input line 251.
+(pdftex.def)             Requested size: 129.3191pt x 141.0323pt.
+ [6 <./img/encoderDecoder.png> <./img/EncoderDecoder2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 284--291
 
-LaTeX Warning: Citation `devlin_bert_2019' on page 6 undefined on input line 21
-9.
-
-
-LaTeX Warning: Citation `vaswani_attention_2017' on page 6 undefined on input l
-ine 219.
-
-
-LaTeX Warning: Citation `howard_universal_2018' on page 6 undefined on input li
-ne 219.
-
-
-LaTeX Warning: Citation `peters_deep_2018' on page 6 undefined on input line 21
-9.
-
-
-LaTeX Warning: Citation `radford_improving_nodate' on page 6 undefined on input
- line 219.
-
-
-LaTeX Warning: Citation `devlin_bert_2019' on page 6 undefined on input line 22
-5.
-
-[6 <./img/encoderDecoder.png>]
-
-LaTeX Warning: Citation `sanh_distilbert_2020' on page 7 undefined on input lin
-e 230.
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
  []
 
 [7]
-
-LaTeX Warning: Citation `garg_bae_2020' on page 8 undefined on input line 239.
-
-[8]
-chapter 3.
-
-./MTadv_MasterThesis_Bhupender.tex:302: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 ...dversarial Attacks and Defenses in Text"}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:302: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 ...dversarial Attacks and Defenses in Text"}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:302: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 ...dversarial Attacks and Defenses in Text"}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:302: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 ...dversarial Attacks and Defenses in Text"}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Citation `huq_adversarial_2020' on page 9 undefined on input lin
-e 302.
-
-
-./MTadv_MasterThesis_Bhupender.tex:302: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 ...dversarial Attacks and Defenses in Text"}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:302: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 ...dversarial Attacks and Defenses in Text"}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Warning: Citation `li_bert-attack_2020' on page 9 undefined on input line
- 304.
-
-
-LaTeX Warning: Citation `saxena_textdecepter_2020' on page 9 undefined on input
- line 306.
-
-
-LaTeX Warning: Citation `ren_generating_2020' on page 9 undefined on input line
- 307.
-
-
-LaTeX Warning: Citation `sun_adv-bert_2020' on page 9 undefined on input line 3
-08.
-
-
-LaTeX Warning: Citation `zang_word-level_2019' on page 9 undefined on input lin
-e 309.
-
-
-LaTeX Warning: Citation `garg_bae_2020' on page 9 undefined on input line 310.
-
-
-LaTeX Warning: Citation `liu_adversarial_2020' on page 9 undefined on input lin
-e 311.
-
-
-LaTeX Warning: Citation `miyato_virtual_2018' on page 9 undefined on input line
- 311.
-
-
-LaTeX Warning: Citation `zhu_at-bert_2021' on page 9 undefined on input line 31
-2.
-
-
-LaTeX Warning: Citation `miyato_adversarial_2017' on page 9 undefined on input 
-line 312.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--314
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
-[9
+[8] [9]
+chapter 3.
+
+./MTadv_MasterThesis_Bhupender.tex:387: Package inputenc Error: Keyboard charac
+ter used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.387 ...l attack as combinatorial optimization".}
+                                                  
+? s
+OK, entering \scrollmode...
+
+./MTadv_MasterThesis_Bhupender.tex:387: Package inputenc Error: Keyboard charac
+ter used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.387 ...l attack as combinatorial optimization".}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
-] [10]
+./MTadv_MasterThesis_Bhupender.tex:387: Package inputenc Error: Keyboard charac
+ter used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.387 ...l attack as combinatorial optimization".}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./MTadv_MasterThesis_Bhupender.tex:387: Package inputenc Error: Keyboard charac
+ter used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.387 ...l attack as combinatorial optimization".}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./MTadv_MasterThesis_Bhupender.tex:391: Package inputenc Error: Keyboard charac
+ter used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.391 ...Adversarial Attacks and Defenses in Text}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./MTadv_MasterThesis_Bhupender.tex:391: Package inputenc Error: Keyboard charac
+ter used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.391 ...Adversarial Attacks and Defenses in Text}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--401
+
+ []
+
+[10
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 402--405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--420
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--424
+
+ []
+
+[11]
 chapter 4.
 
-LaTeX Warning: Citation `morris_textattack_2020' on page 11 undefined on input 
-line 321.
+Underfull \hbox (badness 10000) in paragraph at lines 437--441
 
-<img/Methodology.png, id=218, 1260.71pt x 702.625pt>
+ []
+
+<img/Methodology.png, id=308, 1260.71pt x 702.625pt>
 File: img/Methodology.png Graphic file (type png)
 <use img/Methodology.png>
-Package pdftex.def Info: img/Methodology.png  used on input line 325.
+Package pdftex.def Info: img/Methodology.png  used on input line 449.
 (pdftex.def)             Requested size: 474.16786pt x 264.26637pt.
 
-Overfull \hbox (43.10855pt too wide) in paragraph at lines 325--326
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 449--450
  [][] 
  []
 
@@ -1797,36 +1652,51 @@ Overfull \hbox (43.10855pt too wide) in paragraph at lines 325--326
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `eq:overallcost' on page 11 undefined on input line 33
-6.
+LaTeX Warning: Reference `eq:overallcost' on page 12 undefined on input line 46
+4.
 
 
-LaTeX Warning: Reference `eq:ema' on page 11 undefined on input line 336.
+LaTeX Warning: Reference `eq:ema' on page 12 undefined on input line 464.
 
-[11
+[12
 
 
-] [12 <./img/Methodology.png>]
+] [13 <./img/Methodology.png>]
 chapter 5.
-[13
+[14
 
 
-] [14]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 581--587
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 588--591
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--600
+
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15]
+[16] [17]
 
-LaTeX Warning: Citation `morris_textattack_2020' on page 16 undefined on input 
-line 481.
-
-
-LaTeX Warning: Citation `jia_certified_2019' on page 16 undefined on input line
- 483.
-
-[16]
-
-./MTadv_MasterThesis_Bhupender.tex:486: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:679: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -1834,14 +1704,14 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.486 ... novel word embeddings proposed by Mrksˇ
+l.679 ... novel word embeddings proposed by Mrksˇ
                                                   ic ́ et$.$ al$.$ \cite{mr...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:486: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:679: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -1849,129 +1719,43 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.486 ...l word embeddings proposed by Mrksˇic ́
+l.679 ...l word embeddings proposed by Mrksˇic ́
                                                    et$.$ al$.$ \cite{mrksic_...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-
-LaTeX Warning: Citation `mrksic_counter-fitting_2016' on page 17 undefined on i
-nput line 486.
-
-
-LaTeX Warning: Citation `cer_universal_2018' on page 17 undefined on input line
- 486.
-
-<img/textfooler_example.png, id=267, 1006.76125pt x 157.58875pt>
+<img/textfooler_example.png, id=362, 1006.76125pt x 157.58875pt>
 File: img/textfooler_example.png Graphic file (type png)
 <use img/textfooler_example.png>
-Package pdftex.def Info: img/textfooler_example.png  used on input line 492.
+Package pdftex.def Info: img/textfooler_example.png  used on input line 694.
 (pdftex.def)             Requested size: 387.95074pt x 60.72595pt.
+[18 <./img/textfooler_example.png>]
 
-LaTeX Warning: Citation `jia_certified_2019' on page 17 undefined on input line
- 493.
-
-
-LaTeX Warning: Citation `jia_certified_2019' on page 17 undefined on input line
- 493.
+LaTeX Warning: Reference `diag:textbug' on page 19 undefined on input line 713.
 
 
-LaTeX Warning: Citation `li_textbugger_2019' on page 17 undefined on input line
- 497.
-
-
-LaTeX Warning: Citation `rawlinson_significance_2007' on page 17 undefined on i
-nput line 497.
-
-
-LaTeX Warning: Citation `alzantot_generating_2018' on page 17 undefined on inpu
-t line 497.
-
-[17 <./img/textfooler_example.png>]
-
-LaTeX Warning: Reference `diag:textbug' on page 18 undefined on input line 501.
-
-
-<img/textbugger_5strat.png, id=278, 486.81876pt x 108.405pt>
+<img/textbugger_5strat.png, id=378, 486.81876pt x 108.405pt>
 File: img/textbugger_5strat.png Graphic file (type png)
 <use img/textbugger_5strat.png>
-Package pdftex.def Info: img/textbugger_5strat.png  used on input line 505.
+Package pdftex.def Info: img/textbugger_5strat.png  used on input line 718.
 (pdftex.def)             Requested size: 344.84875pt x 76.79108pt.
-
-LaTeX Warning: Citation `li_textbugger_2019' on page 18 undefined on input line
- 506.
-
-
-LaTeX Warning: Citation `li_textbugger_2019' on page 18 undefined on input line
- 506.
-
-
-LaTeX Warning: Citation `ren_generating_2019' on page 18 undefined on input lin
-e 512.
-
-
-LaTeX Warning: Citation `li_understanding_2017' on page 18 undefined on input l
-ine 514.
-
-[18 <./img/textbugger_5strat.png>]
-
-LaTeX Warning: Citation `kim_convolutional_2014' on page 19 undefined on input 
-line 517.
-
-
-LaTeX Warning: Citation `zhang_character-level_2016' on page 19 undefined on in
-put line 517.
-
-<img/PWWSexample.png, id=289, 826.08624pt x 259.97125pt>
+[19 <./img/textbugger_5strat.png>]
+<img/PWWSexample.png, id=396, 826.08624pt x 259.97125pt>
 File: img/PWWSexample.png Graphic file (type png)
 <use img/PWWSexample.png>
-Package pdftex.def Info: img/PWWSexample.png  used on input line 520.
+Package pdftex.def Info: img/PWWSexample.png  used on input line 749.
 (pdftex.def)             Requested size: 387.95074pt x 122.0913pt.
-
-LaTeX Warning: Citation `ren_generating_2019' on page 19 undefined on input lin
-e 521.
-
-
-LaTeX Warning: Citation `ren_generating_2019' on page 19 undefined on input lin
-e 521.
-
-
-LaTeX Warning: Citation `garg_bae_2020' on page 19 undefined on input line 525.
-
-
-
-LaTeX Warning: Citation `jia_certified_2019' on page 19 undefined on input line
- 525.
-
-
-LaTeX Warning: Citation `ren_generating_2019' on page 19 undefined on input lin
-e 525.
-
-
-LaTeX Warning: Citation `cer_universal_2018' on page 19 undefined on input line
- 525.
-
-<img/BAEexample.png, id=291, 416.55624pt x 216.81pt>
+ [20 <./img/PWWSexample.png>]
+<img/BAEexample.png, id=414, 416.55624pt x 216.81pt>
 File: img/BAEexample.png Graphic file (type png)
 <use img/BAEexample.png>
-Package pdftex.def Info: img/BAEexample.png  used on input line 528.
+Package pdftex.def Info: img/BAEexample.png  used on input line 766.
 (pdftex.def)             Requested size: 301.74019pt x 157.05916pt.
-
-LaTeX Warning: Citation `garg_bae_2020' on page 19 undefined on input line 529.
-
-
-
-LaTeX Warning: Citation `garg_bae_2020' on page 19 undefined on input line 529.
-
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19 <./img/PWWSexample.png>] [20 <./img/BAEexample.png>]
+ [21 <./img/BAEexample.png>]
 chapter 6.
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -1979,13 +1763,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -1993,13 +1777,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2007,13 +1791,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2021,13 +1805,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2035,13 +1819,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2049,13 +1833,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2063,13 +1847,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2077,13 +1861,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2091,13 +1875,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2105,13 +1889,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2119,13 +1903,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2133,13 +1917,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2147,13 +1931,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2161,13 +1945,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2175,13 +1959,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./MTadv_MasterThesis_Bhupender.tex:545: Package inputenc Error: Keyboard charac
+./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
 ter used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -2189,27 +1973,32 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...tion of semantics and grammaticality BAE}
+l.789 ...tion of semantics and grammaticality BAE}
                                                   .
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Overfull \hbox (11.59808pt too wide) in paragraph at lines 549--579
+Overfull \hbox (11.59808pt too wide) in paragraph at lines 794--824
+ []|  [] 
+ []
+
+
+Overfull \hbox (11.59808pt too wide) in paragraph at lines 830--859
 []|  [] 
  []
 
-[21
+[22
 
 
-] [22]
+] [23]
 chapter 7.
-[23
+[24
 
 
 ]
-./MTadv_MasterThesis_Bhupender.tex:623: Undefined control sequence.
-l.623 \Chapter
+./MTadv_MasterThesis_Bhupender.tex:907: Undefined control sequence.
+l.907 \Chapter
               {References}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2217,8 +2006,32 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-No file MTadv_MasterThesis_Bhupender.bbl.
-[24] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
+(./MTadv_MasterThesis_Bhupender.bbl [25]
+chapter without number
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+[26
+
+
+]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+[27]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+[28]) [29] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
 (./inc/Abstract.aux))
 
 LaTeX Warning: There were undefined references.
@@ -2228,16 +2041,16 @@ anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36767 strings out of 478994
- 790743 string characters out of 5858184
- 1254733 words of memory out of 5000000
- 53525 multiletter control sequences out of 15000+600000
- 457346 words of font info for 60 fonts, out of 8000000 for 9000
+ 36837 strings out of 478994
+ 792212 string characters out of 5858184
+ 1265733 words of memory out of 5000000
+ 53547 multiletter control sequences out of 15000+600000
+ 454595 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,10n,116p,10623b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
-21/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2021/texmf-d
+ 111i,9n,116p,10623b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
+e/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021/texmf-d
 ist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc
 /dvips/lm/lm-rmsc.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm
 /lmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.p
@@ -2246,16 +2059,15 @@ cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/
 type1/public/lm/lmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/lm/lmssbo10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lm
-ssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso10.pf
-b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-
-Output written on MTadv_MasterThesis_Bhupender.pdf (32 pages, 1181077 bytes).
+ic/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lm
+sso10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on MTadv_MasterThesis_Bhupender.pdf (37 pages, 1203886 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
- 112 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 628 compressed objects within 7 object streams
+ 158 named destinations out of 1000 (max. 500000)
+ 404 words of extra memory for PDF output out of 10000 (max. 10000000)
 

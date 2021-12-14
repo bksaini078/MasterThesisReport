@@ -7,38 +7,39 @@
 \contentsline {subsection}{\numberline {2.1.1}Data Representation (2 pages)}{4}{subsection.2.1.1}%
 \contentsline {section}{\numberline {2.2}BERT(Bidirectional Encoder Representation From Transformers)}{4}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Understanding Transformers Architecture (11 pages)}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Encoder and Decoder (2 pages)}{6}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Self Attention Mechanism (3 pages)}{6}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Multi-head Attention Mechanism (2 pages)}{6}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Positional Encoding (2 pages)}{6}{subsection.2.3.4}%
-\contentsline {subsubsection}{\nonumberline Working of Transformers (1-2 pages)}{6}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {2.3.1}Encoder-Decoder Architecture (2 pages)}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Self Attention Mechanism (3 pages)}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Multi-head Attention Mechanism (2 pages)}{7}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Positional Encoding (2 pages)}{7}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Decoder}{7}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Working of Transformers (1-2 pages)}{7}{subsection.2.3.6}%
 \contentsline {section}{\numberline {2.4}Training and Fine-tuning of BERT (3 pages)}{7}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Adversarial Attacks (3 pages)}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Adversarial Attacks (3 pages)}{8}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Types of Adversarial attacks}{8}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Limitation And Constraints}{8}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Different attack methodology in Text Classification problem}{8}{subsection.2.5.3}%
-\contentsline {chapter}{\numberline {3}Related Work(2 pages)}{9}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Proposed Methodology (2 pages)}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Research Questions (3 pages)}{12}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Experiment(7 pages)}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Dataset (1-2 paragraph)}{13}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Data Pre-processing and Exploration (3 pages)}{13}{section.5.2}%
-\contentsline {subsubsection}{\nonumberline Data Exploration (3 pages)}{14}{subsubsection*.12}%
-\contentsline {section}{\numberline {5.3}Data Augmentation}{14}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Experiment Environment description (1-2 paragraph)}{15}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Hyper parameter Details (1 paragraph)}{15}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Model architecture (2-3 paragraph)}{15}{subsection.5.4.2}%
-\contentsline {section}{\numberline {5.5}Metrics (2 pages)}{15}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Threat Model}{16}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Text Attack Recipes and Tool (2 pages)}{16}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}TextFooler}{16}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}TextBugger}{17}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency (PWWS)}{18}{subsection.5.7.3}%
-\contentsline {subsection}{\numberline {5.7.4}BAE: BERT-Based Adversarial Examples}{19}{subsection.5.7.4}%
-\contentsline {chapter}{\numberline {6}Result Analysis (3 pages)}{21}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Works (3 pages)}{23}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Limitations (1 page)}{23}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Future Work (1 page)}{23}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Conclusion (1 pages)}{24}{section.7.3}%
+\contentsline {subsection}{\numberline {2.5.3}Different attack methodology in Text Classification problem}{9}{subsection.2.5.3}%
+\contentsline {chapter}{\numberline {3}Related Work(2 pages)}{10}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Proposed Methodology (2 pages)}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Research Questions (3 pages)}{13}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Experiment(7 pages)}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dataset (1-2 paragraph)}{14}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Data Pre-processing and Exploration (3 pages)}{14}{section.5.2}%
+\contentsline {subsubsection}{\nonumberline Data Exploration (3 pages)}{15}{subsubsection*.11}%
+\contentsline {section}{\numberline {5.3}Data Augmentation}{15}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Experiment Environment description (1-2 paragraph)}{16}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Hyper parameter Details (1 paragraph)}{16}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Model architecture (2-3 paragraph)}{16}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Metrics (2 pages)}{17}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Threat Model}{17}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Text Attack Recipes and Tool (2 pages)}{17}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}TextFooler}{18}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}TextBugger}{19}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency (PWWS)}{19}{subsection.5.7.3}%
+\contentsline {subsection}{\numberline {5.7.4}BAE: BERT-Based Adversarial Examples}{20}{subsection.5.7.4}%
+\contentsline {chapter}{\numberline {6}Result Analysis (3 pages)}{22}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Works (3 pages)}{24}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Limitations (1 page)}{24}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future Work (1 page)}{24}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Conclusion (1 pages)}{25}{section.7.3}%
+\contentsline {chapter}{\nonumberline Bibliography}{26}{chapter*.20}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
