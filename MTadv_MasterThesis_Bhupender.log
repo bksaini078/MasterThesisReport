@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.5)  14 DEC 2021 06:41
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  15 DEC 2021 01:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -137,7 +137,7 @@ File: scrsize11pt.clo 2021/03/17 v3.33 KOMA-Script font size class option (11pt
 (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
 \ta@bcor=\skip48
-\ta@div=\count179
+\ta@div=\count175
 Package typearea Info: You've used standard option `oneside'.
 (typearea)             This is correct!
 (typearea)             Internally I'm using `twoside=false'.
@@ -166,13 +166,13 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1741.
 )
-\c@part=\count180
-\c@chapter=\count181
-\c@section=\count182
-\c@subsection=\count183
-\c@subsubsection=\count184
-\c@paragraph=\count185
-\c@subparagraph=\count186
+\c@part=\count176
+\c@chapter=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
 \scr@dte@chapter@maxnumwidth=\skip53
 Class scrbook Info: using compatibility default `afterindent=bysign'
 (scrbook)           for `\chapter on input line 5676.
@@ -211,12 +211,12 @@ Package tocbasic Info: babel extension for `lof' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 6980.
 
 \scr@dte@figure@maxnumwidth=\skip62
-\c@figure=\count187
+\c@figure=\count183
 Package tocbasic Info: babel extension for `lot' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 7001.
 
 \scr@dte@table@maxnumwidth=\skip63
-\c@table=\count188
+\c@table=\count184
 Class scrbook Info: Redefining `\numberline' on input line 7174.
 \bibindent=\dimen138
 )
@@ -226,13 +226,12 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: xetex.def on input line 225.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -246,30 +245,40 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/latin1.def
-File: latin1.def 2020/08/01 v1.3d Input encoding file
-))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty:165: Package inp
+utenc Error: inputenc is not designed for xetex or luatex.
+(inputenc)                only UTF-8 supported.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 \endinput
+               
+? s
+OK, entering \scrollmode...
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count189
+\lst@mode=\count185
 \lst@gtempboxa=\box49
 \lst@token=\toks18
-\lst@length=\count190
+\lst@length=\count186
 \lst@currlwidth=\dimen139
-\lst@column=\count191
-\lst@pos=\count192
+\lst@column=\count187
+\lst@pos=\count188
 \lst@lostspace=\dimen140
 \lst@width=\dimen141
-\lst@newlines=\count193
-\lst@lineno=\count194
+\lst@newlines=\count189
+\lst@lineno=\count190
 \lst@maxwidth=\dimen142
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count195
-\lst@skipnumbers=\count196
+\c@lstnumber=\count191
+\lst@skipnumbers=\count192
 \lst@framebox=\box50
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
@@ -292,16 +301,14 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+Package pdftexcmds Info: \pdfdraftmode not found.
 )
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package listingsutf8 Warning: Package loading is aborted because of missing \pd
+f@unescapehex.
+(listingsutf8)                It is provided by pdfTeX >= 1.30.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
@@ -319,8 +326,8 @@ Package caption Info: KOMA-Script document class detected.
 File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the 
 KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count197
-\c@continuedfloat=\count198
+\c@caption@flags=\count193
+\c@continuedfloat=\count194
 Package caption Info: listings package is loaded.
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
@@ -331,10 +338,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip66
 \subfigcapmargin=\dimen151
 \subfiglabelskip=\skip67
-\c@subfigure=\count199
-\c@lofdepth=\count266
-\c@subtable=\count267
-\c@lotdepth=\count268
+\c@subfigure=\count195
+\c@lofdepth=\count196
+\c@subtable=\count197
+\c@lotdepth=\count198
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -386,7 +393,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip70
-\multirow@cntb=\count269
+\multirow@cntb=\count199
 \multirow@dima=\skip71
 \bigstrutjot=\dimen152
 )
@@ -395,14 +402,15 @@ Package: babel 2021/03/24 3.56 The Babel package
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2021/03/24 3.56 Babel common definitions
-\babel@savecnt=\count270
+\babel@savecnt=\count266
 \U@D=\dimen153
 \l@babelnohyphens=\language87
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/xebabel.def
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def))
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count271
+\bbl@dirlevel=\count267
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -433,13 +441,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count272
+\inf@bad=\count268
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count273
-\leftroot@=\count274
+\uproot@=\count269
+\leftroot@=\count270
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count275
-\DOTSCASE@=\count276
+\classnum@=\count271
+\DOTSCASE@=\count272
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -448,15 +456,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen156
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count277
-\c@MaxMatrixCols=\count278
+\macc@depth=\count273
+\c@MaxMatrixCols=\count274
 \dotsspace@=\muskip16
-\c@parentequation=\count279
-\dspbrk@lvl=\count280
+\c@parentequation=\count275
+\dspbrk@lvl=\count276
 \tag@help=\toks20
-\row@=\count281
-\column@=\count282
-\maxfields@=\count283
+\row@=\count277
+\column@=\count278
+\maxfields@=\count279
 \andhelp@=\toks21
 \eqnshift@=\dimen157
 \alignsep@=\dimen158
@@ -484,7 +492,7 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count284
+\c@float@type=\count280
 \float@exts=\toks24
 \float@box=\box53
 \@float@everytoks=\toks25
@@ -499,37 +507,37 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
 Package: layout 2014/10/28 v1.2c Show layout parameters
-\oneinch=\count285
-\cnt@paperwidth=\count286
-\cnt@paperheight=\count287
-\cnt@hoffset=\count288
-\cnt@voffset=\count289
-\cnt@textheight=\count290
-\cnt@textwidth=\count291
-\cnt@topmargin=\count292
-\cnt@oddsidemargin=\count293
-\cnt@evensidemargin=\count294
-\cnt@headheight=\count295
-\cnt@headsep=\count296
-\cnt@marginparsep=\count297
-\cnt@marginparwidth=\count298
-\cnt@marginparpush=\count299
-\cnt@footskip=\count300
-\fheight=\count301
-\ref@top=\count302
-\ref@hoffset=\count303
-\ref@voffset=\count304
-\ref@head=\count305
-\ref@body=\count306
-\ref@foot=\count307
-\ref@margin=\count308
-\ref@marginwidth=\count309
-\ref@marginpar=\count310
-\Interval=\count311
-\ExtraYPos=\count312
-\PositionX=\count313
-\PositionY=\count314
-\ArrowLength=\count315
+\oneinch=\count281
+\cnt@paperwidth=\count282
+\cnt@paperheight=\count283
+\cnt@hoffset=\count284
+\cnt@voffset=\count285
+\cnt@textheight=\count286
+\cnt@textwidth=\count287
+\cnt@topmargin=\count288
+\cnt@oddsidemargin=\count289
+\cnt@evensidemargin=\count290
+\cnt@headheight=\count291
+\cnt@headsep=\count292
+\cnt@marginparsep=\count293
+\cnt@marginparwidth=\count294
+\cnt@marginparpush=\count295
+\cnt@footskip=\count296
+\fheight=\count297
+\ref@top=\count298
+\ref@hoffset=\count299
+\ref@voffset=\count300
+\ref@head=\count301
+\ref@body=\count302
+\ref@foot=\count303
+\ref@margin=\count304
+\ref@marginwidth=\count305
+\ref@marginpar=\count306
+\Interval=\count307
+\ExtraYPos=\count308
+\PositionX=\count309
+\PositionY=\count310
+\ArrowLength=\count311
 )
 
 Class scrbook Warning: Usage of package `fancyhdr' together
@@ -570,7 +578,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 105.
 )
 \Gin@req@height=\dimen163
 \Gin@req@width=\dimen164
@@ -587,12 +595,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen172
 \cmidrulekern=\dimen173
 \defaultaddspace=\dimen174
-\@cmidla=\count316
-\@cmidlb=\count317
+\@cmidla=\count312
+\@cmidlb=\count313
 \@aboverulesep=\dimen175
 \@belowrulesep=\dimen176
-\@thisruleclass=\count318
-\@lastruleclass=\count319
+\@thisruleclass=\count314
+\@lastruleclass=\count315
 \@thisrulewidth=\dimen177
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
@@ -609,6 +617,9 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
@@ -622,13 +633,11 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen178
-\Hy@linkcounter=\count320
-\Hy@pagecounter=\count321
+\Hy@linkcounter=\count316
+\Hy@pagecounter=\count317
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
 File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
@@ -639,12 +648,10 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count322
+\Hy@SavedSpaceFactor=\count318
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
@@ -653,7 +660,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count323
+\c@Hy@tempcnt=\count319
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen179
 
@@ -664,7 +671,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count324
+\Fld@menulength=\count320
 \Field@Width=\dimen180
 \Fld@charsize=\dimen181
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -682,26 +689,32 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count325
-\c@Item=\count326
-\c@Hfootnote=\count327
+\Hy@abspage=\count321
+\c@Item=\count322
+\c@Hfootnote=\count323
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hxetex.
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
 
+(/usr/local/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box55
+\c@Hy@AnnotLevel=\count324
+\HyField@AnnotCount=\count325
+\Fld@listcount=\count326
+\c@bookmark@seq@number=\count327
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count328
-\c@bookmark@seq@number=\count329
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
 (/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -724,7 +737,7 @@ x
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box55
+\pgfutil@abb=\box56
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
@@ -755,33 +768,39 @@ ode.tex
 \pgf@yd=\dimen193
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count330
-\c@pgf@countb=\count331
-\c@pgf@countc=\count332
-\c@pgf@countd=\count333
+\c@pgf@counta=\count328
+\c@pgf@countb=\count329
+\c@pgf@countc=\count330
+\c@pgf@countd=\count331
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count334
+\pgf@sys@id@count=\count332
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-xetex.def
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
-File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
 df.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)
+\pgfsys@objnum=\count333
 )))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count335
-\pgfsyssoftpath@bigbuffer@items=\count336
+\pgfsyssoftpath@smallbuffer@items=\count334
+\pgfsyssoftpath@bigbuffer@items=\count335
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -794,8 +813,8 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen194
-\pgfmath@count=\count337
-\pgfmath@box=\box56
+\pgfmath@count=\count336
+\pgfmath@box=\box57
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
@@ -819,7 +838,7 @@ code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count338
+\c@pgfmathroundto@lastzeros=\count337
 )) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -854,10 +873,10 @@ File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box57
-\pgf@hbox=\box58
-\pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count339
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count338
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -892,8 +911,8 @@ File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 e.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen274
-\pgf@sys@shading@range@num=\count340
-\pgf@shadingcount=\count341
+\pgf@sys@shading@range@num=\count339
+\pgf@shadingcount=\count340
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -902,7 +921,7 @@ File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box60
+\pgfexternal@startupbox=\box61
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -923,7 +942,7 @@ File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box61
+\pgfnodeparttextbox=\box62
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -960,7 +979,7 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count342
+\pgf@plot@mark@count=\count341
 \pgfplotmarksize=\dimen279
 )
 \tikz@lastx=\dimen280
@@ -971,23 +990,23 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@lastmovetoy=\dimen285
 \tikzleveldistance=\dimen286
 \tikzsiblingdistance=\dimen287
-\tikz@figbox=\box62
-\tikz@figbox@bg=\box63
-\tikz@tempbox=\box64
-\tikz@tempbox@bg=\box65
-\tikztreelevel=\count343
-\tikznumberofchildren=\count344
-\tikznumberofcurrentchild=\count345
-\tikz@fig@count=\count346
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count342
+\tikznumberofchildren=\count343
+\tikznumberofcurrentchild=\count344
+\tikz@fig@count=\count345
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count347
-\pgfmatrixcurrentcolumn=\count348
-\pgf@matrix@numberofcolumns=\count349
+\pgfmatrixcurrentrow=\count346
+\pgfmatrixcurrentcolumn=\count347
+\pgf@matrix@numberofcolumns=\count348
 )
-\tikz@expandcount=\count350
+\tikz@expandcount=\count349
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1040,26 +1059,26 @@ File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
 shapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodepartlowerbox=\box66
-\pgfnodeparttwobox=\box67
-\pgfnodepartthreebox=\box68
-\pgfnodepartfourbox=\box69
-\pgfnodeparttwentybox=\box70
-\pgfnodepartnineteenbox=\box71
-\pgfnodeparteighteenbox=\box72
-\pgfnodepartseventeenbox=\box73
-\pgfnodepartsixteenbox=\box74
-\pgfnodepartfifteenbox=\box75
-\pgfnodepartfourteenbox=\box76
-\pgfnodepartthirteenbox=\box77
-\pgfnodeparttwelvebox=\box78
-\pgfnodepartelevenbox=\box79
-\pgfnodeparttenbox=\box80
-\pgfnodepartninebox=\box81
-\pgfnodeparteightbox=\box82
-\pgfnodepartsevenbox=\box83
-\pgfnodepartsixbox=\box84
-\pgfnodepartfivebox=\box85
+\pgfnodepartlowerbox=\box67
+\pgfnodeparttwobox=\box68
+\pgfnodepartthreebox=\box69
+\pgfnodepartfourbox=\box70
+\pgfnodeparttwentybox=\box71
+\pgfnodepartnineteenbox=\box72
+\pgfnodeparteighteenbox=\box73
+\pgfnodepartseventeenbox=\box74
+\pgfnodepartsixteenbox=\box75
+\pgfnodepartfifteenbox=\box76
+\pgfnodepartfourteenbox=\box77
+\pgfnodepartthirteenbox=\box78
+\pgfnodeparttwelvebox=\box79
+\pgfnodepartelevenbox=\box80
+\pgfnodeparttenbox=\box81
+\pgfnodepartninebox=\box82
+\pgfnodeparteightbox=\box83
+\pgfnodepartsevenbox=\box84
+\pgfnodepartsixbox=\box85
+\pgfnodepartfivebox=\box86
 )))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryfit.code.tex
@@ -1073,7 +1092,7 @@ File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ctions.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
 e.tex)
-\pgf@intersect@solutions=\count351
+\pgf@intersect@solutions=\count350
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks38
@@ -1081,7 +1100,7 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count352
+\etb@tempcnta=\count351
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
@@ -1096,10 +1115,18 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
+
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count352
 \l__color_backend_stack_int=\count353
-\l__pdf_internal_box=\box86
+\g__color_backend_stack_int=\count354
+\g__graphics_track_int=\count355
+\l__pdf_internal_box=\box87
+\g__pdf_backend_object_int=\count356
+\g__pdf_backend_annotation_int=\count357
+\g__pdf_backend_link_int=\count358
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
 01.sty
@@ -1107,42 +1134,42 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 tex))) (/usr/local/texlive/2021/texmf-dist/tex/latex/inlinedef/inlinedef.sty
 Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 \ID@toks=\toks40
-\ID@count=\count354
+\ID@count=\count359
 )
 \ID@usercommands=\toks41
-\safeloop@depth=\count355
-\safeRKloop@depth=\count356
+\safeloop@depth=\count360
+\safeRKloop@depth=\count361
 \forest@temp@dimen=\dimen288
-\forest@temp@count=\count357
-\forest@n=\count358
-\forest@temp@global@count=\count359
+\forest@temp@count=\count362
+\forest@n=\count363
+\forest@temp@global@count=\count364
 \forest@temp@toks=\toks42
-\forest@temparray@M=\count360
-\forest@temparray@N=\count361
-\forest@global@temparray@M=\count362
-\forest@global@temparray@N=\count363
-\forest@isnum@count=\count364
-\forest@isdim@nonintpart=\count365
+\forest@temparray@M=\count365
+\forest@temparray@N=\count366
+\forest@global@temparray@M=\count367
+\forest@global@temparray@N=\count368
+\forest@isnum@count=\count369
+\forest@isdim@nonintpart=\count370
 \forest@isdim@dimen=\dimen289
-\forest@sort@m=\count366
-\forest@sort@k=\count367
-\forest@sort@p=\count368
+\forest@sort@m=\count371
+\forest@sort@k=\count372
+\forest@sort@p=\count373
 \bracket@content=\toks43
 \bracket@afterthought=\toks44
-\forest@node@maxid=\count369
-\forest@process@left@M=\count370
-\forest@process@left@N=\count371
-\forest@process@right@M=\count372
-\forest@process@right@N=\count373
-\forest@process@saved@M=\count374
-\forest@process@saved@N=\count375
-\forest@process@result@M=\count376
-\forest@process@result@N=\count377
-\forest@process@n=\count378
+\forest@node@maxid=\count374
+\forest@process@left@M=\count375
+\forest@process@left@N=\count376
+\forest@process@right@M=\count377
+\forest@process@right@N=\count378
+\forest@process@saved@M=\count379
+\forest@process@saved@N=\count380
+\forest@process@result@M=\count381
+\forest@process@result@N=\count382
+\forest@process@n=\count383
 \forest@nodewalk@branch@toks=\toks45
 \forest@nodewalk@shortsteps@resolution=\toks46
 \forest@do@dynamics=\toks47
-\forest@box=\box87
+\forest@box=\box88
 \forest@xg=\dimen290
 \forest@yg=\dimen291
 \forest@xs=\dimen292
@@ -1153,20 +1180,14 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 \forest@PIii@toks=\toks51
 \forest@copy@in=\read4
 \forest@copy@out=\write4
-\forest@externalize@max@outer@n=\count379
-\forest@externalize@inner@n=\count380
+\forest@externalize@max@outer@n=\count384
+\forest@externalize@inner@n=\count385
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count381
-\c@@ppsavesec=\count382
-\c@@ppsaveapp=\count383
-)
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-60.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+\c@@pps=\count386
+\c@@ppsavesec=\count387
+\c@@ppsaveapp=\count388
 )
 (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux) (./inc/Abstract.aux))
 \openout1 = `MTadv_MasterThesis_Bhupender.aux'.
@@ -1180,6 +1201,13 @@ LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+0.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
@@ -1192,37 +1220,7 @@ LaTeX Font Info:    ... okay on input line 60.
 Package scrbase Info: activating english \contentsname on input line 60.
 Package scrbase Info: activating english \listfigurename on input line 60.
 Package scrbase Info: activating english \listtablename on input line 60.
-(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count384
-\scratchdimen=\dimen294
-\scratchbox=\box88
-\nofMPsegments=\count385
-\nofMParguments=\count386
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count387
-\MPscratchDim=\dimen295
-\MPnumerator=\count388
-\makeMPintoPDFobject=\count389
-\everyMPtoPDFconversion=\toks53
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\c@lstlisting=\count390
+\c@lstlisting=\count389
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1240,7 +1238,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count391
+\c@section@level=\count390
 )
 LaTeX Info: Redefining \ref on input line 60.
 LaTeX Info: Redefining \pageref on input line 60.
@@ -1261,39 +1259,35 @@ Class scrbook Info: loading recommended package `bookmark'.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
-File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count392
+(/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count391
 ))
 \openout2 = `inc/Titlepage.aux'.
 
 
 (./inc/Titlepage.tex
-<img/uni-logo.png, id=7, 2422.04875pt x 403.5075pt>
-File: img/uni-logo.png Graphic file (type png)
-<use img/uni-logo.png>
-Package pdftex.def Info: img/uni-logo.png  used on input line 5.
-(pdftex.def)             Requested size: 210.06609pt x 35.0pt.
-<img/iwvi.jpg, id=9, 383.93437pt x 173.14688pt>
-File: img/iwvi.jpg Graphic file (type jpg)
-<use img/iwvi.jpg>
-Package pdftex.def Info: img/iwvi.jpg  used on input line 7.
-(pdftex.def)             Requested size: 77.60568pt x 35.0pt.
+File: img/uni-logo.png Graphic file (type bmp)
+<img/uni-logo.png>
+File: img/iwvi.jpg Graphic file (type bmp)
+<img/iwvi.jpg>
+
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10.95> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 20.
+
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <14.4> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 20.
+
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-0.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
+4.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-
-LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 20.
-
-
-LaTeX Font Warning: Font shape `OT1/lmss/m/sc' in size <14.4> not available
-(Font)              Font shape `OT1/lmr/m/sc' tried instead on input line 20.
-
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
 4.
+
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1331,14 +1325,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/u
-ni-logo.png> <./img/iwvi.jpg>]) (./inc/Declaration.tex
+])
+(./inc/Declaration.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--17
 
  []
 
 
-Overfull \hbox (9.0471pt too wide) in paragraph at lines 18--25
+Overfull \hbox (9.03214pt too wide) in paragraph at lines 18--25
 [][] 
  []
 
@@ -1412,14 +1406,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--113
 
  []
 
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 115.
-
-<img/Introduction-Fig-1.png, id=180, 631.35875pt x 276.03125pt>
-File: img/Introduction-Fig-1.png Graphic file (type png)
-<use img/Introduction-Fig-1.png>
-Package pdftex.def Info: img/Introduction-Fig-1.png  used on input line 120.
-(pdftex.def)             Requested size: 418.12805pt x 182.80875pt.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 115.
+File: img/Introduction-Fig-1.png Graphic file (type bmp)
+<img/Introduction-Fig-1.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1428,12 +1418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.140 
-       [1
+[1
 
 
 ]
@@ -1441,24 +1426,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--150
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.150 
-       [2 <./img/Introduction-Fig-1.png>]
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 170--175
 
  []
 
 [3]
 chapter 2.
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-181.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 213--218
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--220
 
  []
 
@@ -1466,185 +1442,187 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--218
 
 
 ]
-<img/TransformerArchitecture.png, id=232, 562.1pt x 767.86874pt>
-File: img/TransformerArchitecture.png Graphic file (type png)
-<use img/TransformerArchitecture.png>
-Package pdftex.def Info: img/TransformerArchitecture.png  used on input line 22
-1.
-(pdftex.def)             Requested size: 215.52965pt x 294.42941pt.
- [5 <./img/TransformerArchitecture.png>]
-<img/encoderDecoder.png, id=243, 484.81125pt x 293.095pt>
-File: img/encoderDecoder.png Graphic file (type png)
-<use img/encoderDecoder.png>
-Package pdftex.def Info: img/encoderDecoder.png  used on input line 233.
-(pdftex.def)             Requested size: 215.52965pt x 130.2994pt.
-<img/EncoderDecoder2.png, id=245, 159.7167pt x 174.1707pt>
-File: img/EncoderDecoder2.png Graphic file (type png)
-<use img/EncoderDecoder2.png>
-Package pdftex.def Info: img/EncoderDecoder2.png  used on input line 251.
-(pdftex.def)             Requested size: 129.3191pt x 141.0323pt.
- [6 <./img/encoderDecoder.png> <./img/EncoderDecoder2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 284--291
+File: img/TransformerArchitecture.png Graphic file (type bmp)
+<img/TransformerArchitecture.png>
+ [5]
+File: img/encoderDecoder.png Graphic file (type bmp)
+<img/encoderDecoder.png>
+File: img/EncoderDecoder2.png Graphic file (type bmp)
+<img/EncoderDecoder2.png>
+
+./MTadv_MasterThesis_Bhupender.tex:257: Extra }, or forgotten $.
+l.257 ...t text tokens into embedding vectors $EM}
+                                                  $ of shape $d_{model}$.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+File: img/EncoderArch.png Graphic file (type bmp)
+<img/EncoderArch.png>
+[6] [7]
+./MTadv_MasterThesis_Bhupender.tex:282: Incomplete \ifodd; all text was ignored
+ after line 282.
+<inserted text> 
+                \fi 
+l.282 PE_{word} =EM_{word}}+PV_{word}\\
+                                       
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+./MTadv_MasterThesis_Bhupender.tex:282: Missing $ inserted.
+<inserted text> 
+                $
+l.282 PE_{word} =EM_{word}}+PV_{word}\\
+                                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./MTadv_MasterThesis_Bhupender.tex:282: Extra \fi.
+\math@cr@@@ ...ef \next@ {&\kern -\alignsep@ }\fi 
+                                                  \next@ \cr 
+l.282 PE_{word} =EM_{word}}+PV_{word}\\
+                                       
+I'm ignoring this; it doesn't match any \if.
+
+./MTadv_MasterThesis_Bhupender.tex:282: Undefined control sequence.
+\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
+                                                  \cr 
+l.282 PE_{word} =EM_{word}}+PV_{word}\\
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./MTadv_MasterThesis_Bhupender.tex:282: Missing { inserted.
+<inserted text> 
+                {
+l.282 PE_{word} =EM_{word}}+PV_{word}\\
+                                       
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./MTadv_MasterThesis_Bhupender.tex:292: Missing } inserted.
+<inserted text> 
+                }
+l.292 $
+       given$,\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./MTadv_MasterThesis_Bhupender.tex:292: Undefined control sequence.
+\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
+                                                  \cr 
+l.292 $given$,\\
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./MTadv_MasterThesis_Bhupender.tex:292: Missing { inserted.
+<inserted text> 
+                {
+l.292 $given$,\\
+                
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./MTadv_MasterThesis_Bhupender.tex:296: Missing { inserted.
+<inserted text> 
+                {
+l.296 \end{aligned}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 324--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--294
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
 
  []
 
-[8] [9]
+[9] [10]
 chapter 3.
 
-./MTadv_MasterThesis_Bhupender.tex:387: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.387 ...l attack as combinatorial optimization".}
-                                                  
-? s
-OK, entering \scrollmode...
-
-./MTadv_MasterThesis_Bhupender.tex:387: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.387 ...l attack as combinatorial optimization".}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:387: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.387 ...l attack as combinatorial optimization".}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:387: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.387 ...l attack as combinatorial optimization".}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:391: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.391 ...Adversarial Attacks and Defenses in Text}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:391: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.391 ...Adversarial Attacks and Defenses in Text}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--397
+Underfull \hbox (badness 10000) in paragraph at lines 433--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--401
+Underfull \hbox (badness 10000) in paragraph at lines 438--441
 
  []
 
-[10
+[11
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 402--405
+Underfull \hbox (badness 10000) in paragraph at lines 442--445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
+Underfull \hbox (badness 10000) in paragraph at lines 452--454
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--417
+Underfull \hbox (badness 10000) in paragraph at lines 455--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--420
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--424
+Underfull \hbox (badness 10000) in paragraph at lines 461--464
 
  []
 
-[11]
+[12]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--441
+Underfull \hbox (badness 10000) in paragraph at lines 477--481
 
  []
 
-<img/Methodology.png, id=308, 1260.71pt x 702.625pt>
-File: img/Methodology.png Graphic file (type png)
-<use img/Methodology.png>
-Package pdftex.def Info: img/Methodology.png  used on input line 449.
-(pdftex.def)             Requested size: 474.16786pt x 264.26637pt.
+File: img/Methodology.png Graphic file (type bmp)
+<img/Methodology.png>
 
-Overfull \hbox (43.10855pt too wide) in paragraph at lines 449--450
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 489--490
  [][] 
  []
 
@@ -1652,353 +1630,87 @@ Overfull \hbox (43.10855pt too wide) in paragraph at lines 449--450
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `eq:overallcost' on page 12 undefined on input line 46
+LaTeX Warning: Reference `eq:overallcost' on page 13 undefined on input line 50
 4.
 
 
-LaTeX Warning: Reference `eq:ema' on page 12 undefined on input line 464.
+LaTeX Warning: Reference `eq:ema' on page 13 undefined on input line 504.
 
-[12
+[13
 
 
-] [13 <./img/Methodology.png>]
+] [14]
 chapter 5.
-[14
+[15
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 581--587
+Underfull \hbox (badness 10000) in paragraph at lines 621--627
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 588--591
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 592--593
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 628--631
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--596
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--600
+Underfull \hbox (badness 10000) in paragraph at lines 634--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--640
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16] [17]
+[17] [18]
+File: img/textfooler_example.png Graphic file (type bmp)
+<img/textfooler_example.png>
+ [19]
 
-./MTadv_MasterThesis_Bhupender.tex:679: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.679 ... novel word embeddings proposed by Mrksˇ
-                                                  ic ́ et$.$ al$.$ \cite{mr...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+LaTeX Warning: Reference `diag:textbug' on page 20 undefined on input line 753.
 
 
-./MTadv_MasterThesis_Bhupender.tex:679: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.679 ...l word embeddings proposed by Mrksˇic ́
-                                                   et$.$ al$.$ \cite{mrksic_...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-<img/textfooler_example.png, id=362, 1006.76125pt x 157.58875pt>
-File: img/textfooler_example.png Graphic file (type png)
-<use img/textfooler_example.png>
-Package pdftex.def Info: img/textfooler_example.png  used on input line 694.
-(pdftex.def)             Requested size: 387.95074pt x 60.72595pt.
-[18 <./img/textfooler_example.png>]
-
-LaTeX Warning: Reference `diag:textbug' on page 19 undefined on input line 713.
-
-
-<img/textbugger_5strat.png, id=378, 486.81876pt x 108.405pt>
-File: img/textbugger_5strat.png Graphic file (type png)
-<use img/textbugger_5strat.png>
-Package pdftex.def Info: img/textbugger_5strat.png  used on input line 718.
-(pdftex.def)             Requested size: 344.84875pt x 76.79108pt.
-[19 <./img/textbugger_5strat.png>]
-<img/PWWSexample.png, id=396, 826.08624pt x 259.97125pt>
-File: img/PWWSexample.png Graphic file (type png)
-<use img/PWWSexample.png>
-Package pdftex.def Info: img/PWWSexample.png  used on input line 749.
-(pdftex.def)             Requested size: 387.95074pt x 122.0913pt.
- [20 <./img/PWWSexample.png>]
-<img/BAEexample.png, id=414, 416.55624pt x 216.81pt>
-File: img/BAEexample.png Graphic file (type png)
-<use img/BAEexample.png>
-Package pdftex.def Info: img/BAEexample.png  used on input line 766.
-(pdftex.def)             Requested size: 301.74019pt x 157.05916pt.
- [21 <./img/BAEexample.png>]
+File: img/textbugger_5strat.png Graphic file (type bmp)
+<img/textbugger_5strat.png>
+[20]
+File: img/PWWSexample.png Graphic file (type bmp)
+<img/PWWSexample.png>
+ [21]
+File: img/BAEexample.png Graphic file (type bmp)
+<img/BAEexample.png>
+ [22]
 chapter 6.
 
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./MTadv_MasterThesis_Bhupender.tex:789: Package inputenc Error: Keyboard charac
-ter used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.789 ...tion of semantics and grammaticality BAE}
-                                                  .
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Overfull \hbox (11.59808pt too wide) in paragraph at lines 794--824
+Overfull \hbox (11.59894pt too wide) in paragraph at lines 834--864
  []|  [] 
  []
 
 
-Overfull \hbox (11.59808pt too wide) in paragraph at lines 830--859
+Overfull \hbox (11.59894pt too wide) in paragraph at lines 870--899
 []|  [] 
  []
 
-[22
+[23
 
 
-] [23]
+] [24]
 chapter 7.
-[24
+[25
 
 
 ]
-./MTadv_MasterThesis_Bhupender.tex:907: Undefined control sequence.
-l.907 \Chapter
+./MTadv_MasterThesis_Bhupender.tex:947: Undefined control sequence.
+l.947 \Chapter
               {References}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2006,12 +1718,12 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(./MTadv_MasterThesis_Bhupender.bbl [25]
+(./MTadv_MasterThesis_Bhupender.bbl [26]
 chapter without number
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-[26
+[27
 
 
 ]
@@ -2021,7 +1733,7 @@ chapter without number
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-[27]
+[28]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
@@ -2031,7 +1743,7 @@ chapter without number
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-[28]) [29] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
+[29]) [30] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
 (./inc/Abstract.aux))
 
 LaTeX Warning: There were undefined references.
@@ -2041,33 +1753,12 @@ anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36837 strings out of 478994
- 792212 string characters out of 5858184
- 1265733 words of memory out of 5000000
- 53547 multiletter control sequences out of 15000+600000
- 454595 words of font info for 59 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 111i,9n,116p,10623b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
-e/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2021/texmf-d
-ist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc
-/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm
-/lmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi10.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/lm/lmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lm
-sso10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
-pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb>
-Output written on MTadv_MasterThesis_Bhupender.pdf (37 pages, 1203886 bytes).
-PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 628 compressed objects within 7 object streams
- 158 named destinations out of 1000 (max. 500000)
- 404 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36115 strings out of 476919
+ 783829 string characters out of 5821840
+ 1277650 words of memory out of 5000000
+ 55500 multiletter control sequences out of 15000+600000
+ 416166 words of font info for 59 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 111i,9n,116p,10623b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on MTadv_MasterThesis_Bhupender.pdf (38 pages).

@@ -183,6 +183,8 @@ What are the research question ? \\
 \item Recent advancements in Natural Language Processing related to text classification.(1-2 paragraph)
 \end{itemize}
 \subsection{Data Representation (2 pages)}
+\label{subsection:DataRep}
+
 \begin{itemize}
 \item What is Data Representations Or How machine Understand data ? (1 paragraph)
 \item How text data is represented? (1-2 paragraph)
@@ -225,8 +227,7 @@ Language Processing (NLP). Moving forward, became one of the main principle behi
 
 The goal to reduce sequential computation leads to the transformer architecture which is solely based on a special type of attention mechanism called \textit{self attention}. Transformer is an encoder and decoder stack where the encoder reads the inputs and outputs a representation as a context vector also called as \textit{contextualized embedding} as shown in figure \ref{diag:EncoderDecoder}, based 
 on single-head attention or multi-head attention, and the decoder makes predictions based on those context vectors. In proposed architecture by Vaswani et. al \cite{vaswani_attention_2017}, 
-transformer model is a composed of 6 layers of encoder stacked on each other and same applies to decoders.  Each encoder is composed of multi-head attentions followed by layer normalization 
-and Feed forward network, and the only difference in decoder is before multi-head attentions it has masked multi-head attentions layer. 
+transformer model is a composed of 6 layers of encoder stacked on each other and same applies to decoders.  Each encoder is composed of multi-head attentions followed by layer normalisation and Feed forward network, and the only difference in decoder is before multi-head attentions it has masked multi-head attentions layer. 
 
 \begin{figure}[h!]
 \centering
@@ -253,9 +254,49 @@ For example, the task is to translate english sentence ``I am good. How are you 
 \label{diag:EncoderDecoderExp}
 \end{figure}
 
-This encoder decoder model were utilized by many sequential to sequential models for machine translation task where inputs are feeded to the model sequentially. However, their is significant difference in 
-encoder decoder architecture in transformer model.  As shown in figure, encoder block in transformer is further consist of three sublayer: multi-head attention, layer normalization layer and feed forward network.  
+This encoder decoder model were utilised by many sequential to sequential models for task such as text summarisation, question answering and machine translation where inputs are sequentially. However, there is significant difference in encoder decoder architecture in transformer model.  As shown in figure \ref{diag:EncoderArch}, encoder block in transformer is further consist of three sublayer: multi-head attention, layer normalisation layer and feed forward network. For better clarity we discuss working of each layer separately thoroughly except input embeddings which has been discussed earlier in section \ref{subsection:DataRep}. In this case, input embeddings component convert the input text tokens into embedding vectors $EM}$ of shape $d_{model}$.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=.60\textwidth]{img/EncoderArch.png}
+\caption[Encoder Decoder]{Different layer of encoder stack of the transformer model.}
+\label{diag:EncoderArch}
+\end{figure}
 
+
+\subsubsection{Positional Encoding (2 pages)}
+In transformer model we feed words altogether unlike sequential model where it is word by word. This is how sequential model understand sentence and contain information of word position. But, in transformer model sentences are fed at once, so a separate mechanism introduced to determine the word order called positional encoding technique. Instead of processing this information seperately, those word order information in form of position vector are added to input embeddings before multi-head attention layer. The dimension of position vector must be same as word embeddings  $d_{model}$. 
+There are two major constraints, One, the word embeddings information must not severely affected by the position vector and Second, each word position information should be identical. In Vaswani et al. \cite{vaswani_attention_2017} proposed transformer, sine and cosine function of different frequencies  are used which form geometric progression from $2\pi$ to $2\pi \cdot 10000$ to calculate position vector,$PV$ of the word. In other words, mentioned functions generates unique values which contain information about the position of the word in a sentence.
+
+
+\begin{equation}
+\begin{aligned}
+PV_{(pos,2i)}=sin(pos/10000^{2i/d_{model}})\\
+PV_{(pos,2i+1)}=cos(pos/10000^{2i/d_{model}})
+\label{eq:PV}
+\end{aligned}
+\end{equation}
+
+Where $pos ,i$ is position and dimension respectively. And, after adding to the embeddings we get position encoding ($PE$)
+\begin{equation}
+\begin{aligned}
+PE_{word} =EM_{word}}+PV_{word}\\
+\label{eq:PE}
+\end{aligned}
+\end{equation}
+
+For, a  sentence $S$ with $n$ number of words ($w_{1},w_{2},...,w_{n}$) with embedding vector($EM$) is $e_{1},e_{2},....,e_{3}$ , positional vector ($PV$) as ($pv_{1},pv_{2},...,pv_{n}$) and positional encoding ($PE$) as ($pe_{1},pe_{2},...,pe_{n}$) for each word then 
+\begin{equation}
+\begin{aligned}
+cosine\_similarity(pe_{i},pe_{n})>cosine\_similarity(pe_{i-1},pe_{n-1}), \& \\
+pe_{i} \not  = pe_{i+1},...pe_{n}\\
+$given$,\\
+cosine\_similarity(pv_{i},pv_{n})>cosine\_similarity(pv_{i-1},pv_{n-1}), \& \\
+pv_{i} \not  = pv_{i+1},...pv_{n}
+\label{eq:PE_example}}
+\end{aligned}
+\end{equation}
+
+For example in a sentence ``I am good. How are you?'' , the cosine similarity of positional vector of word ``I'' and ``you'' must be higher than word ``am'' and ``you'' and so on. And, same applies to positional encoding. 
 
 \subsection{Self Attention Mechanism (3 pages)}
 \begin{itemize}
@@ -269,11 +310,7 @@ encoder decoder architecture in transformer model.  As shown in figure, encoder 
 \item Working of Multi Head Attention Mechanism.(1-2 paragraph)
 \end{itemize}
 
-\subsection{Positional Encoding (2 pages)}
-\begin{itemize}
-\item What is Positional Encoding? (1 paragraph)
-\item Working of Positional Encoding in context of Transformers. (1 paragraph)
-\end{itemize}
+
 \subsection{Decoder}
 
 \subsection{ Working of Transformers (1-2 pages)}
