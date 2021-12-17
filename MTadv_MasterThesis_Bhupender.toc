@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Encoder-Decoder Architecture (2 pages)}{6}{subsection.2.3.1}%
 \contentsline {subsubsection}{\nonumberline Positional Encoding (2 pages)}{7}{subsubsection*.10}%
 \contentsline {subsection}{\numberline {2.3.2}Self Attention Mechanism (3 pages)}{8}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Multi-head Attention Mechanism (2 pages)}{8}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Multi-head Attention Mechanism (2 pages)}{9}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Decoder}{9}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Working of Transformers (1-2 pages)}{9}{subsection.2.3.5}%
 \contentsline {section}{\numberline {2.4}Training and Fine-tuning of BERT (3 pages)}{9}{section.2.4}%

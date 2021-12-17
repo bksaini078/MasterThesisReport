@@ -13,52 +13,73 @@ Database file #1: NLP_adversarial.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in li_textbugger_2019
+Warning--empty year in li_textbugger_2019
+Warning--empty year in ren_generating_2019
 Warning--empty journal in huq_adversarial_2020
+Warning--empty year in huq_adversarial_2020
+Warning--empty journal in jin_is_2020
+Warning--empty year in jin_is_2020
+Warning--empty year in li_bert-attack_2020
+Warning--empty year in du_adversarial_2020
+Warning--empty journal in nadaraya_estimating_1964
+Warning--empty year in nadaraya_estimating_1964
+Warning--empty journal in bahdanau_neural_2014
+Warning--empty year in bahdanau_neural_2014
+Warning--empty journal in kardakis_examining_2021
+Warning--empty year in kardakis_examining_2021
+Warning--empty year in sun_understanding_2020
 Warning--empty journal in radford_improving_nodate
 Warning--empty year in radford_improving_nodate
 Warning--empty journal in ren_generating_2020
+Warning--empty year in ren_generating_2020
 Warning--empty journal in zang_word-level_2019
+Warning--empty year in zang_word-level_2019
+Warning--empty journal in rawlinson_significance_2007
+Warning--empty year in rawlinson_significance_2007
+Warning--empty journal in rogers_primer_2021
+Warning--empty year in rogers_primer_2021
 
 Done.
-You've used 39 entries,
+You've used 45 entries,
             4087 wiz_defined-function locations,
-            1063 strings with 17426 characters,
-and the built_in function-call counts, 25440 in all, are:
-= -- 2032
-> -- 842
-< -- 66
-+ -- 418
-- -- 188
-* -- 1392
-:= -- 4287
-add.period$ -- 81
-call.type$ -- 39
-change.case$ -- 69
-chr.to.int$ -- 162
-cite$ -- 44
-duplicate$ -- 1923
-empty$ -- 1966
-format.name$ -- 224
-if$ -- 5674
+            1042 strings with 18828 characters,
+and the built_in function-call counts, 25553 in all, are:
+= -- 1794
+> -- 919
+< -- 80
++ -- 456
+- -- 204
+* -- 1126
+:= -- 3959
+add.period$ -- 115
+call.type$ -- 45
+change.case$ -- 68
+chr.to.int$ -- 186
+cite$ -- 71
+duplicate$ -- 1877
+empty$ -- 2062
+format.name$ -- 245
+if$ -- 5741
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 400
-newline$ -- 212
-num.names$ -- 39
-pop$ -- 969
+int.to.str$ -- 45
+missing$ -- 491
+newline$ -- 242
+num.names$ -- 45
+pop$ -- 1482
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1825
+skip$ -- 1805
 stack$ -- 0
-substring$ -- 481
-swap$ -- 1420
-text.length$ -- 12
+substring$ -- 507
+swap$ -- 1303
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 39
-warning$ -- 5
-while$ -- 64
-width$ -- 41
-write$ -- 479
-(There were 5 warnings)
+type$ -- 45
+warning$ -- 26
+while$ -- 75
+width$ -- 47
+write$ -- 466
+(There were 26 warnings)

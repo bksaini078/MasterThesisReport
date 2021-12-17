@@ -23,314 +23,343 @@
 
 \bibitem{jia_certified_2019}
 \BIBentryALTinterwordspacing
-R.~Jia, A.~Raghunathan, K.~G{\"o}ksel, and P.~Liang, ``Certified {Robustness}
-  to {Adversarial} {Word} {Substitutions},'' \emph{arXiv:1909.00986 [cs]}, Sep.
-  2019, arXiv: 1909.00986. [Online]. Available:
+R.~Jia, A.~Raghunathan, K.~Göksel, and P.~Liang. Certified {{Robustness}} to
+  {{Adversarial Word Substitutions}}. Comment: EMNLP 2019. [Online]. Available:
   \url{http://arxiv.org/abs/1909.00986}
 \BIBentrySTDinterwordspacing
 
 \bibitem{li_textbugger_2019}
 \BIBentryALTinterwordspacing
-J.~Li, S.~Ji, T.~Du, B.~Li, and T.~Wang, ``{TextBugger}: {Generating}
-  {Adversarial} {Text} {Against} {Real}-world {Applications},''
-  \emph{Proceedings 2019 Network and Distributed System Security Symposium},
-  2019, arXiv: 1812.05271. [Online]. Available:
-  \url{http://arxiv.org/abs/1812.05271}
+J.~Li, S.~Ji, T.~Du, B.~Li, and T.~Wang, ``{{TextBugger}}: {{Generating
+  Adversarial Text Against Real-world Applications}},'' comment: To appear in
+  NDSS 2019. [Online]. Available: \url{http://arxiv.org/abs/1812.05271}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ren_generating_2019}
 \BIBentryALTinterwordspacing
-S.~Ren, Y.~Deng, K.~He, and W.~Che, ``Generating {Natural} {Language}
-  {Adversarial} {Examples} through {Probability} {Weighted} {Word}
-  {Saliency},'' in \emph{Proceedings of the 57th {Annual} {Meeting} of the
-  {Association} for {Computational} {Linguistics}}.\hskip 1em plus 0.5em minus
-  0.4em\relax Florence, Italy: Association for Computational Linguistics, Jul.
-  2019, pp. 1085--1097. [Online]. Available:
-  \url{https://aclanthology.org/P19-1103}
+S.~Ren, Y.~Deng, K.~He, and W.~Che, ``Generating {{Natural Language Adversarial
+  Examples}} through {{Probability Weighted Word Saliency}},'' in
+  \emph{Proceedings of the 57th {{Annual Meeting}} of the {{Association}} for
+  {{Computational Linguistics}}}.\hskip 1em plus 0.5em minus 0.4em\relax
+  {Association for Computational Linguistics}, pp. 1085--1097. [Online].
+  Available: \url{https://aclanthology.org/P19-1103}
 \BIBentrySTDinterwordspacing
 
 \bibitem{garg_bae_2020}
 \BIBentryALTinterwordspacing
-S.~Garg and G.~Ramakrishnan, ``{BAE}: {BERT}-based {Adversarial} {Examples} for
-  {Text} {Classification},'' in \emph{Proceedings of the 2020 {Conference} on
-  {Empirical} {Methods} in {Natural} {Language} {Processing} ({EMNLP})}.\hskip
-  1em plus 0.5em minus 0.4em\relax Online: Association for Computational
-  Linguistics, Nov. 2020, pp. 6174--6181. [Online]. Available:
-  \url{https://www.aclweb.org/anthology/2020.emnlp-main.498}
+S.~Garg and G.~Ramakrishnan. {{BAE}}: {{BERT-based Adversarial Examples}} for
+  {{Text Classification}}. Comment: Accepted at EMNLP 2020 Main Conference.
+  [Online]. Available: \url{http://arxiv.org/abs/2004.01970}
 \BIBentrySTDinterwordspacing
 
 \bibitem{huq_adversarial_2020}
 \BIBentryALTinterwordspacing
-A.~Huq and M.~T. Pervin, ``\BIBforeignlanguage{en}{Adversarial {Attacks} and
-  {Defense} on {Texts}: {A} {Survey}},'' May 2020. [Online]. Available:
+A.~Huq and M.~T. Pervin, ``Adversarial {{Attacks}} and {{Defense}} on
+  {{Texts}}: {{A Survey}}.'' [Online]. Available:
   \url{https://arxiv.org/abs/2005.14108v3}
 \BIBentrySTDinterwordspacing
 
 \bibitem{devlin_bert_2019}
 \BIBentryALTinterwordspacing
-J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova, ``{BERT}: {Pre}-training of
-  {Deep} {Bidirectional} {Transformers} for {Language} {Understanding},''
-  \emph{arXiv:1810.04805 [cs]}, May 2019, arXiv: 1810.04805. [Online].
+J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova. {{BERT}}: {{Pre-training}} of
+  {{Deep Bidirectional Transformers}} for {{Language Understanding}}. [Online].
   Available: \url{http://arxiv.org/abs/1810.04805}
 \BIBentrySTDinterwordspacing
 
 \bibitem{liu_roberta_2019}
 \BIBentryALTinterwordspacing
 Y.~Liu, M.~Ott, N.~Goyal, J.~Du, M.~Joshi, D.~Chen, O.~Levy, M.~Lewis,
-  L.~Zettlemoyer, and V.~Stoyanov, ``{RoBERTa}: {A} {Robustly} {Optimized}
-  {BERT} {Pretraining} {Approach},'' \emph{arXiv:1907.11692 [cs]}, Jul. 2019,
-  arXiv: 1907.11692. [Online]. Available: \url{http://arxiv.org/abs/1907.11692}
+  L.~Zettlemoyer, and V.~Stoyanov. {{RoBERTa}}: {{A Robustly Optimized BERT
+  Pretraining Approach}}. [Online]. Available:
+  \url{http://arxiv.org/abs/1907.11692}
 \BIBentrySTDinterwordspacing
 
 \bibitem{sanh_distilbert_2020}
 \BIBentryALTinterwordspacing
-V.~Sanh, L.~Debut, J.~Chaumond, and T.~Wolf, ``{DistilBERT}, a distilled
-  version of {BERT}: smaller, faster, cheaper and lighter,''
-  \emph{arXiv:1910.01108 [cs]}, Feb. 2020, arXiv: 1910.01108. [Online].
-  Available: \url{http://arxiv.org/abs/1910.01108}
+V.~Sanh, L.~Debut, J.~Chaumond, and T.~Wolf. {{DistilBERT}}, a distilled
+  version of {{BERT}}: Smaller, faster, cheaper and lighter. Comment: February
+  2020 - Revision: fix bug in evaluation metrics, updated metrics,
+  argumentation unchanged. 5 pages, 1 figure, 4 tables. Accepted at the 5th
+  Workshop on Energy Efficient Machine Learning and Cognitive Computing -
+  NeurIPS 2019. [Online]. Available: \url{http://arxiv.org/abs/1910.01108}
 \BIBentrySTDinterwordspacing
 
 \bibitem{lan_albert_2020}
 \BIBentryALTinterwordspacing
-Z.~Lan, M.~Chen, S.~Goodman, K.~Gimpel, P.~Sharma, and R.~Soricut, ``{ALBERT}:
-  {A} {Lite} {BERT} for {Self}-supervised {Learning} of {Language}
-  {Representations},'' \emph{arXiv:1909.11942 [cs]}, Feb. 2020, arXiv:
-  1909.11942. [Online]. Available: \url{http://arxiv.org/abs/1909.11942}
+Z.~Lan, M.~Chen, S.~Goodman, K.~Gimpel, P.~Sharma, and R.~Soricut. {{ALBERT}}:
+  {{A Lite BERT}} for {{Self-supervised Learning}} of {{Language
+  Representations}}. [Online]. Available: \url{http://arxiv.org/abs/1909.11942}
 \BIBentrySTDinterwordspacing
 
 \bibitem{szegedy_intriguing_2014}
 \BIBentryALTinterwordspacing
 C.~Szegedy, W.~Zaremba, I.~Sutskever, J.~Bruna, D.~Erhan, I.~Goodfellow, and
-  R.~Fergus, ``Intriguing properties of neural networks,''
-  \emph{arXiv:1312.6199 [cs]}, Feb. 2014, arXiv: 1312.6199. [Online].
-  Available: \url{http://arxiv.org/abs/1312.6199}
+  R.~Fergus. Intriguing properties of neural networks. [Online]. Available:
+  \url{http://arxiv.org/abs/1312.6199}
 \BIBentrySTDinterwordspacing
 
 \bibitem{yuan_adversarial_2018}
 \BIBentryALTinterwordspacing
-X.~Yuan, P.~He, Q.~Zhu, and X.~Li, ``Adversarial {Examples}: {Attacks} and
-  {Defenses} for {Deep} {Learning},'' \emph{arXiv:1712.07107 [cs, stat]}, Jul.
-  2018, arXiv: 1712.07107. [Online]. Available:
-  \url{http://arxiv.org/abs/1712.07107}
+X.~Yuan, P.~He, Q.~Zhu, and X.~Li. Adversarial {{Examples}}: {{Attacks}} and
+  {{Defenses}} for {{Deep Learning}}. Comment: Github:
+  https://github.com/chbrian/awesome-adversarial-examples-dl. [Online].
+  Available: \url{http://arxiv.org/abs/1712.07107}
 \BIBentrySTDinterwordspacing
 
 \bibitem{akhtar_threat_2018}
 \BIBentryALTinterwordspacing
-N.~Akhtar and A.~Mian, ``Threat of {Adversarial} {Attacks} on {Deep} {Learning}
-  in {Computer} {Vision}: {A} {Survey},'' \emph{arXiv:1801.00553 [cs]}, Feb.
-  2018, arXiv: 1801.00553. [Online]. Available:
+N.~Akhtar and A.~Mian. Threat of {{Adversarial Attacks}} on {{Deep Learning}}
+  in {{Computer Vision}}: {{A Survey}}. Comment: Incorporates feedback provided
+  by multiple researchers. [Online]. Available:
   \url{http://arxiv.org/abs/1801.00553}
 \BIBentrySTDinterwordspacing
 
 \bibitem{zhang_adversarial_2019}
 \BIBentryALTinterwordspacing
-W.~E. Zhang, Q.~Z. Sheng, A.~Alhazmi, and C.~Li, ``Adversarial {Attacks} on
-  {Deep} {Learning} {Models} in {Natural} {Language} {Processing}: {A}
-  {Survey},'' \emph{arXiv:1901.06796 [cs]}, Apr. 2019, arXiv: 1901.06796.
-  [Online]. Available: \url{http://arxiv.org/abs/1901.06796}
+W.~E. Zhang, Q.~Z. Sheng, A.~Alhazmi, and C.~Li. Adversarial {{Attacks}} on
+  {{Deep Learning Models}} in {{Natural Language Processing}}: {{A Survey}}.
+  Comment: 40. [Online]. Available: \url{http://arxiv.org/abs/1901.06796}
 \BIBentrySTDinterwordspacing
 
 \bibitem{jin_is_2020}
 \BIBentryALTinterwordspacing
-D.~Jin, Z.~Jin, J.~T. Zhou, and P.~Szolovits, ``\BIBforeignlanguage{en}{Is
-  {BERT} {Really} {Robust}? {A} {Strong} {Baseline} for {Natural} {Language}
-  {Attack} on {Text} {Classification} and {Entailment}},''
-  \emph{\BIBforeignlanguage{en}{Proceedings of the AAAI Conference on
-  Artificial Intelligence}}, vol.~34, no.~05, pp. 8018--8025, Apr. 2020,
-  number: 05. [Online]. Available:
+D.~Jin, Z.~Jin, J.~T. Zhou, and P.~Szolovits, ``Is {{BERT Really Robust}}? {{A
+  Strong Baseline}} for {{Natural Language Attack}} on {{Text Classification}}
+  and {{Entailment}},'' vol.~34, no.~05, pp. 8018--8025. [Online]. Available:
   \url{https://ojs.aaai.org/index.php/AAAI/article/view/6311}
 \BIBentrySTDinterwordspacing
 
 \bibitem{wang_towards_2021}
 \BIBentryALTinterwordspacing
-W.~Wang, R.~Wang, L.~Wang, Z.~Wang, and A.~Ye, ``Towards a {Robust} {Deep}
-  {Neural} {Network} in {Texts}: {A} {Survey},'' \emph{arXiv:1902.07285 [cs]},
-  Apr. 2021, arXiv: 1902.07285. [Online]. Available:
+W.~Wang, R.~Wang, L.~Wang, Z.~Wang, and A.~Ye. Towards a {{Robust Deep Neural
+  Network}} in {{Texts}}: {{A Survey}}. [Online]. Available:
   \url{http://arxiv.org/abs/1902.07285}
 \BIBentrySTDinterwordspacing
 
 \bibitem{li_bert-attack_2020}
-L.~Li, R.~Ma, Q.~Guo, X.~Xue, and X.~Qiu, ``{BERT}-{ATTACK}: {Adversarial}
-  {Attack} {Against} {BERT} {Using} {BERT},'' in \emph{{EMNLP}}, 2020.
+L.~Li, R.~Ma, Q.~Guo, X.~Xue, and X.~Qiu, ``{{BERT-ATTACK}}: {{Adversarial
+  Attack Against BERT Using BERT}},'' in \emph{{{EMNLP}}}.
 
 \bibitem{sun_adv-bert_2020}
 \BIBentryALTinterwordspacing
-L.~Sun, K.~Hashimoto, W.~Yin, A.~Asai, J.~Li, P.~Yu, and C.~Xiong,
-  ``Adv-{BERT}: {BERT} is not robust on misspellings! {Generating} nature
-  adversarial samples on {BERT},'' \emph{arXiv:2003.04985 [cs]}, Feb. 2020,
-  arXiv: 2003.04985. [Online]. Available: \url{http://arxiv.org/abs/2003.04985}
+L.~Sun, K.~Hashimoto, W.~Yin, A.~Asai, J.~Li, P.~Yu, and C.~Xiong.
+  Adv-{{BERT}}: {{BERT}} is not robust on misspellings! {{Generating}} nature
+  adversarial samples on {{BERT}}. [Online]. Available:
+  \url{http://arxiv.org/abs/2003.04985}
 \BIBentrySTDinterwordspacing
 
 \bibitem{zhu_at-bert_2021}
 \BIBentryALTinterwordspacing
-D.~Zhu, W.~Lin, Y.~Zhang, Q.~Zhong, G.~Zeng, W.~Wu, and J.~Tang, ``{AT}-{BERT}:
-  {Adversarial} {Training} {BERT} for {Acronym} {Identification} {Winning}
-  {Solution} for {SDU}@{AAAI}-21,'' \emph{arXiv:2101.03700 [cs]}, Jan. 2021,
-  arXiv: 2101.03700. [Online]. Available: \url{http://arxiv.org/abs/2101.03700}
+D.~Zhu, W.~Lin, Y.~Zhang, Q.~Zhong, G.~Zeng, W.~Wu, and J.~Tang. {{AT-BERT}}:
+  {{Adversarial Training BERT}} for {{Acronym Identification Winning Solution}}
+  for {{SDU}}@{{AAAI-21}}. Comment: Accepted to SDU @ AAAI 2021, 8 pages, 3
+  figures. [Online]. Available: \url{http://arxiv.org/abs/2101.03700}
 \BIBentrySTDinterwordspacing
 
 \bibitem{du_adversarial_2020}
 \BIBentryALTinterwordspacing
-C.~Du, H.~Sun, J.~Wang, Q.~Qi, and J.~Liao, ``Adversarial and {Domain}-{Aware}
-  {BERT} for {Cross}-{Domain} {Sentiment} {Analysis},'' in \emph{Proceedings of
-  the 58th {Annual} {Meeting} of the {Association} for {Computational}
-  {Linguistics}}.\hskip 1em plus 0.5em minus 0.4em\relax Online: Association
-  for Computational Linguistics, Jul. 2020, pp. 4019--4028. [Online].
-  Available: \url{https://www.aclweb.org/anthology/2020.acl-main.370}
+C.~Du, H.~Sun, J.~Wang, Q.~Qi, and J.~Liao, ``Adversarial and {{Domain-Aware
+  BERT}} for {{Cross-Domain Sentiment Analysis}},'' in \emph{Proceedings of the
+  58th {{Annual Meeting}} of the {{Association}} for {{Computational
+  Linguistics}}}.\hskip 1em plus 0.5em minus 0.4em\relax {Association for
+  Computational Linguistics}, pp. 4019--4028. [Online]. Available:
+  \url{https://www.aclweb.org/anthology/2020.acl-main.370}
 \BIBentrySTDinterwordspacing
 
 \bibitem{tarvainen_mean_2018}
 \BIBentryALTinterwordspacing
-A.~Tarvainen and H.~Valpola, ``Mean teachers are better role models:
-  {Weight}-averaged consistency targets improve semi-supervised deep learning
-  results,'' \emph{arXiv:1703.01780 [cs, stat]}, Apr. 2018, arXiv: 1703.01780.
+A.~Tarvainen and H.~Valpola. Mean teachers are better role models:
+  {{Weight-averaged}} consistency targets improve semi-supervised deep learning
+  results. Comment: In this version: Corrected hyperparameters of the
+  4000-label CIFAR-10 ResNet experiment. Changed Antti's contact info, Advances
+  in Neural Information Processing Systems 30 (NIPS 2017) pre-proceedings.
   [Online]. Available: \url{http://arxiv.org/abs/1703.01780}
 \BIBentrySTDinterwordspacing
 
 \bibitem{vaswani_attention_2017}
 \BIBentryALTinterwordspacing
 A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
-  L.~Kaiser, and I.~Polosukhin, ``Attention {Is} {All} {You} {Need},''
-  \emph{arXiv:1706.03762 [cs]}, Dec. 2017, arXiv: 1706.03762. [Online].
-  Available: \url{http://arxiv.org/abs/1706.03762}
+  L.~Kaiser, and I.~Polosukhin. Attention {{Is All You Need}}. Comment: 15
+  pages, 5 figures. [Online]. Available: \url{http://arxiv.org/abs/1706.03762}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nadaraya_estimating_1964}
+\BIBentryALTinterwordspacing
+E.~A. Nadaraya, ``On {{Estimating Regression}},'' vol.~9, no.~1, pp. 141--142.
+  [Online]. Available: \url{https://epubs.siam.org/doi/10.1137/1109020}
+\BIBentrySTDinterwordspacing
+
+\bibitem{bahdanau_neural_2014}
+\BIBentryALTinterwordspacing
+D.~Bahdanau, K.~Cho, and Y.~Bengio, ``Neural {{Machine Translation}} by
+  {{Jointly Learning}} to {{Align}} and {{Translate}}.'' [Online]. Available:
+  \url{https://arxiv.org/abs/1409.0473v7}
+\BIBentrySTDinterwordspacing
+
+\bibitem{luong_effective_2015}
+\BIBentryALTinterwordspacing
+M.-T. Luong, H.~Pham, and C.~D. Manning. Effective {{Approaches}} to
+  {{Attention-based Neural Machine Translation}}. Comment: 11 pages, 7 figures,
+  EMNLP 2015 camera-ready version, more training details. [Online]. Available:
+  \url{http://arxiv.org/abs/1508.04025}
+\BIBentrySTDinterwordspacing
+
+\bibitem{kardakis_examining_2021}
+\BIBentryALTinterwordspacing
+S.~Kardakis, I.~Perikos, F.~Grivokostopoulou, and I.~Hatzilygeroudis,
+  ``Examining {{Attention Mechanisms}} in {{Deep Learning Models}} for
+  {{Sentiment Analysis}},'' vol.~11, no.~9, p. 3883. [Online]. Available:
+  \url{https://www.mdpi.com/2076-3417/11/9/3883}
+\BIBentrySTDinterwordspacing
+
+\bibitem{graves_neural_2014}
+\BIBentryALTinterwordspacing
+A.~Graves, G.~Wayne, and I.~Danihelka. Neural {{Turing Machines}}. [Online].
+  Available: \url{http://arxiv.org/abs/1410.5401}
+\BIBentrySTDinterwordspacing
+
+\bibitem{sun_understanding_2020}
+\BIBentryALTinterwordspacing
+X.~Sun and W.~Lu, ``Understanding {{Attention}} for {{Text Classification}},''
+  in \emph{Proceedings of the 58th {{Annual Meeting}} of the {{Association}}
+  for {{Computational Linguistics}}}.\hskip 1em plus 0.5em minus 0.4em\relax
+  {Association for Computational Linguistics}, pp. 3418--3428. [Online].
+  Available: \url{https://aclanthology.org/2020.acl-main.312}
 \BIBentrySTDinterwordspacing
 
 \bibitem{howard_universal_2018}
 \BIBentryALTinterwordspacing
-J.~Howard and S.~Ruder, ``Universal {Language} {Model} {Fine}-tuning for {Text}
-  {Classification},'' \emph{arXiv:1801.06146 [cs, stat]}, May 2018, arXiv:
-  1801.06146. [Online]. Available: \url{http://arxiv.org/abs/1801.06146}
+J.~Howard and S.~Ruder. Universal {{Language Model Fine-tuning}} for {{Text
+  Classification}}. Comment: ACL 2018, fixed denominator in Equation 3, line 3.
+  [Online]. Available: \url{http://arxiv.org/abs/1801.06146}
 \BIBentrySTDinterwordspacing
 
 \bibitem{peters_deep_2018}
 \BIBentryALTinterwordspacing
 M.~E. Peters, M.~Neumann, M.~Iyyer, M.~Gardner, C.~Clark, K.~Lee, and
-  L.~Zettlemoyer, ``Deep contextualized word representations,''
-  \emph{arXiv:1802.05365 [cs]}, Mar. 2018, arXiv: 1802.05365. [Online].
-  Available: \url{http://arxiv.org/abs/1802.05365}
+  L.~Zettlemoyer. Deep contextualized word representations. Comment: NAACL
+  2018. Originally posted to openreview 27 Oct 2017. v2 updated for NAACL
+  camera ready. [Online]. Available: \url{http://arxiv.org/abs/1802.05365}
 \BIBentrySTDinterwordspacing
 
 \bibitem{radford_improving_nodate}
-A.~Radford, K.~Narasimhan, T.~Salimans, and I.~Sutskever,
-  ``\BIBforeignlanguage{en}{Improving {Language} {Understanding} by
-  {Generative} {Pre}-{Training}},'' p.~12.
+A.~Radford, K.~Narasimhan, T.~Salimans, and I.~Sutskever, ``Improving
+  {{Language Understanding}} by {{Generative Pre-Training}},'' p.~12.
 
 \bibitem{saxena_textdecepter_2020}
 \BIBentryALTinterwordspacing
-S.~Saxena, ``{TextDecepter}: {Hard} {Label} {Black} {Box} {Attack} on {Text}
-  {Classifiers},'' \emph{arXiv:2008.06860 [cs]}, Dec. 2020, arXiv: 2008.06860.
-  [Online]. Available: \url{http://arxiv.org/abs/2008.06860}
+S.~Saxena. {{TextDecepter}}: {{Hard Label Black Box Attack}} on {{Text
+  Classifiers}}. Comment: 10 pages, 11 tables. [Online]. Available:
+  \url{http://arxiv.org/abs/2008.06860}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ren_generating_2020}
 \BIBentryALTinterwordspacing
-Y.~Ren, J.~Lin, S.~Tang, J.~Zhou, S.~Yang, Y.~Qi, and X.~Ren,
-  ``\BIBforeignlanguage{en}{Generating {Natural} {Language} {Adversarial}
-  {Examples} on a {Large} {Scale} with {Generative} {Models}},'' Mar. 2020.
-  [Online]. Available: \url{https://arxiv.org/abs/2003.10388v1}
+Y.~Ren, J.~Lin, S.~Tang, J.~Zhou, S.~Yang, Y.~Qi, and X.~Ren, ``Generating
+  {{Natural Language Adversarial Examples}} on a {{Large Scale}} with
+  {{Generative Models}}.'' [Online]. Available:
+  \url{https://arxiv.org/abs/2003.10388v1}
 \BIBentrySTDinterwordspacing
 
 \bibitem{zang_word-level_2019}
 \BIBentryALTinterwordspacing
-Y.~Zang, F.~Qi, C.~Yang, Z.~Liu, M.~Zhang, Q.~Liu, and M.~Sun,
-  ``\BIBforeignlanguage{en}{Word-level {Textual} {Adversarial} {Attacking} as
-  {Combinatorial} {Optimization}},'' Oct. 2019. [Online]. Available:
-  \url{https://arxiv.org/abs/1910.12196v4}
+Y.~Zang, F.~Qi, C.~Yang, Z.~Liu, M.~Zhang, Q.~Liu, and M.~Sun, ``Word-level
+  {{Textual Adversarial Attacking}} as {{Combinatorial Optimization}}.''
+  [Online]. Available: \url{https://arxiv.org/abs/1910.12196v4}
 \BIBentrySTDinterwordspacing
 
 \bibitem{liu_adversarial_2020}
 \BIBentryALTinterwordspacing
-X.~Liu, H.~Cheng, P.~He, W.~Chen, Y.~Wang, H.~Poon, and J.~Gao, ``Adversarial
-  {Training} for {Large} {Neural} {Language} {Models},'' \emph{arXiv:2004.08994
-  [cs]}, Apr. 2020, arXiv: 2004.08994. [Online]. Available:
-  \url{http://arxiv.org/abs/2004.08994}
+X.~Liu, H.~Cheng, P.~He, W.~Chen, Y.~Wang, H.~Poon, and J.~Gao. Adversarial
+  {{Training}} for {{Large Neural Language Models}}. Comment: 13 pages, 9
+  tables, 2 figures. [Online]. Available: \url{http://arxiv.org/abs/2004.08994}
 \BIBentrySTDinterwordspacing
 
 \bibitem{miyato_virtual_2018}
 \BIBentryALTinterwordspacing
-T.~Miyato, S.-i. Maeda, M.~Koyama, and S.~Ishii, ``Virtual {Adversarial}
-  {Training}: {A} {Regularization} {Method} for {Supervised} and
-  {Semi}-{Supervised} {Learning},'' \emph{arXiv:1704.03976 [cs, stat]}, Jun.
-  2018, arXiv: 1704.03976. [Online]. Available:
+T.~Miyato, S.-i. Maeda, M.~Koyama, and S.~Ishii. Virtual {{Adversarial
+  Training}}: {{A Regularization Method}} for {{Supervised}} and
+  {{Semi-Supervised Learning}}. Comment: To be appeared in IEEE Transactions on
+  Pattern Analysis and Machine Intelligence. [Online]. Available:
   \url{http://arxiv.org/abs/1704.03976}
 \BIBentrySTDinterwordspacing
 
 \bibitem{miyato_adversarial_2017}
 \BIBentryALTinterwordspacing
-T.~Miyato, A.~M. Dai, and I.~Goodfellow, ``Adversarial {Training} {Methods} for
-  {Semi}-{Supervised} {Text} {Classification},'' \emph{arXiv:1605.07725 [cs,
-  stat]}, May 2017, arXiv: 1605.07725. [Online]. Available:
+T.~Miyato, A.~M. Dai, and I.~Goodfellow. Adversarial {{Training Methods}} for
+  {{Semi-Supervised Text Classification}}. Comment: Published as a conference
+  paper at ICLR 2017. [Online]. Available:
   \url{http://arxiv.org/abs/1605.07725}
 \BIBentrySTDinterwordspacing
 
 \bibitem{morris_textattack_2020}
 \BIBentryALTinterwordspacing
-J.~X. Morris, E.~Lifland, J.~Y. Yoo, J.~Grigsby, D.~Jin, and Y.~Qi,
-  ``{TextAttack}: {A} {Framework} for {Adversarial} {Attacks}, {Data}
-  {Augmentation}, and {Adversarial} {Training} in {NLP},''
-  \emph{arXiv:2005.05909 [cs]}, Oct. 2020, arXiv: 2005.05909. [Online].
+J.~X. Morris, E.~Lifland, J.~Y. Yoo, J.~Grigsby, D.~Jin, and Y.~Qi.
+  {{TextAttack}}: {{A Framework}} for {{Adversarial Attacks}}, {{Data
+  Augmentation}}, and {{Adversarial Training}} in {{NLP}}. Comment: 6 pages.
+  More details are shared at https://github.com/QData/TextAttack. [Online].
   Available: \url{http://arxiv.org/abs/2005.05909}
 \BIBentrySTDinterwordspacing
 
 \bibitem{mrksic_counter-fitting_2016}
 \BIBentryALTinterwordspacing
-N.~Mrk{\v s}i{\'c}, D.~{\'O}. S{\'e}aghdha, B.~Thomson, M.~Ga{\v s}i{\'c},
-  L.~Rojas-Barahona, P.-H. Su, D.~Vandyke, T.-H. Wen, and S.~Young,
-  ``Counter-fitting {Word} {Vectors} to {Linguistic} {Constraints},''
-  \emph{arXiv:1603.00892 [cs]}, Mar. 2016, arXiv: 1603.00892. [Online].
-  Available: \url{http://arxiv.org/abs/1603.00892}
+N.~Mrkšić, D.~�. Séaghdha, B.~Thomson, M.~Gašić, L.~Rojas-Barahona, P.-H.
+  Su, D.~Vandyke, T.-H. Wen, and S.~Young. Counter-fitting {{Word Vectors}} to
+  {{Linguistic Constraints}}. Comment: Paper accepted for the 15th Annual
+  Conference of the North American Chapter of the Association for Computational
+  Linguistics (NAACL 2016). [Online]. Available:
+  \url{http://arxiv.org/abs/1603.00892}
 \BIBentrySTDinterwordspacing
 
 \bibitem{cer_universal_2018}
 \BIBentryALTinterwordspacing
 D.~Cer, Y.~Yang, S.-y. Kong, N.~Hua, N.~Limtiaco, R.~S. John, N.~Constant,
   M.~Guajardo-Cespedes, S.~Yuan, C.~Tar, Y.-H. Sung, B.~Strope, and
-  R.~Kurzweil, ``Universal {Sentence} {Encoder},'' \emph{arXiv:1803.11175
-  [cs]}, Apr. 2018, arXiv: 1803.11175. [Online]. Available:
-  \url{http://arxiv.org/abs/1803.11175}
+  R.~Kurzweil. Universal {{Sentence Encoder}}. Comment: 7 pages; fixed module
+  URL in Listing 1. [Online]. Available: \url{http://arxiv.org/abs/1803.11175}
 \BIBentrySTDinterwordspacing
 
 \bibitem{rawlinson_significance_2007}
-G.~Rawlinson, ``The {Significance} of {Letter} {Position} in {Word}
-  {Recognition},'' \emph{IEEE Aerospace and Electronic Systems Magazine},
-  vol.~22, no.~1, pp. 26--27, Jan. 2007, conference Name: IEEE Aerospace and
-  Electronic Systems Magazine.
+G.~Rawlinson, ``The {{Significance}} of {{Letter Position}} in {{Word
+  Recognition}},'' vol.~22, no.~1, pp. 26--27.
 
 \bibitem{alzantot_generating_2018}
 \BIBentryALTinterwordspacing
-M.~Alzantot, Y.~Sharma, A.~Elgohary, B.-J. Ho, M.~Srivastava, and K.-W. Chang,
-  ``Generating {Natural} {Language} {Adversarial} {Examples},''
-  \emph{arXiv:1804.07998 [cs]}, Sep. 2018, arXiv: 1804.07998. [Online].
-  Available: \url{http://arxiv.org/abs/1804.07998}
+M.~Alzantot, Y.~Sharma, A.~Elgohary, B.-J. Ho, M.~Srivastava, and K.-W. Chang.
+  Generating {{Natural Language Adversarial Examples}}. Comment: Accepted in
+  EMNLP 2018 (Conference on Empirical Methods in Natural Language Processing).
+  [Online]. Available: \url{http://arxiv.org/abs/1804.07998}
 \BIBentrySTDinterwordspacing
 
 \bibitem{li_understanding_2017}
 \BIBentryALTinterwordspacing
-J.~Li, W.~Monroe, and D.~Jurafsky, ``Understanding {Neural} {Networks} through
-  {Representation} {Erasure},'' \emph{arXiv:1612.08220 [cs]}, Jan. 2017, arXiv:
-  1612.08220. [Online]. Available: \url{http://arxiv.org/abs/1612.08220}
+J.~Li, W.~Monroe, and D.~Jurafsky. Understanding {{Neural Networks}} through
+  {{Representation Erasure}}. [Online]. Available:
+  \url{http://arxiv.org/abs/1612.08220}
 \BIBentrySTDinterwordspacing
 
 \bibitem{kim_convolutional_2014}
 \BIBentryALTinterwordspacing
-Y.~Kim, ``Convolutional {Neural} {Networks} for {Sentence} {Classification},''
-  \emph{arXiv:1408.5882 [cs]}, Sep. 2014, arXiv: 1408.5882. [Online].
-  Available: \url{http://arxiv.org/abs/1408.5882}
+Y.~Kim. Convolutional {{Neural Networks}} for {{Sentence Classification}}.
+  Comment: To appear in EMNLP 2014. [Online]. Available:
+  \url{http://arxiv.org/abs/1408.5882}
 \BIBentrySTDinterwordspacing
 
 \bibitem{zhang_character-level_2016}
 \BIBentryALTinterwordspacing
-X.~Zhang, J.~Zhao, and Y.~LeCun, ``Character-level {Convolutional} {Networks}
-  for {Text} {Classification},'' \emph{arXiv:1509.01626 [cs]}, Apr. 2016,
-  arXiv: 1509.01626. [Online]. Available: \url{http://arxiv.org/abs/1509.01626}
+X.~Zhang, J.~Zhao, and Y.~LeCun. Character-level {{Convolutional Networks}} for
+  {{Text Classification}}. Comment: An early version of this work entitled
+  "Text Understanding from Scratch" was posted in Feb 2015 as arXiv:1502.01710.
+  The present paper has considerably more experimental results and a rewritten
+  introduction, Advances in Neural Information Processing Systems 28 (NIPS
+  2015). [Online]. Available: \url{http://arxiv.org/abs/1509.01626}
 \BIBentrySTDinterwordspacing
 
 \bibitem{rogers_primer_2021}
 \BIBentryALTinterwordspacing
-A.~Rogers, O.~Kovaleva, and A.~Rumshisky, ``A {Primer} in {BERTology}: {What}
-  {We} {Know} {About} {How} {BERT} {Works},'' \emph{Transactions of the
-  Association for Computational Linguistics}, vol.~8, pp. 842--866, Jan. 2021.
-  [Online]. Available: \url{https://doi.org/10.1162/tacl_a_00349}
+A.~Rogers, O.~Kovaleva, and A.~Rumshisky, ``A {{Primer}} in {{BERTology}}:
+  {{What We Know About How BERT Works}},'' vol.~8, pp. 842--866. [Online].
+  Available: \url{https://doi.org/10.1162/tacl_a_00349}
 \BIBentrySTDinterwordspacing
 
 \end{thebibliography}

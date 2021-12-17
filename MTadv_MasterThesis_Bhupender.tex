@@ -110,7 +110,6 @@ reviews comment classification and so on. Furthermore, recent works \cite{devlin
 -the-art language model based on BERT, which has been successful across a wide variety of NLP tasks and is consequently the most widely adopted language model. However, 
 several studies have found weaknesses in DNN  against adversarial attacks \cite{szegedy_intriguing_2014,yuan_adversarial_2018,akhtar_threat_2018,huq_adversarial_2020,
 zhang_adversarial_2019}, which has drawn substantial attention from the research community. \\ 
-
 Introducing a small perturbations in the input image can fool state-of-art deep neural network with high probability and these misclassified samples were called as
  \textit{Adversarial Samples} \cite{szegedy_intriguing_2014}. Sabotaging machine learning model using adversarial examples are called as \textit{Adversarial attacks} as shown 
  in figure \ref{diag:ExampleAdversarial}. 
@@ -126,6 +125,7 @@ Introducing a small perturbations in the input image can fool state-of-art deep 
 These research exposed alarm about the weakness of DNN system against attacks which can raises concern related to user privacy, safety, and security and finally, 'Can we trust ML models?'.\\
 Unfortunately, it is more extensively studied in the domain of computer vision than that of natural language processing \cite{wang_towards_2021}. And, the implementation of adversarial 
 attacks in NLP presents more challenges due to its discrete nature and the need to maintain semantics\cite{li_bert-attack_2020}. \\
+In another case, text classification task such as fake news detections, suffers from negligible labeled data as compared to unlabelled data. 
 
 And, BERT performance also degrade under adversarial attacks \cite{li_bert-attack_2020,garg_bae_2020}. BERT model performance has shown accuracy lower than 10\% under adversarial 
 ttack. A less sophisticated spelling error can lead to bad performing machine learning model \cite{sun_adv-bert_2020} which raises concern on robustness of BERT model. 
@@ -155,6 +155,18 @@ to know their strength and weaknesses, or if possible any pattern, it always bet
 \textit{ Different researchers worked tirelessly and showed that DNN models were vulnerable in object recognition systems (Goodfellow et al., 2014), audio recognition(Carlini and Wagner, 2018),
  malware detection (Grosse et al., 2017), and sentiment analysis systems (Ebrahimi et al., 2017) as well. An example of the adversarial attacks is shown.\cite{huq_adversarial_2020}
 In the field of NLP, Papernot (2016) paved the way by showing that adversarial attacks can be implemented for textual data as well. \cite{huq_adversarial_2020}}
+@MastersThesis{•,
+author = {•},
+title = {•},
+school = {•},
+year = {•},
+OPTkey = {•},
+OPTtype = {•},
+OPTaddress = {•},
+OPTmonth = {•},
+OPTnote = {•},
+OPTannote = {•}
+}
 
 TODO:
 What are the research question ? \\
@@ -265,7 +277,7 @@ This encoder decoder model were utilised by many sequential to sequential models
 
 \subsubsection{Positional Encoding (2 pages)}
 In transformer model we feed words altogether unlike sequential model where it is word by word. This is how sequential model understand sentence and contain information of word position. But, in transformer model sentences are fed at once, so a separate mechanism introduced to determine the word order called positional encoding technique. Instead of processing this information seperately, those word order information in form of position vector are added to input embeddings before multi-head attention layer. The dimension of position vector must be same as word embeddings  $d_{model}$. 
-There are two major constraints, One, the word embeddings information must not severely affected by the position vector and Second, each word position information should be identical. In Vaswani et al. \cite{vaswani_attention_2017} proposed transformer, sine and cosine function of different frequencies  are used which form geometric progression from $2\pi$ to $2\pi \cdot 10000$ to calculate position vector,$PV$ of the word. In other words, mentioned functions generates unique values which contain information about the position of the word in a sentence.
+There are two major constraints, One, the word embeddings information must not severely affected by the position vector and Second, each word position information should be identical. In Vaswani et. al \cite{vaswani_attention_2017} proposed transformer, sine and cosine function of different frequencies  are used which form geometric progression from $2\pi$ to $2\pi \cdot 10000$ to calculate position vector,$PV$ of the word. In other words, mentioned functions generates unique values which contain information about the position of the word in a sentence.
 
 
 \begin{equation}
@@ -303,6 +315,9 @@ For example in a sentence ``I am good. How are you?'' , the cosine similarity of
 \item What is self attention Mechanism. (1-2 paragraph)
 \item Working of Self Attention Mechanism in context of Transformers.(3-4 paragraph)
 \end{itemize}
+Human mind do no process all the available information from environment, rather, it focus on specific part of relevant information to complete the task. This biological mechanism is called attention and motivation behind attention mechanism in various machine learning tasks. And, this technique has shown significant improvements in performance of models. 
+The idea of attention was first introduced in regression model by Naradaya et.al in 1964 \cite{nadaraya_estimating_1964}, where they have proposed a better approach where weighted function $a(x,x_{i})$ which encodes the relevance of feature as per prediction. In 2015, Bhadanu et al. \cite{bahdanau_neural_2014} proposed an encoder-decoder approach with attention mechanism integrated at decoder. And, M.T Luong et. al \cite{luong_effective_2015} has shown that attentions mechanism gained up to 5.0 BLEU over non-attentional models in neural machine learning task. Spyridon et. al \cite{kardakis_examining_2021} has examined the same mechanism in text classification task i.e sentiment analysis and observed 3.5 \% improvement in accuracy. There are different types of technique to calculate attention mechanism similarity based \cite{graves_neural_2014} , dot product \cite{luong_effective_2015}, scaled dot product \cite{vaswani_attention_2017}, additive\cite{bahdanau_neural_2014}, etc. The focus of this report is scaled dot product used in transformer model.
+
 
 \subsection{Multi-head Attention Mechanism (2 pages)}
 \begin{itemize}
