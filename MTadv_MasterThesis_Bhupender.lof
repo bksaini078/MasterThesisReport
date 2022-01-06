@@ -1,20 +1,60 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Adversarial Example}}{2}{figure.caption.4}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Transformer Architecture}}{5}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Encoder Decoder}}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Encoder Decoder}}{6}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Encoder Decoder}}{7}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of One hot Encoding.}}{4}{figure.caption.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces CBOW and Skip Gram model architecture}}{5}{figure.caption.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \relax }}{6}{figure.caption.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Transformer Architecture}}{7}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Encoder Decoder}}{8}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Encoder Decoder}}{8}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Encoder Decoder}}{9}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces scaled dot product and multi head attention calculation flow diagram. CREATE YOUR OWN\relax }}{11}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces CREATE your own \relax }}{13}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Different adversarial attack classification based on different aspect.\relax }}{15}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed methodology \relax }}{14}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed methodology \relax }}{21}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces TextFooler example \cite {jia_certified_2019} \relax }}{23}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces TextBugger 5 bug generation strategies \cite {li_textbugger_2019} \relax }}{24}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Example attack of PWWS\cite {ren_generating_2019} \relax }}{25}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schematic working and example of BAE\cite {garg_bae_2020} \relax }}{25}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces TextFooler example \cite {jia_certified_2019} \relax }}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces TextBugger 5 bug generation strategies \cite {li_textbugger_2019} \relax }}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Example attack of PWWS\cite {ren_generating_2019} \relax }}{21}{figure.caption.19}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Schematic working and example of BAE\cite {garg_bae_2020} \relax }}{22}{figure.caption.20}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Original accuracy and Accuracy under attack comparison plot.\relax }}{32}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Number of queries with respect to datasets and attack recipes.\relax }}{34}{figure.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Word perturbation as per datasets and attack recipes\relax }}{35}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Perturbation Score Distribution\relax }}{36}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

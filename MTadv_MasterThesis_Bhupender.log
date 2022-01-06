@@ -1,7 +1,6 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  16 DEC 2021 08:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  6 JAN 2022 04:15
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **MTadv_MasterThesis_Bhupender.tex
 (./MTadv_MasterThesis_Bhupender.tex
@@ -246,8 +245,7 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@posthook=\toks17
 
 
-/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty:165: Package inp
-utenc Error: inputenc is not designed for xetex or luatex.
+! Package inputenc Error: inputenc is not designed for xetex or luatex.
 (inputenc)                only UTF-8 supported.
 
 See the inputenc package documentation for explanation.
@@ -256,8 +254,9 @@ Type  H <return>  for immediate help.
                                                   
 l.165 \endinput
                
-? s
-OK, entering \scrollmode...
+For xelatex or lualatex save the document in UTF-8 encoding
+and do not use inputenc, or use the [utf8] option.
+
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
 
@@ -350,12 +349,29 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip68
 \subfig@bottom=\skip69
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
+
+Class scrbook Warning: Usage of package `parskip' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use option
+(scrbook)              `parskip' with one of it's several values.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `parskip' on input line 33.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/lmodern.sty
+Couldn't patch \@startsection
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -393,7 +409,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip70
-\multirow@cntb=\count199
+\multirow@cntb=\count266
 \multirow@dima=\skip71
 \bigstrutjot=\dimen152
 )
@@ -402,7 +418,7 @@ Package: babel 2021/03/24 3.56 The Babel package
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2021/03/24 3.56 Babel common definitions
-\babel@savecnt=\count266
+\babel@savecnt=\count267
 \U@D=\dimen153
 \l@babelnohyphens=\language87
 
@@ -410,7 +426,7 @@ File: babel.def 2021/03/24 3.56 Babel common definitions
 (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def))
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count267
+\bbl@dirlevel=\count268
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
@@ -441,13 +457,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count268
+\inf@bad=\count269
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count269
-\leftroot@=\count270
+\uproot@=\count270
+\leftroot@=\count271
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count271
-\DOTSCASE@=\count272
+\classnum@=\count272
+\DOTSCASE@=\count273
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -456,15 +472,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen156
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count273
-\c@MaxMatrixCols=\count274
+\macc@depth=\count274
+\c@MaxMatrixCols=\count275
 \dotsspace@=\muskip16
-\c@parentequation=\count275
-\dspbrk@lvl=\count276
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
 \tag@help=\toks20
-\row@=\count277
-\column@=\count278
-\maxfields@=\count279
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
 \andhelp@=\toks21
 \eqnshift@=\dimen157
 \alignsep@=\dimen158
@@ -492,7 +508,7 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count280
+\c@float@type=\count281
 \float@exts=\toks24
 \float@box=\box53
 \@float@everytoks=\toks25
@@ -507,37 +523,37 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
 Package: layout 2014/10/28 v1.2c Show layout parameters
-\oneinch=\count281
-\cnt@paperwidth=\count282
-\cnt@paperheight=\count283
-\cnt@hoffset=\count284
-\cnt@voffset=\count285
-\cnt@textheight=\count286
-\cnt@textwidth=\count287
-\cnt@topmargin=\count288
-\cnt@oddsidemargin=\count289
-\cnt@evensidemargin=\count290
-\cnt@headheight=\count291
-\cnt@headsep=\count292
-\cnt@marginparsep=\count293
-\cnt@marginparwidth=\count294
-\cnt@marginparpush=\count295
-\cnt@footskip=\count296
-\fheight=\count297
-\ref@top=\count298
-\ref@hoffset=\count299
-\ref@voffset=\count300
-\ref@head=\count301
-\ref@body=\count302
-\ref@foot=\count303
-\ref@margin=\count304
-\ref@marginwidth=\count305
-\ref@marginpar=\count306
-\Interval=\count307
-\ExtraYPos=\count308
-\PositionX=\count309
-\PositionY=\count310
-\ArrowLength=\count311
+\oneinch=\count282
+\cnt@paperwidth=\count283
+\cnt@paperheight=\count284
+\cnt@hoffset=\count285
+\cnt@voffset=\count286
+\cnt@textheight=\count287
+\cnt@textwidth=\count288
+\cnt@topmargin=\count289
+\cnt@oddsidemargin=\count290
+\cnt@evensidemargin=\count291
+\cnt@headheight=\count292
+\cnt@headsep=\count293
+\cnt@marginparsep=\count294
+\cnt@marginparwidth=\count295
+\cnt@marginparpush=\count296
+\cnt@footskip=\count297
+\fheight=\count298
+\ref@top=\count299
+\ref@hoffset=\count300
+\ref@voffset=\count301
+\ref@head=\count302
+\ref@body=\count303
+\ref@foot=\count304
+\ref@margin=\count305
+\ref@marginwidth=\count306
+\ref@marginpar=\count307
+\Interval=\count308
+\ExtraYPos=\count309
+\PositionX=\count310
+\PositionY=\count311
+\ArrowLength=\count312
 )
 
 Class scrbook Warning: Usage of package `fancyhdr' together
@@ -551,7 +567,7 @@ Class scrbook Warning: Usage of package `fancyhdr' together
 (scrbook)              `\addtokomafont' for the page style elements need
 (scrbook)              explicite user intervention to work.
 (scrbook)              Nevertheless, using requested
-(scrbook)              package `fancyhdr' on input line 49.
+(scrbook)              package `fancyhdr' on input line 50.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
@@ -595,12 +611,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen172
 \cmidrulekern=\dimen173
 \defaultaddspace=\dimen174
-\@cmidla=\count312
-\@cmidlb=\count313
+\@cmidla=\count313
+\@cmidlb=\count314
 \@aboverulesep=\dimen175
 \@belowrulesep=\dimen176
-\@thisruleclass=\count314
-\@lastruleclass=\count315
+\@thisruleclass=\count315
+\@lastruleclass=\count316
 \@thisrulewidth=\dimen177
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
@@ -611,9 +627,6 @@ Package chngcntr Info: \counterwithout already defined.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
@@ -629,12 +642,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-)
 \@linkdim=\dimen178
-\Hy@linkcounter=\count316
-\Hy@pagecounter=\count317
+\Hy@linkcounter=\count317
+\Hy@pagecounter=\count318
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
@@ -648,7 +658,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count318
+\Hy@SavedSpaceFactor=\count319
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -660,7 +670,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count319
+\c@Hy@tempcnt=\count320
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen179
 
@@ -671,7 +681,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count320
+\Fld@menulength=\count321
 \Field@Width=\dimen180
 \Fld@charsize=\dimen181
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -689,9 +699,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count321
-\c@Item=\count322
-\c@Hfootnote=\count323
+\Hy@abspage=\count322
+\c@Item=\count323
+\c@Hfootnote=\count324
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -703,10 +713,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box55
-\c@Hy@AnnotLevel=\count324
-\HyField@AnnotCount=\count325
-\Fld@listcount=\count326
-\c@bookmark@seq@number=\count327
+\c@Hy@AnnotLevel=\count325
+\HyField@AnnotCount=\count326
+\Fld@listcount=\count327
+\c@bookmark@seq@number=\count328
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -768,14 +778,14 @@ ode.tex
 \pgf@yd=\dimen193
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count328
-\c@pgf@countb=\count329
-\c@pgf@countc=\count330
-\c@pgf@countd=\count331
+\c@pgf@counta=\count329
+\c@pgf@countb=\count330
+\c@pgf@countc=\count331
+\c@pgf@countd=\count332
 \t@pgf@toka=\toks30
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
-\pgf@sys@id@count=\count332
+\pgf@sys@id@count=\count333
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
@@ -794,13 +804,13 @@ File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
 df.def
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )
-\pgfsys@objnum=\count333
+\pgfsys@objnum=\count334
 )))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count334
-\pgfsyssoftpath@bigbuffer@items=\count335
+\pgfsyssoftpath@smallbuffer@items=\count335
+\pgfsyssoftpath@bigbuffer@items=\count336
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -813,7 +823,7 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen194
-\pgfmath@count=\count336
+\pgfmath@count=\count337
 \pgfmath@box=\box57
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
@@ -838,7 +848,7 @@ code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count337
+\c@pgfmathroundto@lastzeros=\count338
 )) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -876,7 +886,7 @@ File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count338
+\pgf@picture@serial@count=\count339
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -911,8 +921,8 @@ File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 e.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgf@max=\dimen274
-\pgf@sys@shading@range@num=\count339
-\pgf@shadingcount=\count340
+\pgf@sys@shading@range@num=\count340
+\pgf@shadingcount=\count341
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -979,7 +989,7 @@ Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count341
+\pgf@plot@mark@count=\count342
 \pgfplotmarksize=\dimen279
 )
 \tikz@lastx=\dimen280
@@ -994,19 +1004,19 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@figbox@bg=\box64
 \tikz@tempbox=\box65
 \tikz@tempbox@bg=\box66
-\tikztreelevel=\count342
-\tikznumberofchildren=\count343
-\tikznumberofcurrentchild=\count344
-\tikz@fig@count=\count345
+\tikztreelevel=\count343
+\tikznumberofchildren=\count344
+\tikznumberofcurrentchild=\count345
+\tikz@fig@count=\count346
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count346
-\pgfmatrixcurrentcolumn=\count347
-\pgf@matrix@numberofcolumns=\count348
+\pgfmatrixcurrentrow=\count347
+\pgfmatrixcurrentcolumn=\count348
+\pgf@matrix@numberofcolumns=\count349
 )
-\tikz@expandcount=\count349
+\tikz@expandcount=\count350
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1092,15 +1102,11 @@ File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ctions.code.tex
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
 e.tex)
-\pgf@intersect@solutions=\count350
+\pgf@intersect@solutions=\count351
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks38
 \pgfopts@list@add@b@toks=\toks39
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count351
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
@@ -1183,50 +1189,309 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 \forest@externalize@max@outer@n=\count384
 \forest@externalize@inner@n=\count385
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithms/algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks52
+\c@algorithm=\count386
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count387
+\c@ALC@line=\count388
+\c@ALC@rem=\count389
+\c@ALC@depth=\count390
+\ALC@tlm=\skip85
+\algorithmicindent=\skip86
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count391
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count392
+\c@listtotal=\count393
+\c@listcount=\count394
+\c@liststart=\count395
+\c@liststop=\count396
+\c@citecount=\count397
+\c@citetotal=\count398
+\c@multicitecount=\count399
+\c@multicitetotal=\count400
+\c@instcount=\count401
+\c@maxnames=\count402
+\c@minnames=\count403
+\c@maxitems=\count404
+\c@minitems=\count405
+\c@citecounter=\count406
+\c@maxcitecounter=\count407
+\c@savedcitecounter=\count408
+\c@uniquelist=\count409
+\c@uniquename=\count410
+\c@refsection=\count411
+\c@refsegment=\count412
+\c@maxextratitle=\count413
+\c@maxextratitleyear=\count414
+\c@maxextraname=\count415
+\c@maxextradate=\count416
+\c@maxextraalpha=\count417
+\c@abbrvpenalty=\count418
+\c@highnamepenalty=\count419
+\c@lownamepenalty=\count420
+\c@maxparens=\count421
+\c@parenlevel=\count422
+\blx@tempcnta=\count423
+\blx@tempcntb=\count424
+\blx@tempcntc=\count425
+\blx@maxsection=\count426
+\blx@maxsegment@0=\count427
+\blx@notetype=\count428
+\blx@parenlevel@text=\count429
+\blx@parenlevel@foot=\count430
+\blx@sectionciteorder@0=\count431
+\blx@entrysetcounter=\count432
+\blx@biblioinstance=\count433
+\labelnumberwidth=\skip87
+\labelalphawidth=\skip88
+\biblabelsep=\skip89
+\bibitemsep=\skip90
+\bibnamesep=\skip91
+\bibinitsep=\skip92
+\bibparsep=\skip93
+\bibhang=\skip94
+\blx@bcfin=\read5
+\blx@bcfout=\write5
+\blx@langwohyphens=\language88
+\c@mincomprange=\count434
+\c@maxcomprange=\count435
+\c@mincompwidth=\count436
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count437
+\c@savedafterword=\count438
+\c@annotator=\count439
+\c@savedannotator=\count440
+\c@author=\count441
+\c@savedauthor=\count442
+\c@bookauthor=\count443
+\c@savedbookauthor=\count444
+\c@commentator=\count445
+\c@savedcommentator=\count446
+\c@editor=\count447
+\c@savededitor=\count448
+\c@editora=\count449
+\c@savededitora=\count450
+\c@editorb=\count451
+\c@savededitorb=\count452
+\c@editorc=\count453
+\c@savededitorc=\count454
+\c@foreword=\count455
+\c@savedforeword=\count456
+\c@holder=\count457
+\c@savedholder=\count458
+\c@introduction=\count459
+\c@savedintroduction=\count460
+\c@namea=\count461
+\c@savednamea=\count462
+\c@nameb=\count463
+\c@savednameb=\count464
+\c@namec=\count465
+\c@savednamec=\count466
+\c@translator=\count467
+\c@savedtranslator=\count468
+\c@shortauthor=\count469
+\c@savedshortauthor=\count470
+\c@shorteditor=\count471
+\c@savedshorteditor=\count472
+\c@labelname=\count473
+\c@savedlabelname=\count474
+\c@institution=\count475
+\c@savedinstitution=\count476
+\c@lista=\count477
+\c@savedlista=\count478
+\c@listb=\count479
+\c@savedlistb=\count480
+\c@listc=\count481
+\c@savedlistc=\count482
+\c@listd=\count483
+\c@savedlistd=\count484
+\c@liste=\count485
+\c@savedliste=\count486
+\c@listf=\count487
+\c@savedlistf=\count488
+\c@location=\count489
+\c@savedlocation=\count490
+\c@organization=\count491
+\c@savedorganization=\count492
+\c@origlocation=\count493
+\c@savedoriglocation=\count494
+\c@origpublisher=\count495
+\c@savedorigpublisher=\count496
+\c@publisher=\count497
+\c@savedpublisher=\count498
+\c@language=\count499
+\c@savedlanguage=\count500
+\c@origlanguage=\count501
+\c@savedoriglanguage=\count502
+\c@pageref=\count503
+\c@savedpageref=\count504
+\shorthandwidth=\skip95
+\shortjournalwidth=\skip96
+\shortserieswidth=\skip97
+\shorttitlewidth=\skip98
+\shortauthorwidth=\skip99
+\shorteditorwidth=\skip100
+\locallabelnumberwidth=\skip101
+\locallabelalphawidth=\skip102
+\localshorthandwidth=\skip103
+\localshortjournalwidth=\skip104
+\localshortserieswidth=\skip105
+\localshorttitlewidth=\skip106
+\localshortauthorwidth=\skip107
+\localshorteditorwidth=\skip108
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count505
+\c@textcitetotal=\count506
+\c@textcitemaxnames=\count507
+\c@biburlbigbreakpenalty=\count508
+\c@biburlbreakpenalty=\count509
+\c@biburlnumpenalty=\count510
+\c@biburlucpenalty=\count511
+\c@biburllcpenalty=\count512
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count513
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count514
+\c@bbx:relatedtotal=\count515
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count516
+\c@cbx@tempcntb=\count517
+\c@cbx@tempcntc=\count518
+\c@cbx@tempcntd=\count519
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count386
-\c@@ppsavesec=\count387
-\c@@ppsaveapp=\count388
+\c@@pps=\count520
+\c@@ppsavesec=\count521
+\c@@ppsaveapp=\count522
 )
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count523
+\@quotereset=\count524
 (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux) (./inc/Abstract.aux))
 \openout1 = `MTadv_MasterThesis_Bhupender.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
 0.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-Package scrbase Info: activating english \contentsname on input line 60.
-Package scrbase Info: activating english \listfigurename on input line 60.
-Package scrbase Info: activating english \listtablename on input line 60.
-\c@lstlisting=\count389
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+Package scrbase Info: activating english \contentsname on input line 70.
+Package scrbase Info: activating english \listfigurename on input line 70.
+Package scrbase Info: activating english \listtablename on input line 70.
+\c@lstlisting=\count525
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 70.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1238,18 +1503,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count390
+\c@section@level=\count526
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
  (./MTadv_MasterThesis_Bhupender.out) (./MTadv_MasterThesis_Bhupender.out)
-\@outlinefile=\write5
-\openout5 = `MTadv_MasterThesis_Bhupender.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
+\@outlinefile=\write6
+\openout6 = `MTadv_MasterThesis_Bhupender.out'.
 
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
@@ -1258,18 +1519,60 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 60.
+(scrbook)           before \begin{document} on input line 70.
+
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
-\BKM@id=\count391
+\BKM@id=\count527
 ))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-02-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout5 = `MTadv_MasterThesis_Bhupender.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'MTadv_MasterThesis_Bhupender.bbl' found.
+
+(./MTadv_MasterThesis_Bhupender.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                liu_roberta_2019
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                nicolae_adversarial_2019-1
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 70.
+Package biblatex Info: Reference segment=0 on input line 70.
 \openout2 = `inc/Titlepage.aux'.
 
-
-(./inc/Titlepage.tex
+ (./inc/Titlepage.tex
 File: img/uni-logo.png Graphic file (type bmp)
 <img/uni-logo.png>
 File: img/iwvi.jpg Graphic file (type bmp)
@@ -1368,20 +1671,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
 
 ])
-\tf@toc=\write6
-\openout6 = `MTadv_MasterThesis_Bhupender.toc'.
+\tf@toc=\write7
+\openout7 = `MTadv_MasterThesis_Bhupender.toc'.
 
  [4]
 (./MTadv_MasterThesis_Bhupender.lof)
-\tf@lof=\write7
-\openout7 = `MTadv_MasterThesis_Bhupender.lof'.
+\tf@lof=\write8
+\openout8 = `MTadv_MasterThesis_Bhupender.lof'.
 
  [5
 
 
 ] (./MTadv_MasterThesis_Bhupender.lot)
-\tf@lot=\write8
-\openout8 = `MTadv_MasterThesis_Bhupender.lot'.
+\tf@lot=\write9
+\openout9 = `MTadv_MasterThesis_Bhupender.lot'.
 
 
 [6
@@ -1405,342 +1708,243 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface.
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 114.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 124.
 File: img/Introduction-Fig-1.png Graphic file (type bmp)
 <img/Introduction-Fig-1.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
-
- []
-
 [1
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 169--174
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 172--177
 
  []
 
 [3]
 chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--219
-
- []
-
+File: img/onehot.png Graphic file (type bmp)
+<img/onehot.png>
+File: img/cbowandskip.png Graphic file (type bmp)
+<img/cbowandskip.png>
 [4
 
 
-]
+] [5]
+File: img/elmo.png Graphic file (type bmp)
+<img/elmo.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+[6]
 File: img/TransformerArchitecture.png Graphic file (type bmp)
 <img/TransformerArchitecture.png>
- [5]
 File: img/encoderDecoder.png Graphic file (type bmp)
 <img/encoderDecoder.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7]
 File: img/EncoderDecoder2.png Graphic file (type bmp)
 <img/EncoderDecoder2.png>
-
-./MTadv_MasterThesis_Bhupender.tex:256: Extra }, or forgotten $.
-l.256 ...t text tokens into embedding vectors $EM}
-                                                  $ of shape $d_{model}$.
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 File: img/EncoderArch.png Graphic file (type bmp)
 <img/EncoderArch.png>
-[6] [7]
-./MTadv_MasterThesis_Bhupender.tex:281: Incomplete \ifodd; all text was ignored
- after line 281.
-<inserted text> 
-                \fi 
-l.281 PE_{word} =EM_{word}}+PV_{word}\\
-                                       
-A forbidden control sequence occurred in skipped text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
-./MTadv_MasterThesis_Bhupender.tex:281: Missing $ inserted.
-<inserted text> 
-                $
-l.281 PE_{word} =EM_{word}}+PV_{word}\\
-                                       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./MTadv_MasterThesis_Bhupender.tex:281: Extra \fi.
-\math@cr@@@ ...ef \next@ {&\kern -\alignsep@ }\fi 
-                                                  \next@ \cr 
-l.281 PE_{word} =EM_{word}}+PV_{word}\\
-                                       
-I'm ignoring this; it doesn't match any \if.
-
-./MTadv_MasterThesis_Bhupender.tex:281: Undefined control sequence.
-\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
-                                                  \cr 
-l.281 PE_{word} =EM_{word}}+PV_{word}\\
-                                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./MTadv_MasterThesis_Bhupender.tex:281: Missing { inserted.
-<inserted text> 
-                {
-l.281 PE_{word} =EM_{word}}+PV_{word}\\
-                                       
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./MTadv_MasterThesis_Bhupender.tex:291: Missing } inserted.
-<inserted text> 
-                }
-l.291 $
-       given$,\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./MTadv_MasterThesis_Bhupender.tex:291: Undefined control sequence.
-\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
-                                                  \cr 
-l.291 $given$,\\
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./MTadv_MasterThesis_Bhupender.tex:291: Missing { inserted.
-<inserted text> 
-                {
-l.291 $given$,\\
-                
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./MTadv_MasterThesis_Bhupender.tex:295: Missing { inserted.
-<inserted text> 
-                {
-l.295 \end{aligned}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 326--333
-
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--336
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 342--344
-
- []
-
-[10]
-chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 435--439
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 440--443
-
- []
-
-[11
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 444--447
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--450
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 451--453
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--456
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--459
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--462
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--466
+[8] [9] [10]
+File: screenshot001.png Graphic file (type bmp)
+<screenshot001.png>
+ [11]
+Underfull \hbox (badness 10000) in paragraph at lines 321--329
 
  []
 
 [12]
-chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--483
+File: img/distilBERT.png Graphic file (type bmp)
+<img/distilBERT.png>
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 357--361
 
  []
 
+[14]
+File: img/attack_classification.png Graphic file (type bmp)
+<img/attack_classification.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--376
+
+ []
+
+[15] [16] [17]
+chapter 3.
+[18
+
+
+] [19]
+chapter 4.
 File: img/Methodology.png Graphic file (type bmp)
 <img/Methodology.png>
 
-Overfull \hbox (43.10855pt too wide) in paragraph at lines 491--492
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 426--427
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 433.
 
-LaTeX Warning: Reference `eq:overallcost' on page 13 undefined on input line 50
-6.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `eq:ema' on page 13 undefined on input line 506.
-
-[13
+[20
 
 
-] [14]
-chapter 5.
-[15
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 623--629
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 630--633
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--638
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 639--642
-
- []
+] [21]
+Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 472 replaced by U+FFFD.
+ [22]
+File: img/textfooler_example.png Graphic file (type bmp)
+<img/textfooler_example.png>
+File: img/textbugger_5strat.png Graphic file (type bmp)
+<img/textbugger_5strat.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17] [18]
-File: img/textfooler_example.png Graphic file (type bmp)
-<img/textfooler_example.png>
- [19]
-
-LaTeX Warning: Reference `diag:textbug' on page 20 undefined on input line 755.
-
-
-File: img/textbugger_5strat.png Graphic file (type bmp)
-<img/textbugger_5strat.png>
-[20]
+[23]
 File: img/PWWSexample.png Graphic file (type bmp)
 <img/PWWSexample.png>
- [21]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24]
 File: img/BAEexample.png Graphic file (type bmp)
 <img/BAEexample.png>
- [22]
-chapter 6.
-
-Overfull \hbox (11.59894pt too wide) in paragraph at lines 836--866
- []|  [] 
- []
-
-
-Overfull \hbox (11.59894pt too wide) in paragraph at lines 872--901
-[]|  [] 
- []
-
-[23
-
-
-] [24]
-chapter 7.
-[25
-
-
-]
-./MTadv_MasterThesis_Bhupender.tex:949: Undefined control sequence.
-l.949 \Chapter
-              {References}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-(./MTadv_MasterThesis_Bhupender.bbl [26]
-chapter without number
+ [25] [26]
+chapter 5.
 [27
 
 
 ] [28] [29]
-Invalid UTF-8 byte or sequence at line 306 replaced by U+FFFD.
-Missing character: There is no � (U+FFFD) in font [lmsans10-regular]:mapping=te
-x-text;!
- [30]) [31] (./MTadv_MasterThesis_Bhupender.aux
-(./inc/Titlepage.aux) (./inc/Abstract.aux))
+Underfull \hbox (badness 10000) in paragraph at lines 681--686
 
-LaTeX Warning: There were undefined references.
+ []
+
+[30] [31]
+chapter 6.
+File: img/MOAandAUA_Imdb.png Graphic file (type bmp)
+<img/MOAandAUA_Imdb.png>
+File: img/MOAandAUA_fknews.png Graphic file (type bmp)
+<img/MOAandAUA_fknews.png>
+[32
+
+
+]
+File: img/AvgNQuebyAttackRecipes.png Graphic file (type bmp)
+<img/AvgNQuebyAttackRecipes.png>
+File: img/AvgNQuebyDataset.png Graphic file (type bmp)
+<img/AvgNQuebyDataset.png>
+ [33]
+File: img/AvgPertByAttackRecipes.png Graphic file (type bmp)
+<img/AvgPertByAttackRecipes.png>
+File: img/AvgPertByDataset.png Graphic file (type bmp)
+<img/AvgPertByDataset.png>
+ [34]
+File: img/PertScoreDist.png Graphic file (type bmp)
+<img/PertScoreDist.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35] [36] [37]
+chapter 7.
+[38
+
+
+] [39]
+chapter without number
+
+Overfull \hbox (45.49426pt too wide) in paragraph at lines 903--903
+[]\TU/lmss/m/n/10.95 Moustafa Alzantot et al. “Generating Natural Language Adve
+rsarial Examples”. In: \TU/lmss/m/sl/10.95 arXiv:1804.07998
+ []
+
+[40
+
+
+]
+Overfull \hbox (10.12216pt too wide) in paragraph at lines 903--903
+[]\TU/lmss/m/n/10.95 Alex Graves, Greg Wayne, and Ivo Danihelka. “Neural Turing
+ Machines”. In: \TU/lmss/m/sl/10.95 arXiv:1410.5401
+ []
+
+
+Overfull \hbox (18.78723pt too wide) in paragraph at lines 903--903
+[]\TU/lmss/m/n/10.95 Robin Jia et al. “Certified Robustness to Adversarial Word
+ Substitutions”. In: \TU/lmss/m/sl/10.95 arXiv:1909.00986
+ []
+
+
+Overfull \hbox (8.49423pt too wide) in paragraph at lines 903--903
+[]\TU/lmss/m/n/10.95 Yoon Kim. “Convolutional Neural Networks for Sentence Clas
+sification”. In: \TU/lmss/m/sl/10.95 arXiv:1408.5882
+ []
+
+[41]
+Overfull \hbox (0.94724pt too wide) in paragraph at lines 903--903
+[]\TU/lmss/m/n/10.95 L. Li et al. “BERT-ATTACK: Adversarial Attack Against BERT
+ Using BERT”. In: \TU/lmss/m/sl/10.95 EMNLP\TU/lmss/m/n/10.95 .
+ []
+
+
+Overfull \hbox (36.9533pt too wide) in paragraph at lines 903--903
+[]\TU/lmss/m/n/10.95 Xiaodong Liu et al. “Adversarial Training for Large Neural
+ Language Models”. In: \TU/lmss/m/sl/10.95 arXiv:2004.08994
+ []
+
+
+Overfull \hbox (10.06377pt too wide) in paragraph at lines 903--903
+\TU/lmss/m/n/10.95 Classical to State-Of-The-Art Word Representation Language M
+odels”. In: \TU/lmss/m/sl/10.95 arXiv:2010.15036
+ []
+
+[42]
+Overfull \hbox (49.58232pt too wide) in paragraph at lines 903--903
+\TU/lmss/m/n/10.95 averaged Consistency Targets Improve Semi-Supervised Deep Le
+arning Results”. In: \TU/lmss/m/sl/10.95 arXiv:1703.01780
+ []
+
+[43] [44] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
+(./inc/Abstract.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `MTadv_MasterThesis_Bhupender.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'MTadv_MasterThesis_Bhupender.run.xml'
+.
+\openout1 = `MTadv_MasterThesis_Bhupender.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 36123 strings out of 476919
- 784019 string characters out of 5821840
- 1277651 words of memory out of 5000000
- 55508 multiletter control sequences out of 15000+600000
- 416166 words of font info for 59 fonts, out of 8000000 for 9000
+ 43510 strings out of 476919
+ 936367 string characters out of 5821840
+ 1862623 words of memory out of 5000000
+ 62818 multiletter control sequences out of 15000+600000
+ 416174 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 111i,9n,116p,10623b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,10n,116p,10623b,4801s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MTadv_MasterThesis_Bhupender.pdf (39 pages).
+Output written on MTadv_MasterThesis_Bhupender.pdf (52 pages).

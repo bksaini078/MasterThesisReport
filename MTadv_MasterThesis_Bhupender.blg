@@ -1,85 +1,18 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: MTadv_MasterThesis_Bhupender.aux
-A level-1 auxiliary file: inc/Titlepage.aux
-A level-1 auxiliary file: inc/Abstract.aux
-The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: NLP_adversarial.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in li_textbugger_2019
-Warning--empty year in li_textbugger_2019
-Warning--empty year in ren_generating_2019
-Warning--empty journal in huq_adversarial_2020
-Warning--empty year in huq_adversarial_2020
-Warning--empty journal in jin_is_2020
-Warning--empty year in jin_is_2020
-Warning--empty year in li_bert-attack_2020
-Warning--empty year in du_adversarial_2020
-Warning--empty journal in nadaraya_estimating_1964
-Warning--empty year in nadaraya_estimating_1964
-Warning--empty journal in bahdanau_neural_2014
-Warning--empty year in bahdanau_neural_2014
-Warning--empty journal in kardakis_examining_2021
-Warning--empty year in kardakis_examining_2021
-Warning--empty year in sun_understanding_2020
-Warning--empty journal in radford_improving_nodate
-Warning--empty year in radford_improving_nodate
-Warning--empty journal in ren_generating_2020
-Warning--empty year in ren_generating_2020
-Warning--empty journal in zang_word-level_2019
-Warning--empty year in zang_word-level_2019
-Warning--empty journal in rawlinson_significance_2007
-Warning--empty year in rawlinson_significance_2007
-Warning--empty journal in rogers_primer_2021
-Warning--empty year in rogers_primer_2021
-
-Done.
-You've used 45 entries,
-            4087 wiz_defined-function locations,
-            1042 strings with 18828 characters,
-and the built_in function-call counts, 25553 in all, are:
-= -- 1794
-> -- 919
-< -- 80
-+ -- 456
-- -- 204
-* -- 1126
-:= -- 3959
-add.period$ -- 115
-call.type$ -- 45
-change.case$ -- 68
-chr.to.int$ -- 186
-cite$ -- 71
-duplicate$ -- 1877
-empty$ -- 2062
-format.name$ -- 245
-if$ -- 5741
-int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 491
-newline$ -- 242
-num.names$ -- 45
-pop$ -- 1482
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 1805
-stack$ -- 0
-substring$ -- 507
-swap$ -- 1303
-text.length$ -- 18
-text.prefix$ -- 0
-top$ -- 5
-type$ -- 45
-warning$ -- 26
-while$ -- 75
-width$ -- 47
-write$ -- 466
-(There were 26 warnings)
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'MTadv_MasterThesis_Bhupender.blg'
+[48] biber-darwin:340> INFO - === Thu Jan  6, 2022, 03:54:54
+[59] Biber.pm:415> INFO - Reading 'MTadv_MasterThesis_Bhupender.bcf'
+[136] Biber.pm:952> INFO - Found 66 citekeys in bib section 0
+[149] Biber.pm:4340> INFO - Processing section 0
+[156] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[176] bibtex.pm:1689> INFO - LaTeX decoding ...
+[497] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[817] Utils.pm:395> WARN - I didn't find a database entry for 'liu_roberta_2019' (section 0)
+[817] Utils.pm:395> WARN - I didn't find a database entry for 'nicolae_adversarial_2019-1' (section 0)
+[874] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[874] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[874] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[874] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[921] bbl.pm:654> INFO - Writing 'MTadv_MasterThesis_Bhupender.bbl' with encoding 'UTF-8'
+[968] bbl.pm:757> INFO - Output to MTadv_MasterThesis_Bhupender.bbl
+[968] Biber.pm:128> INFO - WARNINGS: 2
