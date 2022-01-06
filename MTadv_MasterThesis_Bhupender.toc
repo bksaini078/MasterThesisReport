@@ -81,7 +81,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Future Work}{38}{section.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Conclusion (1 pages)}{39}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Conclusion}{39}{section.7.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Bibliography}{40}{chapter*.35}%
 \defcounter {refsection}{0}\relax 

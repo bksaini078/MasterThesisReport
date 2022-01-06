@@ -2479,9 +2479,6 @@
     <bcf:citekey order="113">tarvainen_mean_2018</bcf:citekey>
     <bcf:citekey order="114">belinkov_synthetic_2018</bcf:citekey>
     <bcf:citekey order="114">englesson_consistency_2021</bcf:citekey>
-    <bcf:citekey order="115">liu_roberta_2019-1</bcf:citekey>
-    <bcf:citekey order="115">lan_albert_2020</bcf:citekey>
-    <bcf:citekey order="115">lee_patentbert_2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
