@@ -1327,45 +1327,6 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
-    \entry{lee_patentbert_2019}{article}{}
-      \name{author}{2}{}{%
-        {{hash=3d2707816a1950e22e033e3dbea6d909}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Jieh-Sheng},
-           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=1296fca8c9cfec6160a58f3ecf844f58}{%
-           family={Hsiang},
-           familyi={H\bibinitperiod},
-           given={Jieh},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{fa1f4a525f693a5ab744e3390f8d435a}
-      \strng{fullhash}{fa1f4a525f693a5ab744e3390f8d435a}
-      \strng{bibnamehash}{fa1f4a525f693a5ab744e3390f8d435a}
-      \strng{authorbibnamehash}{fa1f4a525f693a5ab744e3390f8d435a}
-      \strng{authornamehash}{fa1f4a525f693a5ab744e3390f8d435a}
-      \strng{authorfullhash}{fa1f4a525f693a5ab744e3390f8d435a}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In this work we focus on fine-tuning a pre-trained BERT model and applying it to patent classification. When applied to large datasets of over two millions patents, our approach outperforms the state of the art by an approach using CNN with word embeddings. In addition, we focus on patent claims without other parts in patent documents. Our contributions include: (1) a new state-of-the-art method based on pre-trained BERT model and fine-tuning for patent classification, (2) a large dataset USPTO-3M at the CPC subclass level with SQL statements that can be used by future researchers, (3) showing that patent claims alone are sufficient for classification task, in contrast to conventional wisdom.}
-      \field{eprintclass}{cs, stat}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{arXiv:1906.02124 [cs, stat]}
-      \field{month}{6}
-      \field{shorttitle}{{{PatentBERT}}}
-      \field{title}{{{PatentBERT}}: {{Patent Classification}} with {{Fine-Tuning}} a Pre-Trained {{BERT Model}}}
-      \field{year}{2019}
-      \verb{eprint}
-      \verb 1906.02124
-      \endverb
-      \verb{file}
-      \verb /Users/teetusaini/Zotero/storage/ADDVF3PF/Lee and Hsiang - 2019 - PatentBERT Patent Classification with Fine-Tuning.pdf;/Users/teetusaini/Zotero/storage/H6D8D737/1906.html
-      \endverb
-      \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning,Statistics - Machine Learning}
-    \endentry
     \entry{li_textbugger_2019}{article}{}
       \name{author}{5}{}{%
         {{hash=50a7945c11b556f8d5eda5b4e80e1e83}{%
@@ -1985,6 +1946,94 @@
       \verb /Users/teetusaini/Zotero/storage/HGTIW5KJ/Naseem et al. - 2020 - A Comprehensive Survey on Word Representation Mode.pdf;/Users/teetusaini/Zotero/storage/AKT3P9RD/2010.html
       \endverb
       \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{nicolae_adversarial_2019}{article}{}
+      \name{author}{12}{}{%
+        {{hash=b24d419d1ef49e70eed08bd877f2c44f}{%
+           family={Nicolae},
+           familyi={N\bibinitperiod},
+           given={Maria-Irina},
+           giveni={M\bibinithyphendelim I\bibinitperiod}}}%
+        {{hash=3dd9443041bef001e148133f949c1492}{%
+           family={Sinn},
+           familyi={S\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=74520b14ca9d8d88b1db7cdf2a71edc6}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Minh\bibnamedelima Ngoc},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=a89cb5f708523b553857bb088c9fbb4c}{%
+           family={Buesser},
+           familyi={B\bibinitperiod},
+           given={Beat},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cebb99656cc03afe64fc739394a8fcc7}{%
+           family={Rawat},
+           familyi={R\bibinitperiod},
+           given={Ambrish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a78fe4f292957ed0686ef668ef87048e}{%
+           family={Wistuba},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0989a6f32e84829ee6fd57b115007ec3}{%
+           family={Zantedeschi},
+           familyi={Z\bibinitperiod},
+           given={Valentina},
+           giveni={V\bibinitperiod}}}%
+        {{hash=172345c5b8261672f0363451807ed6e8}{%
+           family={Baracaldo},
+           familyi={B\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=903eab21851d8f8e7e7c04e15fcc3abf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Bryant},
+           giveni={B\bibinitperiod}}}%
+        {{hash=841e1fc6fc03d5b35f91dbae6b14e16e}{%
+           family={Ludwig},
+           familyi={L\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=12ca53b2ecfef2befe9403f16e0e86aa}{%
+           family={Molloy},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima M.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=be88d24130f141fc3d3ec85a707255af}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c492dd0dccf99229bdf078129a25bd2}
+      \strng{fullhash}{02921753739eba446683b703f1ce1c1c}
+      \strng{bibnamehash}{2c492dd0dccf99229bdf078129a25bd2}
+      \strng{authorbibnamehash}{2c492dd0dccf99229bdf078129a25bd2}
+      \strng{authornamehash}{2c492dd0dccf99229bdf078129a25bd2}
+      \strng{authorfullhash}{02921753739eba446683b703f1ce1c1c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adversarial Robustness Toolbox (ART) is a Python library supporting developers and researchers in defending Machine Learning models (Deep Neural Networks, Gradient Boosted Decision Trees, Support Vector Machines, Random Forests, Logistic Regression, Gaussian Processes, Decision Trees, Scikit-learn Pipelines, etc.) against adversarial threats and helps making AI systems more secure and trustworthy. Machine Learning models are vulnerable to adversarial examples, which are inputs (images, texts, tabular data, etc.) deliberately modified to produce a desired response by the Machine Learning model. ART provides the tools to build and deploy defences and test them with adversarial attacks. Defending Machine Learning models involves certifying and verifying model robustness and model hardening with approaches such as pre-processing inputs, augmenting training data with adversarial samples, and leveraging runtime detection methods to flag any inputs that might have been modified by an adversary. The attacks implemented in ART allow creating adversarial attacks against Machine Learning models which is required to test defenses with state-of-the-art threat models. Supported Machine Learning Libraries include TensorFlow (v1 and v2), Keras, PyTorch, MXNet, Scikit-learn, XGBoost, LightGBM, CatBoost, and GPy. The source code of ART is released with MIT license at https://github.com/IBM/adversarial-robustness-toolbox. The release includes code examples, notebooks with tutorials and documentation (http://adversarial-robustness-toolbox.readthedocs.io).}
+      \field{eprintclass}{cs, stat}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1807.01069 [cs, stat]}
+      \field{month}{11}
+      \field{title}{Adversarial {{Robustness Toolbox}} v1.0.0}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1807.01069
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/2RZSIXT4/Nicolae et al. - 2019 - Adversarial Robustness Toolbox v1.0.0.pdf;/Users/teetusaini/Zotero/storage/I9FMDFWC/1807.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
     \entry{papernot_crafting_2016}{article}{}
       \name{author}{4}{}{%
@@ -3196,8 +3245,6 @@
       \keyw{Computer Science - Computation and Language}
     \endentry
   \enddatalist
-  \missing{liu_roberta_2019}
-  \missing{nicolae_adversarial_2019-1}
 \endrefsection
 \endinput
 

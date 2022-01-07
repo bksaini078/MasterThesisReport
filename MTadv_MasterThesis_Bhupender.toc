@@ -5,9 +5,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline List of Tables}{VI}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction (1-3 pages)}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Background (28-30 pages)}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Text Representations (2 pages)}{4}{section.2.1}%
 \defcounter {refsection}{0}\relax 
@@ -17,31 +17,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Transformers}{6}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Encoder Architecture (2 pages)}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Encoder Architecture}{8}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Positional Encoding (2 pages)}{9}{subsubsection*.13}%
+\contentsline {subsubsection}{\nonumberline Positional Encoding}{9}{subsubsection*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Attention Mechanism (3 pages)}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Attention Mechanism}{10}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Langauge Models}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Language Models}{11}{section.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}BERT(Bidirectional Encoder Representation From Transformers)}{12}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}DistilBERT- A distilled version of BERT}{13}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Adversarial Attacks (3 pages)}{14}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Adversarial Attacks}{14}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Definition}{14}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Definition}{15}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Types of Adversarial attacks}{15}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.3}Adversarial Training}{16}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Related Work(2 pages)}{18}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Related Work}{18}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Proposed Methodology (2 pages)}{20}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Proposed Methodology}{20}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Text Attack Recipes and Tool (2 pages)}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Text Attack Recipes and Tool}{22}{section.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.1}TextFooler}{22}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
@@ -51,27 +51,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.4}BAE: BERT-Based Adversarial Examples}{25}{subsection.4.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Research Questions}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Research Questions}{26}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Experiment(7 pages)}{27}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Experiment}{27}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Dataset (1-2 paragraph)}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Dataset}{27}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Data Pre-processing and Exploration (3 pages)}{28}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Data Pre-processing and Exploration}{28}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Data Exploration (3 pages)}{28}{subsubsection*.24}%
+\contentsline {subsubsection}{\nonumberline Data Exploration}{28}{subsubsection*.27}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Data Augmentation}{28}{section.5.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}Experiment Environment description (1-2 paragraph)}{29}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Hyper parameter Details (1 paragraph)}{29}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.1}Hyper parameter Details}{29}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Metrics}{30}{section.5.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.6}Threat Model}{31}{section.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Result Analysis (3 pages)}{32}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Result Analysis}{32}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Discussing on Research Questions}{36}{section.6.1}%
 \defcounter {refsection}{0}\relax 
@@ -83,6 +83,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Conclusion}{39}{section.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{40}{chapter*.35}%
+\contentsline {chapter}{\nonumberline Bibliography}{40}{chapter*.38}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
