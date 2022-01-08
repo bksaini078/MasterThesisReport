@@ -1,64 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: MTadv_MasterThesis_Bhupender.aux
-A level-1 auxiliary file: inc/Titlepage.aux
-A level-1 auxiliary file: inc/Abstract.aux
-The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: NLP_adversarial.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in huq_adversarial_2020
-Warning--empty journal in radford_improving_nodate
-Warning--empty year in radford_improving_nodate
-Warning--empty journal in ren_generating_2020
-Warning--empty journal in zang_word-level_2019
-
-Done.
-You've used 39 entries,
-            4087 wiz_defined-function locations,
-            1063 strings with 17426 characters,
-and the built_in function-call counts, 25440 in all, are:
-= -- 2032
-> -- 842
-< -- 66
-+ -- 418
-- -- 188
-* -- 1392
-:= -- 4287
-add.period$ -- 81
-call.type$ -- 39
-change.case$ -- 69
-chr.to.int$ -- 162
-cite$ -- 44
-duplicate$ -- 1923
-empty$ -- 1966
-format.name$ -- 224
-if$ -- 5674
-int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 400
-newline$ -- 212
-num.names$ -- 39
-pop$ -- 969
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 1825
-stack$ -- 0
-substring$ -- 481
-swap$ -- 1420
-text.length$ -- 12
-text.prefix$ -- 0
-top$ -- 5
-type$ -- 39
-warning$ -- 5
-while$ -- 64
-width$ -- 41
-write$ -- 479
-(There were 5 warnings)
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'MTadv_MasterThesis_Bhupender.blg'
+[48] biber-darwin:340> INFO - === Thu Jan  6, 2022, 05:10:16
+[59] Biber.pm:415> INFO - Reading 'MTadv_MasterThesis_Bhupender.bcf'
+[137] Biber.pm:952> INFO - Found 64 citekeys in bib section 0
+[148] Biber.pm:4340> INFO - Processing section 0
+[155] Biber.pm:4531> INFO - Looking for bibtex format file 'references.bib' for section 0
+[176] bibtex.pm:1689> INFO - LaTeX decoding ...
+[439] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[812] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[812] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[812] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[812] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[861] bbl.pm:654> INFO - Writing 'MTadv_MasterThesis_Bhupender.bbl' with encoding 'UTF-8'
+[910] bbl.pm:757> INFO - Output to MTadv_MasterThesis_Bhupender.bbl
