@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  7 JAN 2022 13:34
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  20 JAN 2022 05:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1552,7 +1552,15 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MTadv_MasterThesis_Bhupender.bbl' found.
 
-(./MTadv_MasterThesis_Bhupender.bbl)
+(./MTadv_MasterThesis_Bhupender.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                sanh_DistilBERT_2020
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 71.
 Package biblatex Info: Reference segment=0 on input line 71.
 \openout2 = `inc/Titlepage.aux'.
@@ -1643,6 +1651,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
+
+Overfull \hbox (5.81277pt too wide) in paragraph at lines 9--11
+\TU/lmss/m/n/10.95 Sprachmodelle haben bei verschiedenen Aufgaben der natürlich
+en Sprachverarbeitung
+ []
+
 [1
 
 ]
@@ -1660,19 +1674,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 \openout7 = `MTadv_MasterThesis_Bhupender.toc'.
 
  [4]
-(./MTadv_MasterThesis_Bhupender.lof)
+(./MTadv_MasterThesis_Bhupender.lof [5
+
+
+])
 \tf@lof=\write8
 \openout8 = `MTadv_MasterThesis_Bhupender.lof'.
 
- [5
-
-
-] (./MTadv_MasterThesis_Bhupender.lot)
+ [6]
+(./MTadv_MasterThesis_Bhupender.lot)
 \tf@lot=\write9
 \openout9 = `MTadv_MasterThesis_Bhupender.lot'.
 
-
-[6
+ [7
 
 
 ]
@@ -1693,7 +1707,7 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface.
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 105.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 106.
 File: img/Introduction-Fig-1.png Graphic file (type bmp)
 <img/Introduction-Fig-1.png>
 
@@ -1706,135 +1720,157 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 chapter 2.
 File: img/onehot.png Graphic file (type bmp)
 <img/onehot.png>
-File: img/cbowandskip.png Graphic file (type bmp)
-<img/cbowandskip.png>
 [4
 
 
-] [5]
+]
+File: img/cbowandskip.png Graphic file (type bmp)
+<img/cbowandskip.png>
+ [5]
 File: img/elmo.png Graphic file (type bmp)
 <img/elmo.png>
+ [6]
+File: img/TransformerArchitecture.png Graphic file (type bmp)
+<img/TransformerArchitecture.png>
+ [7]
+File: img/encoderDecoder.png Graphic file (type bmp)
+<img/encoderDecoder.png>
+File: img/EncoderDecoder2.png Graphic file (type bmp)
+<img/EncoderDecoder2.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 205--212
 
  []
 
-[6]
-File: img/TransformerArchitecture.png Graphic file (type bmp)
-<img/TransformerArchitecture.png>
-File: img/encoderDecoder.png Graphic file (type bmp)
-<img/encoderDecoder.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7]
-File: img/EncoderDecoder2.png Graphic file (type bmp)
-<img/EncoderDecoder2.png>
 File: img/EncoderArch.png Graphic file (type bmp)
 <img/EncoderArch.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [8] [9]
 File: screenshot001.png Graphic file (type bmp)
 <screenshot001.png>
  [10]
 File: img/pre_fintune.png Graphic file (type bmp)
 <img/pre_fintune.png>
- [11]
-File: img/bert_inp.png Graphic file (type bmp)
-<img/bert_inp.png>
- [12]
-File: img/distilBERT.png Graphic file (type bmp)
-<img/distilBERT.png>
- [13] [14]
-File: img/attack_classification.png Graphic file (type bmp)
-<img/attack_classification.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15] [16] [17]
+File: img/bert_inp.png Graphic file (type bmp)
+<img/bert_inp.png>
+[11] [12]
+File: img/DistilBERT.png Graphic file (type bmp)
+<img/DistilBERT.png>
+ [13]
+File: img/attack_classification.png Graphic file (type bmp)
+<img/attack_classification.png>
+ [14] [15] [16]
 chapter 3.
-[18
+[17
 
 
-] [19]
+] [18]
 chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--365
+
+ []
+
 File: img/Methodology.png Graphic file (type bmp)
 <img/Methodology.png>
 
-Overfull \hbox (43.10855pt too wide) in paragraph at lines 398--399
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 373--374
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[19
+
+
+]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 405.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[20
-
-
-] [21]
-Invalid UTF-8 byte or sequence at line 465 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 465 replaced by U+FFFD.
- [22]
+put line 400.
+ [20] [21]
 File: img/textfooler_example.png Graphic file (type bmp)
 <img/textfooler_example.png>
- [23]
+ [22]
 File: img/textbugger_5strat.png Graphic file (type bmp)
 <img/textbugger_5strat.png>
+ [23]
 File: img/PWWSexample.png Graphic file (type bmp)
 <img/PWWSexample.png>
- [24]
 File: img/BAEexample.png Graphic file (type bmp)
 <img/BAEexample.png>
- [25] [26]
+ [24] [25]
 chapter 5.
-[27
+[26
 
 
-] [28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 673--678
+]
+File: img/fakenewsLengthdist.png Graphic file (type bmp)
+<img/fakenewsLengthdist.png>
+File: img/ImdbLengthdist.png Graphic file (type bmp)
+<img/ImdbLengthdist.png>
+
+Underfull \hbox (badness 4181) in paragraph at lines 586--586
+[][][]\TU/lmss/m/n/10.95 Figure 5.2[][]: []|Length distribution of IMDB
+ []
+
+
+Overfull \hbox (7.70724pt too wide) in paragraph at lines 576--589
+[][]   [] 
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 621--644
 
  []
 
-[30] [31]
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--661
+
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 662--678
+
+ []
+
+[29] [30] [31]
 chapter 6.
-File: img/MOAandAUA_Imdb.png Graphic file (type bmp)
-<img/MOAandAUA_Imdb.png>
-File: img/MOAandAUA_fknews.png Graphic file (type bmp)
-<img/MOAandAUA_fknews.png>
+
+Overfull \hbox (2.43741pt too wide) in paragraph at lines 771--800
+[]| [] 
+ []
+
+
+LaTeX Warning: Reference `fig:moaandauaimdb' on page 32 undefined on input line
+ 803.
+
 [32
 
 
 ]
-File: img/AvgNQuebyAttackRecipes.png Graphic file (type bmp)
-<img/AvgNQuebyAttackRecipes.png>
+File: img/MOAandAUA_Imdb.png Graphic file (type bmp)
+<img/MOAandAUA_Imdb.png>
+File: img/MOAandAUA_fknews.png Graphic file (type bmp)
+<img/MOAandAUA_fknews.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 841--842
+
+ []
+
 File: img/AvgNQuebyDataset.png Graphic file (type bmp)
 <img/AvgNQuebyDataset.png>
- [33]
-File: img/AvgPertByAttackRecipes.png Graphic file (type bmp)
-<img/AvgPertByAttackRecipes.png>
+[33]
+File: img/NumQueriesDist_IMDB.png Graphic file (type bmp)
+<img/NumQueriesDist_IMDB.png>
 File: img/AvgPertByDataset.png Graphic file (type bmp)
 <img/AvgPertByDataset.png>
- [34]
+ [34] [35]
 File: img/PertScoreDist.png Graphic file (type bmp)
 <img/PertScoreDist.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35] [36] [37]
+ [36] [37]
 chapter 7.
 [38
 
@@ -1842,7 +1878,7 @@ chapter 7.
 ] [39]
 chapter without number
 
-Overfull \hbox (45.49426pt too wide) in paragraph at lines 890--890
+Overfull \hbox (45.49426pt too wide) in paragraph at lines 952--952
 []\TU/lmss/m/n/10.95 Moustafa Alzantot et al. “Generating Natural Language Adve
 rsarial Examples”. In: \TU/lmss/m/sl/10.95 arXiv:1804.07998
  []
@@ -1851,67 +1887,92 @@ rsarial Examples”. In: \TU/lmss/m/sl/10.95 arXiv:1804.07998
 
 
 ]
-Overfull \hbox (10.12216pt too wide) in paragraph at lines 890--890
+Overfull \hbox (10.12216pt too wide) in paragraph at lines 952--952
 []\TU/lmss/m/n/10.95 Alex Graves, Greg Wayne, and Ivo Danihelka. “Neural Turing
  Machines”. In: \TU/lmss/m/sl/10.95 arXiv:1410.5401
  []
 
 
-Overfull \hbox (18.78723pt too wide) in paragraph at lines 890--890
+Overfull \hbox (18.78723pt too wide) in paragraph at lines 952--952
 []\TU/lmss/m/n/10.95 Robin Jia et al. “Certified Robustness to Adversarial Word
  Substitutions”. In: \TU/lmss/m/sl/10.95 arXiv:1909.00986
  []
 
-
-Overfull \hbox (8.49423pt too wide) in paragraph at lines 890--890
+[41]
+Overfull \hbox (8.49423pt too wide) in paragraph at lines 952--952
 []\TU/lmss/m/n/10.95 Yoon Kim. “Convolutional Neural Networks for Sentence Clas
 sification”. In: \TU/lmss/m/sl/10.95 arXiv:1408.5882
  []
 
-[41]
-Overfull \hbox (0.94724pt too wide) in paragraph at lines 890--890
+
+Overfull \hbox (0.94724pt too wide) in paragraph at lines 952--952
 []\TU/lmss/m/n/10.95 L. Li et al. “BERT-ATTACK: Adversarial Attack Against BERT
  Using BERT”. In: \TU/lmss/m/sl/10.95 EMNLP\TU/lmss/m/n/10.95 .
  []
 
 
-Overfull \hbox (36.9533pt too wide) in paragraph at lines 890--890
+Overfull \hbox (36.9533pt too wide) in paragraph at lines 952--952
 []\TU/lmss/m/n/10.95 Xiaodong Liu et al. “Adversarial Training for Large Neural
  Language Models”. In: \TU/lmss/m/sl/10.95 arXiv:2004.08994
  []
 
-
-Overfull \hbox (10.06377pt too wide) in paragraph at lines 890--890
+[42]
+Overfull \hbox (10.06377pt too wide) in paragraph at lines 952--952
 \TU/lmss/m/n/10.95 Classical to State-Of-The-Art Word Representation Language M
 odels”. In: \TU/lmss/m/sl/10.95 arXiv:2010.15036
  []
 
-[42]
-Overfull \hbox (49.58232pt too wide) in paragraph at lines 890--890
+
+Overfull \hbox (26.39262pt too wide) in paragraph at lines 952--952
+[]\TU/lmss/m/n/10.95 Parth Patwa et al. “Fighting an Infodemic: COVID-19 Fake N
+ews Dataset”. In: \TU/lmss/m/sl/10.95 arXiv:2011.03327
+ []
+
+[43]
+Overfull \hbox (49.58232pt too wide) in paragraph at lines 952--952
 \TU/lmss/m/n/10.95 averaged Consistency Targets Improve Semi-Supervised Deep Le
 arning Results”. In: \TU/lmss/m/sl/10.95 arXiv:1703.01780
  []
 
-[43] [44] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
+[44]
+chapter 8.
+File: img/nvidiagpu.png Graphic file (type bmp)
+<img/nvidiagpu.png>
+File: img/bert_arch.png Graphic file (type bmp)
+<img/bert_arch.png>
+File: img/DistilBERTarch.png Graphic file (type bmp)
+<img/DistilBERTarch.png>
+[45
+
+
+] [46] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
 (./inc/Abstract.aux))
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `MTadv_MasterThesis_Bhupender.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                MTadv_MasterThesis_Bhupender
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'MTadv_MasterThesis_Bhupender.run.xml'
 .
 \openout1 = `MTadv_MasterThesis_Bhupender.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43524 strings out of 476919
- 936645 string characters out of 5821840
- 1862520 words of memory out of 5000000
- 62830 multiletter control sequences out of 15000+600000
+ 43593 strings out of 476919
+ 938120 string characters out of 5821840
+ 1864786 words of memory out of 5000000
+ 62895 multiletter control sequences out of 15000+600000
  416174 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 111i,12n,116p,10623b,4799s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,15n,116p,10623b,4801s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MTadv_MasterThesis_Bhupender.pdf (52 pages).
+Output written on MTadv_MasterThesis_Bhupender.pdf (55 pages).

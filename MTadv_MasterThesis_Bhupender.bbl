@@ -185,6 +185,53 @@
       \verb /Users/teetusaini/Zotero/storage/JHC27BZC/Bahdanau et al. - 2014 - Neural Machine Translation by Jointly Learning to .pdf;/Users/teetusaini/Zotero/storage/LDHCRGD6/1409.html
       \endverb
     \endentry
+    \entry{bao_defending_2021}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=97981803fb038e642234e9ccdc31c5f0}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={Rongzhou},
+           giveni={R\bibinitperiod}}}%
+        {{hash=556c8050264b7b80ed069c35bcbbfdd7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jiayi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=83dfa007c00ea6000ab8745d0b697520}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{dbb676d416aaa7fd5865458517faf7c5}
+      \strng{fullhash}{dbb676d416aaa7fd5865458517faf7c5}
+      \strng{bibnamehash}{dbb676d416aaa7fd5865458517faf7c5}
+      \strng{authorbibnamehash}{dbb676d416aaa7fd5865458517faf7c5}
+      \strng{authornamehash}{dbb676d416aaa7fd5865458517faf7c5}
+      \strng{authorfullhash}{dbb676d416aaa7fd5865458517faf7c5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Findings of the {{Association}} for {{Computational Linguistics}}: {{ACL-IJCNLP}} 2021}
+      \field{month}{8}
+      \field{title}{Defending {{Pre-trained Language Models}} from {{Adversarial Word Substitution Without Performance Sacrifice}}}
+      \field{year}{2021}
+      \field{pages}{3248\bibrangedash 3258}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.18653/v1/2021.findings-acl.287
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/77ASIQR2/Bao et al. - 2021 - Defending Pre-trained Language Models from Adversa.pdf
+      \endverb
+    \endentry
     \entry{belinkov_synthetic_2018}{article}{}
       \name{author}{2}{}{%
         {{hash=1b1e0145098271245102c2c35a46ffe4}{%
@@ -457,64 +504,6 @@
       \verb /Users/teetusaini/Zotero/storage/2XYZKUZY/Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf;/Users/teetusaini/Zotero/storage/YDRXA6K7/1810.html
       \endverb
       \keyw{Computer Science - Computation and Language}
-    \endentry
-    \entry{du_adversarial_2020}{inproceedings}{}
-      \name{author}{5}{}{%
-        {{hash=2fb8182f08a857d13fefbdd4f7a78fdc}{%
-           family={Du},
-           familyi={D\bibinitperiod},
-           given={Chunning},
-           giveni={C\bibinitperiod}}}%
-        {{hash=275259728cb092736684d0d51d5f75c3}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Haifeng},
-           giveni={H\bibinitperiod}}}%
-        {{hash=1eb288432f5d3a0ea3b4a0f2d8cc2a68}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Jingyu},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e2b9a26b8fa92705266e925bbad5499a}{%
-           family={Qi},
-           familyi={Q\bibinitperiod},
-           given={Qi},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=709bae562f205febddb8f062178e5308}{%
-           family={Liao},
-           familyi={L\bibinitperiod},
-           given={Jianxin},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Online}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computational Linguistics}%
-      }
-      \strng{namehash}{9b8ecf26770adceee879c774f9ecae3e}
-      \strng{fullhash}{e17de517894583e734fa02fb01fabb46}
-      \strng{bibnamehash}{9b8ecf26770adceee879c774f9ecae3e}
-      \strng{authorbibnamehash}{9b8ecf26770adceee879c774f9ecae3e}
-      \strng{authornamehash}{9b8ecf26770adceee879c774f9ecae3e}
-      \strng{authorfullhash}{e17de517894583e734fa02fb01fabb46}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Cross-domain sentiment classification aims to address the lack of massive amounts of labeled data. It demands to predict sentiment polarity on a target domain utilizing a classifier learned from a source domain. In this paper, we investigate how to efficiently apply the pre-training language model BERT on the unsupervised domain adaptation. Due to the pre-training task and corpus, BERT is task-agnostic, which lacks domain awareness and can not distinguish the characteristic of source and target domain when transferring knowledge. To tackle these problems, we design a post-training procedure, which contains the target domain masked language model task and a novel domain-distinguish pre-training task. The post-training procedure will encourage BERT to be domain-aware and distill the domain-specific features in a self-supervised way. Based on this, we could then conduct the adversarial training to derive the enhanced domain-invariant features. Extensive experiments on Amazon dataset show that our model outperforms state-of-the-art methods by a large margin. The ablation study demonstrates that the remarkable improvement is not only from BERT but also from our method.}
-      \field{booktitle}{Proceedings of the 58th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}}}
-      \field{month}{7}
-      \field{title}{Adversarial and {{Domain-Aware BERT}} for {{Cross-Domain Sentiment Analysis}}}
-      \field{year}{2020}
-      \field{pages}{4019\bibrangedash 4028}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.18653/v1/2020.acl-main.370
-      \endverb
-      \verb{file}
-      \verb /Users/teetusaini/Zotero/storage/9BX4SLA2/Du et al. - 2020 - Adversarial and Domain-Aware BERT for Cross-Domain.pdf
-      \endverb
     \endentry
     \entry{ebrahimi_hotflip_2018}{inproceedings}{}
       \name{author}{4}{}{%
@@ -937,6 +926,46 @@
       \verb /Users/teetusaini/Zotero/storage/HFZ2X9ZD/Hinton et al. - 2015 - Distilling the Knowledge in a Neural Network.pdf;/Users/teetusaini/Zotero/storage/EZW9DM3D/1503.html
       \endverb
       \keyw{Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing,Statistics - Machine Learning}
+    \endentry
+    \entry{hochreiter_long_1997}{article}{}
+      \name{author}{2}{}{%
+        {{hash=41b31e29fb2bdbf9f5c9c1b0d5b3e815}{%
+           family={Hochreiter},
+           familyi={H\bibinitperiod},
+           given={Sepp},
+           giveni={S\bibinitperiod}}}%
+        {{hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{fullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{bibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorbibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authornamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorfullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.}
+      \field{issn}{0899-7667}
+      \field{journaltitle}{Neural Computation}
+      \field{month}{11}
+      \field{number}{8}
+      \field{title}{Long {{Short-Term Memory}}}
+      \field{volume}{9}
+      \field{year}{1997}
+      \field{pages}{1735\bibrangedash 1780}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1162/neco.1997.9.8.1735
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/U4ECXY8G/Long-Short-Term-Memory.html
+      \endverb
     \endentry
     \entry{howard_universal_2018}{article}{}
       \name{author}{2}{}{%
@@ -1664,6 +1693,89 @@
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
+    \entry{ma_nlpaug_2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=54a35d468a3be3327b9472a055dccda1}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{54a35d468a3be3327b9472a055dccda1}
+      \strng{fullhash}{54a35d468a3be3327b9472a055dccda1}
+      \strng{bibnamehash}{54a35d468a3be3327b9472a055dccda1}
+      \strng{authorbibnamehash}{54a35d468a3be3327b9472a055dccda1}
+      \strng{authornamehash}{54a35d468a3be3327b9472a055dccda1}
+      \strng{authorfullhash}{54a35d468a3be3327b9472a055dccda1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Data augmentation for NLP}
+      \field{month}{1}
+      \field{title}{Nlpaug}
+      \field{year}{2022}
+      \keyw{adversarial-attacks,adversarial-example,ai,artificial-intelligence,augmentation,data-science,machine-learning,ml,natural-language-processing,nlp}
+    \endentry
+    \entry{maas_learning_2011-1}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=ed7b150d84a40a9f9067abd89a23a133}{%
+           family={Maas},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=dbd1c8d049a82506383a95d0362e99d2}{%
+           family={Daly},
+           familyi={D\bibinitperiod},
+           given={Raymond\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9909a10a7faf66b4f1a72afe398d3f8c}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Peter\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=723f50cb8399170cf7a83a00b73da4f8}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=49e889356ff39df159461bc2895c7e16}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=699d626ef41a1a827d623529c1a45e5a}{%
+           family={Potts},
+           familyi={P\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Portland, Oregon, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{17c0fb1c72658866046c6d044b7821d5}
+      \strng{fullhash}{52af3773bc6f449fc99b5d9a9d72cb5b}
+      \strng{bibnamehash}{17c0fb1c72658866046c6d044b7821d5}
+      \strng{authorbibnamehash}{17c0fb1c72658866046c6d044b7821d5}
+      \strng{authornamehash}{17c0fb1c72658866046c6d044b7821d5}
+      \strng{authorfullhash}{52af3773bc6f449fc99b5d9a9d72cb5b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 49th {{Annual Meeting}} of the {{Association}} for {{Computational Linguistics}}: {{Human Language Technologies}}}
+      \field{month}{6}
+      \field{title}{Learning {{Word Vectors}} for {{Sentiment Analysis}}}
+      \field{year}{2011}
+      \field{pages}{142\bibrangedash 150}
+      \range{pages}{9}
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/MWXVSZ4B/Maas et al. - 2011 - Learning Word Vectors for Sentiment Analysis.pdf
+      \endverb
+    \endentry
     \entry{mikolov_efficient_2013}{article}{}
       \name{author}{4}{}{%
         {{hash=a2d359b12ca2fadf0b40136a73f021bb}{%
@@ -1711,6 +1823,39 @@
       \verb /Users/teetusaini/Zotero/storage/M9HIIZIU/Mikolov et al. - 2013 - Efficient Estimation of Word Representations in Ve.pdf;/Users/teetusaini/Zotero/storage/4IXDPT6P/1301.html
       \endverb
       \keyw{Computer Science - Computation and Language}
+    \endentry
+    \entry{miller_wordnet_1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=52cf88006a41a8cd9aab3bcb5e428b80}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{52cf88006a41a8cd9aab3bcb5e428b80}
+      \strng{fullhash}{52cf88006a41a8cd9aab3bcb5e428b80}
+      \strng{bibnamehash}{52cf88006a41a8cd9aab3bcb5e428b80}
+      \strng{authorbibnamehash}{52cf88006a41a8cd9aab3bcb5e428b80}
+      \strng{authornamehash}{52cf88006a41a8cd9aab3bcb5e428b80}
+      \strng{authorfullhash}{52cf88006a41a8cd9aab3bcb5e428b80}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Because meaningful sentences are composed of meaningful words, any system that hopes to process natural languages as people do must have information about words and their meanings. This information is traditionally provided through dictionaries, and machine-readable dictionaries are now widely available. But dictionary entries evolved for the convenience of human readers, not for machines. WordNet1 provides a more effective combination of traditional lexicographic information and modern computing. WordNet is an online lexical database designed for use under program control. English nouns, verbs, adjectives, and adverbs are organized into sets of synonyms, each representing a lexicalized concept. Semantic relations link the synonym sets [4].}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Communications of the ACM}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shorttitle}{{{WordNet}}}
+      \field{title}{{{WordNet}}: A Lexical Database for {{English}}}
+      \field{volume}{38}
+      \field{year}{1995}
+      \field{pages}{39\bibrangedash 41}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/219717.219748
+      \endverb
     \endentry
     \entry{miyato_adversarial_2017}{article}{}
       \name{author}{3}{}{%
@@ -2083,6 +2228,80 @@
       \endverb
       \keyw{Computer Science - Cryptography and Security,Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing}
     \endentry
+    \entry{patwa_fighting_2021}{article}{}
+      \name{author}{9}{}{%
+        {{hash=25c882fc0a4ad6a408a7dd67dfbe41b9}{%
+           family={Patwa},
+           familyi={P\bibinitperiod},
+           given={Parth},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f3fae123e7a7789e270d29c850b5f6c3}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Shivam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=581bf5ae3b859e3833f4947c4881dcbb}{%
+           family={Pykl},
+           familyi={P\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod}}}%
+        {{hash=94d58f484bdb8beae98b52a3f435e227}{%
+           family={Guptha},
+           familyi={G\bibinitperiod},
+           given={Vineeth},
+           giveni={V\bibinitperiod}}}%
+        {{hash=6669a05b68bb4d04330a9c6504a615d1}{%
+           family={Kumari},
+           familyi={K\bibinitperiod},
+           given={Gitanjali},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dbe5532cd643bc6511330e076c8b65cf}{%
+           family={Akhtar},
+           familyi={A\bibinitperiod},
+           given={Md\bibnamedelima Shad},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=22be816ef80eb53773fd2ed1b59abf1b}{%
+           family={Ekbal},
+           familyi={E\bibinitperiod},
+           given={Asif},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e286eaf7f7861d5efa03fb385e027d8}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Amitava},
+           giveni={A\bibinitperiod}}}%
+        {{hash=12ef4925945d218592da34e0e46c4eb4}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={Tanmoy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{981142a4c61b680ec1693865bda28947}
+      \strng{fullhash}{1c7d35049810583137d93da315d6221f}
+      \strng{bibnamehash}{981142a4c61b680ec1693865bda28947}
+      \strng{authorbibnamehash}{981142a4c61b680ec1693865bda28947}
+      \strng{authornamehash}{981142a4c61b680ec1693865bda28947}
+      \strng{authorfullhash}{1c7d35049810583137d93da315d6221f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Along with COVID-19 pandemic we are also fighting an `infodemic'. Fake news and rumors are rampant on social media. Believing in rumors can cause significant harm. This is further exacerbated at the time of a pandemic. To tackle this, we curate and release a manually annotated dataset of 10,700 social media posts and articles of real and fake news on COVID-19. We benchmark the annotated dataset with four machine learning baselines - Decision Tree, Logistic Regression , Gradient Boost , and Support Vector Machine (SVM). We obtain the best performance of 93.46\textbackslash\% F1-score with SVM. The data and code is available at: https://github.com/parthpatwa/covid19-fake-news-dectection}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:2011.03327 [cs]}
+      \field{month}{3}
+      \field{shorttitle}{Fighting an {{Infodemic}}}
+      \field{title}{Fighting an {{Infodemic}}: {{COVID-19 Fake News Dataset}}}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2011.03327
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/D2R6R9G4/Patwa et al. - 2021 - Fighting an Infodemic COVID-19 Fake News Dataset.pdf;/Users/teetusaini/Zotero/storage/D45KXKU8/2011.html
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Information Retrieval,Computer Science - Social and Information Networks}
+    \endentry
     \entry{pennington_glove_2014}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=ab47b497d1b0cdaddd8594e4bd501ee5}{%
@@ -2425,6 +2644,52 @@
       \verb{file}
       \verb /Users/teetusaini/Zotero/storage/GE62AIGN/Ren et al. - 2020 - Generating Natural Language Adversarial Examples o.pdf;/Users/teetusaini/Zotero/storage/MKHRYVBE/2003.html
       \endverb
+    \endentry
+    \entry{salton_vector_1975}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5299281e19f9b62eb7b3db2c8c4089fd}{%
+           family={Salton},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d2a1c5a5506119e30ddf6ef38b9dd45f}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=09bbc7b7b2a15d80318e4af2bf2e4d53}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a341c83215b29d64af72da280194256}
+      \strng{fullhash}{4a341c83215b29d64af72da280194256}
+      \strng{bibnamehash}{4a341c83215b29d64af72da280194256}
+      \strng{authorbibnamehash}{4a341c83215b29d64af72da280194256}
+      \strng{authornamehash}{4a341c83215b29d64af72da280194256}
+      \strng{authorfullhash}{4a341c83215b29d64af72da280194256}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a document retrieval, or other pattern matching environment where stored entities (documents) are compared with each other or with incoming patterns (search requests), it appears that the best indexing (property) space is one where each entity lies as far away from the others as possible; in these circumstances the value of an indexing system may be expressible as a function of the density of the object space; in particular, retrieval performance may correlate inversely with space density. An approach based on space density computations is used to choose an optimum indexing vocabulary for a collection of documents. Typical evaluation results are shown, demonstating the usefulness of the model.}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Communications of the ACM}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{A Vector Space Model for Automatic Indexing}
+      \field{volume}{18}
+      \field{year}{1975}
+      \field{pages}{613\bibrangedash 620}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/361219.361220
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/PPP633AX/Salton et al. - 1975 - A vector space model for automatic indexing.pdf
+      \endverb
+      \keyw{automatic indexing,automatic information retrieval,content analysis,document space}
     \endentry
     \entry{sanh_distilbert_2020}{article}{}
       \name{author}{4}{}{%
@@ -2811,66 +3076,6 @@
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning}
     \endentry
-    \entry{wang_infobert_2020}{inproceedings}{}
-      \name{author}{7}{}{%
-        {{hash=fd845565e2b84550fb7832698c46ea3e}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Boxin},
-           giveni={B\bibinitperiod}}}%
-        {{hash=5e5b074eac11025ce8ec1e809f999edf}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Shuohang},
-           giveni={S\bibinitperiod}}}%
-        {{hash=f90fa099ce585c3d1d009abdb2ccf07c}{%
-           family={Cheng},
-           familyi={C\bibinitperiod},
-           given={Yu},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=5b515539cd1aa9307a2fe06f4e0aa59f}{%
-           family={Gan},
-           familyi={G\bibinitperiod},
-           given={Zhe},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=047fd30cb23973caae3e3b6d51c4e51a}{%
-           family={Jia},
-           familyi={J\bibinitperiod},
-           given={Ruoxi},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a9c8728e355996d027a7e56b60820a18}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Bo},
-           giveni={B\bibinitperiod}}}%
-        {{hash=8524654817c0d791b04914de54a6cf51}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Jingjing},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{657edc210419571480e080ce4a71d387}
-      \strng{fullhash}{865fd6e60b3468d552b28656d1a8a2c6}
-      \strng{bibnamehash}{657edc210419571480e080ce4a71d387}
-      \strng{authorbibnamehash}{657edc210419571480e080ce4a71d387}
-      \strng{authornamehash}{657edc210419571480e080ce4a71d387}
-      \strng{authorfullhash}{865fd6e60b3468d552b28656d1a8a2c6}
-      \field{extraname}{1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Large-scale language models such as BERT have achieved state-of-the-art performance across a wide range of NLP tasks. Recent studies, however, show that such BERT-based models are vulnerable facing...}
-      \field{booktitle}{International {{Conference}} on {{Learning Representations}}}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{shorttitle}{{{InfoBERT}}}
-      \field{title}{{{InfoBERT}}: {{Improving Robustness}} of {{Language Models}} from {{An Information Theoretic Perspective}}}
-      \field{year}{2020}
-      \verb{file}
-      \verb /Users/teetusaini/Zotero/storage/WPVNHUXV/Wang et al. - 2020 - InfoBERT Improving Robustness of Language Models .pdf;/Users/teetusaini/Zotero/storage/7FAETCG7/forum.html
-      \endverb
-    \endentry
     \entry{wang_towards_2021}{article}{}
       \name{author}{5}{}{%
         {{hash=11cf8ccb393cc032fe70334df28645aa}{%
@@ -2905,7 +3110,6 @@
       \strng{authorbibnamehash}{cf461fdf4f0fb51c9effdd8ec1b48c12}
       \strng{authornamehash}{cf461fdf4f0fb51c9effdd8ec1b48c12}
       \strng{authorfullhash}{2c270e6832886d9d1f76fa69eea84242}
-      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -3084,49 +3288,6 @@
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
-    \entry{zhang_character-level_2016}{article}{}
-      \name{author}{3}{}{%
-        {{hash=87f628db6da99dc0a2a20f276e51b3ac}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xiang},
-           giveni={X\bibinitperiod}}}%
-        {{hash=719907501e7c9162dc0806c2851d2b72}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Junbo},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
-           family={LeCun},
-           familyi={L\bibinitperiod},
-           given={Yann},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{22e84834a9f6d78a9a9424a45ede8129}
-      \strng{fullhash}{22e84834a9f6d78a9a9424a45ede8129}
-      \strng{bibnamehash}{22e84834a9f6d78a9a9424a45ede8129}
-      \strng{authorbibnamehash}{22e84834a9f6d78a9a9424a45ede8129}
-      \strng{authornamehash}{22e84834a9f6d78a9a9424a45ede8129}
-      \strng{authorfullhash}{22e84834a9f6d78a9a9424a45ede8129}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This article offers an empirical exploration on the use of character-level convolutional networks (ConvNets) for text classification. We constructed several large-scale datasets to show that character-level convolutional networks could achieve state-of-the-art or competitive results. Comparisons are offered against traditional models such as bag of words, n-grams and their TFIDF variants, and deep learning models such as word-based ConvNets and recurrent neural networks.}
-      \field{eprintclass}{cs}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{arXiv:1509.01626 [cs]}
-      \field{month}{4}
-      \field{title}{Character-Level {{Convolutional Networks}} for {{Text Classification}}}
-      \field{year}{2016}
-      \verb{eprint}
-      \verb 1509.01626
-      \endverb
-      \verb{file}
-      \verb /Users/teetusaini/Zotero/storage/A2AJSS8X/Zhang et al. - 2016 - Character-level Convolutional Networks for Text Cl.pdf;/Users/teetusaini/Zotero/storage/DUCF75RD/1509.html
-      \endverb
-      \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning}
-    \endentry
     \entry{zhou_defense_2020}{article}{}
       \name{author}{5}{}{%
         {{hash=3625efaf108a2751cfdacddd7a073c3d}{%
@@ -3245,6 +3406,7 @@
       \keyw{Computer Science - Computation and Language}
     \endentry
   \enddatalist
+  \missing{sanh_DistilBERT_2020}
 \endrefsection
 \endinput
 
