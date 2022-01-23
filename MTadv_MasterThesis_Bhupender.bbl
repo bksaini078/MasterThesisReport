@@ -456,6 +456,16 @@
       \verb /Users/teetusaini/Zotero/storage/BW3UFKUJ/Chowdhury - 2003 - Natural language processing.pdf;/Users/teetusaini/Zotero/storage/ML4HD95B/aris.html
       \endverb
     \endentry
+    \entry{noauthor_connected_nodate-1}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.connectedpapers.com/}
+      \field{title}{Connected {{Papers}} | {{Find}} and Explore Academic Papers}
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/8AV87YV7/www.connectedpapers.com.html
+      \endverb
+    \endentry
     \entry{devlin_bert_2019-1}{article}{}
       \name{author}{4}{}{%
         {{hash=13202969e372bc82318f9629cbdd199b}{%
@@ -849,6 +859,60 @@
       \endverb
       \keyw{Computer Science - Neural and Evolutionary Computing}
     \endentry
+    \entry{guo_rosearch_2021}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b10fcfadf669bd48a908e04f32864424}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=729145c7aea391915799f0f0868d1327}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jianlei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c7def614c5b94aa5499428a9644f024d}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Haoyi},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9751b60d06a9c630efb6d95db66c7d91}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Xucheng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=221d23a1cc1702c31044af688c0b7c39}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jianxin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ece64fb243e879e62ec6eb403bbf2413}
+      \strng{fullhash}{cba66cf7e2d384e2e8ca821527ae0a0d}
+      \strng{bibnamehash}{ece64fb243e879e62ec6eb403bbf2413}
+      \strng{authorbibnamehash}{ece64fb243e879e62ec6eb403bbf2413}
+      \strng{authornamehash}{ece64fb243e879e62ec6eb403bbf2413}
+      \strng{authorfullhash}{cba66cf7e2d384e2e8ca821527ae0a0d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Pre-trained language models achieve outstanding performance in NLP tasks. Various knowledge distillation methods have been proposed to reduce the heavy computation and storage requirements of pre-trained language models. However, from our observations, student models acquired by knowledge distillation suffer from adversarial attacks, which limits their usage in security sensitive scenarios. In order to overcome these security problems, RoSearch is proposed as a comprehensive framework to search the student models with better adversarial robustness when performing knowledge distillation. A directed acyclic graph based search space is built and an evolutionary search strategy is utilized to guide the searching approach. Each searched architecture is trained by knowledge distillation on pre-trained language model and then evaluated under a robustness-, accuracy- and efficiency-aware metric as environmental fitness. Experimental results show that RoSearch can improve robustness of student models from 7\%\textasciitilde 18\% up to 45.8\%\textasciitilde 47.8\% on different datasets with comparable weight compression ratio to existing distillation methods (4.6\$\textbackslash times\$\textasciitilde 6.5\$\textbackslash times\$ improvement from teacher model BERT\_BASE) and low accuracy drop. In addition, we summarize the relationship between student architecture and robustness through statistics of searched models.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:2106.03613 [cs]}
+      \field{month}{6}
+      \field{shorttitle}{{{RoSearch}}}
+      \field{title}{{{RoSearch}}: {{Search}} for {{Robust Student Architectures When Distilling Pre-trained Language Models}}}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2106.03613
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/NESR8SR8/Guo et al. - 2021 - RoSearch Search for Robust Student Architectures .pdf;/Users/teetusaini/Zotero/storage/7Q8E7CWV/2106.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning}
+    \endentry
     \entry{harris_distributional_1954}{article}{}
       \name{author}{1}{}{%
         {{hash=c93d2fea5cc5e59f6d92c0cfb5ba20a8}{%
@@ -1136,6 +1200,7 @@
       \strng{authorbibnamehash}{820094a027d5d5dae7b0d2da9549eb95}
       \strng{authornamehash}{820094a027d5d5dae7b0d2da9549eb95}
       \strng{authorfullhash}{fd2abecbcae8ab53a18ba511cbe06376}
+      \field{extraname}{1}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{labelnamesource}{author}
@@ -1158,6 +1223,62 @@
       \verb /Users/teetusaini/Zotero/storage/2WXSMWUY/Jiang et al. - 2020 - SMART Robust and Efficient Fine-Tuning for Pre-tr.pdf;/Users/teetusaini/Zotero/storage/27C47Y7D/1911.html
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning,Mathematics - Optimization and Control}
+    \endentry
+    \entry{jiang_smart_2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a5643fa1ae8fe0824b15f38d5bd6a580}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Haoming},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c53e3e860dbeebd073b0651c1f711567}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Pengcheng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=05d71a9c5e7ac79222e01a55af0ccb93}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Weizhu},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b881686cdf68b52745dbcb6374b8008b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=159bca5607e3797666654a2e3022978a}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8dd86696c5f4cffef5a0dd2c8e864f45}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{820094a027d5d5dae7b0d2da9549eb95}
+      \strng{fullhash}{592cb484b040788aed550056c4c2fbc4}
+      \strng{bibnamehash}{820094a027d5d5dae7b0d2da9549eb95}
+      \strng{authorbibnamehash}{820094a027d5d5dae7b0d2da9549eb95}
+      \strng{authornamehash}{820094a027d5d5dae7b0d2da9549eb95}
+      \strng{authorfullhash}{592cb484b040788aed550056c4c2fbc4}
+      \field{extraname}{2}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A new learning framework for robust and efficient fine-tuning for pre-trained models to attain better generalization performance and outperforms the state-of-the-art T5 model, which is the largest pre- trained model containing 11 billion parameters, on GLUE. Transfer learning has fundamentally changed the landscape of natural language processing (NLP). Many state-of-the-art models are first pre-trained on a large text corpus and then fine-tuned on downstream tasks. However, due to limited data resources from downstream tasks and the extremely high complexity of pre-trained models, aggressive fine-tuning often causes the fine-tuned model to overfit the training data of downstream tasks and fail to generalize to unseen data. To address such an issue in a principled manner, we propose a new learning framework for robust and efficient fine-tuning for pre-trained models to attain better generalization performance. The proposed framework contains two important ingredients: 1. Smoothness-inducing regularization, which effectively manages the complexity of the model; 2. Bregman proximal point optimization, which is an instance of trust-region methods and can prevent aggressive updating. Our experiments show that the proposed framework achieves new state-of-the-art performance on a number of NLP tasks including GLUE, SNLI, SciTail and ANLI. Moreover, it also outperforms the state-of-the-art T5 model, which is the largest pre-trained model containing 11 billion parameters, on GLUE.}
+      \field{journaltitle}{ACL}
+      \field{shorttitle}{{{SMART}}}
+      \field{title}{{{SMART}}: {{Robust}} and {{Efficient Fine-Tuning}} for {{Pre-trained Natural Language Models}} through {{Principled Regularized Optimization}}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.18653/v1/2020.acl-main.197
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/66PR5DUA/Jiang et al. - 2020 - SMART Robust and Efficient Fine-Tuning for Pre-tr.pdf
+      \endverb
     \endentry
     \entry{jin_is_2020}{article}{}
       \name{author}{4}{}{%
@@ -1208,6 +1329,49 @@
       \endverb
       \verb{file}
       \verb /Users/teetusaini/Zotero/storage/5V8MIJXJ/Jin et al. - 2020 - Is BERT Really Robust A Strong Baseline for Natur.pdf;/Users/teetusaini/Zotero/storage/K4TFYJ5B/6311.html
+      \endverb
+    \endentry
+    \entry{jones_robust_2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9f153b8759ba3f6255a4b8b12377385f}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7b5fcae550daa1c14f3b61f057f1c373}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7bb584b014f043d94e43a8395735799e}{%
+           family={Raghunathan},
+           familyi={R\bibinitperiod},
+           given={Aditi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=86c032bbc45c3b616f0a1170befc0e82}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Percy},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{0854748347834422b86198c0f2a2dc42}
+      \strng{fullhash}{5aaa2c5b1e8844c60c346ab02871a9be}
+      \strng{bibnamehash}{0854748347834422b86198c0f2a2dc42}
+      \strng{authorbibnamehash}{0854748347834422b86198c0f2a2dc42}
+      \strng{authornamehash}{0854748347834422b86198c0f2a2dc42}
+      \strng{authorfullhash}{5aaa2c5b1e8844c60c346ab02871a9be}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Despite excellent performance on many tasks, NLP systems are easily fooled by small adversarial perturbations of inputs. Existing procedures to defend against such perturbations are either (i) heuristic in nature and susceptible to stronger attacks or (ii) provide guaranteed robustness to worst-case attacks, but are incompatible with state-of-the-art models like BERT. In this work, we introduce robust encodings (RobEn): a simple framework that confers guaranteed robustness, without making compromises on model architecture. The core component of RobEn is an encoding function, which maps sentences to a smaller, discrete space of encodings. Systems using these encodings as a bottleneck confer guaranteed robustness with standard training, and the same encodings can be used across multiple tasks. We identify two desiderata to construct robust encoding functions: perturbations of a sentence should map to a small set of encodings (stability), and models using encodings should still perform well (fidelity). We instantiate RobEn to defend against a large family of adversarial typos. Across six tasks from GLUE, our instantiation of RobEn paired with BERT achieves an average robust accuracy of 71.3\% against all adversarial typos in the family considered, while previous work using a typo-corrector achieves only 35.3\% accuracy against a simple greedy attack.}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shorttitle}{Robust {{Encodings}}}
+      \field{title}{Robust {{Encodings}}: {{A Framework}} for {{Combating Adversarial Typos}}}
+      \field{year}{2020}
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/VTFHSLC4/Jones et al. - 2020 - Robust Encodings A Framework for Combating Advers.pdf
       \endverb
     \endentry
     \entry{kardakis_examining_2021}{article}{}
@@ -1570,6 +1734,44 @@
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
+    \entry{liu_transfer_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=69be1248ab71da4b806d79d77bb6b0b8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xinyi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8ac3ad719b2b9205c0e953afa641933f}{%
+           family={Wangperawong},
+           familyi={W\bibinitperiod},
+           given={Artit},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fc31c1167754358462d8bd1e69e366b}
+      \strng{fullhash}{7fc31c1167754358462d8bd1e69e366b}
+      \strng{bibnamehash}{7fc31c1167754358462d8bd1e69e366b}
+      \strng{authorbibnamehash}{7fc31c1167754358462d8bd1e69e366b}
+      \strng{authornamehash}{7fc31c1167754358462d8bd1e69e366b}
+      \strng{authorfullhash}{7fc31c1167754358462d8bd1e69e366b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study compares the effectiveness and robustness of multi-class categorization of Amazon product data using transfer learning on pre-trained contextualized language models. Specifically, we fine-tuned BERT and XLNet, two bidirectional models that have achieved state-of-the-art performance on many natural language tasks and benchmarks, including text classification. While existing classification studies and benchmarks focus on binary targets, with the exception of ordinal ranking tasks, here we examine the robustness of such models as the number of classes grows from 1 to 20. Our experiments demonstrate an approximately linear decrease in performance metrics (i.e., precision, recall, \$F\_1\$ score, and accuracy) with the number of class labels. BERT consistently outperforms XLNet using identical hyperparameters on the entire range of class label quantities for categorizing products based on their textual descriptions. BERT is also more affordable than XLNet in terms of the computational cost (i.e., time and memory) required for training. In all cases studied, the performance degradation rates were estimated to be 1\% per additional class label.}
+      \field{eprintclass}{cs, stat}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1909.03564 [cs, stat]}
+      \field{month}{9}
+      \field{title}{Transfer {{Learning Robustness}} in {{Multi-Class Categorization}} by {{Fine-Tuning Pre-Trained Contextualized Language Models}}}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1909.03564
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/BHI4Q3F8/Liu and Wangperawong - 2019 - Transfer Learning Robustness in Multi-Class Catego.pdf;/Users/teetusaini/Zotero/storage/6BILEWZJ/1909.html
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
     \entry{liu_roberta_2019-1}{article}{}
       \name{author}{10}{}{%
         {{hash=94530daf7a9db4abe89cfb22935373eb}{%
@@ -1776,6 +1978,45 @@
       \verb /Users/teetusaini/Zotero/storage/MWXVSZ4B/Maas et al. - 2011 - Learning Word Vectors for Sentiment Analysis.pdf
       \endverb
     \endentry
+    \entry{malkiel_mml_2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=318b53983027d949b5fc28ad22b5f08c}{%
+           family={Malkiel},
+           familyi={M\bibinitperiod},
+           given={Itzik},
+           giveni={I\bibinitperiod}}}%
+        {{hash=f70d0dee88ad32fb0faf165ab5d0e9ab}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Lior},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca139f62f9c1236a3c454b38a948f8a9}
+      \strng{fullhash}{ca139f62f9c1236a3c454b38a948f8a9}
+      \strng{bibnamehash}{ca139f62f9c1236a3c454b38a948f8a9}
+      \strng{authorbibnamehash}{ca139f62f9c1236a3c454b38a948f8a9}
+      \strng{authornamehash}{ca139f62f9c1236a3c454b38a948f8a9}
+      \strng{authorfullhash}{ca139f62f9c1236a3c454b38a948f8a9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Recent state-of-the-art language models utilize a two-phase training procedure comprised of (i) unsupervised pre-training on unlabeled text, and (ii) fine-tuning for a specific supervised task. More recently, many studies have been focused on trying to improve these models by enhancing the pre-training phase, either via better choice of hyperparameters or by leveraging an improved formulation. However, the pre-training phase is computationally expensive and often done on private datasets. In this work, we present a method that leverages BERT's fine-tuning phase to its fullest, by applying an extensive number of parallel classifier heads, which are enforced to be orthogonal, while adaptively eliminating the weaker heads during training. Our method allows the model to converge to an optimal number of parallel classifiers, depending on the given dataset at hand. We conduct an extensive inter- and intra-dataset evaluations, showing that our method improves the robustness of BERT, sometimes leading to a +9\textbackslash\% gain in accuracy. These results highlight the importance of a proper fine-tuning procedure, especially for relatively smaller-sized datasets. Our code is attached as supplementary and our models will be made completely public.}
+      \field{eprintclass}{cs, stat}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1911.06182 [cs, stat]}
+      \field{month}{11}
+      \field{shorttitle}{{{MML}}}
+      \field{title}{{{MML}}: {{Maximal Multiverse Learning}} for {{Robust Fine-Tuning}} of {{Language Models}}}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1911.06182
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/3GL95R6L/Malkiel and Wolf - 2019 - MML Maximal Multiverse Learning for Robust Fine-T.pdf;/Users/teetusaini/Zotero/storage/CP5UNZ4J/1911.html
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
     \entry{mikolov_efficient_2013}{article}{}
       \name{author}{4}{}{%
         {{hash=a2d359b12ca2fadf0b40136a73f021bb}{%
@@ -1948,6 +2189,44 @@
       \verb /Users/teetusaini/Zotero/storage/W9ETVEI8/Miyato et al. - 2018 - Virtual Adversarial Training A Regularization Met.pdf;/Users/teetusaini/Zotero/storage/7PTPI7YX/1704.html
       \endverb
       \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
+    \endentry
+    \entry{moradi_evaluating_2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e2e49dda8cbc839b457e0495a4faf500}{%
+           family={Moradi},
+           familyi={M\bibinitperiod},
+           given={Milad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=866a9f2b0090e6a46aab482434be3165}{%
+           family={Samwald},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c893d4d2a29da3b5db65f7e4293bc78}
+      \strng{fullhash}{5c893d4d2a29da3b5db65f7e4293bc78}
+      \strng{bibnamehash}{5c893d4d2a29da3b5db65f7e4293bc78}
+      \strng{authorbibnamehash}{5c893d4d2a29da3b5db65f7e4293bc78}
+      \strng{authornamehash}{5c893d4d2a29da3b5db65f7e4293bc78}
+      \strng{authorfullhash}{5c893d4d2a29da3b5db65f7e4293bc78}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{High-performance neural language models have obtained state-of-the-art results on a wide range of Natural Language Processing (NLP) tasks. However, results for common benchmark datasets often do not reflect model reliability and robustness when applied to noisy, real-world data. In this study, we design and implement various types of character-level and word-level perturbation methods to simulate realistic scenarios in which input texts may be slightly noisy or different from the data distribution on which NLP systems were trained. Conducting comprehensive experiments on different NLP tasks, we investigate the ability of high-performance language models such as BERT, XLNet, RoBERTa, and ELMo in handling different types of input perturbations. The results suggest that language models are sensitive to input perturbations and their performance can decrease even when small changes are introduced. We highlight that models need to be further improved and that current benchmarks are not reflecting model robustness well. We argue that evaluations on perturbed inputs should routinely complement widely-used benchmarks in order to yield a more realistic understanding of NLP systems robustness.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:2108.12237 [cs]}
+      \field{month}{8}
+      \field{title}{Evaluating the {{Robustness}} of {{Neural Language Models}} to {{Input Perturbations}}}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2108.12237
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/CNZK233H/Moradi and Samwald - 2021 - Evaluating the Robustness of Neural Language Model.pdf;/Users/teetusaini/Zotero/storage/E9RV5X2S/2108.html
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
     \entry{morris_textattack_2020}{article}{}
       \name{author}{6}{}{%
@@ -2774,6 +3053,49 @@
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning}
     \endentry
+    \entry{shi_robustness_2020}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b9827024a5757e649d396d5d7b0bc6fd}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Zhouxing},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=552270ec2b3ea15f396fdca7e87932e8}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Minlie},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{0fb2435eb3f133aef16bfb4d439b6525}
+      \strng{fullhash}{0fb2435eb3f133aef16bfb4d439b6525}
+      \strng{bibnamehash}{0fb2435eb3f133aef16bfb4d439b6525}
+      \strng{authorbibnamehash}{0fb2435eb3f133aef16bfb4d439b6525}
+      \strng{authornamehash}{0fb2435eb3f133aef16bfb4d439b6525}
+      \strng{authorfullhash}{0fb2435eb3f133aef16bfb4d439b6525}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Revealing the robustness issues of natural language processing models and improving their robustness is important to their performance under difficult situations. In this paper, we study the robustness of paraphrase identification models from a new perspective –{} via modification with shared words, and we show that the models have significant robustness issues when facing such modifications. To modify an example consisting of a sentence pair, we either replace some words shared by both sentences or introduce new shared words. We aim to construct a valid new example such that a target model makes a wrong prediction. To find a modification solution, we use beam search constrained by heuristic rules, and we leverage a BERT masked language model for generating substitution words compatible with the context. Experiments show that the performance of the target models has a dramatic drop on the modified examples, thereby revealing the robustness issue. We also show that adversarial training can mitigate this issue.}
+      \field{booktitle}{Findings of the {{Association}} for {{Computational Linguistics}}: {{EMNLP}} 2020}
+      \field{month}{11}
+      \field{title}{Robustness to {{Modification}} with {{Shared Words}} in {{Paraphrase Identification}}}
+      \field{year}{2020}
+      \field{pages}{164\bibrangedash 171}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.18653/v1/2020.findings-emnlp.16
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/X4YHYZLW/Shi and Huang - 2020 - Robustness to Modification with Shared Words in Pa.pdf
+      \endverb
+    \endentry
     \entry{si_better_2021}{inproceedings}{}
       \name{author}{7}{}{%
         {{hash=50e55ce524a6cabd5d5e862c580e6869}{%
@@ -3076,6 +3398,66 @@
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning}
     \endentry
+    \entry{wang_infobert_2020}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=fd845565e2b84550fb7832698c46ea3e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Boxin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5e5b074eac11025ce8ec1e809f999edf}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shuohang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f90fa099ce585c3d1d009abdb2ccf07c}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5b515539cd1aa9307a2fe06f4e0aa59f}{%
+           family={Gan},
+           familyi={G\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=047fd30cb23973caae3e3b6d51c4e51a}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Ruoxi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a9c8728e355996d027a7e56b60820a18}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8524654817c0d791b04914de54a6cf51}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jingjing},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{657edc210419571480e080ce4a71d387}
+      \strng{fullhash}{865fd6e60b3468d552b28656d1a8a2c6}
+      \strng{bibnamehash}{657edc210419571480e080ce4a71d387}
+      \strng{authorbibnamehash}{657edc210419571480e080ce4a71d387}
+      \strng{authornamehash}{657edc210419571480e080ce4a71d387}
+      \strng{authorfullhash}{865fd6e60b3468d552b28656d1a8a2c6}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Large-scale language models such as BERT have achieved state-of-the-art performance across a wide range of NLP tasks. Recent studies, however, show that such BERT-based models are vulnerable facing...}
+      \field{booktitle}{International {{Conference}} on {{Learning Representations}}}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shorttitle}{{{InfoBERT}}}
+      \field{title}{{{InfoBERT}}: {{Improving Robustness}} of {{Language Models}} from {{An Information Theoretic Perspective}}}
+      \field{year}{2020}
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/WPVNHUXV/Wang et al. - 2020 - InfoBERT Improving Robustness of Language Models .pdf;/Users/teetusaini/Zotero/storage/7FAETCG7/forum.html
+      \endverb
+    \endentry
     \entry{wang_towards_2021}{article}{}
       \name{author}{5}{}{%
         {{hash=11cf8ccb393cc032fe70334df28645aa}{%
@@ -3110,6 +3492,7 @@
       \strng{authorbibnamehash}{cf461fdf4f0fb51c9effdd8ec1b48c12}
       \strng{authornamehash}{cf461fdf4f0fb51c9effdd8ec1b48c12}
       \strng{authorfullhash}{2c270e6832886d9d1f76fa69eea84242}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -3129,6 +3512,99 @@
       \verb /Users/teetusaini/Zotero/storage/P2NHSKAZ/Wang et al. - 2021 - Towards a Robust Deep Neural Network in Texts A S.pdf;/Users/teetusaini/Zotero/storage/PP3DSKQC/1902.html
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning}
+    \endentry
+    \entry{wang_natural_2020-1}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b0f8a63bc64e1bee18634e9e0eb45232}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaosen},
+           giveni={X\bibinitperiod}}}%
+        {{hash=71c4882c58df08492958e248e77cd853}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a328f63ba0e78525a27b105bb17fe87e}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5838e51e6cd0f498c2d49af122acda82}
+      \strng{fullhash}{5838e51e6cd0f498c2d49af122acda82}
+      \strng{bibnamehash}{5838e51e6cd0f498c2d49af122acda82}
+      \strng{authorbibnamehash}{5838e51e6cd0f498c2d49af122acda82}
+      \strng{authornamehash}{5838e51e6cd0f498c2d49af122acda82}
+      \strng{authorfullhash}{5838e51e6cd0f498c2d49af122acda82}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In recent years, inspired by a mass of researches on adversarial examples for computer vision, there has been a growing interest in designing adversarial attacks for Natural Language Processing (NLP) tasks, followed by very few works of adversarial defenses for NLP. To our knowledge, there exists no defense method against the successful synonym substitution based attacks that aim to satisfy all the lexical, grammatical, semantic constraints and thus are hard to be perceived by humans. We contribute to fill this gap and propose a novel adversarial defense method called \textbackslash textit\{Synonym Encoding Method\} (SEM), which inserts an encoder before the input layer of the model and then trains the model to eliminate adversarial perturbations. Extensive experiments demonstrate that SEM can efficiently defend current best synonym substitution based adversarial attacks with little decay on the accuracy for benign examples. To better evaluate SEM, we also design a strong attack method called Improved Genetic Algorithm (IGA) that adopts the genetic metaheuristic for synonym substitution based attacks. Compared with the first genetic based adversarial attack proposed in 2018, IGA can achieve higher attack success rate with lower word substitution rate, at the same time maintain the transferability of adversarial examples.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1909.06723 [cs]}
+      \field{month}{4}
+      \field{title}{Natural {{Language Adversarial Attacks}} and {{Defenses}} in {{Word Level}}}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 1909.06723
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/6I52DNUL/Wang et al. - 2020 - Natural Language Adversarial Attacks and Defenses .pdf;/Users/teetusaini/Zotero/storage/RUKARYWE/1909.html
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning}
+    \endentry
+    \entry{wang_adversarial_2021-1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b0f8a63bc64e1bee18634e9e0eb45232}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaosen},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9f15df347f7499e975e80688fbc4b253}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yichen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9e48e778d5cd373a68481261d90dcc04}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Yihe},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a328f63ba0e78525a27b105bb17fe87e}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kun},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d16939a002b44db76db2f207af4e022d}
+      \strng{fullhash}{a0ed257341a23d50bdf19ec8725cc17b}
+      \strng{bibnamehash}{d16939a002b44db76db2f207af4e022d}
+      \strng{authorbibnamehash}{d16939a002b44db76db2f207af4e022d}
+      \strng{authornamehash}{d16939a002b44db76db2f207af4e022d}
+      \strng{authorfullhash}{a0ed257341a23d50bdf19ec8725cc17b}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adversarial training is the most empirically successful approach in improving the robustness of deep neural networks for image classification. For text classification, however, existing synonym substitution based adversarial attacks are effective but not very efficient to be incorporated into practical text adversarial training. Gradient-based attacks, which are very efficient for images, are hard to be implemented for synonym substitution based text attacks due to the lexical, grammatical and semantic constraints and the discrete text input space. Thereby, we propose a fast text adversarial attack method called Fast Gradient Projection Method (FGPM) based on synonym substitution, which is about 20 times faster than existing text attack methods and could achieve similar attack performance. We then incorporate FGPM with adversarial training and propose a text defense method called Adversarial Training with FGPM enhanced by Logit pairing (ATFL). Experiments show that ATFL could significantly improve the model robustness and block the transferability of adversarial examples.}
+      \field{issn}{2374-3468}
+      \field{journaltitle}{Proceedings of the AAAI Conference on Artificial Intelligence}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{16}
+      \field{title}{Adversarial {{Training}} with {{Fast Gradient Projection Method}} against {{Synonym Substitution Based Text Attacks}}}
+      \field{volume}{35}
+      \field{year}{2021}
+      \field{pages}{13997\bibrangedash 14005}
+      \range{pages}{9}
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/C8V9ZTTS/Wang et al. - 2021 - Adversarial Training with Fast Gradient Projection.pdf
+      \endverb
+      \keyw{Adversarial Attacks \& Robustness}
     \endentry
     \entry{yuan_adversarial_2018}{article}{}
       \name{author}{4}{}{%
@@ -3288,6 +3764,49 @@
       \endverb
       \keyw{Computer Science - Computation and Language}
     \endentry
+    \entry{zhang_character-level_2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=87f628db6da99dc0a2a20f276e51b3ac}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=719907501e7c9162dc0806c2851d2b72}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Junbo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6a1aa6b7eab12b931ca7c7e3f927231d}{%
+           family={LeCun},
+           familyi={L\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{22e84834a9f6d78a9a9424a45ede8129}
+      \strng{fullhash}{22e84834a9f6d78a9a9424a45ede8129}
+      \strng{bibnamehash}{22e84834a9f6d78a9a9424a45ede8129}
+      \strng{authorbibnamehash}{22e84834a9f6d78a9a9424a45ede8129}
+      \strng{authornamehash}{22e84834a9f6d78a9a9424a45ede8129}
+      \strng{authorfullhash}{22e84834a9f6d78a9a9424a45ede8129}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article offers an empirical exploration on the use of character-level convolutional networks (ConvNets) for text classification. We constructed several large-scale datasets to show that character-level convolutional networks could achieve state-of-the-art or competitive results. Comparisons are offered against traditional models such as bag of words, n-grams and their TFIDF variants, and deep learning models such as word-based ConvNets and recurrent neural networks.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1509.01626 [cs]}
+      \field{month}{4}
+      \field{title}{Character-Level {{Convolutional Networks}} for {{Text Classification}}}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1509.01626
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/A2AJSS8X/Zhang et al. - 2016 - Character-level Convolutional Networks for Text Cl.pdf;/Users/teetusaini/Zotero/storage/DUCF75RD/1509.html
+      \endverb
+      \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning}
+    \endentry
     \entry{zhou_defense_2020}{article}{}
       \name{author}{5}{}{%
         {{hash=3625efaf108a2751cfdacddd7a073c3d}{%
@@ -3406,7 +3925,6 @@
       \keyw{Computer Science - Computation and Language}
     \endentry
   \enddatalist
-  \missing{sanh_DistilBERT_2020}
 \endrefsection
 \endinput
 

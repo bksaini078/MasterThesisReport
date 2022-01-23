@@ -21,9 +21,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Different components of encoder in transformer}}{9}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Calculation flow diagram of Scaled dot product and multi-head attention}}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Calculation flow diagram of Scaled dot product and multi-head attention}}{10}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagram of of pre-training and fine-tuning of BERT model}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagram of of pre-training and fine-tuning of BERT model}}{11}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Three different embeddings in BERT model}}{12}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
@@ -49,7 +49,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Length distribution of Covid-19 fake tweets dataset.\relax }}{27}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Length distribution of IMDB Dataset. \relax }}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Length distribution of IMDB Dataset.\relax }}{27}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Length distribution of Covid-19 fake tweets and IMDB Dataset}}{27}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
@@ -63,7 +63,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Bar plot of number of queries}}{34}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Box-plot of number of queries\relax }}{34}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Box-plot of number of queries.\relax }}{34}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Bar plot of Word perturbation}}{35}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
@@ -75,10 +75,10 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Details of GPU}}{45}{figure.caption.42}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Details of GPU}}{46}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Layer diagram of BERT model used in the experiment}}{45}{figure.caption.43}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Layer diagram of BERT model used in the experiment}}{46}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Layer diagram of DistilBERT model used in the experiment}}{46}{figure.caption.44}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Layer diagram of DistilBERT model used in the experiment}}{47}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

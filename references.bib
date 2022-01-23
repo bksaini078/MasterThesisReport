@@ -406,6 +406,21 @@
   file = {/Users/teetusaini/Zotero/storage/2XYZKUZY/Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf;/Users/teetusaini/Zotero/storage/YDRXA6K7/1810.html}
 }
 
+@article{dong_how_2021,
+  title = {How {{Should Pre-Trained Language Models Be Fine-Tuned Towards Adversarial Robustness}}?},
+  author = {Dong, Xinhsuai and Tuan, Luu Anh and Lin, Min and Yan, Shuicheng and Zhang, Hanwang},
+  year = {2021},
+  month = dec,
+  journal = {arXiv:2112.11668 [cs]},
+  eprint = {2112.11668},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  abstract = {The fine-tuning of pre-trained language models has a great success in many NLP fields. Yet, it is strikingly vulnerable to adversarial examples, e.g., word substitution attacks using only synonyms can easily fool a BERT-based sentiment analysis model. In this paper, we demonstrate that adversarial training, the prevalent defense technique, does not directly fit a conventional fine-tuning scenario, because it suffers severely from catastrophic forgetting: failing to retain the generic and robust linguistic features that have already been captured by the pre-trained model. In this light, we propose Robust Informative Fine-Tuning (RIFT), a novel adversarial fine-tuning method from an information-theoretical perspective. In particular, RIFT encourages an objective model to retain the features learned from the pre-trained model throughout the entire fine-tuning process, whereas a conventional one only uses the pre-trained weights for initialization. Experimental results show that RIFT consistently outperforms the state-of-the-arts on two popular NLP tasks: sentiment analysis and natural language inference, under different attacks across various pre-trained language models.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
+  file = {/Users/teetusaini/Zotero/storage/YZL59BTI/Dong et al. - 2021 - How Should Pre-Trained Language Models Be Fine-Tun.pdf;/Users/teetusaini/Zotero/storage/2L2JHMCJ/2112.html}
+}
+
 @article{dong_towards_2021-1,
   title = {{{TOWARDS ROBUSTNESS AGAINST NATURAL LANGUAGE WORD SUBSTITUTIONS}}},
   author = {Dong, Xinshuai and Luu, Anh Tuan and Ji, Rongrong and Liu, Hong},
@@ -1079,6 +1094,22 @@
   file = {/Users/teetusaini/Zotero/storage/VTFHSLC4/Jones et al. - 2020 - Robust Encodings A Framework for Combating Advers.pdf}
 }
 
+@article{jones_robust_2020-1,
+  title = {Robust {{Encodings}}: {{A Framework}} for {{Combating Adversarial Typos}}},
+  shorttitle = {Robust {{Encodings}}},
+  author = {Jones, Erik and Jia, Robin and Raghunathan, Aditi and Liang, Percy},
+  year = {2020},
+  month = may,
+  journal = {arXiv:2005.01229 [cs]},
+  eprint = {2005.01229},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  abstract = {Despite excellent performance on many tasks, NLP systems are easily fooled by small adversarial perturbations of inputs. Existing procedures to defend against such perturbations are either (i) heuristic in nature and susceptible to stronger attacks or (ii) provide guaranteed robustness to worst-case attacks, but are incompatible with state-of-the-art models like BERT. In this work, we introduce robust encodings (RobEn): a simple framework that confers guaranteed robustness, without making compromises on model architecture. The core component of RobEn is an encoding function, which maps sentences to a smaller, discrete space of encodings. Systems using these encodings as a bottleneck confer guaranteed robustness with standard training, and the same encodings can be used across multiple tasks. We identify two desiderata to construct robust encoding functions: perturbations of a sentence should map to a small set of encodings (stability), and models using encodings should still perform well (fidelity). We instantiate RobEn to defend against a large family of adversarial typos. Across six tasks from GLUE, our instantiation of RobEn paired with BERT achieves an average robust accuracy of 71.3\% against all adversarial typos in the family considered, while previous work using a typo-corrector achieves only 35.3\% accuracy against a simple greedy attack.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Cryptography and Security,Computer Science - Machine Learning},
+  file = {/Users/teetusaini/Zotero/storage/AZTM9P75/Jones et al. - 2020 - Robust Encodings A Framework for Combating Advers.pdf;/Users/teetusaini/Zotero/storage/ZEKDTDMK/2005.html}
+}
+
 @article{junczys-dowmunt_marian_2018-1,
   title = {Marian: {{Fast Neural Machine Translation}} in {{C}}++},
   shorttitle = {Marian},
@@ -1477,6 +1508,21 @@
   file = {/Users/teetusaini/Zotero/storage/ZYKXTIKI/Liu et al. - 2019 - RoBERTa A Robustly Optimized BERT Pretraining App.pdf;/Users/teetusaini/Zotero/storage/GKMJMCIG/1907.html}
 }
 
+@article{liu_transfer_2019,
+  title = {Transfer {{Learning Robustness}} in {{Multi-Class Categorization}} by {{Fine-Tuning Pre-Trained Contextualized Language Models}}},
+  author = {Liu, Xinyi and Wangperawong, Artit},
+  year = {2019},
+  month = sep,
+  journal = {arXiv:1909.03564 [cs, stat]},
+  eprint = {1909.03564},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  abstract = {This study compares the effectiveness and robustness of multi-class categorization of Amazon product data using transfer learning on pre-trained contextualized language models. Specifically, we fine-tuned BERT and XLNet, two bidirectional models that have achieved state-of-the-art performance on many natural language tasks and benchmarks, including text classification. While existing classification studies and benchmarks focus on binary targets, with the exception of ordinal ranking tasks, here we examine the robustness of such models as the number of classes grows from 1 to 20. Our experiments demonstrate an approximately linear decrease in performance metrics (i.e., precision, recall, \$F\_1\$ score, and accuracy) with the number of class labels. BERT consistently outperforms XLNet using identical hyperparameters on the entire range of class label quantities for categorizing products based on their textual descriptions. BERT is also more affordable than XLNet in terms of the computational cost (i.e., time and memory) required for training. In all cases studied, the performance degradation rates were estimated to be 1\% per additional class label.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/Users/teetusaini/Zotero/storage/BHI4Q3F8/Liu and Wangperawong - 2019 - Transfer Learning Robustness in Multi-Class Catego.pdf;/Users/teetusaini/Zotero/storage/6BILEWZJ/1909.html}
+}
+
 @article{luo_local_2021,
   title = {Local {{Interpretations}} for {{Explainable Natural Language Processing}}: {{A Survey}}},
   shorttitle = {Local {{Interpretations}} for {{Explainable Natural Language Processing}}},
@@ -1586,6 +1632,22 @@
   file = {/Users/teetusaini/Zotero/storage/MWGKG6MI/Maheshwary et al. - 2021 - Generating Natural Language Attacks in a Hard Labe.pdf;/Users/teetusaini/Zotero/storage/B3FKE7HM/2012.html}
 }
 
+@article{malkiel_mml_2019,
+  title = {{{MML}}: {{Maximal Multiverse Learning}} for {{Robust Fine-Tuning}} of {{Language Models}}},
+  shorttitle = {{{MML}}},
+  author = {Malkiel, Itzik and Wolf, Lior},
+  year = {2019},
+  month = nov,
+  journal = {arXiv:1911.06182 [cs, stat]},
+  eprint = {1911.06182},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  abstract = {Recent state-of-the-art language models utilize a two-phase training procedure comprised of (i) unsupervised pre-training on unlabeled text, and (ii) fine-tuning for a specific supervised task. More recently, many studies have been focused on trying to improve these models by enhancing the pre-training phase, either via better choice of hyperparameters or by leveraging an improved formulation. However, the pre-training phase is computationally expensive and often done on private datasets. In this work, we present a method that leverages BERT's fine-tuning phase to its fullest, by applying an extensive number of parallel classifier heads, which are enforced to be orthogonal, while adaptively eliminating the weaker heads during training. Our method allows the model to converge to an optimal number of parallel classifiers, depending on the given dataset at hand. We conduct an extensive inter- and intra-dataset evaluations, showing that our method improves the robustness of BERT, sometimes leading to a +9\textbackslash\% gain in accuracy. These results highlight the importance of a proper fine-tuning procedure, especially for relatively smaller-sized datasets. Our code is attached as supplementary and our models will be made completely public.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/Users/teetusaini/Zotero/storage/3GL95R6L/Malkiel and Wolf - 2019 - MML Maximal Multiverse Learning for Robust Fine-T.pdf;/Users/teetusaini/Zotero/storage/CP5UNZ4J/1911.html}
+}
+
 @inproceedings{meng_geometry-inspired_2020,
   title = {A {{Geometry-Inspired Attack}} for {{Generating Natural Language Adversarial Examples}}},
   booktitle = {Proceedings of the 28th {{International Conference}} on {{Computational Linguistics}}},
@@ -1693,6 +1755,21 @@
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language},
   file = {/Users/teetusaini/Zotero/storage/CNZK233H/Moradi and Samwald - 2021 - Evaluating the Robustness of Neural Language Model.pdf;/Users/teetusaini/Zotero/storage/E9RV5X2S/2108.html}
+}
+
+@article{moradi_evaluating_2021-1,
+  title = {Evaluating the {{Robustness}} of {{Neural Language Models}} to {{Input Perturbations}}},
+  author = {Moradi, Milad and Samwald, Matthias},
+  year = {2021},
+  month = aug,
+  journal = {arXiv:2108.12237 [cs]},
+  eprint = {2108.12237},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  abstract = {High-performance neural language models have obtained state-of-the-art results on a wide range of Natural Language Processing (NLP) tasks. However, results for common benchmark datasets often do not reflect model reliability and robustness when applied to noisy, real-world data. In this study, we design and implement various types of character-level and word-level perturbation methods to simulate realistic scenarios in which input texts may be slightly noisy or different from the data distribution on which NLP systems were trained. Conducting comprehensive experiments on different NLP tasks, we investigate the ability of high-performance language models such as BERT, XLNet, RoBERTa, and ELMo in handling different types of input perturbations. The results suggest that language models are sensitive to input perturbations and their performance can decrease even when small changes are introduced. We highlight that models need to be further improved and that current benchmarks are not reflecting model robustness well. We argue that evaluations on perturbed inputs should routinely complement widely-used benchmarks in order to yield a more realistic understanding of NLP systems robustness.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language},
+  file = {/Users/teetusaini/Zotero/storage/TKNU9UAS/Moradi and Samwald - 2021 - Evaluating the Robustness of Neural Language Model.pdf;/Users/teetusaini/Zotero/storage/F38G8BRM/2108.html}
 }
 
 @article{morris_reevaluating_2020,
@@ -1847,6 +1924,12 @@
   howpublished = {https://www.connectedpapers.com/main/32c8884a95101ae9b854399b69284b28dd062fce/Machine-Learning-Threatens-5G-Security/prior},
   langid = {english},
   file = {/Users/teetusaini/Zotero/storage/3XHAAWEH/prior.html}
+}
+
+@misc{noauthor_connected_nodate-1,
+  title = {Connected {{Papers}} | {{Find}} and Explore Academic Papers},
+  howpublished = {https://www.connectedpapers.com/},
+  file = {/Users/teetusaini/Zotero/storage/8AV87YV7/www.connectedpapers.com.html}
 }
 
 @misc{noauthor_hugging_nodate,
