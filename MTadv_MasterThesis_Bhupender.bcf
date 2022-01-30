@@ -2362,7 +2362,7 @@
     <bcf:citekey order="6">papernot_crafting_2016</bcf:citekey>
     <bcf:citekey order="7">li_bert-attack_2020</bcf:citekey>
     <bcf:citekey order="7">garg_bae_2020</bcf:citekey>
-    <bcf:citekey order="7">moradi_evaluating_2021</bcf:citekey>
+    <bcf:citekey order="7">moradi_evaluating_2021-1</bcf:citekey>
     <bcf:citekey order="8">jin_is_2020</bcf:citekey>
     <bcf:citekey order="9">wang_towards_2021</bcf:citekey>
     <bcf:citekey order="10">li_bert-attack_2020</bcf:citekey>
@@ -2466,7 +2466,7 @@
     <bcf:citekey order="92">jiang_smart_2020</bcf:citekey>
     <bcf:citekey order="92">malkiel_mml_2019</bcf:citekey>
     <bcf:citekey order="92">liu_transfer_2019</bcf:citekey>
-    <bcf:citekey order="93">moradi_evaluating_2021</bcf:citekey>
+    <bcf:citekey order="93">moradi_evaluating_2021-1</bcf:citekey>
     <bcf:citekey order="94">tarvainen_mean_2018</bcf:citekey>
     <bcf:citekey order="95">morris_textattack_2020</bcf:citekey>
     <bcf:citekey order="96">jia_certified_2019</bcf:citekey>
@@ -2492,8 +2492,8 @@
     <bcf:citekey order="115">cer_universal_2018</bcf:citekey>
     <bcf:citekey order="116">garg_bae_2020</bcf:citekey>
     <bcf:citekey order="117">garg_bae_2020</bcf:citekey>
-    <bcf:citekey order="118">polyak_acceleration_1992</bcf:citekey>
-    <bcf:citekey order="119">belinkov_synthetic_2018</bcf:citekey>
+    <bcf:citekey order="118">belinkov_synthetic_2018</bcf:citekey>
+    <bcf:citekey order="119">polyak_acceleration_1992</bcf:citekey>
     <bcf:citekey order="120">patwa_fighting_2021</bcf:citekey>
     <bcf:citekey order="121">maas_learning_2011-1</bcf:citekey>
     <bcf:citekey order="122">ma_nlpaug_2022</bcf:citekey>
@@ -2501,8 +2501,11 @@
     <bcf:citekey order="124">ma_nlpaug_2022</bcf:citekey>
     <bcf:citekey order="125">noauthor_hugging_nodate</bcf:citekey>
     <bcf:citekey order="126">englesson_consistency_2021</bcf:citekey>
-    <bcf:citekey order="127">miyato_adversarial_2017</bcf:citekey>
+    <bcf:citekey order="127">miyato_virtual_2018</bcf:citekey>
     <bcf:citekey order="128">belinkov_synthetic_2018</bcf:citekey>
+    <bcf:citekey order="129">laine_temporal_2017</bcf:citekey>
+    <bcf:citekey order="130">tarvainen_mean_2018</bcf:citekey>
+    <bcf:citekey order="131">polyak_acceleration_1992</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

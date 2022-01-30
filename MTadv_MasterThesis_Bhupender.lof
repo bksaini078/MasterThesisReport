@@ -7,7 +7,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of one hot encoding.}}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of one-hot encoding.}}{4}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Working diagram of CBOW and skip-gram models}}{5}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
@@ -15,15 +15,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Architecture diagram of Transformer}}{7}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Basic example of encoder and decoder}}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Basic example of encoder and decoder}}{7}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Basic example of encoder and decoder working}}{8}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Different components of encoder in transformer}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Different components of an encoder in transformer}}{9}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Calculation flow diagram of Scaled dot product and multi-head attention}}{10}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagram of of pre-training and fine-tuning of BERT model}}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagram of pre-training and fine-tuning of BERT model}}{11}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Three different embeddings in BERT model}}{12}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
@@ -59,11 +59,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Covid-19 fake tweets dataset.\relax }}{33}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparative bar plot of original accuracy and accuracy under attack}}{33}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparative bar plot between original accuracy and accuracy under attack}}{33}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Bar plot of number of queries}}{34}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Bar plot of the number of queries}}{34}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Box-plot of number of queries.\relax }}{34}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Box-plot of the number of queries.\relax }}{34}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Bar plot of Word perturbation}}{35}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 

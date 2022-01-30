@@ -1461,6 +1461,44 @@
       \endverb
       \keyw{Computer Science - Computation and Language,Computer Science - Neural and Evolutionary Computing}
     \endentry
+    \entry{laine_temporal_2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e83c74e19bcc032813595328513ebd5c}{%
+           family={Laine},
+           familyi={L\bibinitperiod},
+           given={Samuli},
+           giveni={S\bibinitperiod}}}%
+        {{hash=70c1210f7c167faac22c68d1db1d9175}{%
+           family={Aila},
+           familyi={A\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{be19e92b76e6214ab8bdf9668bba709a}
+      \strng{fullhash}{be19e92b76e6214ab8bdf9668bba709a}
+      \strng{bibnamehash}{be19e92b76e6214ab8bdf9668bba709a}
+      \strng{authorbibnamehash}{be19e92b76e6214ab8bdf9668bba709a}
+      \strng{authornamehash}{be19e92b76e6214ab8bdf9668bba709a}
+      \strng{authorfullhash}{be19e92b76e6214ab8bdf9668bba709a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we present a simple and efficient method for training deep neural networks in a semi-supervised setting where only a small portion of training data is labeled. We introduce self-ensembling, where we form a consensus prediction of the unknown labels using the outputs of the network-in-training on different epochs, and most importantly, under different regularization and input augmentation conditions. This ensemble prediction can be expected to be a better predictor for the unknown labels than the output of the network at the most recent training epoch, and can thus be used as a target for training. Using our method, we set new records for two standard semi-supervised learning benchmarks, reducing the (non-augmented) classification error rate from 18.44\% to 7.05\% in SVHN with 500 labels and from 18.63\% to 16.55\% in CIFAR-10 with 4000 labels, and further to 5.12\% and 12.16\% by enabling the standard augmentations. We additionally obtain a clear improvement in CIFAR-100 classification accuracy by using random images from the Tiny Images dataset as unlabeled extra inputs during training. Finally, we demonstrate good tolerance to incorrect labels.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{arXiv:1610.02242 [cs]}
+      \field{month}{3}
+      \field{title}{Temporal {{Ensembling}} for {{Semi-Supervised Learning}}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1610.02242
+      \endverb
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/V2563NJD/Laine and Aila - 2017 - Temporal Ensembling for Semi-Supervised Learning.pdf;/Users/teetusaini/Zotero/storage/I94RNCRM/1610.html
+      \endverb
+      \keyw{Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing}
+    \endentry
     \entry{lan_albert_2020}{article}{}
       \name{author}{6}{}{%
         {{hash=924c1ffe49f0aefbeb28e7b15d4e48bb}{%
@@ -2190,7 +2228,7 @@
       \endverb
       \keyw{Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
-    \entry{moradi_evaluating_2021}{article}{}
+    \entry{moradi_evaluating_2021-1}{article}{}
       \name{author}{2}{}{%
         {{hash=e2e49dda8cbc839b457e0495a4faf500}{%
            family={Moradi},
@@ -2224,7 +2262,7 @@
       \verb 2108.12237
       \endverb
       \verb{file}
-      \verb /Users/teetusaini/Zotero/storage/CNZK233H/Moradi and Samwald - 2021 - Evaluating the Robustness of Neural Language Model.pdf;/Users/teetusaini/Zotero/storage/E9RV5X2S/2108.html
+      \verb /Users/teetusaini/Zotero/storage/TKNU9UAS/Moradi and Samwald - 2021 - Evaluating the Robustness of Neural Language Model.pdf;/Users/teetusaini/Zotero/storage/F38G8BRM/2108.html
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Computation and Language}
     \endentry
@@ -3925,6 +3963,7 @@
       \keyw{Computer Science - Computation and Language}
     \endentry
   \enddatalist
+  \missing{moradi_evaluating_2021}
 \endrefsection
 \endinput
 
