@@ -8,7 +8,7 @@ Language models has shown state-of-the-art performances in various natural lan- 
 <p align="center">Table 1 . Experiment result of IMDB dataset. </p>
 
 ![ddata_directory](img/res_fknew.png)
-<p align="center">Table 1 . Experiment result of Covid-19 fake tweet dataset. </p>
+<p align="center">Table 2 . Experiment result of Covid-19 fake tweet dataset. </p>
 
 ## Dataset
 1. Parth Patwa et al. “Fighting an Infodemic: COVID-19 Fake News Dataset”. In: [arXiv:2011.03327](https://arxiv.org/abs/2011.03327)(Mar. 2021). arXiv: 2011.03327 [cs].
