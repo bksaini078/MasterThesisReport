@@ -104,48 +104,61 @@ style=numeric-comp,
 %===INTRODUCTION%
 
 \chapter{Introduction}
+
 %The machine learning model has proven their advantages in dealing human-specific task and has been widely adopted in the every domain such as autonomous driving, healthcare, banking, manufacturing, logistics, and many more. Furthermore, machine learning model has out performed human capabilities in performing tasks  like chess, alpha Go, prediction trends and many more resulted in trend of increasing popularity and dependencies on machine learning model. Especially,
-The Deep Neural Network (DNN) is the widely  adopted technology in real-world applications and the most studied topic as well. Its capability of solving complex problems, either linearly or non-linearly, and ease of computation gives it an advantage over other machine learning algorithms \cite{huq_adversarial_2020}. In Natural Language Processing (NLP), recent advancement in DNN  language models  has led to state-of-the-art transformer-based models like BERT,  DistilBERT, Roberta etc. \cite{devlin_bert_2019-1,liu_roberta_2019-1,sanh_distilbert_2020,lan_albert_2020}, which has outperformed in a wide range of NLP tasks  and is consequently the most widely adopted models nowadays.\\
-But, studies have also revealed the weakness in DNN models against adversarial attacks \cite{szegedy_intriguing_2014,yuan_adversarial_2018,akhtar_threat_2018,huq_adversarial_2020,zhang_adversarial_2019} which can negatively impact its value and raised concern of trust, safety, and security. Szegedy \textit{et al.} \cite{szegedy_intriguing_2014} first revealed this vulnerability in computer vision domain. Their study demonstrated that imperceptibly small perturbations in the input image can fool deep neural networks with high probability which they referred  as \textit{Adversarial Samples}. Attacks that sabotage a machine learning model with these examples are called \textit{Adversarial attacks} \cite{nicolae_adversarial_2019}. And, this study has drawn substantial attention from research community in all domains. \\
-In real life, people are tend to believe the fact written over social website without verifying it. To find against such campaigns, various DNN based fake news detection approaches are proposed and utilized. However, the attackers could generate adversarial examples based on natural tweets to gain political advantages or create disturbance in  the society. \\
+\section{Problem Statements}
+The Deep Neural Network (DNN) is the widely  adopted technology in real-world applications and the most studied topic as well. Its capability of solving complex problems, either linearly or non-linearly, and ease of computation gives it an advantage over other machine learning algorithms \cite{huq_adversarial_2020}. In Natural Language Processing (NLP), recent advancement in DNN  language models  has led to state-of-the-art transformer-based models like BERT,  DistilBERT, RoBERTa, ALBERT etc. \cite{devlin_bert_2019-1,liu_roberta_2019-1,sanh_distilbert_2020,lan_albert_2020}, which have outperformed in a wide range of NLP tasks  and are consequently the most widely adopted models nowadays.\\
+But, studies have also revealed the weakness in DNN models against adversarial attacks \cite{szegedy_intriguing_2014,yuan_adversarial_2018,akhtar_threat_2018,huq_adversarial_2020,zhang_adversarial_2019} which can negatively impact its value and raised concern of trust, safety, and security. Szegedy \textit{et al.} \cite{szegedy_intriguing_2014} first revealed this vulnerability in computer vision domain. Their study demonstrated that imperceptibly small perturbations in the input image can fool deep neural networks with high probability which they referred  as \textit{Adversarial Samples}. Attacks that sabotage a machine learning model with these examples are called \textit{Adversarial attacks} \cite{nicolae_adversarial_2019}. And, this study received a considerable amount of attention from researchers in all fields. \\
+In real life, people are tend to believe the fact written over social website without verifying it. To find against such campaigns, various DNN based fake news detection approaches are proposed and utilized.  However, the attackers could use natural tweets to create adversarial examples to gain political advantage or disrupt society without being detected. \\
 The presence of adversarial attack in the text domain was first confirmed in the study presented by Papernot \textit{et al.} \cite{papernot_crafting_2016}. Their  study has shown  a small word-level change in sentence structure can sabotage the DNN models. Later, various studies were published detailing different techniques to craft adversarial text samples which are comparatively higher than defensive mechanisms. \\
 Furthermore,  recent works also revealed that the performance of language models suffers severely under adversarial attacks \cite{li_bert-attack_2020,garg_bae_2020,moradi_evaluating_2021-1}. Jin \textit{et al.} \cite{jin_is_2020}  proposed an approach of creating adversarial samples and proved that BERT accuracy drastically drops to less than 10\% under adversarial attacks and a pictorial example of attack can be seen in figure \ref{diag:ExampleAdversarial}. These studies raised concerns on the conventional way of fine-tuning language models which is not sufficient when robustness is concerned. At the same time, it opens a scope of work towards the robustness enhancement of language models.\\
 The topic of adversarial attacks is more extensively studied in the computer vision domain than that of NLP \cite{wang_towards_2021}. And, in the text domain, the focus is more on approaches related to creating adversarial samples than defense mechanisms. The reason is the generation of adversarial samples in the text domain are comparatively more challenging due to their discrete nature and requirement for maintaining the semantic \cite{li_bert-attack_2020}. Furthermore, there are few studies that aim at improving the robustness of language models, but, mostly revolve around gradient-based methods \cite{zhu_at-bert_2021,miyato_adversarial_2017,jiang_smart_2020-1}, which may be inspired by seeing its effectiveness in the computer vision domain.\\
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.90\textwidth]{img/Introduction-Fig-1.png}
-    \caption[Example of Adversarial attack in text-domain]{Adversarial attack presented by TextFooler \cite{jin_is_2020}, where word-level changes in input text influenced the prediction.}
+    \includegraphics[width=.85\textwidth]{img/Introduction-Fig-1.png}
+    \caption[Example of adversarial attack in text-domain]{Adversarial attack presented by TextFooler \cite{jin_is_2020}, where word-level changes in input text influenced the prediction.}
     \label{diag:ExampleAdversarial}
 \end{figure}
 
 % goods with the purpose of profit or other malicious intents
-Furthermore, most of the text classification tasks such as fake news detection suffer from a lack of labeled data in comparison to unlabeled data. A number of semi-supervised training approaches have been proposed to overcome these challenges, and  have shown significant improvements in performance. In 2018, Tarvaian \textit{et al.} \cite{tarvainen_mean_2018} proposed a semi-supervised approach has performed well in the image domain and also, claimed to provide robust model. However, its efficiency in the text domain especially with language models hasn't been examined. Implementing such a technique would be quite a challenge because different noise strategies and training approaches are needed to leverage such an approach.\\
+Furthermore, most of the text classification tasks such as fake news detection suffer from a lack of labelled data in comparison to unlabelled data. A number of semi-supervised training approaches have been proposed to overcome these challenges, and  have shown significant improvements in performance. In 2018, Tarvaian \textit{et al.} \cite{tarvainen_mean_2018} proposed a semi-supervised approach has performed well in the image domain and also, claimed to provide robust model. However, its efficiency in the text domain especially with language models hasn't been examined. Implementing such a technique would be quite a challenge because different noise strategies and training approaches are needed to leverage such an approach.\\
 In another study, Belinkov \textit{et al.} \cite{belinkov_synthetic_2018} showcased that including noisy data in training samples may result in robust models.  Until now, no study has been conducted to investigate the mentioned semi-supervised approach in fine-tuning the language models which includes data augmentation technique with a focus on robustness enhancement. \\
 %In another scenario, several knowledge distillation processes for producing compact language models, such as DistilBERT, are presented to reduce computational and storage needs. The performance of these model have proven to learn almost full knowledge representation of bigger models and shown negligible drop in accuracy \cite{sanh_distilbert_2020}. But, assessing their robustness against adversarial attacks have not been accessed completely.\\
-Therefore, this master thesis study proposes a less complex approach of fine-tuning i.e. mean teacher approach that can lead to a comparatively robust model without compromising in original accuracy. As a next step, a quantitative experiment is conducted to compare the performance of proposed approach with conventional method of fine-tuning. Additionally, language model capabilities such as back translation and context rewriting to generate prominent adversarial unlabeled samples are also utilized for training purposes. Hence, the main objective of proposed study is to investigate the research hypothesis:\\
-\textbf{Research Question.} \\
-\emph{In comparison to conventional approaches, the mean teacher semi-supervised approach will produce a comparatively better language model in terms of robustness without compromising in generalization.}\\
-In addition, since the proposed semi-supervised fine-tuning method involves data augmentation techniques and exponential moving average weight assignments. To understand the observed behaviours, research related to the proposed approach is also studied and discussed.\\
-%\begin{enumerate}
-%\item \emph{Data augmentation technique can enhance the robustness of language models \cite{polyak_acceleration_1992}.}
-%\item \emph{Averaging weights over steps during training tend to produce a more accurate model \cite{belinkov_synthetic_2018} compared to conventional fine-tuned model.}
-%\end{enumerate}
-This proposed study provided an important opportunity to advance the understanding of language models, data augmentation, and various adversarial attacks in text-domain. Moreover, the study also contributes in the assessment of language model performance under adverse situations so that mitigation techniques may be devised. Understanding how adversarial attack recipes function and how to defend against them is critical to enhance the resilience of language models and, shows the scope of improvements as well. \\
-The model's resilience is determined by comparing its performance against four attack recipes and several metrics. Furthermore, applicability of the suggested method is demonstrated by doing a comparable experiment with two distinct pre-trained language models, BERT and DistilBERT.\\
+Therefore, this master thesis study proposes a less complex approach of fine-tuning i.e. mean teacher approach that can lead to a comparatively robust model without compromising in original accuracy. As a next step, a quantitative experiment is conducted to compare the performance of proposed approach with conventional method of fine-tuning. And, language model capabilities such as back translation and context rewriting to generate prominent adversarial unlabelled samples are also utilized for training purposes. Thus, the proposed study aims to investigate the research question and hypothesis discussed in the next section.
+\section{Research Question and Objectives}
+\label{section:researchquestions}
+%\emph{In comparison to conventional approaches, the mean teacher semi-supervised approach will produce a comparatively better language model in terms of robustness without compromising in generalization.}\\
+%In addition, since the proposed semi-supervised fine-tuning method involves various data augmentation  and weight assignment techniques. So, the research related to the proposed approach is also studied and discussed.\\
+%%\begin{enumerate}
+%%\item \emph{Data augmentation technique can enhance the robustness of language models \cite{polyak_acceleration_1992}.}
+%%\item \emph{Averaging weights over steps during training tend to produce a more accurate model \cite{belinkov_synthetic_2018} compared to conventional fine-tuned model.}
+%%\end{enumerate}
+The purpose of this research is to study the effect on performance of language models fine-tuned by the proposed semi-supervised mean teacher method which utilizes of prominent adversarial unlabelled data. The adversarial unlabelled data is created using available training data by using the language model capabilities of context rewriting, back-translation, and synonym word identification. Hence, The major research question of this thesis is: \\\\
+ \emph{Is the proposed mean-teacher semi-supervised fine-tuning and the use of prominent adversarial unlabelled data an effective method to improve the robustness of language models, specifically concerning accuracy under attack without compromising the original accuracy in contrast to the conventional fine-tuning approach?}\\\\
+%    In comparison to conventional approach, the mean teacher semi-supervised approach will produce a comparatively better language model in terms of robustness without compromising in generalization.}\\
+It is hypothesized that the proposed means-teacher form of semi-supervised learning and the use of prominent unlabelled adversarial data will produce a robust language model against attack mainly without sacrificing original accuracy. \\
+The robustness of this experiment will be evaluated using metrics such as original accuracy, accuracy under attack, rate of word perturbation, queries required, and attack success rate, which is discussed briefly in figure \ref{section:metrics}. Hence, the hypothesis is that the suggested technique will have greater original accuracy, accuracy under attack, and will need more queries and perturbations to be attacked. The model performance is evaluated using four different attack recipes discussed in the figure \ref{section:attackrecipes}. This thesis attempts to answer the question by constructing a teacher model using proposed semi-supervised approaches. Then, comparing the generalization of both conventional and proposed fine-tuning methods in terms of different evaluation metrics. \\
+Since, proposed approach utilizes data augmentation and exponential moving average (EMA) techniques. It is expected that these technique will play crucial role in robustness enhancement of language models as discussed in section \ref{section:Meanteacher}. Through data augmentation techniques, robustness can be enhanced by learning more representation, and also, regularization can be achieved by preventing the model from learning deep insight, which may lead to over-fitting. Belinkov \textit{et al.} \cite{belinkov_synthetic_2018} argued that providing data augmentation in training might improve model robustness, hence the suggested fine-tuning strategy should result in more resilient language models.\\
+Furthermore, exponential moving averages (EMA) can also plays an essential role in increasing generalization and performance under attack. In year 1992, Polyak \textit{et al.} \cite{polyak_acceleration_1992} argued that averaging weights over time tends to produce more accurate model than using final weights and the teacher model is an average of consecutive student models, therefore, the teacher model should be more accurate. As per above mentioned studies, it is estimated that during experiment models fine-tuned using proposed approach should outperform conventionally fine-tuned models. \\
+Moving forward, the experiment also attempts to understand the robustness of models by examining the confidence score distribution. A model that does not allow attack recipes to be misclassified with high confidence is a sign of robustness. Furthermore, the transferability of proposed approach is verified by performing similar experiment with two differently pre-trained models i.e. BERT, DistilBERT.
+\section{Thesis Contribution}
+This proposed study provided an important opportunity to advance the understanding of language models, data augmentation, and various adversarial attacks in the text domain. Moreover, the study contributes to the assessment of language model performance in adverse situations so that mitigation techniques can be developed. By understanding the dynamics of adversarial attack recipes and how to defend against them, language models can become more resilient and the scope for improvement can be more obvious. \\
+The model's resilience is determined by comparing its performance against four attack recipes and several metrics. Additionally, the transferability of the proposed method is demonstrated by doing a comparative experiment with two distinct pre-trained language models, BERT and DistilBERT. This thesis also contributes to evaluating the effectiveness of an image-domain semi-supervised approach in the text-domain, i.e. the mean teacher approach, by incorporating text-specific noise strategies and investigating the constraints connected with it. Furthermore, this thesis reviews and analyzes related work, highlighting shortcomings and areas for improvement, not just in terms of robustness.
 %Furthermore, this study also discusses the brief background about text representation evolution, working of language models, and adversarial attacks. \\
-The report's overview begins with some background information on the relevant topics, such as the evolution of text representation from TF-IDF to contextualized embeddings, transformer-based language models, and the architecture of BERT/DistilBERT models. The background and classification of adversarial attacks are then discussed. Following that, a thorough discussion of the suggested strategy and attack recipes is provided. The experiment chapter goes through details of the experiment environment as well as the outcomes. The master thesis is concluded by addressing limitations, challenges, and the final conclusion.
-
-
+\section{Thesis Structure}
+To lay the groundwork for understanding the experiment and proposed approach, the subsequent section attempts to provide a foundational understanding of topics such as the evolution of text representation from TF-IDF to contextualized embeddings, transformer-based language models, and the architecture of BERT/DistilBERT models. After that, the background and classification of adversarial attacks are addressed. Following that, there is a detailed description of the proposed strategy and attacking recipes. Afterwards, the experiment conditions, resources, and environment needed to successfully conduct the experiment are discussed followed by the analysis of the observed results. The master thesis concludes with a discussion of limitations, future work, and the conclusion.
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHAPTER BACKGROUND%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Background}
+%\chapter{Background}
+\chapter{Background of Language Models and Adversarial Attacks}
+% Language models and Adversarial attack theory. 
 \label{section:background}
 %This chapter discusses the contents required to understand the experiment and motivations behind this master thesis. We begin with a discussion of advancement in text representations, followed by a discussion of transformers architecture, one of the main principles of recent contextualized embedding. Later, fine-tuning of the language model is carried out. An overview of adversarial attacks is provided at the end of  the section. If the reader already has a basic understanding of the topic, it is recommended to skip this chapter.
-\section{Text Representations (2 pages)}
+\section{Text Representations}
 \label{section: textrep}
-In natural language processing, researchers explore how a computerized system can understand and manipulate natural language (speech or text) to perform various tasks \cite{chowdhury_natural_2003} and aims to gain a human-level understanding of the text \cite{naseem_comprehensive_2020}. However, there was a major challenge in converting text into numbers or vectors in such a manner that semantic and syntactic information can be retrained. As shown in the figure \ref{fig:onehot}, traditionally words were usually represented as a single hot vector in a discrete manner, where each word is shown as a vector of 1 and 0 \cite{salton_vector_1975}. The shape of the vector is equal to the size of the vocabulary which suffers from dimensionality curse and also lacks semantic relationship between words. Later, researchers developed low-dimensional and continuous vector representations of text and discovered word embedding.
+In natural language processing (NLP), researchers explore how a computerized system can understand and manipulate natural languages (speech or text) to perform various tasks \cite{chowdhury_natural_2003} and aims to gain a human-level understanding of the text \cite{naseem_comprehensive_2020}. However, there was a major challenge in converting text into numbers or vectors in such a manner that semantic and syntactic information can be restrained. As shown in the figure \ref{fig:onehot}, traditionally words were usually represented as a single hot vector in a discrete manner, where each word is shown as a vector of 1 and 0 \cite{salton_vector_1975}. The shape of vectors are equal to the size of the vocabulary, hence, this technique suffers severely from dimensionality curse and also lacks semantic relationship between words. Later, researchers developed low-dimensional and continuous vector representations of text and discovered word embedding.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.4\linewidth]{img/onehot.png}
+    \includegraphics[width=0.5\linewidth]{img/onehot.png}
     \caption[Example of one-hot encoding.]{ An example of one-hot encoding, the dimension of vector increases with vocabulary size.}
     \label{fig:onehot}
 \end{figure}
@@ -157,42 +170,42 @@ Word2Vec also uses skip-gram to maximize the classification of a word based on a
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\linewidth]{img/cbowandskip.png}
-    \caption[Working diagram of CBOW and skip-gram models]{ The CBOW architecture predicts the current word given past and future words, and the skip-gram architecture predicts the surrounding words given the current words.}
+    \caption[Working diagram of CBOW and Skip-gram.]{ The CBOW architecture predicts the current word given past and future words, and the skip-gram architecture predicts the surrounding words given the current words.}
     \label{fig:cbow}
 \end{figure}
-Later, Penning \textit{et al.} \cite{pennington_glove_2014} proposed word embedding called Glove (Global Vectors for Word Representation) which was based on word global information and a big corpus of unlabeled datasets. The idea is to determine how frequently a word pair occurs together by using a co-occurrence matrix and factorising it into a lower-dimensional space to reduce reconstruction loss. The approach was mainly based on global matrix factorization and local context window methods such as skip-gram, which led to a log-bilinear regression model where the probability of the next word is determined by the previous word.\\
+Later, Penning \textit{et al.} \cite{pennington_glove_2014} proposed word embedding called Glove (Global Vectors for Word Representation) which was based on word global information and a big corpus of unlabelled datasets. The idea is to determine how frequently a word pair occurs together by using a co-occurrence matrix and factorising it into a lower-dimensional space to reduce reconstruction loss. The approach was mainly based on global matrix factorization and local context window methods such as skip-gram, which led to a log-bilinear regression model where the probability of the next word is determined by the previous word.\\
  Both Word2Vec and Glove word embeddings are static and have a limitation called polysemy, which refers to the fact that the meaning of a word differs across contexts. For example, based on the context, ``jaguar'' might refer to an animal or to a car brand. These traditional approaches missed these deep details and provided a direction for working on contextualized word embeddings.
 
  \subsection{Contextualized Embeddings}
  \label{subsection:contextembeddings}
  Matthew, \textit{et al.} \cite{peters_deep_2018-3} proposed the ELMO(Embedding from Language Model) as a method to create context-sensitive embedding. The ELMO model uses a bi-directional LSTM to extract contextualized word features to address the problem of polysemy. The model is further optimized by next word prediction using a large corpus of data. A layer's weight can later be used as contextual embedding. \\
  Later, after transformer architecture was introduced by  Vaswani \textit{et al.} \cite{vaswani_attention_2017}, Generative Pre-training (GPT) \cite{radford_improving_nodate}, and Bidirectional Encoder Representation From Transformers (BERT) \cite{devlin_bert_2019-1} utilized  encoders or decoders instead of bidirectional LSTMs to create contextualized embedding. GPT uses decoder architecture where as BERT uses encoder architecture, however, the main concept of is based on ELMO, as shown in figure \ref{fig:elmo}. \\
- Both of these approaches introduce the concept of \textit{pre-training}, i.e. learning to embed using large corpora of unlabeled data, and \textit{fine-tuning}, i.e. optimizing weights further based on the downstream task. Furthermore, also the approach of transfer learning can be utilized in NLP to get state-of-the-art performance. A brief overview of the transformer model is required to understand language models work, so the next section discusses the transformer before language models.
+These approaches introduced the concept of \textit{pre-training}, i.e. learning language representations from the huge corpora of unlabelled data in unsupervised fashion, and \textit{fine-tuning}, i.e. optimizing weights further based on the downstream task. And, also facilitated the approach of transfer learning in NLP to get state-of-the-art performance with minimal training. A brief overview of the transformer model is required to understand language models work, so the next section discusses the transformer before language models.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\linewidth]{img/elmo}
-    \caption{Different Contextualized Embeddings model.}{Pictorial representation of working of (1) ELMO(Embedding from language model),  (2)Generative Pre-training (GPT), and (3) Bidirectional Encoder Representation From Transformers(BERT). TRN represents transformer encoder in BERT and decoder in GPT.}
+    \caption{Different contextualized embedding models.}{Pictorial representation of working of (1) ELMO(Embedding from language model),  (2)Generative Pre-training (GPT), and (3) Bidirectional Encoder Representation From Transformers(BERT). TRN represents transformer encoder in BERT and decoder in GPT.}
     \label{fig:elmo}
 \end{figure}
 
 \section{Transformers}
 \label{section: transformers}
-There was a time when NLP tasks were solely based on sequential models like CNN, RNN, LSTM, and BiLSTM models which had the disadvantage of being computationally expensive, lacking distributing capabilities, and having only satisfactory performance. In order to reduce the amount of sequential computation,  Vaswani \textit{et al.} \cite{vaswani_attention_2017} proposed an attention-based architecture called the transformer, which later outperformed the existing state-of-the-art NLP models. A transformer architecture was developed which is exclusively based on a type of attention mechanism called self-attention. Comparatively, this architecture has faster training times because of its distributed properties and showed better evaluation results. 
+There was a time when NLP tasks were solely based on sequential models like CNN, RNN, LSTM, and BiLSTM which had the disadvantage of being computationally expensive, lacking distributing capabilities, and having only satisfactory performance. In order to reduce the amount of sequential computation,  Vaswani \textit{et al.} \cite{vaswani_attention_2017} proposed an attention-based architecture called the transformer, which later outperformed the existing state-of-the-art NLP models. A transformer architecture was developed which is exclusively based on a type of attention mechanism called self-attention. Comparatively, this architecture has faster training times because of its distributed properties and showed better evaluation results. 
 Later, this transformer architecture became one of the main principles behind the development of break-through models like BERT, GPT, and T5. The figure \ref{diag:TransformerArchitecture} illustrates the architecture of a transformer.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=.50\textwidth]{img/TransformerArchitecture.png}
-    \caption[Architecture diagram of Transformer]{Transformer Model Architecture \cite{vaswani_attention_2017}.}
+    \caption[Diagram of Transformer Architecture.]{Transformer Model Architecture \cite{vaswani_attention_2017}.}
     \label{diag:TransformerArchitecture}
 \end{figure}
-Transformers are encoder-decoder stacks where the encoder reads inputs and outputs representation as a context vector, often referred to as a "contextualized embedding," as illustrated in the figure \ref{diag:EncoderDecoder}, which is based on single or multi-headed attention, and the decoder makes predictions based on those contexts vectors. Vaswani \textit{et al.} \cite{vaswani_attention_2017} proposed the  transformer model which consist 6 layers of encoders stacked on top of each other and same applies to decoders. Encoder is composed of multi-head attention followed by layer normalization and feed forward networks. However, there is slight difference in decoder i.e. masked multi-head attention layer is followed by multi-head attention layer as shown in figure  \ref{diag:TransformerArchitecture}.
+Transformers are encoder-decoder stacks where the encoder reads inputs and outputs representation as a context vector, often referred to as a "contextualized embedding," as illustrated in the figure \ref{diag:EncoderDecoder}, which is based on single or multi-headed attention, and the decoder makes predictions based on those contexts vectors. Vaswani \textit{et al.} \cite{vaswani_attention_2017} proposed transformers architecture consists of  6 layers encoders stacked on top of each other and same applies to decoders. Encoder is composed of multi-head attention followed by layer normalization and feed forward networks. However, there is slight difference in decoder i.e. masked multi-head attention layer is followed by multi-head attention layer as shown in figure  \ref{diag:TransformerArchitecture}.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=.50\textwidth]{img/encoderDecoder.png}
-\caption[Basic example of encoder and decoder]{Basic example Encoder-Decoder.}
+\caption[Basic example of encoder-decoder]{Basic example Encoder-Decoder.}
 \label{diag:EncoderDecoder}
 \end{figure}
 
@@ -202,7 +215,7 @@ For example, the task is to translate the English sentence ``I am good. How are 
 \begin{figure}[H]
     \centering
     \includegraphics[width=.30\textwidth]{img/EncoderDecoder2.png}
-    \caption[Basic example of encoder and decoder working]{Basic working example of encoder-decoder.}
+    \caption[Basic example of encoder-decoder working]{Basic working example of encoder-decoder.}
     \label{diag:EncoderDecoderExp}
 \end{figure}
  Later, several sequence to sequence models utilize this encoder-decoder architecture to perform tasks such as text summarization, question answering, and machine translation. However, the encoder-decoder architecture in the transformer differs significantly.\\
@@ -215,7 +228,7 @@ A transformer encoder block is further divided into three layers as shown in the
 \end{figure}
 \subsubsection{Positional Encoding}
 Sequential models understand sentences and contain information about word position, however, in transformer models, sentences are fed all at once, so a separate mechanism was introduced to determine the word order. The word order in the shape of a position vector will be added to the input embedding before the multi-head attention. Position vector must have the same dimension as word embedding $d_{model}$.\\
-Two major constraints apply: First, the word embedding information should not be severe and second, word position must be identical. According to Vaswani \textit{et al.} \cite{vaswani_attention_2017}, sine and cosine functions of different frequencies are used to form a geometric progression from  $2\pi$ to $2\pi \cdot 10000$ used for calculating the position vector($PV$) of the words. In other words, the mentioned function \ref{eq:PV} generates unique values containing information about the position of words in a sentence.
+Two major constraints apply: First, the word embedding information should not severely disturbed and second, word position must be identical. According to Vaswani \textit{et al.} \cite{vaswani_attention_2017}, sine and cosine functions of different frequencies are used to form a geometric progression from  $2\pi$ to $2\pi \cdot 10000$ used for calculating the position vector($PV$) of the words. In other words, the mentioned function \ref{eq:PV} generates unique values containing information about the position of words in a sentence.
 \begin{equation}
 \begin{aligned}
     PV_{(pos,2i)}=sin(pos/10000^{2i/d_{model}})\\
@@ -224,7 +237,7 @@ Two major constraints apply: First, the word embedding information should not be
 \end{aligned}
 \end{equation}
 
-Where $pos$ \& $i$ is position and dimension respectively. And, after adding to the embeddings we get position encoding ($PE$)
+Where $pos$ \& $i$ are position and dimension respectively. And, after adding to the embeddings we get position encoding ($PE$)
 \begin{equation}
 \begin{aligned}
     PE_{word} =EM_{word}+PV_{word}\\
@@ -256,10 +269,10 @@ Attention mechanism in transformer architecture model introduced to reduce compu
     \end{aligned}
 \end{equation}
 Where $Q$, $K$, and $V$ is a query, key, and value vector which is created  by the dot product of different trainable weight matrix $w_{q},w_{k}$, and $ w_{v}$ with input. With this attention mechanism, the relationship between words is more profound, resulting in better performance.\\
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{screenshot001}
-    \caption[Calculation flow diagram of Scaled dot product and multi-head attention]{\small Scaled dot product and multi-head attention calculation flow diagram \cite{vaswani_attention_2017}. }
+    \includegraphics[width=0.8\linewidth]{screenshot001}
+    \caption[Calculation flow diagram of scaled dot product and multi-head attention]{\small Scaled dot product and multi-head attention calculation flow diagram \cite{vaswani_attention_2017}. }
     \label{fig:selftattentionandmulti}
 \end{figure}
 In order to capture the different perspectives of the sentence and ensure better accuracy, multiple attention heads are calculated instead of just one. Then, concatenating the result provides a comparatively better attention matrix called multi-head attention and this mechanism exploits the parallelization feature.\\
@@ -270,22 +283,20 @@ Further, the add and norm component is basically a residual connection followed 
 The language model is a function that learns the word representation from the corpus and provides vectors that can be utilized for further downstream tasks such as machine translation or sentiment analysis. A number of techniques are available to learn a representation, either statistically or by means of neural networks. In recent years, neural network-based language models, such as BERT and DistilBERT, have become the cornerstone of Natural Language Processing (NLP). 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{img/pre_fintune.png}
+    \includegraphics[width=0.8\linewidth]{img/pre_fintune.png}
     \caption[Diagram of pre-training and fine-tuning of BERT model]{ \small Pre-training and fine-tuning method of the BERT model \cite{devlin_bert_2019-1}. In pre-training, unsupervised techniques such as next sentence prediction (NSP) and masked word prediction (MWP) are utilized. Pre-trained models are provided to perform further downstream tasks and weights are further optimized during fine-tuning.}
     \label{fig:prefintune}
 \end{figure}
-According to the figure, these language models follow two training processes, (1)\textit{ Pre-training} by using huge unlabeled text corpora and generating a context representation vector from the model \cite{devlin_bert_2019-1}  and enables the transfer learning. The pre-training mechanisms of BERT and DistilBERT are discussed in more detail in this section. (2) \textit{Fine-tuning}, user adapts the pre-trained language model to perform specific tasks by adding a feed-forward layer on top of language models as per task and further train the weights with limited data for the target task. The fine-tuning approach can be performed in low-resource environments and have achieved state-of-the-art performance in many popular NLP benchmarks.
-
-
+According to the figure, these language models follow two training processes, (1)\textit{ Pre-training} by using huge unlabelled text corpora and generating a context representation vector from the model \cite{devlin_bert_2019-1}  and enables the transfer learning. The pre-training mechanisms of BERT and DistilBERT are discussed in more detail in this section. (2) \textit{Fine-tuning}, user adapts the pre-trained language model to perform specific tasks by adding a feed-forward layer on top of language models as per task and further train the weights with limited data for the target task. The fine-tuning approach can be performed in low-resource environments and have achieved state-of-the-art performance in many popular NLP benchmarks.
 \subsection{BERT (Bidirectional Encoder Representation From Transformers)}
 BERT (Bidirectional Encoder Representations from Transformers) was proposed by Devlin \textit{et al.} \cite{devlin_bert_2019-1}, primarily based on Transformers \cite{vaswani_attention_2017}, ULMFit \cite{howard_universal_2018}, ELMo \cite{peters_deep_2018-3}, and the OpenAI transformer \cite{radford_improving_nodate}, but not limited to it. In essence, BERT is a transformer encoder stack that outputs the context representation, also called a pre-trained model. \\
-BERT model is pre-trained on the deep bidirectional representation of large unlabeled text in both rights and left context, which can be further fine-tuned by adding additional output layers to achieve state-of-the-art results in various NLP tasks like text classification, question answering, language inference, language translation, etc. Its main benefit is simplifying the process of NLP tasks in machine learning, and providing access to contextualized embedding trained on huge amounts of words, which are impossible to collect individually. In addition, it requires high-performance computational machines at a production scale. \\
+BERT model is pre-trained on the deep bidirectional representation of large unlabelled text in both rights and left context, which can be further fine-tuned by adding additional output layers to achieve state-of-the-art results in various NLP tasks like text classification, question answering, language inference, language translation, etc. Its main benefit is simplifying the process of NLP tasks in machine learning, and providing access to contextualized embedding trained on huge amounts of words, which are impossible to collect individually. In addition, it requires high-performance computational machines at a production scale. \\
 Having access to vast amounts of unlabelled data,  BERT uses two learning strategies: Masked Language Model (MLM) and Next Sentence Prediction (NSP). MLM replaces 15\% of words with [MASK] tokens, and BERT predicts the masked word based on other words in the sequence.\\
-In NSP, BERT models are given two pairs of sentences, with [CLS] as the sentence start and [SEP] as the separation between sentences. The BERT model then predicts whether the next sentence is correct or random. The BERT model is pre-trained on a large amount of unlabeled text, however, fine-tuning is still required for specific tasks.\\
+In NSP, BERT models are given two pairs of sentences, with [CLS] as the sentence start and [SEP] as the separation between sentences. The BERT model then predicts whether the next sentence is correct or random. The BERT model is pre-trained on a large amount of unlabelled text, however, fine-tuning is still required for specific tasks.\\
 To enable BERT models to handle a variety of downstream tasks, the input representations are a sum of three different embeddings (position embeddings, segment embeddings, and token embeddings), as shown in the figure \ref{fig:bert_inp}.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{img/bert_inp.png}
+    \includegraphics[width=0.65\linewidth]{img/bert_inp.png}
     \caption[Three different embeddings in BERT model]{\small BERT model input includes three different embedding information to perform the various downstream tasks\cite{devlin_bert_2019-1}. }
     \label{fig:bert_inp}
 \end{figure}
@@ -300,20 +311,18 @@ In this master thesis experiment, $BERT_{BASE}$ model  pre-trained on lower case
 DistilBERT is a compact version of BERT proposed by Victor \textit{et al.} \cite{sanh_distilbert_2020}. As compared to BERT, the DistilBERT model does not incorporate token embeddings, poolers, and have comparatively half-hidden layers. The principle behind this model is based on knowledge distillation \cite{hinton_distilling_2015}, which can be defined as a process of transferring knowledge from large  to small models. \\
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{img/DistilBERT.png}
+    \includegraphics[width=0.89\linewidth]{img/DistilBERT.png}
     \caption[Diagram of DistilBERT training.]{ Pictorial diagram depicts the knowledge distillation process involved in  DistilBERT.}
     \label{fig:DistilBERT}
 \end{figure}
 As illustrated in the figure \ref{fig:DistilBERT}, a small model is trained to mimic the behaviour of a larger model. In the task of mask word prediction, masked sentences are supplied to both the BERT and DistilBERT models.\\
 This approach aims to minimize three losses: 1) the loss between BERT and DistilBERT predictions, 2) the loss between DistilBERT predictions and ground truth, and 3) the cosine embedding loss, which measures the distance between the representations learned by BERT and DistilBERT. Cosine embedding loss reduction makes representation more accurate and tries to copy the BERT embeddings. The proposed approach is 40\% compact, retaining 97\% of its language understanding capabilities and 60\% faster\cite{sanh_distilbert_2020}, which has proven it is possible to reduce the size of large language models with minimal compromise.
 
-
-
 \section{Adversarial Attacks}
 \label{section:advattacks}
 In the year 2013, Szegedy \textit{et al.} \cite{szegedy_intriguing_2014} study in the image-domain discovered that deep neural networks are vulnerable to perturbations, which can result in unexpected behaviors, referred to as adversarial attacks. It was first demonstrated by Papernot \textit{et al.}  \cite{papernot_crafting_2016} that an adversarial example can also lead to an unexpected outcome in the text domain. Later various papers on different attack recipes were published in text domain \cite{alzantot_generating_2018,li_bert-attack_2020,gao_black-box_2018,li_bert-attack_2020,ren_generating_2019,garg_bae_2020,chen_robustness_2019}.  Sun \textit{et al.}  \cite{sun_adv-bert_2020} proposed an approach of  generating adversarial misspelling and evaluated the performance of  attack recipes  against BERT model. Based on their experiment on Stanford Sentiment Treebank (SST) dataset, the BERT model is vulnerable to misspelling attacks and its accuracy decreases by 22.6\% under their proposed attack.\\
 In another experiment, Li \textit{et al.} \cite{li_bert-attack_2020} proposed an approach of utilizing the BERT model to generate words for replacements. Firstly, identifying the most important words i.e. the words in sequence have a high influence on the final output logit. Secondly, utilizing BERT model masked language model(MLM) capability to generate a word for replacements. According to their claims, the accuracy under attack is lower than 10\% with less than 10\% perturbation. However, there is a possibility of compromising with semantic constraints.\\
-In text domains, most adversarial attacks consist of two steps: 1) Identification of the most important word, and 2) Replacement of the word with suitable words. The reason why DNN models are vulnerable to attacks is still an open question. The presence of adversarial attacks in DNN models, according to Goodfellow \textit{et al.} \cite{goodfellow_explaining_2015}, is due to the linearity in DNN models.
+In text domains, most adversarial attacks consist of two steps: 1) Identification of the most important word, and 2) Replacement of the word with suitable words. The reason why DNN models are vulnerable to attacks is still an open question, however, Goodfellow \textit{et al.} \cite{goodfellow_explaining_2015} argued that it is due the linearity in DNN models.
 
 \subsection{Definition}
 \label{subsection:definition}
@@ -321,7 +330,7 @@ For a given input data and its labels $(x, y)$ and a classifier F function which
 Hence, the attack would be an untargeted adversarial attack if $F(x+\delta)\not=y$ and target when $F(x+\delta)=y'$ in constraint of the perturbation $\delta$ must be imperceptible to humans which can be defined by a threshold  $||\delta||<\epsilon$. \\
 The most common metrics to determine perturbation $\delta$ and define threshold $\epsilon$ are Cosine similarity, Euclidean distance, Jaccard coefficient, and word mover distance.  However, in the text domain, it is really challenging to create adversarial examples because humans can easily detect a minute change in character, word or sentence level.\\
 A particular classifier would be called robust against a particular adversarial example  $(x+\delta)$ if a classifier F should predict correct class $y$  i.e.  $F(x+\delta)=y$. And, various metrics to evaluate model robustness such as accuracy under attack,  the number of queries, word perturbation and  attack success rate  are discussed in length in section \ref{section:metrics}.
-\subsection{Types of Adversarial attacks}
+\subsection{Types of Adversarial Attacks}
 \label{subsection:attacktypes}
 Based on recent surveys, adversarial attacks can be classified based on level of knowledge, target, and level of perturbation \cite{huq_adversarial_2020,wang_towards_2021}. If attackers have complete knowledge of the system, then it would be called a  white box attack. And, in another case, if the only model output is known, then it would be a black box attack. A white box gradient-based attack was first proposed by Ebrahimi \textit{et al.} \cite{ebrahimi_hotflip_2018} to search for adversarial word/character substitutions. And, Jin \textit{et al.} \cite{jin_is_2020} have proposed black box word-level adversarial attacks and shown that BERT models are vulnerable to adversarial samples.\\
 \begin{figure}[h!]
@@ -342,36 +351,48 @@ The goal of adversarial defences is to achieve high test accuracy on both clean 
 According to Goodfellow \textit{et al.} \cite{goodfellow_explaining_2015}, including high-quality adversarial examples in images can improve the robustness and generalization of machine learning models. Similarly, in the text domain, Belinkov \textit{et al.}  \cite{belinkov_synthetic_2018} demonstrated in their experiments that mixed noise in text training samples can improve model robustness. In another experiment performed by Li \textit{et al.} \cite{li_textbugger_2019}, showed that including TextBugger attack adversarial samples in training can also improve model performance and robustness against adversarial examples.\\
 A fast gradient method (FSM) approach to text-domain training was introduced by Miyato \textit{et al.} \cite{miyato_adversarial_2017}, whereby methods generate adversarial examples by adding gradient-based perturbations to input samples with different normalization strategies.
 However, research related to adversarial training of language models is few. Liu \textit{et al.} \cite{liu_adversarial_2020} proposed adversarial training of the BERT model using the virtual adversarial training (VAT) technique \cite{miyato_virtual_2018}  during pre-training. However, their approach is computationally expensive and also based on gradient.\\
-Furthermore, the mean teacher approach has shown comparative performance in the computer visualization domain and the model claimed to be comparatively robust \cite{tarvainen_mean_2018}. And, the performance of this approach in the text domain, which incorporates language models with adversarial training tactics  and evaluation of approach against adversarial attack had open scope of work. In addition, the proposed approach utilizes the language model capabilities of such as context rewriting and back translation as data augmentation techniques to create prominent adversarial unlabeled data. \\
+Furthermore, the mean teacher approach has shown comparative performance in the computer visualization domain and the model claimed to be comparatively robust \cite{tarvainen_mean_2018}. And, the performance of this approach in the text domain, which incorporates language models with adversarial training tactics  and evaluation of approach against adversarial attack had open scope of work. In addition, the proposed approach utilizes the language model capabilities of such as context rewriting and back translation as data augmentation techniques to create prominent adversarial unlabelled data. \\
 Similar approaches have been utilized previously to generate adversarial samples. Siddhant \textit{et al.}  \cite{garg_bae_2020}  proposed approach used BERT's masked language model (MLM) to generate possible adversarial examples. Therefore, one of the major motivations for this experiment is to generate prominent adversarial examples and develop strategies for incorporating them into training.
 
-\chapter{Related Work}
+\chapter{Related Research on Adversarial Training}
 \label{chapter:relatedwork}
-In the area of adversarial training and defence mechanisms against attack, various types of techniques are studied and proposed. However, the research in the text domain is considerably less than that in the image domain \cite{wang_towards_2021}. Furthermore, few papers have also addressed the evaluation of language models against adversarial attacks recipes, as well as a semi-supervised fine-tuning approach.\\
- Here, studies that use language models, apply semi-supervised adversarial training, and also enhance robustness are discussed.  The search for related work is performed on scholarly websites such as google scholar and arxiv. Furthermore, search texts consisted of semi-supervised, adversarial training, robustness and language models. Moving forward,  after getting the relevant paper further research were found based on connected paper service \cite{noauthor_connected_nodate-1}.
-Adversarial training is primarily based on two approaches: 1) Gradient-based 2) Data-augmentation based. \\
-The objective in gradient-based  is to optimize the adversarial loss for the model by applying perturbations in the embedding space \cite{liu_adversarial_2020,goodfellow_explaining_2015,zhu_at-bert_2021,miyato_adversarial_2017,jiang_smart_2020-1}.  However, these studies are focused on increasing generalization instead of evaluating against attack.\\
- Liu \textit{et al.} \cite{liu_adversarial_2020} proposed a novel adversarial pre-training approach intended to increase the robustness and generalization of large neural language models called ALUM (Adversarial Training for Large Neural Language Models). Both pre-training and fine-tuning can be accomplished using the same approach. Due to inner maximization and complexity, adversarial training is often quite costly, and verification of proposed approaches under a variety of attacks still needs to be studied.\\
-A more recent approach is proposed by Danqinq \textit{et al.} \cite{zhu_at-bert_2021}, in which adversarial training is done by fast gradient methods (FGM) \cite{miyato_adversarial_2017} and ensemble methods, in which multi-BERT model prediction assists in robustness. A proposed approach combines multiple BERT (BERT, SciB ERT, RoBERTa, ALBERT, and ELECTRA) and makes an average ensemble for all models to achieve superior performance. Large language models and internal maximization raise concerns about computational cost. Moreover, as mentioned previously, their approach is also completely focused on increasing generalization and performance under attack has not been evaluated.\\
-As part of a noise-based approach, Si \textit{et al.} \cite{si_better_2021}  proposed robust fine-tuning of language models by augmenting the training dataset and performing mix-up augmentation during training, hence the term AMDA (Adversarial and Mixup Data Augmentation). A mix-up augmentation is a linear interpolation of representations and labels pairs of training samples to create different virtual training samples. As per their experiments, the original accuracy for the BERT model is 91.27\% and the accuracy under attack is 14.83\%; however, BERT with AMDA had 91.10\% original accuracy and 31.52\% accuracy under attack. Model performance under attack has improved significantly with this approach, but original accuracy decreased.\\
-Bao \textit{et al.} \cite{bao_defending_2021} proposed approach involves training a language model to classify the input text and also discriminate adversarial samples simultaneously. Their proposed approach also generates adversarial samples using TextFooler \cite{jin_is_2020}, applies frequency aware randomization to the adversarial training set, and finally combines it with the original training set. In IMDB data, this approach has shown marginal improvements in original accuracy from 92.4\% to 92.8\% of the BERT model, but improvement in accuracy under attack, from 12.4\% to 89.2\%. In their report, they do not mention any further metrics concerning adversarial attacks, such as the number of queries and word perturbations.\\
-Wang \textit{et al.} \cite{wang_adversarial_2021-1} proposed a gradient-based synonym substitution method to quickly generate adversarial samples called Fast Gradient Projection Method (FGPM). The adversarial samples are claimed to be very effective in attacking the models. Including this technique in training have shown significant improvement in the robustness of models and they call this technique Adversarial Training with FGPM enhanced by Logit pairing (ATFL). But, the proposed approach is verified against CNN, LSTM, Bi-LSTM model and a model's  robustness is determined by the accuracy under attack as the only metric in the study.\\
-In another study by Wang \textit{et al.} \cite{wang_natural_2020-1}, a Synonym Encoding Method (SEM) is proposed as a defensive approach against adversarial attacks. According to this method,  encoding the clusters of synonyms to a unique encoding before the input layer of a model can be effective against synonym based adversarial attacks in the context of text classification. According to their findings, the BERT model's accuracy for the IMDB dataset and synonym-based PWWS attack recipes dropped by 0.2\%. However, the proposed method is only efficient against synonym based attacks and the model's resilience is measured only by accuracy.\\
-A different approach is proposed by Guo \textit{et al.} \cite{guo_rosearch_2021} a search-based approach called RoSearch, where the robust distilled version of the language model is looked at the search space of various student models. And, claimed that the proposed approach can improve the robustness from 7\% $\sim$ 18\% up to 45.8\% $\sim$ 47.8\%. This approach is focused to enhance the knowledge distillation of language models and only accuracy as a metric of evaluation.\\
-As most relevant studies are discussed, however, there are further studies that deal with robustness of the models \cite{wang_infobert_2020, shi_robustness_2020,jones_robust_2020,jiang_smart_2020,malkiel_mml_2019,liu_transfer_2019}.
-At present, adversarial samples are mostly generated by gradient methods, and incorporating them into training will improve the accuracy of the models, but studies related to the verification of language models against attacks are still a work in progress. In addition, it is challenging to compare the performances of published approaches because of no standard evaluation framework \cite{moradi_evaluating_2021-1}. Hence, this master thesis is also trying to provide metrics specific to evaluation against adversarial samples.
+In the area of adversarial training and defence mechanisms against attack, various types of techniques are studied and proposed. In spite of this, research in the text-domain remains considerably lower than in the image-domain \cite{wang_towards_2021}. Furthermore, few papers have addressed the evaluation of language models against adversarial attacks.\\
+The search for related work is performed on scholarly websites such as google scholar and arxiv. Furthermore, search texts consisted of semi-supervised, adversarial training, robustness, and language models. Moving forward,  after getting the relevant paper further research were found based on connected paper service \cite{noauthor_connected_nodate-1}.
+As per the survey on research paper in this study, adversarial training is divided and discussed into three section for better understanding approaches: 1) Gradient-based, 2) Augmentation-based and, 3) Other. However, the proposed study is more related to augmentation-based adversarial training.
+\section{Gradient-Based }
+\label{section:GradBasedAdvTra}
+The objective of gradient-based approach is to optimize the adversarial loss of the model by applying perturbations in the embedding space \cite{liu_adversarial_2020,goodfellow_explaining_2015,zhu_at-bert_2021,miyato_adversarial_2017,jiang_smart_2020-1}.  However, most of these studies are focused on increasing generalization instead of enhancing and evaluating against attack .\\
+ Liu \textit{et al.} \cite{liu_adversarial_2020} proposed a novel adversarial pre-training approach intended to increase the robustness and generalization of large neural language models called ALUM (Adversarial Training for Large Neural Language Models). Both pre-training and fine-tuning can be accomplished using the same approach. Their proposed training approach is mainly based virtual adversarial training \cite{miyato_virtual_2018},where an additional term is added to the training process which maximizes the adversarial loss by applying perturbations to the embedding space and optimizing it. Due to inner maximization and complexity, adversarial training is often quite costly, and verification of proposed approaches under a variety of attacks still needs to be studied.\\
+A more recent approach is proposed by Danqinq \textit{et al.} \cite{zhu_at-bert_2021}, in which adversarial training is done by fast gradient (FGM) \cite{miyato_adversarial_2017} and ensemble methods, in which multi-BERT model prediction assists in robustness. A proposed approach combines multiple BERT (BERT, SciB ERT, RoBERTa, ALBERT, and ELECTRA) and makes an average ensemble for all models to achieve superior performance. Large language models and internal maximization raise concerns about computational cost. Moreover, as mentioned previously, their approach is also completely focused on increasing generalization and performance under attack has not been evaluated.\\
+Wang \textit{et al.} \cite{wang_adversarial_2021-1} proposed a gradient-based synonym substitution method to quickly generate adversarial samples called Fast Gradient Projection Method (FGPM). The adversarial samples are claimed to be very effective in attacking the models. Including this technique in training have shown significant improvement in the robustness of models and they call this technique Adversarial Training with FGPM enhanced by Logit pairing (ATFL). But, the proposed approach is verified against CNN, LSTM, Bi-LSTM model. And, model's robustness is determined by accuracy under attack as the only metric that cannot provide a complete picture of model robustness.
+\section{Augmentation-Based}
+As part of a noise-based approach, Si \textit{et al.} \cite{si_better_2021}  proposed robust fine-tuning of language models by augmenting the training dataset and performing mix-up augmentation during training, hence the term AMDA (Adversarial and Mixup Data Augmentation). A mix-up augmentation is a linear interpolation of representations and labels pairs of training samples to create different virtual training samples. As per their experiments, the original accuracy for the BERT model is 91.27\% and the accuracy under attack is 14.83\%; however, BERT with AMDA had 91.10\% original accuracy and 31.52\% accuracy under attack. This approach has resulted in improved model performance under attack, but original accuracy has decreased.\\
+Bao \textit{et al.} \cite{bao_defending_2021} proposed approach involves training a language model to classify the input text and also discriminate adversarial samples simultaneously. Their proposed approach also generates adversarial samples using TextFooler \cite{jin_is_2020}, applies frequency aware randomization to the adversarial training set, and finally combines it with the original training set. In IMDB data, this approach has shown marginal improvements in original accuracy from 92.4\% to 92.8\% of the BERT model, but improvement in accuracy under attack, from 12.4\% to 89.2\%. In their report, they do not mention any further metrics concerning adversarial attacks, such as the number of queries, word perturbations, and confidence score.\\
+Dong \textit{et al. }\cite{dong_towards_2021-2} proposed an adversarial sparse convex combination (ASCC) method, which models the word substitution attack space as a convex hull and employs regularization to enforce perturbation towards a real substitution. According to their study, introducing the same approach during training results in a robust model only against word substitution attacks. Yet, robustness is evaluated solely on the basis of accuracy and has the possibility of evaluating against a variety of language models. \\
+The Dirichlet Neighborhood Ensemble (DNE) is a technique proposed by Zhuo \textit{et al.} \cite{zhou_defense_2020} which creates virtual sentences by combining the embedding of the original word in the input sentences with its synonyms. When training, these virtual sentences can enhance word substitution-based attacks, and the method samples an embedding vector within the convex hull formed by words in and their synonyms to ensure robustness in that region as discussed in previous work. And, this study also has similar focus and shortcomings.\\
+As a defence against character level adversarial attacks, Pruthi \textit{et al.} \cite{pruthi_combating_2019} proposed placing a word recognition model based on RNN based semi-character word recognition model before the downstream classifier to identify unknown and rare words. Both models are trained separately and provide downstream task independent recognition. According to their experiment results, accuracy was restored by approximately 30\% only under character-level attacks in BERT model. 
+%Certified Robustness to Adversarial Word Substitutions \cite{jia_certified_2019}
+\section{Other Strategies}
+In another study by Wang \textit{et al.} \cite{wang_natural_2020-1}, Synonym Encoding Method (SEM) was proposed as a defensive approach against adversarial attacks. According to this method,  encoding the clusters of synonyms to a unique encoding before the input layer of a model can be effective against synonym based adversarial attacks in the context of text classification. According to their findings, the BERT model's accuracy dropped by 0.2\% for the IMDB dataset and synonym-based PWWS as attack recipes. However, the proposed method is only efficient against synonym based attacks and the model's resilience is measured only by accuracy.\\
+A search-based approach is proposed by Guo \textit{et al.} \cite{guo_rosearch_2021} called RoSearch, where the robust distilled version of the language model is looked at the search space of various student models. As per their claim, the proposed approach can improve the robustness from 7\% $\sim$ 18\% up to 45.8\% $\sim$ 47.8\%. This approach is focused to enhance the knowledge distillation of language models and only accuracy as a metric of evaluation.\\
+Mozes \textit{et al.} \cite{mozes_frequency-guided_2021} argued and statistically proved in their study that the frequency of replaced words differs from the frequency of adversarial substitutions. Additionally, the effects of substitutions can be mitigated through simple frequency-based transforms and Frequency-Guided Word Substitutions (FGWS) can be used to detect a given sequence of input. This method has been claimed to identify adversarial samples with 91.4\% $F_{1}$ score.\\
+According to the study of Han \textit{et al.}\cite{han_robust_2021}, the robustness of language models can be enhanced by adding extra bottlenecks layers called adapters within each layer of pre-trained models. During fine-tuning for down streaming tasks, fix the pre-trained layer and train only the adapter layer. According to the study, the attack success rate was reduced. The approach, however, is evaluated against only one metric and attack recipe, i.e. PWWS \cite{ren_generating_2019} an d same attack recipe is discussed in section \ref{section:attackrecipes}.\\
+According to Dong \textit{et al.} \cite{dong_how_2021}, conventional fine-tuning of languages results in the loss of pre-trained weights, thereby failing to retain robust linguistic features. Additionally, we proposed Robust Informative Fine-Tuning (RIFT) as a robust information-theoretic perspective of fine-tuning which focuses on retaining the features learned in pre-training. According to their experimental results, the BERT model fine-tuned using RIFT yielded a 74.3\% accuracy under PWWS attack recipes in contrast to  approximately 19.4\% accuracy in case of conventional fine-tuning. However, the proposed study considers only accuracy and two attack recipes as signs of robustness and leaves room for further evaluation of recent sophisticated attack recipes.\\
+Wang \textit{et al.} \cite{wang_cat-gen_2020} proposed a strategy called Controlled Adversarial Text Generation (CAT-Gen), which uses an encoder-decoder architecture to generate text controlled by attributes present in text data. It is the objective of adversarial text generation strategies to keep the same controlled attribute while attacking a model. Furthermore, they claimed that introducing this adversarial text during training can enhance the models' accuracy, however, this was not the main objective of the research and not evaluated against language models.\\
+ Malkiel \textit{et al.} \cite{malkiel_mml_2019} proposed a method to fine-tune language models using a large number of multiverse classifiers, termed Maximal Multiverse Learning (MML). The goal is to fine-tune a large number of multiple classifiers simultaneously and enforce them to be orthogonal to each other. In training, eliminate weaker classifiers and optimize the models by minimizing two losses, namely, task loss and orthogonal loss, which are in general cumulative losses of all the classifiers. A comparatively robust model was claimed in their paper in terms of generalization, but an evaluation against adversarial attacks remains to be done.\\
+At present, most studies in the text domain are focused on generating adversarial text, and introducing those adversarial texts during training can enhance the model's robustness against the corresponding attack.  Further, robustness is more often used in the context of generalizing rather than assessing against adversarial attacks or any other uncertain scenario. Furthermore, it is proposed that the term robust should be taken into account when evaluating against various uncertain scenarios and generalizations. \\
+However, focused research on verification of language models against attacks and defence against them is still in progress. In addition, it is challenging to compare the performances of published approaches because of no standard evaluation framework \cite{moradi_evaluating_2021-1}. Hence, this master thesis is also trying to provide metrics specific to robustness evaluation of language models.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHAPTER PROPOSED METHODOLOGY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{ Proposed Methodology}
+\chapter{ Proposed Methodology of Adversarial Fine-Tuning and Attack Recipes}
 \label{chapter:methodology}
-
 \section{Mean Teacher Fine-Tuning}
 \label{section:Meanteacher}
-The proposed method calls for fine-tuning the BERT model using the semi-supervised approach for classification tasks and utilizes the adversarial unlabeled dataset for the same. A pictorial representation of methodology is illustrated in the figure \ref{diag:advMTBERT}.\\
-The proposed approach uses a semi-supervised approach of fine-tuning language model and utilizes the prominent adversarial unlabeled data for training with labelled data. The approach first starts with creating adversarial samples for training. As shown in the figure \ref{diag:advMTBERT}, after pre-processing the training dataset is being split into three equal parts and prominent adversarial unlabeled data is created on three different data augmentation strategies i.e. 1) Synonym based, 2) Context-based and, 3) Back translation based and further discussed in section \ref{section:dataaugmentation}. Labels of those adversarial datasets are discarded hence called prominent unlabeled adversarial data. Then, these generated samples are combined together and shuffled. After creating prominent unlabeled adversarial data, semi-supervised training starts.\\
+The proposed method calls for fine-tuning the language models using the semi-supervised approach for classification downstream task and utilizes the adversarial unlabelled dataset for the same. A pictorial representation of methodology is illustrated in the figure \ref{diag:advMTBERT}.\\
+The proposed approach uses a semi-supervised approach of fine-tuning language model and utilizes the prominent adversarial unlabelled data for training with labelled data. The approach  starts with creating adversarial samples for training. As shown in the figure \ref{diag:advMTBERT}, after pre-processing the training dataset is being split into three equal parts and prominent adversarial unlabelled data is created on three different data augmentation strategies i.e. 1) Synonym based, 2) Context-based and, 3) Back-translation based and further discussed in section \ref{section:dataaugmentation}. Labels of those adversarial datasets are discarded hence called prominent unlabelled adversarial data. Then, these generated samples are combined together and shuffled. After creating prominent unlabelled adversarial data, semi-supervised training starts.\\
 The proposed semi-supervised approach is based on the mean teacher approach implemented in the computer visualization domain \cite{tarvainen_mean_2018}. In the mean teacher model, two identical models are trained with two different strategies called student and teacher models. In which, only student model is trained, however, during training exponential moving weights are assigned to the teacher. The intuition behind this approach can be understood as, instead of taking an average of many models decision, teacher model is a mean of consecutive students models weights hence mean teacher. \\
-As shown in the figure \ref{diag:advMTBERT}, two cost function plays an important role while back-propagating i.e. classification cost and consistency cost. Classification cost ($C(\theta)$) is calculated as binary cross-entropy between label predicted by student model and ground truth label $y$ given input $x$.  As in this master thesis, evaluation is performed against binary classification task, hence, binary cross-entropy loss is used. However, loss function can be utilized as per task.\\
+As shown in the figure \ref{diag:advMTBERT}, two cost function plays important role while back-propagating i.e. classification cost and consistency cost. Classification cost ($C(\theta)$) is calculated as binary cross-entropy between label predicted by student model and ground truth label $y$ given input $x$.  As in this master thesis, evaluation is performed against binary classification task, hence, binary cross-entropy loss is used. However, loss function can be utilized as per task.\\
 \begin{equation}
     \begin{aligned}
         C( \theta )=-y \log (f(x,\theta))-(1-y) \log(1-f(x,\theta))
@@ -381,7 +402,7 @@ As shown in the figure \ref{diag:advMTBERT}, two cost function plays an importan
  \begin{figure}[h!]
     \centering
     \includegraphics[width=1.1\textwidth]{img/Methodology.png}
-    \caption[Training flow diagram of proposed approach]{Training flow diagram of proposed methodology }
+    \caption[Training flow diagram of proposed fine-tuning approach]{Training flow diagram of proposed fine-tuning methodology }
     \label{diag:advMTBERT}
 \end{figure}
 The consistency cost ($J(\theta)$)  is the mean squared difference between the predicted outcomes of the student (weights $\theta$ and noise $\eta$) and the teacher model (weights $\hat\theta$ and noise $\eta'$).  The mathematical declaration is as follows. 
@@ -409,7 +430,7 @@ While back-propagating in the student model, the overall cost ($\textit{O}(\thet
 \begin{algorithm}[H]
     \caption{Mean Teacher Algorithm} \label{alg:MeanTeacher}
     \begin{algorithmic}
-        \STATE \textbf{Data}: train set $\mathcal{(X,Y)}$,  Prominent Adversarial Unlabeled set($\mathcal{Z}$)
+        \STATE \textbf{Data}: train set $\mathcal{(X,Y)}$,  Prominent Adversarial unlabelled set($\mathcal{Z}$)
         \STATE \textbf{Hyper parameters}: \emph{r}, \emph{$\alpha$},\emph{epochs}
         \STATE \textbf{Create Model}: \emph{student($\theta$)}, \emph{teacher($\hat\theta$)} 
         \STATE  Train \emph{teacher} for n epoch
@@ -459,7 +480,7 @@ To evaluate the proposed approach, four black box attack recipes that satisfy le
 \label{subsection:textfooler}
 Jin \textit{et al.} proposed Textfooler \cite{jia_certified_2019}, a simple and effective adversarial attack generation strategy in black box settings which has characteristic of preserving the semantics, and grammar which they called utility-preserving adversarial examples as illustrated in figure \ref{diag:TextFoolerExp}. For better understanding the process is briefly explained in steps:
 \begin{enumerate}
-    \item  \textbf{Word Importance Ranking}: Given a sentence of words, they create a ranking of each word by calculating the change before and after deleting the words, called the importance score. NLTK and spaCy libraries are then used to remove stop words and preserve the grammar of the sentence. To improve the similarity of vectors, antonymy and synonymy are injected into vector space representations.
+    \item  \textbf{Word Importance Ranking}: Given a sentence of words, they create a ranking of each word by calculating the change before and after deleting the words, called the importance score. NLTK and spaCy libraries are then used to remove stop words and preserve the grammar of the sentence. To improve the similarity of vectors, antonymy and synonymy are injected into vector space representations.\\
     The replacement policy completely depends on three factors: (1) Similar semantic similarity, (2) Fit in the surrounding context, (3) Attack on the model. Universal Sentence Encoder is used in the study proposed by Cer \textit{et al.} \cite{cer_universal_2018} for encoding the sentence into a high-dimensional vector and calculating the cosine similarity between the sentences. Next, select replacement candidates with values above the preset threshold value and create a pool of candidates.
     \item \textbf{Replacement}: A candidate from a pool of candidates who can change the prediction of a target model is selected if there is an existing candidate with the highest cosine similarity between the original and adversarial sentences. If not, a lower confidence score for the label is chosen.
 \end{enumerate}
@@ -487,7 +508,6 @@ The TextBugger system proposed by Li \textit{et al.} \cite{li_textbugger_2019} u
     \caption[Example of 5 bug generation strategies of TextBugger]{TextBugger 5 bug generation strategies \cite{li_textbugger_2019} }
     \label{diag:textbug}
 \end{figure}
-
 Using the IMDB movie review dataset, the TextBugger model is evaluated against LR, CNN, and LSTM and shows 95.2\%, 90.5\%, and 86.7\% accuracy with perturbed words of 4.9\%, 4.2\%, and 6.9\%. This report does not assess the effectiveness of the BERT model. Comparatively to TextFooler, TextBugger generates adversarial attacks in much fewer time thanks to its sub-linear relationship to text length.
 
 \subsection{Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency (PWWS)}
@@ -517,17 +537,6 @@ The BERT masked language model (MLM) was employed by Garg \textit{et al.} \cite{
     \caption[Schematic working and example of BAE attack recipe]{Schematic working and example of BAE\cite{garg_bae_2020} }
     \label{diag:baeexp}
 \end{figure}
-
-\section{Research Question}
-\label{section:researchquestions}
-The goal of the proposed approach is to investigate the implications of utilizing a mean teacher semi-supervised approach to fine-tuning language models on model performance.
-The major research question of this thesis is: \\
-\textbf{Research Question.}\\ \emph{In comparison to conventional approaches, the mean teacher semi-supervised approach will produce a comparatively better language model in terms of robustness without compromising in generalization.}\\
-Data augmentation and exponential moving average (EMA) process can be crucial player in better robustness as discussed in section \ref{section:Meanteacher}. In general, utilizing a data augmentation technique is intended to enhance robustness by learning more representation while also regularizing the model by preventing the model from learning deep insight, which can lead to over-fitting. Belinkov \textit{et al.} \cite{belinkov_synthetic_2018} argued that providing data augmentation in training might improve model robustness, hence the suggested fine-tuning strategy should result in more resilient language models.\\
-Furthermore, exponential moving averages (EMA) can also plays an essential role in increasing generalization and performance under attack. In year 1992, Polyak \textit{et al.} \cite{polyak_acceleration_1992} argued that averaging weights over time tends to produce more accurate model than using final weights and the teacher model is an average of consecutive student models, therefore, the teacher model should be more accurate. As per above mentioned studies, it is estimated that during experiment model fine-tuned using proposed approach should outperform conventionally fine-tuned model in all metrics. 
-This thesis attempts to answer the question by constructing a teacher model using proposed semi-supervised approaches. Then, comparing the generalization of both conventional and proposed fine-tuning methods in terms of different evaluation metrics. \\
-The robustness of this experiment will be evaluated using metrics such as original accuracy, accuracy under attack, average word perturbation, the average number of queries, and attack success rate, which are discussed briefly in the figure \ref{section:metrics}. Hence, the hypothesis is that the suggested technique will have greater original accuracy, accuracy under attack, and will need more queries and perturbations to be attacked. The model performance is evaluated using four different attack recipes discussed in the figure \ref{section:attackrecipes}.\\
-Moving forward, the experiment also attempts to understand the robustness of models by examining the confidence score distribution. A model that does not allow attack recipes to be misclassified with high confidence is a sign of robustness. Furthermore, the transferability of proposed approach is verified by performing similar experiment with two differently pre-trained models i.e. BERT, DistilBERT.
  
 \chapter{Experiment Setup}
 \label{chapter:experiment}
@@ -535,7 +544,7 @@ Moving forward, the experiment also attempts to understand the robustness of mod
 \section{Dataset}
 \label{label:dataset}
 To assess the performance of baseline and proposed model two datasets were selected i.e. 1) Covid-19  fake tweets dataset \cite{patwa_fighting_2021} provided at Codalab competition, and 2) IMDB review binary classification dataset were selected. \\
-The IMDB dataset is a sentiment classification dataset \cite{maas_learning_2011-1} that contains movie reviews of the user and contains positive and negative ratings, and it is primarily used in classification and adversarial attack papers. Due to computational limitations, we have filtered and sampled only datasets whose length is between 6 and 150 as the augmentation process takes quite a while. This leaves us with 6000 samples to train and test our model. The train and test sizes are shown in table \ref{table:train/testtable}. Additionally, we have sampled 6000 training labelled samples to create an augmented unlabeled dataset. Filtered datasets have an average text length of 127. The label distribution in training datasets is completely balanced.\\
+The IMDB dataset is a sentiment classification dataset \cite{maas_learning_2011-1} that contains movie reviews of the user and contains positive and negative ratings, and it is primarily used in classification and adversarial attack papers. Due to computational limitations, we have filtered and sampled only datasets whose length is between 6 and 150 as the augmentation process takes quite a while. This leaves us with 6000 samples to train and test our model. The train and test sizes are shown in table \ref{table:train/testtable}. Additionally, we have sampled 6000 training labelled samples to create an augmented unlabelled dataset. Filtered datasets have an average text length of 127. The label distribution in training datasets is completely balanced.\\
 Covid-19 fake tweets dataset is a recent dataset specifically for classifying fake tweets related to COVID-19 with labels as fake or real. Covid-19 fake tweets dataset sized 8000 and we have fully utilized this dataset. Contrary to the IMDB dataset, the Covid-19  fake tweets dataset has an average length of 25, as shown in table \ref{table:Length stat }. Furthermore, as Covid-19  fake tweets dataset has mostly hashtags and comparatively fewer correct English words.\\
 Therefore, the intention of observing the models behaviour under a recent dataset that has comparatively lesser text length and vocabulary size led to selecting this dataset.
 
@@ -543,14 +552,14 @@ Therefore, the intention of observing the models behaviour under a recent datase
 \centering
 \begin{tabular}{ |c|c|c|c|c|c| }
 \hline
-Dataset & Train & Test  & Aug. Unlabeled \\
+Dataset & Train & Test  & Aug. unlabelled \\
 \hline
 codalab (Positive/Negative) & 3199/2891 & 1071/969 & 6090 \\
 \hline
 IMDB (Fake/Real) & 3025/3025 & 1000/1000 & 6050  \\
 \hline
 \end{tabular}
-\caption[Train/Augment test data]{Train/ Test split details of dataset }
+\caption[Train/Test/Unlabelled details of dataset]{Train/ Test split details of dataset }
 \label{table:train/testtable}
 \end{table}
 
@@ -564,11 +573,9 @@ Since language models learn the context of sentences, they are least affected by
 \item  Punctuation removal.
 \end{enumerate}
 This particular task was accomplished by using the texthero python library, which offers functions related to data pre-processing and exploration.
-
-\subsubsection{Data Exploration}
+\subsection{Data Exploration}
 \label{subsection:dataexploration}
-The mentioned models were trained with almost equal distributions of labels in training and test data, and the same training data that was used to generate unlabeled augmented data via the proposed method is shown in \ref{table:train/test table }.
-During experiments, various exploration techniques were utilized such as word cloud, word distribution with/without respect to classes in the dataset, and length distribution. That information can be seen in provided Github project. However, the most relative information about the dataset i.e. about length is provided in the table \ref{table:Length stat }and figure \ref{fig:lendist}.
+The mentioned models were trained with almost equal distributions of labels in training and test data, and the same training data that was used to generate unlabelled augmented data via the proposed method is shown in \ref{table:train/testtable}. During experiments, various exploration techniques were utilized such as word cloud, word distribution with/without respect to classes in the dataset, and length distribution. That information can be seen in provided Github project. However, the most relative information about the dataset i.e. about length is provided in the table \ref{table:Length stat } and figure \ref{fig:lendist}.
 The Covid-19 Fake tweets dataset is shorter than the IMDB dataset. The purpose of using two distinct length datasets is to better understand the behaviour of models and attack recipes in relation to the length.
 \begin{table}[!h]
 \centering
@@ -595,10 +602,10 @@ IMDB & 127  \\
     \begin{minipage}[b]{0.4\linewidth}
         \centering
         \includegraphics[width=\textwidth]{img/ImdbLengthdist.png}
-        \caption{Length distribution of IMDB Dataset.}{}
+        \caption{Length distribution of IMDB dataset.}{}
         \label{fig:imdblendist}
     \end{minipage}
-    \caption[Length distribution of Covid-19 fake tweets and IMDB Dataset]{\small Length Distribution of Covid-19 fake tweets and IMDB Dataset.}
+    \caption[Length distribution of Covid-19 fake tweets and IMDB dataset]{\small Length Distribution of Covid-19 fake tweets and IMDB dataset.}
     \label{fig:lendist}
 \end{figure}
 
@@ -624,13 +631,13 @@ IMDB & 127  \\
 \section{Data Augmentation}
 \label{section:dataaugmentation}
 
-For creating the unlabeled augmented dataset, we have utilized three strategies :
+For creating the unlabelled augmented dataset, we have utilized three strategies :
 \begin{enumerate}
 \item  Synonym Augmentation
 \item Context-Based Augmentation
 \item Back translation.
 \end{enumerate}
-While augmenting this dataset, there is a high chance that the information will be changed or completely opposite to the label of the original dataset. Therefore, once we augment the data, we will not use the label of the augmented data, so the augmented dataset will be unlabeled. For synonym changes, various python packages like text attack, nlpaug, and various basic python packages were used during experiments.\\
+While augmenting this dataset, there is a high chance that the information will be changed or completely opposite to the label of the original dataset. Therefore, once we augment the data, we will not use the label of the augmented data, so the augmented dataset will be unlabelled. For synonym changes, various python packages like text attack, nlpaug, and various basic python packages were used during experiments.\\
 In addition, time and computation constraints have led us to choose the nlpaug data augmentation package \cite{ma_nlpaug_2022} to achieve all three augmentation strategies. We have augmented the dataset by removing the label columns from the training dataset and then randomly splitting it into three parts. The first part is for synonym augmentation, the second part is for context-based augmentation, and the last part is for back-translation.\\
 One more idea was to create unlabelled data using different attack recipes, which might provide better results under attack. However, the reason why attack recipes are not used is that the model is created with little or no understanding of how attacks work. \\
 In the case of implementing a specific attack recipe to create unlabelled data,  the robustness of the model will be enhanced for specific attack recipes, but the overall evaluation of the model performance can be biased.\\
@@ -690,7 +697,7 @@ During back translation, sentences are converted in different languages and then
 \end{table}
 Considering examples of all augmentation techniques, it is evident that  word perturbation are quite higher in back translation followed by context-based augmentation.
 
-\section{Experiment Environment description}
+\section{Experiment Environment Description}
 \label{section: experimentenv}
 The proposed experiment has been performed on two language models i.e. 1) $BERT_{Base}$ uncased version  and, 2) DistilBERT uncased version, model architecture is shown in figure \ref{fig:bertarch} and \ref{fig:DistilBERT} respectively. During this experiment baseline models will be referred to as BERT and DistilBERT, and the respective proposed models will be referred to as MTBERT and MTDistilBERT. For training the models, google colab provided GPU has been utilized as shown in figure \ref{fig:nvidiagpu}. The source code for the experiment are provided as a github project\footnote{https://github.com/bksaini078/Mean-Teacher-BERT-Robustness-Assessment} and complete code written in Goolge colab notebook with proper instruction of reproducing the experiments.
 \subsection{Hyperparameter Details}
@@ -698,7 +705,7 @@ The proposed experiment has been performed on two language models i.e. 1) $BERT_
 To train the baseline model and proposed model, we used the hyperparameter values shown in table \ref{table:HyperparameterTable}. Exploring the model under different settings is not under the scope of this experiment. 
 \begin{table}[H]
 \centering
-\begin{tabular}{ l c c }
+\begin{tabular}{ l c | c | }
 \hline
 Hyper parameter 		& \multicolumn{2}{c}{Used parameters in this work}\\
 \hline
@@ -713,7 +720,7 @@ Dropout  			& \multicolumn{2}{c}{0.2}  \\
 Max length 			 & \multicolumn{2}{c}{100}  \\
 \hline
 \end{tabular}
-\caption[Hyper-parameters Details]{Hyper-parameters Details}
+\caption[Details of hyperparameters details]{Hyperparameters Details}
 \label{table:HyperparameterTable}
 \end{table}
 \section{Metrics}
@@ -727,8 +734,7 @@ Next, we calculate the robustness of the target models based on four different m
     \item Perturbation Score
 \end{enumerate}
 A target model's accuracy under attack is the percentage of correct predictions with respect to test samples, i.e. accuracy with respect to crafted test samples. Compared to the original accuracy, accuracy under attack can provide significant information about the efficiency of the target model and attack recipes. Significant differences between these metrics indicate lower robustness against attack. A counter-part of accuracy under attack is the attack success rate, which indicates the effectiveness of attack recipes.\\
-A metric other than accuracy is the average perturbed word in percentage, which is an average number of words that need to change for a successful attack. Higher word perturbation indicates less robustness, and this metric is also dependent on the length of the text. \\
-Furthermore, an average number of queries i.e. a number of times attacks recipes sends perturbed text sample input to target models for successful attacks. A higher number of queries is a sign of robustness.\\
+A metric other than accuracy is the average perturbed word in percentage, which is an average number of words that need to change for a successful attack. Higher word perturbation indicates less robustness, and this metric is also dependent on the length of the text. Furthermore, an average number of queries i.e. a number of times attacks recipes sends perturbed text sample input to target models for successful attacks. A higher number of queries is a sign of robustness.\\
 Finally, the perturbation score is a confidence score or a predicted probability of the target model under attack. A lower average perturbation score of only successful attacks can be a signal of better robustness. 
 
 \section{Threat Model}
@@ -740,9 +746,9 @@ The robustness of target models is evaluated against the four attack recipes men
  Furthermore, it is also assumed that the attack test samples are syntactically and semantically similar as per the claimed based on the attack recipes studies, hence, similarity metrics are not included in this experiment.\\
  The model is trained in mentioned settings  \ref{subsection:hyperparameter}, and the model can perform better or worse in different settings.In terms of transferability, the experiment is conducted on two separate language models that differ in pre-training, it is expected that the approach would perform similarly if additional language models were used. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHAPTER RESULT ANALYSIS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Experiment Result}
+\chapter{Experiment Results}
 \label{chapter:result}
-\section{Analysis of Result}
+\section{Evaluation of Results}
 \label{section:resultanalysis}
 The result presented in tables \ref{table:IMDBExpRes} and \ref{table:FakeNewsExpRes}demonstrates that MTBERT has outperformed all the other language models in almost all metrics. 
 \begin{table}[H]
@@ -776,7 +782,7 @@ The result presented in tables \ref{table:IMDBExpRes} and \ref{table:FakeNewsExp
  \bottomrule
  \end{tabular}
     }
-    \caption[Experiment Result of IMDB dataset]{IMDB dataset: MTBERT model has performed well overall followed by MTDistilBERT. Bold and underlined values represent first and second best value respectively.}
+    \caption[Experiment result of IMDB dataset]{IMDB dataset: MTBERT model has performed well overall followed by MTDistilBERT. Bold and underlined values represent first and second best value respectively.}
     \label{table:IMDBExpRes}
 \end{table}
 \begin{table}[H]
@@ -809,9 +815,10 @@ TextFooler & DistilBERT &                94.41 &                     7.58 &     
             \bottomrule
         \end{tabular}
     }
-    \caption[Experiment Result of Covid-19 fake tweets]{Covid-19 fake tweets Dataset: MTBERT model has performed well overall followed by MTDistilBERT. Bold and underlined values represent first and second best value respectively.}
+    \caption[Experiment result of Covid-19 fake tweets]{Covid-19 fake tweets dataset: MTBERT model has performed well overall followed by MTDistilBERT. Bold and underlined values represent first and second best value respectively.}
     \label{table:FakeNewsExpRes}
 \end{table}
+
 The proposed approach models i.e. MTBERT and MTDistilBERT also performed better than the respective baseline models, i.e. BERT and DistilBERT.  As shown in figure \ref{fig:moaandauaimdb}, the MT BERT model showed 0$\sim$2\% improvement in accuracy over the baseline model in both datasets and 20$\sim$30\% improvement in accuracy under attack. The proposed model also shows the comparatively higher requirement for the number of queries and word perturbations. Furthermore, the drop in accuracy is lowest in proposed approaches than baseline models.
 %\begin{figure}[ht]
 %    \begin{minipage}[b]{0.5\linewidth}
@@ -830,61 +837,60 @@ The proposed approach models i.e. MTBERT and MTDistilBERT also performed better 
 %    \caption[Comparative bar plot of original accuracy and accuracy under attack]{\small Comparative bar plot of original accuracy and accuracy under attack in different dataset. MTBERT showed better performance in both metrics followed by MTDistilBERT. And, highest drop is seen in baseline models (BERT and DistilBERT).}
 %    \label{fig:moaandauaimdb}
 %\end{figure}
-
 \begin{figure}[H]
     \centering
-%    \hspace*{1.0em}
+    \hspace*{2.9em}
     \begin{subfigure}
             \centering
-            \includegraphics[width=.85\linewidth]{img/MOAandAUA_Imdb.png}
+            \includegraphics[width=.90\linewidth]{img/MOAandAUA_Imdb.png}
             \caption{IMDB Dataset.}{}
                \label{fig:}
         \end{subfigure}
 %    \hspace*{1.8em}
     \begin{subfigure}
             \centering
-            \includegraphics[width=.85\linewidth]{img/MOAandAUA_fknews}
+            \hspace*{2.9em}
+            \includegraphics[width=.90\linewidth]{img/MOAandAUA_fknews}
             \caption{Covid-19 fake tweets dataset.}{}
               \label{fig:sub2}
         \end{subfigure}
- \caption[Comparative bar plot between original accuracy and accuracy under attack]{\small Comparative bar plot of original accuracy and accuracy under attack in different datasets. MTBERT showed better performance in both metrics followed by MTDistilBERT. And, the highest drop is seen in baseline models (BERT and DistilBERT).}
+ \caption[Comparative bar plot between original accuracy and accuracy under attack]{\small Comparative bar plot of original accuracy and accuracy under attack in different datasets. MTBERT showed better performance in both metrics followed by MTDistilBERT. And, the highest drop is observed in baseline models (BERT and DistilBERT).}
   \label{fig:moaandauaimdb}
 \end{figure}
-
-In terms of queries, it is observed that overall MTBERT has a high need for the number of queries to be attacked \ref{fig:avgnquebyattackrecipes}. As shown in the box plot \ref{fig:numofqueriesdist}, the interquartile range of the MTBERT and MTDistilBERT model is comparatively broader than any other model and has also shown incident crossing 2000 queries. \\
-
+\subsection{Number of Queries}
+In terms of queries, it is observed that overall MTBERT has a high need for the number of queries to be attacked \ref{fig:avgnquebyattackrecipes}. As shown in the box plot \ref{fig:numofqueriesdist}, the interquartile range of the MTBERT and MTDistilBERT model is comparatively broader than any other model and has also shown incident crossing 2000 queries. 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=.78\linewidth]{img/AvgNQuebyDataset}
+     \hspace*{2.5em}
+    \includegraphics[width=.95\linewidth]{img/AvgNQuebyDataset}
 	\caption[Bar plot of the number of queries]{Bar plot of the number of queries w.r.t dataset and attack recipes. PWWS has shown the highest overall number of queries requirement followed by TextFooler.  And, dependencies w.r.t to text length can also be observed in this plot.}
 	\label{fig:avgnquebyattackrecipes}
 \end{figure}
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.55\linewidth]{img/NumQueriesDist_IMDB.png}
+    \includegraphics[width=0.75\linewidth]{img/NumQueriesDist_IMDB.png}
     \caption{Box-plot of the number of queries.}{ The proposed models are comparatively broader and showed greater values for outliers than baseline models. This particular box plot is based on the IMDB dataset and only successful attacks are considered.}
     \label{fig:numofqueriesdist}
 \end{figure}
-If we compare the performances of attack recipes, BAE attacks have shown the lowest requirements for queries, followed by TextBugger, however, it is the least effective in attacking. PWWS requires a significantly higher number of queries followed by TextFooler and is also found to be more effective in attacks. Furthermore, both attack recipes are dependent on the text length, if we observe the considerable differences in queries as per the dataset shown in the figure \ref{fig:avgnquebyattackrecipes}. In the TextFooler attack recipe, the difference between proposed and baseline queries also increases with respect to the length of the text which shows its effectiveness depends on text length. \\
-%%%
+If we compare the performances of attack recipes, BAE attacks have shown the lowest requirements for queries, followed by TextBugger, however, it is the least effective in attacking. PWWS requires a significantly higher number of queries followed by TextFooler and is also found to be more effective in attacks. Furthermore, both attack recipes are dependent on the text length, if we observe the considerable differences in queries as per the dataset shown in the figure \ref{fig:avgnquebyattackrecipes}. In the TextFooler attack recipe, the difference between proposed and baseline queries also increases with respect to the length of the text which shows its effectiveness depends on text length. 
+\subsection{Word Perturbation}
 To understand the robustness of models with respect to word perturbation, the difference is less significant in between models as shown in the figure \ref{fig:avgpertbyattackrecipes}. However, in the Covid-19 fake tweets dataset, the average word perturbation required by proposed models is higher, but, exactly the opposite in the IMDB dataset. It is quite clear that longer text requires comparatively lower word perturbation and also make sense. But, surprisingly TextBugger has shown the same perturbation rate and is least affected by text length. However,  TextBugger requires a greater number of words perturbed than TextFooler. BAE required the lowest number of perturbations, followed by PWWS.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.78\linewidth]{img/AvgPertByDataset}
-    \caption[Bar plot of Word perturbation]{Bar plot of Word perturbation as per datasets and attack recipes. TextBugger has shown the highest word perturbation in both datasets and also shown less difference between both datasets. However, BAE has lower word perturbation followed by the PWWS attack recipe. Covid-19 fake tweets dataset has shown significantly higher word perturbation requirements.  }
+     \hspace*{2.5em}
+    \includegraphics[width=0.80\linewidth]{img/AvgPertByDataset}
+    \caption[Bar plot of word perturbation rate]{Bar plot of word perturbation as per datasets and attack recipes. TextBugger has shown the highest word perturbation in both datasets and also shown less difference between both datasets. However, BAE has lower word perturbation followed by the PWWS attack recipe. Covid-19 fake tweets dataset has shown significantly higher word perturbation requirements.  }
     \label{fig:avgpertbyattackrecipes}
 \end{figure}
+\subsection{Perturbation Score}
 Intuitively, while running the experiments we logged perturbation score that is predicted probability under attack in other term confidence score. To answer the question, how much proposed and baseline model let the attacker change the confidence score of successful attacks. As shown in the figure \ref{fig:pertscoredist}, a huge improvement is being observed in the proposed model  with respect to the baseline model and the distribution of the proposed model is comparatively more left-shifted than baseline models. The proposed model does not let attack recipes go beyond a particular limit i.e. 0.70, however, baseline models are more uniform and show less resilience.  The range of the MT BERT model is 0.50 to 0.55, but for the BERT model, it is 0.50 to 0.66, which is a significant improvement in the model.
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.57\linewidth]{img/PertScoreDist}
+    \includegraphics[width=.75\linewidth]{img/PertScoreDist}
     \caption[Box-plot of perturbation score]{\small Box-plot of perturbation score. MT BERT model has managed attacks confidence score in the leaner interquartile range and does not cross 0.70 in a single instance which is a significant improvement over BERT.}
     \label{fig:pertscoredist}
 \end{figure}
  Overall, the model fine-tuned using the proposed approach has shown significant improvements over the conventional way of fine-tuning and MT BERT has shown maximum robustness as compared to other models. In the experiment, it is also observed that compact model i.e. DistilBERT created using knowledge distillation process are performing comparative to its base model i.e. BERT. Furthermore, PWWS and TextFooler appeared to be more successful attacks recipes compared to other attack recipes. 
-
 %\begin{figure}
 %    \centering
 %    \begin{minipage}{.5\textwidth}
@@ -920,42 +926,41 @@ Intuitively, while running the experiments we logged perturbation score that is 
 %        And, mostly in limited in range 0.53-0.70 and 75 \% of attacks score is under 0.55 a sign of robustness.}
 %    \label{table:perturbationscore}
 %\end{table}
-
-\section{Discussing on Research Question}
-The objective of this master thesis is to conduct experiment and verify the mentioned hypothesis: \\
-\textbf{Research Question.}\\
- \emph{In comparison to conventional approaches, the mean teacher semi-supervised approach will produce a comparatively better language model in terms of robustness without compromising in generalization.}\\
- Initial expectation before the experiment was that the mean teacher language model would outperform the traditional fine-tuned model, and same has been confirmed throughout the experiment.
- According to the findings, the proposed approach has demonstrated notable increase in generalization and a significant improvement in accuracy under attacks. The language model produced using proposed approach requires higher word perturbation and queries to get attacked. Furthermore, the proposed fine-tuned model has shown remarkable improvements in terms of confidence score, i.e., attack recipes are not able to misclassify the prediction with higher confidence.\\
-In the proposed semi-supervised approach, there are two key techniques that resulted in observed behaviour: 1) Data Augmentation, and 2) Exponential Moving Average (EMA). However, this research does not attempt to quantify the impact of these strategies on observed behaviour. \\
+\newpage
+\section{Discussion on Research Question}
+The objective of this master thesis was to conduct experiment and investigate the research question: \\
+%\emph{Is it possible to enhance robustness and generalization of language models with proposed mean teacher semi-supervised fine-tuning and employing prominent adversarial unlabelled data during training, compared to a conventional approach?}\\
+\emph{Is the proposed mean-teacher semi-supervised fine-tuning and the use of prominent adversarial unlabelled data an effective method to improve the robustness of language models, specifically with regard to accuracy under attack without compromising the original accuracy in contrast to the conventional fine-tuning approach?}\\
+This experiment hypothesized that the proposed means teacher semi-supervised approach and use of prominent adversarial unlabelled data will produce a comparatively robust language model in terms of metrics such as accuracy under attack, queries required, rate of word perturbation, and confidence score without compromising generalization. And, it  was expected that the mean teacher language model would outperform the traditional fine-tuned model, and same has been confirmed throughout the experiment.\\
+According to the findings, the proposed approach has demonstrated notable increase in generalization and a significant improvement in accuracy under attacks. The language model produced using proposed approach requires higher word perturbation and queries to get attacked. Furthermore, the proposed fine-tuned model has shown remarkable improvements in terms of confidence score, i.e., attack recipes are not able to misclassify the prediction with higher confidence.\\
+In the proposed semi-supervised approach, two key techniques are expected to account for observed behaviour: 1) Data Augmentation, and 2) Exponential Moving Average (EMA). However, this research does not attempt to quantify the impact of these strategies on observed behaviour. 
+\subsection{Data-Augmentation}
 During training, data augmentation incorporates numerous additional words as noise, resulting in models learning a bigger word representation and also regularize the model at the same time. This, however, is the most basic explanation and only using noisy data during training does not guarantee improvement. Englesson \textit{et al.} \cite{englesson_consistency_2021} claimed that models trained on noisy data perform worse than models trained on clean data, and that the performance of models trained on noisy data worsens as the noise ratio rises. However, introducing a loss function during training can improve model performance significantly called consistency regularization. Consistency regularization is the process of incorporating a loss function during training to reduce consistency loss and build a more robust model.\\
-Both gradient-based techniques \cite{miyato_virtual_2018} and the proposed methodology exploit the concept of consistency regularization. Furthermore, the suggested strategy backs up the conclusions of Belinkov \textit{et al.} \cite{belinkov_synthetic_2018} study, which indicate that include noisy data during training improves model robustness. This answers the question of whether language models trained on noisy data with a loss function termed consistency loss may increase generalization and robustness. Furthermore, if appropriate data augmentation procedures are implemented in semi-supervised fine-tuning methodology, better predicting and robust language models can be achieved.\\
-In another case, it is commonly known that ensemble technique outperforms a single machine learning models. Laine et al. \cite{laine_temporal_2017} exploited this idea and applied it at training level, averaging the prediction of single network over multiple different training epochs and augmentation conditions. Their study found that such type of ensemble technique can also lead to a stronger predictor. Later,  Tarvainen \textit{et al.}\cite{tarvainen_mean_2018} claimed and demonstrated that instead averaging model prediction, averaging model weights throughout training, can also lead to much better predictor. Their research was based on the findings of Polyak \textit{et al.} \cite{polyak_acceleration_1992}, who found that averaging weights over time provides a more accurate model than using final weights directly, and that the teacher model performed better since it was an average of consecutive student models. \\
-This thesis provides experimental evidence supporting all the above mentioned studies, and claiming that the language model created using ensemble and data augmentation creates a comparatively better and more robust model when it comes to defending against adversarial attacks.\\
+Both gradient-based techniques \cite{miyato_virtual_2018} and the proposed methodology exploit the concept of consistency regularization. Furthermore, the suggested strategy also backs up the conclusions of Belinkov \textit{et al.} \cite{belinkov_synthetic_2018} study, which indicate that include noisy data during training improves model robustness. This answers the question of whether language models trained on noisy data with a loss function termed consistency loss may increase generalization and robustness. Furthermore, if appropriate data augmentation procedures are implemented in semi-supervised fine-tuning methodology, better predicting and robust language models can be achieved.
+\subsection{Exponential Moving Average}
+In another case, it is commonly known that ensemble technique outperforms a single machine learning models. Laine et al. \cite{laine_temporal_2017} exploited this idea and applied it at training level, averaging the prediction of single network over multiple different training epochs and augmentation conditions. Their study found that such type of ensemble technique can also lead to a stronger predictor. Later,  Tarvainen \textit{et al.}\cite{tarvainen_mean_2018} claimed and demonstrated that instead averaging model prediction, averaging model weights throughout training, can also lead to much better predictor. \\
+Their research was based on the findings of Polyak \textit{et al.} \cite{polyak_acceleration_1992}, who found that averaging weights over time provides a more accurate model than using final weights directly, and that the teacher model performed better since it was an average of consecutive student models. \\
+This thesis provides experimental evidence supporting all the above mentioned studies, and claiming that the language model created using average weight assignment and data augmentation creates a comparatively better and more robust model when it comes to defending against adversarial attacks.\\
 The experiment's transferability to other language models is partially demonstrated by the fact that it was conducted in two separate models, namely BERT and DistilBERT. Research also found that while traditionally fine-tuned language models performed admirably in a variety of tasks, they are no different from other DNN models in terms of resilience. Positively, the findings suggest that language models still have room for improvement in terms of generalization and resilience.
-\chapter{Limitation, Future Work and Conclusion}
+\chapter{Limitation, Future Work, and Conclusion}
 \label{chapter:conclusion}
-
-\section{Limitations}
+\section{Limitation}
 \label{section:limitations}
 Unlike image data where perturbation can be made imperceptible to humans, achieving even a similar level of imperceptibility is still a challenge in the text domain due to its discrete nature. Most studies claimed to manage the same level of syntactic and semantic similarity of the original text, but in reality, the samples could be recognized by a human.\\
 As the proposed approach uses two identical models while fine-tuning, therefore it is comparatively more space and time consuming  that conventional approach. \\
 Attacks, data augmentation techniques, and semi-supervised training methodologies established in the image domain cannot be easily applied to the text domain, necessitating a separate effort and commitment to implement and evaluate them.\\
-The suggested technique outperformed traditional models in the experiment; nonetheless, it cannot be said to be resistant to all forms of assaults. No defense plan can handle all forms of attacks since its nature is uncertain. Furthermore, incorporating the corresponding noisy data can only strengthen the robustness of the system against attacks.\\
+The suggested technique outperformed traditional models in the experiment; nonetheless, it cannot be said to be resistant to all forms of assaults. No defense plan can handle all forms of attacks since its nature is uncertain. Furthermore, incorporating the corresponding noisy data can only strengthen the robustness of the system against particular attacks.\\
 There are currently no common assessment criteria or frameworks for evaluating different research and strategy techniques in the text domain, necessitating more investigation. In another case, recent studies have concentrated on improving model generalization rather than examining the robustness of such techniques.
-
-
 \section{Future Work }
 \label{section:futurework}
 This approach can be evaluated using more recent state-of-the-art language models, and the work could also focus on the hypothesis that extreme pre-training of language models can hurt model robustness. And in another case, the quantitatively measuring the effectiveness of individual augmentation techniques on robustness can be studied.\\
 As a limitation the proposed approach is comparatively more space and time consuming, hence, in future less space and time complex techniques can be studied to get similar or better result. 
 In the experiment, training data is used to create augmented prominent unlabelled data, however,  huge amounts of unlabelled data could be used instead and evaluated. In another case, including the adversarial samples generated by attack recipes during training can also be evaluated. The quantitative comparison of gradient-based adversarial training and the proposed fine-tuning approach remains an open question. Moving forward, including both technique in single training can also be evaluated in the future. In another scenario, more research is needed to build a common robustness verification framework that can be used to compare various methodologies.
- 
 \section{Conclusion}
 \label{section:conclusion}
 The purpose of this research was to investigate if the proposed mean teacher strategy to fine-tuning language models resulted in a more resilient language model without sacrificing original accuracy. Experiments were conducted to quantitatively examine and compare performance of the proposed and the conventional fine-tuning approach in terms of generalization and robustness. In addition, this research was also aimed into the efficacy of data augmentation technique which utilizes the capabilities of language models. Moving forward, a review of research studies were conducted in attempt to investigate the cause of the observed behaviour. \\
 Although the mean teacher approach has proven significant performance in the image domain, there was still an open scope to explore how the same strategy behaves in the text-domain. As a result, the intention of this research was also to investigate the behaviour of the mean teacher approach in the text domain, especially with language models. The proposed mean teacher approach in the text domain differs significantly from that in the image domain. Three noise strategies were introduced which use language models capabilities to successfully execute the mean teacher approach.\\
-In this experiment, four attack recipes, data augmentation techniques, and two language models were utilized. As per the result, the proposed approach of fine-tuning improved original accuracy by 0$\sim$2\% and accuracy under attack by 20$\sim$30\%. Furthermore, it also met higher criteria in terms of word perturbation and queries, which indicates its better robustness in contrast to traditional approach. The mean teacher technique is more resilient to attacks and does not enable attack recipes to sabotage models with high confidence, which is a remarkable improvement in the model and a key finding of this work. Moreover, two different language models are used to demonstrate the transferability of the proposed approach.\\
+In this experiment, four attack recipes, data augmentation techniques, and two language models were utilized. As per the result, the proposed approach of fine-tuning improved original accuracy by 0$\sim$2\% and accuracy under attack by 20$\sim$30\%. Furthermore, it also met higher criteria in terms of word perturbation and queries, which indicates its better robustness in contrast to traditional approach. The mean teacher technique is more resilient to attacks and does not allow attack recipes to sabotage models with high confidence, which is a remarkable improvement in the model and a key finding of this work. Moreover, two different language models are used to demonstrate the transferability of the proposed approach.\\
 According to a study conducted on research paper, consistency regularization and exponential moving average (EMA) weight assignments were the most prominent explanations for the observed behaviour.
 Furthermore, this research first highlighted that language models are sensitive to adversarial attacks and also, showed scope for development. \\
 This proposed study provided an important opportunity to advance the understanding of language models, data augmentation, and various adversarial attacks in text-domain. This master thesis also contributed by provided a proper framework of metrics in terms of text classification for evaluating language models and provided direction for future works.
