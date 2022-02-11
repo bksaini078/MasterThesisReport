@@ -9,25 +9,29 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Perturbation example of attack recipes}}{22}{table.caption.20}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Perturbation examples of attack recipes.}}{21}{table.caption.20}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces Train/Augment test data}}{27}{table.caption.25}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Train/Augment test data}}{26}{table.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.2}{\ignorespaces Train/Augment test data}}{28}{table.caption.28}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Length details of datasets}}{27}{table.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.3}{\ignorespaces Hyper-parameters with test run results}}{30}{table.caption.29}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Sample example of synonym based augmentation}}{28}{table.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.4}{\ignorespaces Sample example of context-based augmentation}}{29}{table.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.5}{\ignorespaces Sample example of back translation based augmentation}}{29}{table.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5.6}{\ignorespaces Hyper-parameters Details}}{30}{table.caption.33}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.1}{\ignorespaces Experiment Result}}{33}{table.caption.31}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Experiment Result of IMDB dataset}}{32}{table.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.2}{\ignorespaces Experiment Result}}{33}{table.caption.32}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Experiment Result of Covid-19 fake tweets}}{32}{table.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.3}{\ignorespaces Number of queries score table }}{34}{table.caption.34}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {6.4}{\ignorespaces Perturbation score table \relax }}{36}{table.caption.37}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

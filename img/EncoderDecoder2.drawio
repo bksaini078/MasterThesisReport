@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2022-01-07T12:40:56.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/16.1.2 Chrome/96.0.4664.55 Electron/16.0.5 Safari/537.36" etag="r7YmTMVqtDOX9clAe-0n" compressed="false" version="16.1.2" type="device" pages="5">
+<mxfile host="Electron" modified="2022-01-17T16:11:05.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/16.1.2 Chrome/96.0.4664.55 Electron/16.0.5 Safari/537.36" etag="jgW_KL837raCFV6lfyN7" compressed="false" version="16.1.2" type="device" pages="6">
   <diagram id="C2ZBwt3vlcUC1Nfp7Zrs" name="EncoderDecoderEXP">
     <mxGraphModel dx="946" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9_ceoRxHfo95Npf7JEYE" name="Encoder Architecture">
-    <mxGraphModel dx="1426" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Sy9RA6w4G74tSDrb2jry-0" />
         <mxCell id="Sy9RA6w4G74tSDrb2jry-1" parent="Sy9RA6w4G74tSDrb2jry-0" />
@@ -183,7 +183,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Vi18etBukgSiwcYqwZxa" name="onehot">
-    <mxGraphModel dx="1426" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="M1WHT53YAb9qMlE-sZ7S-0" />
         <mxCell id="M1WHT53YAb9qMlE-sZ7S-1" parent="M1WHT53YAb9qMlE-sZ7S-0" />
@@ -309,7 +309,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KiPt5tRPP9OZUajvprTe" name="attackclassification">
-    <mxGraphModel dx="1426" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="PNmg92r_p5PDTr002R6C-0" />
         <mxCell id="PNmg92r_p5PDTr002R6C-1" parent="PNmg92r_p5PDTr002R6C-0" />
@@ -442,93 +442,206 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qkKtOCAe8OZpoXDuN4YB" name="BAE_example">
-    <mxGraphModel dx="1426" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="P1OKRLlaPchFTjutNkYw-0" />
         <mxCell id="P1OKRLlaPchFTjutNkYw-1" parent="P1OKRLlaPchFTjutNkYw-0" />
-        <mxCell id="P1OKRLlaPchFTjutNkYw-3" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 10px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;a very [[mediocre]] film based on a superb series of stories and novels&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;i hope somebody&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;someday will be able to film it the right way&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;in the meantime&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;look for the books&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;by a&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;sapkowski&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;a very inteligent&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;postmodern fantasy&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;by now there should be a translation in english&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;there translations in german for sure&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;verticalAlign=middle;align=left;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="24" y="163" width="540" height="100" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A3y77xjX0J56Lrx8ci6U" name="Methodology">
+    <mxGraphModel dx="946" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-0" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-1" parent="xoEDQF5_ZWn9T_W9wnZs-0" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-85" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;fontSize=13;fontColor=#006600;strokeWidth=2;fillColor=default;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="40" y="423" width="360" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-4" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 15px ; line-height: normal&quot;&gt;if this movie had not been labeled a disney picture&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;i &lt;font color=&quot;#ff8000&quot;&gt;definitely&lt;/font&gt;&amp;nbsp;would not have been so disappointed&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the nudity was&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;different&lt;/font&gt;&amp;nbsp;and did not add anything&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the same can be said for the toilet bowl scene&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;this is one disney film that i will not let my four year old nephew watch&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="596" y="161" width="520" height="100" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;fontSize=13;strokeColor=#006600;strokeWidth=2;fontColor=#006600;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-2" target="xoEDQF5_ZWn9T_W9wnZs-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-6" value="Original Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="226" y="258" width="110" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-83" value="Original Label" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Arial;fontColor=#006600;fontStyle=0" parent="xoEDQF5_ZWn9T_W9wnZs-82" vertex="1" connectable="0">
+          <mxGeometry x="-0.0955" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-7" value="Perturbed text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="783" y="259" width="110" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;fontSize=13;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-2" target="xoEDQF5_ZWn9T_W9wnZs-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-8" value="&lt;font color=&quot;#006600&quot; style=&quot;font-size: 18px;&quot;&gt;Positive&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#FF8000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="246" y="133" width="70" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-2" value="Original Text Data" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fontStyle=1;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="14" y="126" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-9" value="Negative" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#CC0000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="810" y="133" width="80" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#990000;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-3" target="xoEDQF5_ZWn9T_W9wnZs-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="628" />
+              <mxPoint x="420" y="381" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-12" value="BAE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;fontColor=#FF8000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="546" y="288" width="50" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-3" value="Prominent Adversarial Unlabeled Data" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=13;fontStyle=1;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="149" y="588" width="137" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-13" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 15px ; line-height: normal&quot;&gt;if this movie had not been labeled a disney picture&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;i &lt;font color=&quot;#ff8000&quot;&gt;probably&lt;/font&gt;&amp;nbsp;would not have been so disappointed&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the nudity was &lt;font color=&quot;#ff8000&quot;&gt;unnecessary&lt;/font&gt;&amp;nbsp;and did not add anything&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the same can be said for the toilet bowl scene&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;this is one disney film that i will not let my four year old nephew watch&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;verticalAlign=middle;align=left;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="24" y="333" width="540" height="100" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-4" target="xoEDQF5_ZWn9T_W9wnZs-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249" y="533" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-14" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 15px ; line-height: normal&quot;&gt;if this movie had not been labeled a disney picture&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;i &lt;font color=&quot;#ff8000&quot;&gt;definitely&lt;/font&gt;&amp;nbsp;would not have been so disappointed&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the nudity was&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;different&lt;/font&gt;&amp;nbsp;and did not add anything&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the same can be said for the toilet bowl scene&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;this is one disney film that i will not let my four year old nephew watch&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="596" y="331" width="520" height="100" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-4" value="Synonym Augmentation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="283" y="438" width="99" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-15" value="Original Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="226" y="428" width="110" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328" y="468" as="sourcePoint" />
+            <mxPoint x="328" y="468" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-16" value="Perturbed text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="783" y="429" width="110" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-6" target="xoEDQF5_ZWn9T_W9wnZs-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="518" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-17" value="&lt;font color=&quot;#006600&quot; style=&quot;font-size: 18px;&quot;&gt;Positive&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#FF8000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="246" y="303" width="70" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-6" value="Context Augmentation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="182" y="438" width="101" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-18" value="Negative" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#CC0000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="810" y="303" width="80" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-7" target="xoEDQF5_ZWn9T_W9wnZs-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="533" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-19" value="PWWS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;fontColor=#FF8000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="536" y="458" width="70" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-7" value="Back translation Augmentation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="51" y="438" width="131" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-20" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 15px ; line-height: normal&quot;&gt;if this movie had not been labeled a disney picture&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;i &lt;font color=&quot;#ff8000&quot;&gt;probably&lt;/font&gt;&amp;nbsp;would not have been so disappointed&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the nudity was &lt;font color=&quot;#ff8000&quot;&gt;unnecessary&lt;/font&gt;&amp;nbsp;and did not add anything&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the same can be said for the toilet bowl scene&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;this is one disney film that i will not let my four year old nephew watch&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;verticalAlign=middle;align=left;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="14" y="503" width="540" height="100" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-10" target="xoEDQF5_ZWn9T_W9wnZs-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-21" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 15px ; line-height: normal&quot;&gt;if this movie had not been labeled a disney picture&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;i &lt;font color=&quot;#ff8000&quot;&gt;definitely&lt;/font&gt;&amp;nbsp;would not have been so disappointed&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the nudity was&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;different&lt;/font&gt;&amp;nbsp;and did not add anything&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the same can be said for the toilet bowl scene&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;this is one disney film that i will not let my four year old nephew watch&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="586" y="501" width="520" height="100" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-10" target="xoEDQF5_ZWn9T_W9wnZs-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-22" value="Original Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="216" y="598" width="110" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="336" y="438" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-23" value="Perturbed text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="773" y="599" width="110" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#006600;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-10" target="xoEDQF5_ZWn9T_W9wnZs-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-24" value="&lt;font color=&quot;#006600&quot; style=&quot;font-size: 18px;&quot;&gt;Positive&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#FF8000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="236" y="473" width="70" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-10" value="Data Processing" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="182" y="269" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-25" value="Negative" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#CC0000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="800" y="473" width="80" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#990000;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-11" target="xoEDQF5_ZWn9T_W9wnZs-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-26" value="TextFooler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;fontColor=#FF8000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="516" y="628" width="90" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#006600;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-11" target="xoEDQF5_ZWn9T_W9wnZs-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="531" y="338" />
+              <mxPoint x="591" y="338" />
+              <mxPoint x="591" y="249" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-27" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 15px ; line-height: normal&quot;&gt;if this movie had not been labeled a disney picture&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;i &lt;font color=&quot;#ff8000&quot;&gt;probably&lt;/font&gt;&amp;nbsp;would not have been so disappointed&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the nudity was &lt;font color=&quot;#ff8000&quot;&gt;unnecessary&lt;/font&gt;&amp;nbsp;and did not add anything&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the same can be said for the toilet bowl scene&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;this is one disney film that i will not let my four year old nephew watch&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;verticalAlign=middle;align=left;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="4" y="673" width="540" height="100" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#990000;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-11" target="xoEDQF5_ZWn9T_W9wnZs-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="363" />
+              <mxPoint x="600" y="289" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-28" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 15px ; line-height: normal&quot;&gt;if this movie had not been labeled a disney picture&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;i &lt;font color=&quot;#ff8000&quot;&gt;definitely&lt;/font&gt;&amp;nbsp;would not have been so disappointed&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the nudity was&amp;nbsp;&lt;font color=&quot;#ff8000&quot;&gt;different&lt;/font&gt;&amp;nbsp;and did not add anything&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;the same can be said for the toilet bowl scene&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &lt;/span&gt;this is one disney film that i will not let my four year old nephew watch&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 15px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="576" y="671" width="520" height="100" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-11" value="BERT Tokenizer&lt;br style=&quot;font-size: 13px;&quot;&gt;(input ids, attention masks)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="450" y="328" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-29" value="Original Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="206" y="768" width="110" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#990000;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-40" target="xoEDQF5_ZWn9T_W9wnZs-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-30" value="Perturbed text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="763" y="769" width="110" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#006600;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-40" target="xoEDQF5_ZWn9T_W9wnZs-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-31" value="&lt;font color=&quot;#006600&quot; style=&quot;font-size: 18px;&quot;&gt;Positive&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#FF8000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="226" y="643" width="70" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;fontSize=13;strokeWidth=2;fontStyle=0" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-40" target="xoEDQF5_ZWn9T_W9wnZs-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-32" value="Negative" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Times New Roman;fontColor=#CC0000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="790" y="643" width="80" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-40" value="Student BERT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="622" y="229" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P1OKRLlaPchFTjutNkYw-33" value="TextBugger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontFamily=Times New Roman;fontColor=#FF8000;" vertex="1" parent="P1OKRLlaPchFTjutNkYw-1">
-          <mxGeometry x="501" y="798" width="100" height="30" as="geometry" />
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;fontSize=13;fontColor=#006600;strokeColor=#990000;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-42" target="xoEDQF5_ZWn9T_W9wnZs-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-42" value="Teacher BERT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="622" y="508" width="118" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-57" value="Exponential Moving Average weight assignment&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;dashed=1;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="626" y="378" width="124" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#006600;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-60" target="xoEDQF5_ZWn9T_W9wnZs-67" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="228" />
+              <mxPoint x="930" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-60" value="Classification Cost" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="830" y="181" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;strokeColor=#990000;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-61" target="xoEDQF5_ZWn9T_W9wnZs-67" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="408" />
+              <mxPoint x="930" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-61" value="Consistency Cost" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="800" y="398" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;startArrow=none;strokeWidth=2;strokeColor=#000066;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-78" target="xoEDQF5_ZWn9T_W9wnZs-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="682" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-67" value="Overall Cost" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="950" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-76" value="Prediction&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Arial;strokeWidth=2;fontStyle=0" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="1060" y="555" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontStyle=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;endArrow=none;strokeWidth=2;strokeColor=#000066;" parent="xoEDQF5_ZWn9T_W9wnZs-1" source="xoEDQF5_ZWn9T_W9wnZs-67" target="xoEDQF5_ZWn9T_W9wnZs-78" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="280" as="sourcePoint" />
+            <mxPoint x="682" y="229" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-78" value="Back propogation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;fontSize=13;fontFamily=Arial;strokeWidth=2;fontStyle=0" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="770" y="50" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-87" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;fontSize=13;fontColor=#006600;strokeColor=#990000;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341" y="49" as="sourcePoint" />
+            <mxPoint x="431" y="49" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-89" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Arial;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArial;fontSize=13;fontColor=#006600;strokeColor=#006600;strokeWidth=2;" parent="xoEDQF5_ZWn9T_W9wnZs-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341" y="86" as="sourcePoint" />
+            <mxPoint x="431" y="86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-90" value="Original Data with Label" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Arial;fontColor=#006600;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="316" y="92" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xoEDQF5_ZWn9T_W9wnZs-93" value="Adversarial unlabeled data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Arial;fontColor=#990000;" parent="xoEDQF5_ZWn9T_W9wnZs-1" vertex="1">
+          <mxGeometry x="306" y="54" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

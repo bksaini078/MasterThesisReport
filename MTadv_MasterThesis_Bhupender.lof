@@ -3,62 +3,82 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Adversarial Example}}{2}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Example of Adversarial attack in text-domain}}{2}{figure.caption.4}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of One hot Encoding.}}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example of one-hot encoding.}}{4}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces CBOW and Skip Gram model architecture}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Working diagram of CBOW and skip-gram models}}{5}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Different Contextualized Embeddings model.\relax }}{6}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Transformer Architecture}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Architecture diagram of Transformer}}{7}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Encoder Decoder}}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Basic example of encoder and decoder}}{7}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Encoder Decoder}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Basic example of encoder and decoder working}}{8}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Encoder Decoder}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Different components of an encoder in transformer}}{9}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Scaled dot product and multi head attention calculation flow diagram \cite {vaswani_attention_2017}. \relax }}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Calculation flow diagram of Scaled dot product and multi-head attention}}{10}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagram of of pre-training and fine-tuning of BERT model.}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagram of pre-training and fine-tuning of BERT model}}{11}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces BERT input representation.}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Three different embeddings in BERT model}}{12}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Pictorial diagram of DistilBERT working.\relax }}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Diagram of DistilBERT training.}}{13}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Different adversarial attack classification based on different aspect.\relax }}{16}{figure.caption.18}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Proposed methodology \relax }}{21}{figure.caption.19}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces TextFooler example \cite {jia_certified_2019} \relax }}{23}{figure.caption.21}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces TextBugger 5 bug generation strategies \cite {li_textbugger_2019} \relax }}{24}{figure.caption.22}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Example attack of PWWS\cite {ren_generating_2019} \relax }}{25}{figure.caption.23}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Schematic working and example of BAE\cite {garg_bae_2020} \relax }}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Adversarial attacks classification diagram}}{15}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Original accuracy and Accuracy under attack comparison plot.\relax }}{32}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Training flow diagram of proposed approach}}{20}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Number of queries with respect to datasets and attack recipes.\relax }}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of TextFooler}}{22}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Word perturbation as per datasets and attack recipes\relax }}{35}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of 5 bug generation strategies of TextBugger}}{23}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Perturbation Score Distribution\relax }}{36}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Example of PWWS attack recipe}}{24}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schematic working and example of BAE attack recipe}}{24}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Length distribution of Covid-19 fake tweets dataset.\relax }}{27}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Length distribution of IMDB Dataset.\relax }}{27}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Length distribution of Covid-19 fake tweets and IMDB Dataset}}{27}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces IMDB Dataset.\relax }}{33}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Covid-19 fake tweets dataset.\relax }}{33}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparative bar plot between original accuracy and accuracy under attack}}{33}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Bar plot of the number of queries}}{34}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Box-plot of the number of queries.\relax }}{34}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Bar plot of Word perturbation}}{35}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Box-plot of perturbation score}}{36}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Details of GPU}}{46}{figure.caption.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Layer diagram of BERT model used in the experiment}}{46}{figure.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Layer diagram of DistilBERT model used in the experiment}}{47}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
