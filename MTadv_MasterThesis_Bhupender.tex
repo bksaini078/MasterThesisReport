@@ -414,7 +414,7 @@ The consistency cost ($J(\theta)$)  is the mean squared difference between the p
         \label{eq:ADVconsistencycost}
     \end{aligned}
 \end{equation}
-While back-propagating in the student model, the overall cost ($\textit{O}(\theta)$) is calculated with the given formula 
+While back-propagating in the student model, the overall cost ($\textit{O}(\theta)$) is the weighted sum of classification cost ($C(\theta)$)  and consistency cost ($J(\theta)$) which can be adjusted using ratio $r$ as mentioned in the given formula 
  \begin{equation}
      \begin{aligned}
          \textit{O}(\theta)= r C(\theta)+(1-r)J(\theta)
@@ -909,7 +909,7 @@ In terms of queries, it is observed that overall MTBERT has a high need for the 
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\linewidth]{img/NumQueriesDist_IMDB.png}
+    \includegraphics[width=0.75\linewidth]{img/NumQueriesDist_box_IMDB.png}
     \caption{Box-plot of the number of queries.}{ The proposed models are comparatively broader and showed greater values for outliers than baseline models. This particular box plot is based on the IMDB dataset and only successful attacks are considered.}
     \label{fig:numofqueriesdist}
 \end{figure}
@@ -1022,23 +1022,73 @@ The quantitative comparison of gradient-based adversarial training and the propo
 \label{chapter:appendix}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{img/nvidiagpu}
+    \includegraphics[width=1.0\linewidth]{img/nvidiagpu}
     \caption[Details of GPU]{GPU details}
     \label{fig:nvidiagpu}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{img/bert_arch}
+    \includegraphics[width=0.9\linewidth]{img/bert_arch}
     \caption[ Layer diagram of BERT model used in the experiment]{Layer overview of BERT model used in experiment}
     \label{fig:bertarch}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\linewidth]{img/DistilBERTarch}
+    \includegraphics[width=0.9\linewidth]{img/DistilBERTarch}
     \caption[Layer diagram of DistilBERT model used in the experiment]{Layer diagram of DistilBERT model used in the experiment}
     \label{fig:distilbertarch}
 \end{figure}
+\begin{figure}[H]
+    \centering
+    %    \hspace*{2.5em}
+    \includegraphics[width=1.0\linewidth]{img/attack_success_rate.png}
+    \caption[Bar plot of attack success rate]{Bar plot of attack success rate}
+    \label{fig:attacksuccessrate}
+\end{figure}
+\begin{figure}[H]
+    \centering
+%    \hspace*{2.5em}
+    \includegraphics[width=1.1\linewidth]{img/PertScoreDist_IMDB.png}
+    \caption[Distribution of perturbation score for IMDB Dataset]{Distribution of perturbation score for IMDB Dataset}
+    \label{fig:PerturbationScore_Dist_IMDB}
+\end{figure}
+\begin{figure}[H]
+    \centering
+%    \hspace*{2.5em}
+    \includegraphics[width=1.1\linewidth]{img/PertScoreDist_fakenews.png}
+    \caption[Distribution of perturbation score for Covid-19 fake tweets Dataset]{Distribution of perturbation score for Covid-19 fake tweets Dataset}
+    \label{fig:PerturbationScore_Dist_fakenews}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    %    \hspace*{2.5em}
+    \includegraphics[width=1.1\linewidth]{img/NumQueriesDist_IMDB.png}
+    \caption[Distribution of number of queries of IMDB Dataset]{Distribution of number of queries of  IMDB Dataset.}
+    \label{fig:Queries_distribution_imdb}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    %    \hspace*{2.5em}
+    \includegraphics[width=1.1\linewidth]{img/NumQueriesDist_fknews.png}
+    \caption[Distribution of number of queries of Covid-19 fake tweets Dataset]{Distribution of number of queries of Covid-19 fake tweets Dataset.}
+    \label{fig:Queries_distribution_fk}
+\end{figure}
 
+
+\begin{figure}[H]
+    \centering
+    %    \hspace*{2.5em}
+    \includegraphics[width=0.9\linewidth]{img/IMDB_class_attack.png}
+    \caption[Bar plot of successful attack on different class labels for IMDB dataset]{Bar plot of successful attack on different class labels for IMDB dataset}
+    \label{fig:classattack_imdb}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    %    \hspace*{2.5em}
+    \includegraphics[width=.9\linewidth]{img/fakenews_class_attack.png}
+    \caption[Bar plot of successful attack on different class labels for Covid-19 fake tweets dataset]{Bar plot of successful attack on different class labels for Covid-19 fake tweets dataset}
+    \label{fig:classattack_fakenews}
+\end{figure}
 
 \end{document}
 

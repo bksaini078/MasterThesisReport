@@ -81,4 +81,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Layer diagram of DistilBERT model used in the experiment}}{51}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Bar plot of attack success rate}}{51}{figure.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Distribution of perturbation score for IMDB Dataset}}{52}{figure.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Distribution of perturbation score for Covid-19 fake tweets Dataset}}{52}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Distribution of number of queries of IMDB Dataset}}{53}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Distribution of number of queries of Covid-19 fake tweets Dataset}}{53}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Bar plot of successful attack on different class labels for IMDB dataset}}{54}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Bar plot of successful attack on different class labels for Covid-19 fake tweets dataset}}{54}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

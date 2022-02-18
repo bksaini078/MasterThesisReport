@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  18 FEB 2022 16:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  18 FEB 2022 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1886,8 +1886,8 @@ Overfull \hbox (8.2516pt too wide) in paragraph at lines 905--907
  []|  [] 
  []
 
-File: img/NumQueriesDist_IMDB.png Graphic file (type bmp)
-<img/NumQueriesDist_IMDB.png>
+File: img/NumQueriesDist_box_IMDB.png Graphic file (type bmp)
+<img/NumQueriesDist_box_IMDB.png>
 [36] [37]
 File: img/AvgPertByDataset.png Graphic file (type bmp)
 <img/AvgPertByDataset.png>
@@ -1959,10 +1959,47 @@ File: img/bert_arch.png Graphic file (type bmp)
 <img/bert_arch.png>
 File: img/DistilBERTarch.png Graphic file (type bmp)
 <img/DistilBERTarch.png>
+File: img/attack_success_rate.png Graphic file (type bmp)
+<img/attack_success_rate.png>
 [50
 
 
-] [51] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
+]
+File: img/PertScoreDist_IMDB.png Graphic file (type bmp)
+<img/PertScoreDist_IMDB.png>
+
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 1051--1052
+ [][] 
+ []
+
+File: img/PertScoreDist_fakenews.png Graphic file (type bmp)
+<img/PertScoreDist_fakenews.png>
+
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 1058--1059
+ [][] 
+ []
+
+[51]
+File: img/NumQueriesDist_IMDB.png Graphic file (type bmp)
+<img/NumQueriesDist_IMDB.png>
+
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 1065--1066
+ [][] 
+ []
+
+File: img/NumQueriesDist_fknews.png Graphic file (type bmp)
+<img/NumQueriesDist_fknews.png>
+
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 1072--1073
+ [][] 
+ []
+
+[52]
+File: img/IMDB_class_attack.png Graphic file (type bmp)
+<img/IMDB_class_attack.png>
+File: img/fakenews_class_attack.png Graphic file (type bmp)
+<img/fakenews_class_attack.png>
+ [53] [54] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
 (./inc/Acknowledgement.aux) (./inc/Abstract.aux))
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1976,12 +2013,12 @@ Package logreq Info: Writing requests to 'MTadv_MasterThesis_Bhupender.run.xml'
 
  ) 
 Here is how much of TeX's memory you used:
- 44006 strings out of 476919
- 945517 string characters out of 5821840
- 1880778 words of memory out of 5000000
- 63285 multiletter control sequences out of 15000+600000
+ 44055 strings out of 476919
+ 946956 string characters out of 5821840
+ 1881440 words of memory out of 5000000
+ 63327 multiletter control sequences out of 15000+600000
  424195 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  111i,15n,116p,10623b,4805s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MTadv_MasterThesis_Bhupender.pdf (61 pages).
+Output written on MTadv_MasterThesis_Bhupender.pdf (64 pages).
