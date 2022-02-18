@@ -148,10 +148,10 @@ Moving forward, the experiment also attempts to understand the robustness of mod
 This proposed study provided an important opportunity to advance the understanding of language models, data augmentation, and various adversarial attacks in the text domain. Moreover, the study contributes to the assessment of language model performance in adverse situations so that mitigation techniques can be developed. By understanding the dynamics of adversarial attack recipes and how to defend against them, language models can become more resilient and the scope for improvement can be more obvious. \\
 The model's resilience is determined by comparing its performance against four attack recipes and several metrics. Additionally, the transferability of the proposed method is demonstrated by doing a comparative experiment with two distinct pre-trained language models, BERT and DistilBERT.\\
 Additionally, the use of adversarial text during training has been shown to improve the robustness of the model \cite{li_textbugger_2019}, but that it is time-consuming. The purpose of this thesis is also to study the performance of language models against attacks that use only basic augmentation techniques, which was a topic of open research until now.\\
-This thesis also contributes to evaluating the effectiveness of an image-domain semi-supervised approach in the text-domain, i.e. the mean teacher approach, by incorporating text-specific noise strategies and investigating the constraints connected with it. Furthermore, this thesis reviews and analyzes related work, highlighting shortcomings and areas for improvement, not just in terms of robustness.
+This thesis also contributes to evaluating the effectiveness of an image-domain semi-supervised approach in the text-domain, i.e. the mean teacher approach, by incorporating text-specific noise strategies and investigating the constraints connected with it. Furthermore, this thesis reviews and analyses related work, and highlights the shortcomings.
 %Furthermore, this study also discusses the brief background about text representation evolution, working of language models, and adversarial attacks. \\
 \section{Thesis Structure}
-This master thesis is divided into 6 chapters i.e. Background, Related work, Proposed Methodology, Experiment Setup, Experiment Results, and Conclusion. To lay the groundwork for understanding the experiment and proposed approach, the subsequent section attempts to provide a foundational understanding of topics such as the evolution of text representation from TF-IDF to contextualized embeddings, transformer-based language models, and the architecture of BERT/DistilBERT models. After that, the background and classification of adversarial attacks are addressed. Following that, there is a detailed description of the proposed strategy and attacking recipes. Afterwards, the experiment conditions, resources, and environment needed to conduct the experiment are discussed followed by the analysis of the observed results. The master thesis concludes with a discussion of limitations, future work, and the conclusion.
+This master thesis is further divided into 6 chapters i.e. Background, Related work, Proposed Methodology, Experiment Setup, Experiment Results, and Conclusion. To lay the groundwork for understanding the experiment and proposed approach, the subsequent section attempts to provide a foundational understanding of topics such as the evolution of text representation from TF-IDF to contextualized embeddings, transformer-based language models, and the architecture of BERT/DistilBERT models. Subsequently, the background and classification of adversarial attacks are addressed. Following that, there is a detailed description of the proposed strategy and attacking recipes. Afterwards, the experiment conditions, resources, and environment needed to conduct the experiment are discussed followed by the analysis of the observed results. The master thesis concludes with a discussion of limitations, future work, and the conclusion.
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHAPTER BACKGROUND%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\chapter{Background}
 \chapter{Background of Language Models and Adversarial Attacks}
@@ -160,7 +160,7 @@ This master thesis is divided into 6 chapters i.e. Background, Related work, Pro
 %This chapter discusses the contents required to understand the experiment and motivations behind this master thesis. We begin with a discussion of advancement in text representations, followed by a discussion of transformers architecture, one of the main principles of recent contextualized embedding. Later, fine-tuning of the language model is carried out. An overview of adversarial attacks is provided at the end of  the section. If the reader already has a basic understanding of the topic, it is recommended to skip this chapter.
 \section{Text Representations}
 \label{section: textrep}
-In natural language processing (NLP), researchers explore how a computerized system can understand and manipulate natural languages (speech or text) to perform various tasks \cite{chowdhury_natural_2003} and aims to gain a human-level understanding of the text \cite{naseem_comprehensive_2020}. However, there was a major challenge in converting text into numbers or vectors in such a manner that semantic and syntactic information can be restrained. As shown in the figure \ref{fig:onehot}, traditionally words were usually represented as a single hot vector in a discrete manner, where each word is shown as a vector of 1 and 0 \cite{salton_vector_1975}. The shape of vectors are equal to the size of the vocabulary, hence, this technique suffers severely from dimensionality curse and also lacks semantic relationship between words. Later, researchers developed low-dimensional and continuous vector representations of text and discovered word embedding.
+In natural language processing (NLP), researchers explore how a computerized system can understand and manipulate natural languages (speech or text) to perform various tasks \cite{chowdhury_natural_2003} and aims to gain a human-level understanding of the text \cite{naseem_comprehensive_2020}. However, there was a major challenge in converting text into numbers or vectors in such a manner that semantic and syntactic information can be restrained. As shown in the figure \ref{fig:onehot}, traditionally words were usually represented as a single hot vector in a discrete manner, where each word is shown as a vector of 1 and 0 \cite{salton_vector_1975}. The shape of vectors are equal to the size of vocabulary, thus, this technique suffers severely from dimensionality curse and also lacks semantic relationship between words. Later, researchers developed low-dimensional and continuous vector representations of text and discovered word embedding.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\linewidth]{img/onehot.png}
@@ -169,9 +169,8 @@ In natural language processing (NLP), researchers explore how a computerized sys
 \end{figure}
 \subsection{Word Embeddings}
 \label{subsection:wordembeddings}
-Vector representations that map the words and phrases to numbers in a real-world vector are called  word embeddings \cite{almeida_word_2019-2}. The distributed hypothesis is the main principle behind this type of representation \cite{harris_distributional_1954}, which posits that the words of similar contexts tend to have the same meanings. This type of word embedding can be utilized to perform various NLP tasks. Mikolov \textit{et al.} \cite{mikolov_efficient_2013} proposed Word2Vec, ``a continuous vector representation of words from very large datasets'', where a CBOW (continuous bag of words model) and skip-gram model architectures are utilized to learn the representation. The goal of CBOW is to predict the middle word when given past and future words as inputs. At the projection layer, each word's context is averaged as shown in figure 2.2. As the order of the words does not influence the projection of the word hence called bag-of-words. \\
+Vector representations that map the words and phrases to real-valued number are called word embeddings \cite{almeida_word_2019-2}. The distributed hypothesis is the main principle behind this type of representation \cite{harris_distributional_1954}, which posits that the words of similar contexts tend to have the same meanings. This type of word embedding can be utilized to perform various NLP tasks. Mikolov \textit{et al.} \cite{mikolov_efficient_2013} proposed Word2Vec, ``a continuous vector representation of words from very large datasets'', where a CBOW (continuous bag of words model) and skip-gram model architectures are utilized to learn the representation. The goal of CBOW is to predict the middle word when previous and future words given as inputs. At the projection layer, each word's context is averaged as shown in figure 2.2. As the order of the words does not influence the projection of the word hence called bag-of-words. \\
 Word2Vec also uses skip-gram to maximize the classification of a word based on another word in the  sentence, as shown in figure 2.2.  There are two major concerns with Word2Vec i.e. (1) It only preserves the local information of words,  and (2) The semantics of a given word is entirely determined by the surrounding words.
-
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\linewidth]{img/cbowandskip.png}
@@ -185,8 +184,7 @@ Later, Pennington \textit{et al.} \cite{pennington_glove_2014} proposed word emb
  \label{subsection:contextembeddings}
  Peters \textit{et al.} \cite{peters_deep_2018-3} proposed the ELMO(Embedding from Language Model) as a method to create context-sensitive embedding. The ELMO model uses a bi-directional LSTM to extract contextualized word features to address the problem of polysemy. The model is further optimized by next word prediction using a large corpus of data. A layer's weight can later be used as contextual embedding. \\
  Later, after transformer architecture was introduced by  Vaswani \textit{et al.} \cite{vaswani_attention_2017}, Generative Pre-Training (GPT) \cite{radford_improving_2018-1}, and Bidirectional Encoder Representation from Transformers (BERT) \cite{devlin_bert_2019-1} utilized  encoders or decoders instead of bidirectional LSTMs to create contextualized embedding. GPT uses decoder architecture where as BERT uses encoder architecture, however, the main concept of is based on ELMO, as shown in figure \ref{fig:elmo}. \\
-These approaches introduced the concept of \textit{pre-training}, i.e. learning language representations from the huge corpora of unlabelled data in unsupervised fashion, and \textit{fine-tuning}, i.e. optimizing weights further based on the downstream task. And, also facilitated the approach of transfer learning in NLP to get state-of-the-art performance with minimal training. A brief overview of the transformer model is required to understand language models work, so the next section discusses the transformer before language models.
-
+These approaches introduced the concept of \textit{pre-training}, i.e. learning language representations from the huge corpora of unlabelled data in unsupervised fashion, and \textit{fine-tuning}, i.e. optimizing weights further based on the downstream task. And, also facilitated the approach of transfer learning in NLP to get state-of-the-art performance with minimal training. A brief overview of the transformer model is required to understand the working of language models, so the next section discusses the transformer before language models.
 \begin{figure}[h!]
     \centering
     \includegraphics[width=1.0\linewidth]{img/elmo}
@@ -233,7 +231,7 @@ A transformer encoder block is further divided into three layers as shown in the
 \end{figure}
 \subsubsection{Positional Encoding}
 Sequential models understand sentences and contain information about word position, however, in transformer models, sentences are fed all at once, so a separate mechanism was introduced to determine the word order. The word order in the shape of a position vector will be added to the input embedding before the multi-head attention. Position vector must have the same dimension as word embedding $d_{model}$.\\
-Two major constraints apply: First, the word embedding information should not severely disturbed and second, word position must be identical. According to Vaswani \textit{et al.} \cite{vaswani_attention_2017}, sine and cosine functions of different frequencies are used to form a geometric progression from  $2\pi$ to $2\pi \cdot 10000$ used for calculating the position vector ($PV$) of the words. In other words, the mentioned function \ref{eq:PV} generates unique values containing information about the position of words in a sentence.
+Two major constraints apply: First, the word embedding information should not severely disturbed and second, word position must be identical. According to Vaswani \textit{et al.} \cite{vaswani_attention_2017}, sine and cosine functions of different frequencies are used to form a geometric progression from  $2\pi$ to $2\pi \cdot 10000$ are used for calculating the position vector ($PV$) of the words. In other words, the mentioned function \ref{eq:PV} generates unique values containing information about the position of words in a sentence.
 \begin{equation}
 \begin{aligned}
     PV_{(pos,2i)}=sin(pos/10000^{2i/d_{model}})\\
@@ -242,7 +240,7 @@ Two major constraints apply: First, the word embedding information should not se
 \end{aligned}
 \end{equation}
 
-Where $pos$ \& $i$ are position and dimension respectively. And, after adding to the embeddings we get position encoding ($PE$)
+Where $pos$ \& $i$ are position and dimension respectively. Then, adding to the embeddings we get position encoding ($PE$)
 \begin{equation}
 \begin{aligned}
     PE_{word} =EM_{word}+PV_{word}\\
@@ -265,8 +263,8 @@ Where $pos$ \& $i$ are position and dimension respectively. And, after adding to
 %For example in a sentence ``I am good. How are you?'' , the cosine similarity of positional vector of word ``I'' and ``you'' must be higher than word ``am'' and ``you'' and so on. And, same applies to positional encoding.
 
 \subsection{Attention Mechanism}
-The human mind does not process all the information available in the environment, but rather, it focuses on specific information to complete the task and this biological mechanism is called attention. And, the major intention behind achieving the same in machine learning tasks. In 1964, Naradaya \textit{et al.} \cite{nadaraya_estimating_1964} first introduced the idea of attention in the regression model, proposing a weighted function $(x,x_{i})$ which encodes the relevance of features. In 2015, Bhadanu \textit{et al.} \cite{bahdanau_neural_2015} proposed encoder-decoders that include attention mechanisms at the decoder level. Later, Luong \textit{et al.} \cite{luong_effective_2015} showed that attention mechanisms gained up to 5.0 BLEU over non-attention models in neural machine learning tasks. And, recently, Kardakis \textit{et al.} \cite{kardakis_examining_2021} studied the same mechanism in the text classification task, i.e. sentiment analysis, and reported a 3.5\% increase in accuracy.\\
-Attention mechanism in transformer architecture model introduced to reduce computational complexity and facilitate computation \cite{vaswani_attention_2017}. Different types of methods exist to calculate attention mechanisms such as similarity-based \cite{graves_neural_2014}, dot products \cite{luong_effective_2015}, scaled dot products \cite{vaswani_attention_2017}, additives \cite{bahdanau_neural_2015}, etc. This report focuses on scaled dot product attention used in transformer models. Equation  \ref{eq:selfattention} and figure \ref{fig:selftattentionandmulti} demonstrate how to calculate the scaled dot product or self-attentions.
+The human mind does not process all the available information in the environment, but rather, it focuses on specific information to complete the task and this biological mechanism is called attention. And, the major intention behind achieving the same in machine learning tasks. In 1964, Naradaya \textit{et al.} \cite{nadaraya_estimating_1964} first introduced the idea of attention in the regression model, proposing a weighted function $(x,x_{i})$ which encodes the relevance of features. In 2015, Bhadanu \textit{et al.} \cite{bahdanau_neural_2015} proposed encoder-decoders that include attention mechanisms at the decoder level. Later, Luong \textit{et al.} \cite{luong_effective_2015} showed that attention mechanisms gained up to 5.0 BLEU over non-attention models in neural machine learning tasks. And, recently, Kardakis \textit{et al.} \cite{kardakis_examining_2021} studied the same mechanism in the text classification task, i.e. sentiment analysis, and reported a 3.5\% increase in accuracy.\\
+Attention mechanism in transformer architecture model introduced to reduce computational complexity and facilitate parallel computation \cite{vaswani_attention_2017}. Different types of methods exist to calculate attention mechanisms such as similarity-based \cite{graves_neural_2014}, dot products \cite{luong_effective_2015}, scaled dot products \cite{vaswani_attention_2017}, additives \cite{bahdanau_neural_2015}, etc. This report focuses on scaled dot product attention used in transformer models. Equation  \ref{eq:selfattention} and figure \ref{fig:selftattentionandmulti} demonstrate how to calculate the scaled dot product or self-attentions.
 \begin{equation}
     \begin{aligned}
         Attention(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_{k}}})V\\
@@ -295,7 +293,7 @@ The language model is a function that learns the word representation from the co
 According to the figure, these language models follow two training processes, (1)\textit{ Pre-training} by using huge unlabelled text corpora and generating a context representation vector from the model \cite{devlin_bert_2019-1}  and enables the transfer learning. The pre-training mechanisms of BERT and DistilBERT are discussed next in this section. (2) \textit{Fine-tuning}, user adapts the pre-trained language model to perform specific tasks by adding a feed-forward layer on top of language models as per task and further train the weights with limited data for the target task. The fine-tuning approach can be performed in low-resource environments and have achieved state-of-the-art performance in many popular NLP benchmarks.
 \subsection{BERT (Bidirectional Encoder Representation From Transformers)}
 BERT (Bidirectional Encoder Representations from Transformers) was proposed by Devlin \textit{et al.} \cite{devlin_bert_2019-1}, primarily based on Transformers \cite{vaswani_attention_2017} and ELMo \cite{peters_deep_2018-3} but not limited to it. In essence, BERT is a transformer encoder stack that outputs the context representation, also called a pre-trained model. \\
-BERT model is pre-trained on the deep bidirectional representation of large unlabelled text in both rights and left context, which can be further fine-tuned by adding additional output layers to achieve state-of-the-art results in various NLP tasks like text classification, question answering, language inference, language translation, etc. Its main benefit is simplifying the process of NLP tasks in machine learning, and providing access to contextualized embedding trained on huge amounts of words, which are impossible to collect individually. In addition, it requires high-performance computational machines at a production scale. \\
+BERT model is pre-trained on the deep bidirectional representation of large unlabelled text in both rights and left context, which can be further fine-tuned by adding additional output layers to achieve state-of-the-art results in various NLP tasks like text classification, question answering, language inference, language translation, etc. It's main benefit is simplifying the process of NLP tasks in machine learning, and providing access to contextualized embedding trained on huge amounts of words, which are impossible to collect individually. In addition, it requires high-performance computational machines at a production scale. \\
 Having access to vast amounts of unlabelled data,  BERT uses two learning strategies: Masked Language Model (MLM) and Next Sentence Prediction (NSP). MLM replaces 15\% of words with [MASK] tokens, and BERT predicts the masked word based on other words in the sequence.\\
 In NSP, BERT models are given two pairs of sentences, with [CLS] as the sentence start and [SEP] as the separation between sentences. The BERT model then predicts whether the next sentence is correct or random. The BERT model is pre-trained on a large amount of unlabelled text, however, fine-tuning is still required for specific tasks.\\
 To enable BERT models to handle a variety of downstream tasks, the input representations created by summing three different embeddings (position embeddings, segment embeddings, and token embeddings), as shown in the figure \ref{fig:bert_inp}.
@@ -310,24 +308,23 @@ A BERT paper \cite{devlin_bert_2019-1} described two BERT models on which they c
     \item $BERT_{BASE}$ $:$ 12 Transformers blocks (Encoder, L), 768 Hidden Units(H), Attention Heads(A) 12, Total Parameters 110M.
     \item $BERT_{LARGE}$ $:$ 24 Transformers blocks (Encoder, L), 1024 Hidden Units(H), Attention Heads(A) 16, Total Parameters 340M.
 \end{enumerate}
-In this master thesis experiment, $BERT_{BASE}$ model  pre-trained on lower case words is utilized. 
+In this master thesis experiment, $BERT_{BASE}$ model pre-trained on lower case words is utilized. 
 
 \subsection{DistilBERT- A distilled version of BERT}
 DistilBERT is a compact version of BERT proposed by Victor \textit{et al.} \cite{sanh_distilbert_2020}. As compared to BERT, the DistilBERT model does not incorporate token embeddings, poolers, and have comparatively half-hidden layers. The principle behind this model is based on knowledge distillation \cite{hinton_distilling_2015}, which can be defined as a process of transferring knowledge from large  to small models. \\
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.89\linewidth]{img/DistilBERT.png}
+    \includegraphics[width=0.90\linewidth]{img/DistilBERT.png}
     \caption[Diagram of DistilBERT training.]{ Pictorial diagram depicts the knowledge distillation process involved in  DistilBERT.}
     \label{fig:DistilBERT}
 \end{figure}
 As illustrated in the figure \ref{fig:DistilBERT}, a small model is trained to mimic the behaviour of a larger model. In the task of mask word prediction, masked sentences are supplied to both the BERT and DistilBERT models.\\
 This approach aims to minimize three losses: 1) the loss between BERT and DistilBERT predictions, 2) the loss between DistilBERT predictions and ground truth, and 3) the cosine embedding loss, which measures the distance between the representations learned by BERT and DistilBERT. Cosine embedding loss reduction makes representation more accurate and tries to copy the BERT embeddings. The proposed approach is 40\% compact, retaining 97\% of its language understanding capabilities and 60\% faster \cite{sanh_distilbert_2020}, which has proven it is possible to reduce the size of large language models with minimal compromise.
-
 \section{Adversarial Attacks}
 \label{section:advattacks}
-In the year 2013, Szegedy \textit{et al.} \cite{szegedy_intriguing_2014} proposed study in the image-domain discovered that deep neural networks are vulnerable to perturbations, which can result in unexpected behaviours, which they referred as adversarial attacks. It was first demonstrated by Papernot \textit{et al.}  \cite{papernot_crafting_2016} that an adversarial example can also lead to an unexpected outcome in the text domain. Later various papers on different attack recipes were published in text domain \cite{alzantot_generating_2018,li_bert-attack_2020,gao_black-box_2018,li_bert-attack_2020,ren_generating_2019,garg_bae_2020,chen_robustness_2019}.  Sun \textit{et al.}  \cite{sun_adv-bert_2020} proposed an approach of  generating adversarial misspelling and evaluated the performance of  attack recipes  against BERT model. Based on their experiment on Stanford Sentiment Treebank (SST) dataset, the BERT model is vulnerable to misspelling attacks and its accuracy decreases by 22.6\% under their proposed attack.\\
-In another experiment, Li \textit{et al.} \cite{li_bert-attack_2020} proposed an approach of utilizing the BERT model to generate words for replacements. Firstly, identifying the most important words i.e. the words in sequence have a high influence on the final output logit. Secondly, utilizing BERT model masked language model (MLM) capability to generate a word for replacements. According to their claims, the accuracy under attack is lower than 10\% with less than 10\% perturbation. However, those attacks has limitation of most of the time not following the semantics of original text. \\
-In text domains, most adversarial attacks consist of two steps: 1) Identification of the most important word, and 2) Replacement of the word with suitable words. The reason why DNN models are vulnerable to attacks is still an open question, however, Goodfellow \textit{et al.} \cite{goodfellow_explaining_2015} argued that it is due the linearity in DNN models.
+In the year 2013, Szegedy \textit{et al.} \cite{szegedy_intriguing_2014} proposed study in the image-domain discovered that deep neural networks are vulnerable to perturbations, which can result in unexpected behaviours and such case was referred as adversarial attacks. It was first demonstrated by Papernot \textit{et al.}  \cite{papernot_crafting_2016} that an adversarial example can also lead to an unexpected outcome in the text domain. Later various papers on different attack recipes were published in text domain \cite{alzantot_generating_2018,li_bert-attack_2020,gao_black-box_2018,li_bert-attack_2020,ren_generating_2019,garg_bae_2020,chen_robustness_2019}.  Sun \textit{et al.}  \cite{sun_adv-bert_2020} proposed an approach of  generating adversarial misspelling and evaluated the performance of  attack recipes  against BERT model. Based on their experiment on Stanford Sentiment Treebank (SST) dataset, the BERT model is vulnerable to misspelling attacks and its accuracy decreases by 22.6\% under their proposed attack.\\
+In another experiment, Li \textit{et al.} \cite{li_bert-attack_2020} proposed an approach of utilizing the BERT model to generate words for replacements. Firstly, identifying the most important words i.e. the words in a sequence have high influence on the final output logit. Secondly, utilizing BERT model masked language model (MLM) capability to generate a word for replacements. According to their claims, the accuracy under attack is lower than 10\% with less than 10\% perturbation. However, those attacks have limitation of most of the time not following the semantics of original text. \\
+In text domains, most adversarial attacks consist of two steps: 1) Identification of the most important words, and 2) Replacement them with suitable words. The reason why DNN models are vulnerable to attacks is still an open question, however, Goodfellow \textit{et al.} \cite{goodfellow_explaining_2015} argued that it is due the linearity in DNN models.
 
 \subsection{Definition}
 \label{subsection:definition}
@@ -344,7 +341,7 @@ Based on recent surveys, adversarial attacks can be classified based on level of
     \caption[Adversarial attacks classification diagram]{Different adversarial attack classification based on different aspects.}
     \label{fig:attack_classification}
 \end{figure}
-As mentioned in section \ref{subsection:definition}, when an attacker intentionally attempts to sabotage a model based on a specific class classification, it could be classified as a targeted attack, whereas if the attacker just has the aim of sabotaging the model without depending on class classification, it would be an untargeted attack.\\
+As mentioned in section \ref{subsection:definition}, when an attacker intentionally attempts to manipulate the model based on a specific class classification, it could be classified as a targeted attack, whereas if the attacker just has the aim of sabotaging the model without depending on class classification, it would be an untargeted attack.\\
 A word-level of perturbation may result in an attacker inserting, replacing, and removing words. TextDeceptor \cite{saxena_textdecepter_2020} proposed a text attack approach, where they rank sentences and words, and then replace them with similar words based on a cosine measure of similarity between word vectors, as well as considering the POS (Part-Of-Speech) helps to determine the correct grammar. Furthermore, Yuan \textit{et al.} \cite{zang_word-level_2019} proposed a Word-Level Textual Adversarial attack that uses sememe-based word substitution. Using sememe-based word substitution is supposed to be more accurate since the substituted word has probably retained its meaning. In accordance with their claim, their attacks have a 98.70\% success rate on the IMDB dataset.\\
 A char-level attack involves inserting, flipping, removing, and swapping operations to create adversarial text attacks. In the proposed approach by Eger \textit{et al.} \cite{eger_text_2019}, a visual perturber called VIPER replaces input characters with their visual nearest neighbours in visual embedding space.
 At the sentence level, attackers try to convert the input sentence using the back-translation or paraphrasing technique and/or  insert some sentences into the text. Yankun \textit{et al.} \cite{ren_generating_2020}  developed an approach that generates real-world meaningful text automatically using a variational encoder and decoder model. However, the sentences are often different from the originals.
@@ -354,7 +351,7 @@ At the sentence level, attackers try to convert the input sentence using the bac
 The goal of adversarial defences is to achieve high test accuracy on both clean and adversarial examples \cite{zhou_defense_2020}. Two strategies are mainly discussed in the text domain to fight adversarial attacks, the first being proactively detecting adversarial text, and the second being model enhancement by using adversarial training.\\
  Detecting adversarial text mainly revolves around detecting unknown words and misspellings, which impose limitations on using only the original corpus vocabulary \cite{wang_towards_2021}. 
 According to Goodfellow \textit{et al.} \cite{goodfellow_explaining_2015}, including high-quality adversarial examples in images can improve the robustness and generalization of machine learning models. Similarly, in the text domain, Belinkov \textit{et al.}  \cite{belinkov_synthetic_2018} demonstrated in their experiments that mixed noise in text training samples can improve model robustness. In another experiment performed by Li \textit{et al.} \cite{li_textbugger_2019}, showed that including TextBugger attack adversarial samples in training can also improve model performance and robustness against adversarial examples.\\
-A fast gradient method (FSM) approach to text-domain training was introduced by Miyato \textit{et al.} \cite{miyato_adversarial_2017}, whereby methods generate adversarial examples by adding gradient-based perturbations to input samples with different normalization strategies.
+A Fast Gradient Method (FSM) approach to text-domain training was introduced by Miyato \textit{et al.} \cite{miyato_adversarial_2017}, whereby methods generate adversarial examples by adding gradient-based perturbations to input samples with different normalization strategies.
 However, research related to adversarial training of language models is few. Liu \textit{et al.} \cite{liu_adversarial_2020} proposed adversarial training of the BERT model using the virtual adversarial training (VAT) technique \cite{miyato_virtual_2018}  during pre-training. However, their approach is computationally expensive and also based on gradient.\\
 Furthermore, the mean teacher approach has shown comparative performance in the computer visualization domain and the model claimed to be comparatively robust \cite{tarvainen_mean_2018}. And, the performance of this approach in the text domain, which incorporates language models with adversarial training tactics  and evaluation of approach against adversarial attack had open scope of work. In addition, the proposed approach utilizes the language model capabilities of such as context rewriting and back translation as data augmentation techniques to create prominent adversarial unlabelled data. \\
 Similar approaches have been utilized previously to generate adversarial samples. Siddhant \textit{et al.}  \cite{garg_bae_2020}  proposed approach used BERT's masked language model (MLM) to generate possible adversarial examples. Therefore, one of the major motivations for this experiment is to generate prominent adversarial examples and develop strategies for incorporating them into training.
@@ -363,7 +360,7 @@ Similar approaches have been utilized previously to generate adversarial samples
 \label{chapter:relatedwork}
 In the area of adversarial training and defence mechanisms against attack, various types of techniques are studied and proposed. In spite of this, research in the text-domain remains considerably lower than in the image-domain \cite{wang_towards_2021}. Furthermore, few papers have addressed the evaluation of language models against adversarial attacks.\\
 The search for related work is performed on scholarly websites such as google scholar and arxiv. Furthermore, search texts consisted of semi-supervised, adversarial training, robustness, and language models. Moving forward,  after getting the relevant paper further research were found based on connected paper service\footnote{https://www.connectedpapers.com/}.
-As per the survey on research paper in this study, adversarial training is divided and discussed into three section for better understanding approaches: 1) Gradient-based, 2) Augmentation-based and, 3) Other. And, the proposed study is more related to augmentation-based adversarial training.
+As per the survey on research paper conducted in this study, adversarial training is divided into three section for better understanding: 1) Gradient-based, 2) Augmentation-based and, and 3) Other. The proposed study is more related to augmentation-based adversarial training.
 \section{Gradient-Based }
 \label{section:GradBasedAdvTra}
 The objective of gradient-based approach is to optimize the adversarial loss of the model by applying perturbations in the embedding space \cite{liu_adversarial_2020,goodfellow_explaining_2015,zhu_at-bert_2021,miyato_adversarial_2017,jiang_smart_2020-1}.  But, most of these studies are focused on increasing generalization instead of enhancing and evaluating against attack.\\
@@ -372,7 +369,7 @@ A more recent approach is proposed by Danqinq \textit{et al.} \cite{zhu_at-bert_
 Wang \textit{et al.} \cite{wang_adversarial_2021-1} proposed a gradient-based synonym substitution method to quickly generate adversarial samples called Fast Gradient Projection Method (FGPM). The adversarial samples are claimed to be very effective in attacking the models. Including this technique in training have shown significant improvement in the robustness of models and they call this technique Adversarial Training with FGPM enhanced by Logit pairing (ATFL). But, the proposed approach is verified against CNN, LSTM, Bi-LSTM model. And, model's robustness is determined by accuracy under attack as the only metric that cannot provide a complete picture of model robustness.
 \section{Augmentation-Based}
 As part of a noise-based approach, Si \textit{et al.} \cite{si_better_2021}  proposed robust fine-tuning of language models by augmenting the training dataset and performing mix-up augmentation during training, hence the term AMDA (Adversarial and Mixup Data Augmentation). A mix-up augmentation is a linear interpolation of representations and labels pairs of training samples to create different virtual training samples. As per their experiments, the original accuracy for the BERT model is 91.27\% and the accuracy under attack is 14.83\%; however, BERT with AMDA had 91.10\% original accuracy and 31.52\% accuracy under attack. This approach has resulted in improved model performance under attack, but original accuracy has decreased.\\
-Bao \textit{et al.} \cite{bao_defending_2021} proposed approach involves training a language model to classify the input text and also discriminate adversarial samples simultaneously. Their proposed approach also generates adversarial samples using TextFooler \cite{jin_is_2020}, applies frequency aware randomization to the adversarial training set, and finally combines it with the original training set. In IMDB data, this approach has shown marginal improvements in original accuracy from 92.4\% to 92.8\% of the BERT model, but improvement in accuracy under attack, from 12.4\% to 89.2\%. In their report, they do not mention any further metrics concerning adversarial attacks, such as the number of queries, word perturbations, and confidence score.\\
+Bao \textit{et al.} \cite{bao_defending_2021} proposed approach involves training a language model to classify the input text and also discriminate adversarial samples simultaneously. Their proposed approach also generates adversarial samples using TextFooler \cite{jin_is_2020}, applies frequency aware randomization to the adversarial training set, and finally combines it with the original training set. In IMDB data, this approach has shown marginal improvements in original accuracy from 92.4\% to 92.8\% of the BERT model, but improvement in accuracy under attack, from 12.4\% to 89.2\%. In their report, they had not mention any further metrics concerning adversarial attacks, such as the number of queries, word perturbations, and confidence score.\\
 Dong \textit{et al. }\cite{dong_towards_2021-2} proposed an adversarial sparse convex combination (ASCC) method, which models the word substitution attack space as a convex hull and employs regularization to enforce perturbation towards a real substitution. According to their study, introducing the same approach during training results in a robust model only against word substitution attacks. Yet, robustness is evaluated solely on the basis of accuracy and has the possibility of evaluating against a variety of language models. \\
 The Dirichlet Neighborhood Ensemble (DNE) is a technique proposed by Zhuo \textit{et al.} \cite{zhou_defense_2020} which creates virtual sentences by combining the embedding of the original word in the input sentences with its synonyms. When training, these virtual sentences can enhance word substitution-based attacks, and the method samples an embedding vector within the convex hull formed by words in and their synonyms to ensure robustness in that region as discussed in previous work. And, this study also has similar focus and shortcomings.\\
 As a defence against character level adversarial attacks, Pruthi \textit{et al.} \cite{pruthi_combating_2019} proposed placing a word recognition model based on RNN based semi-character word recognition model before the downstream classifier to identify unknown and rare words. Both models are trained separately and provide downstream task independent recognition. According to their experiment results, accuracy was restored by approximately 30\% only under character-level attacks in BERT model. 
@@ -383,7 +380,7 @@ A search-based approach is proposed by Guo \textit{et al.} \cite{guo_rosearch_20
 Mozes \textit{et al.} \cite{mozes_frequency-guided_2021} argued and statistically proved in their study that the frequency of replaced words differs from the frequency of adversarial substitutions. And, the effects of substitutions can be mitigated through simple frequency-based transforms and Frequency-Guided Word Substitutions (FGWS) which can be used to detect a given sequence of input. This method has been claimed to identify adversarial samples with 91.4\% $F_{1}$ score.\\
 According to the study of Han \textit{et al.} \cite{han_robust_2021}, the robustness of language models can be enhanced by adding extra bottlenecks layers called adapters within each layer of pre-trained models. During fine-tuning for down streaming tasks, fix the pre-trained layer and train only the adapter layer. According to the study, the attack success rate was reduced. The approach, however, is evaluated against only one metric and attack recipe, i.e. PWWS \cite{ren_generating_2019}.\\
 According to Dong \textit{et al.} \cite{dong_how_2021}, conventional fine-tuning of languages results in the loss of pre-trained weights, thereby failing to retain robust linguistic features. Additionally, they proposed Robust Informative Fine-Tuning (RIFT) as a robust information-theoretic perspective of fine-tuning which focuses on retaining the features learned in pre-training. According to their experimental results, the BERT model fine-tuned using RIFT yielded a 74.3\% accuracy under PWWS attack recipes in contrast to  approximately 19.4\% accuracy in case of conventional fine-tuning. However, the proposed study considers only accuracy and two attack recipes as signs of robustness and leaves room for further evaluation of recent sophisticated attack recipes.\\
-Wang \textit{et al.} \cite{wang_cat-gen_2020} proposed a strategy called Controlled Adversarial Text Generation (CAT-Gen), which uses an encoder-decoder architecture to generate text controlled by attributes present in text data. It is the objective of adversarial text generation strategies to keep the same controlled attribute while attacking a model. Furthermore, they claimed that introducing this adversarial text during training can enhance the models' accuracy, however, this was not the main objective of the research and not evaluated against language models.\\
+Wang \textit{et al.} \cite{wang_cat-gen_2020} proposed a strategy called Controlled Adversarial Text Generation (CAT-Gen), which uses an encoder-decoder architecture to generate text controlled by attributes present in text data. It is the objective of adversarial text generation strategies to keep the same controlled attribute while attacking a model. Furthermore, they claimed that introducing this adversarial text during training can enhance the models' accuracy. However, this was not the main objective of the research and not evaluated against language models.\\
  Malkiel \textit{et al.} \cite{malkiel_mml_2019} proposed a method to fine-tune language models using a large number of multiverse classifiers, termed Maximal Multiverse Learning (MML). The goal is to fine-tune a large number of multiple classifiers simultaneously and enforce them to be orthogonal to each other. In training, eliminating weaker classifiers and optimizing the models by minimizing two losses, namely, task loss and orthogonal loss, which are in general cumulative losses of all the classifiers. A comparatively robust model was claimed in their paper in terms of generalization, but an evaluation against adversarial attacks remains to be done.\\
 At present, most studies in the text domain are focused on generating adversarial text, and introducing those adversarial texts during training can enhance the model's robustness against the corresponding attack.  Furthermore, the term robust is more often used in the context of generalizing rather than resilience towards adversarial attacks or other uncertain scenarios. Hence, it is being suggested the term robust should be taken into account when evaluating against various attack scenarios and generalizations. \\
 Focused research on verification of language models against attacks and defence against them is still in progress. In addition, it is challenging to compare the performances of published work because of no specific standard evaluation framework \cite{moradi_evaluating_2021-1}. Hence, this master thesis is also trying to provide metrics specific to robustness evaluation of language models.
@@ -526,7 +523,7 @@ Ren \textit{et al.} \cite{ren_generating_2019} proposed a method for synonym and
 Lastly, greedily replacing the words to attach the model. According to the result, the accuracy dropped from 84.86\% to 2.00\% with perturbation 3.38\% for the IMDB dataset and Bi-LSTM model, example is shown in figure \ref{diag:pwwsexp}. However, the computational and time complexity of the proposed approach is higher than other methods.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.8\textwidth]{img/PWWSexample.png}
+    \includegraphics[width=1.0\textwidth]{img/PWWSexample.png}
     \caption[Example of PWWS attack recipe]{Example attack of PWWS\cite{ren_generating_2019} }
     \label{diag:pwwsexp}
 \end{figure}
@@ -536,7 +533,7 @@ Lastly, greedily replacing the words to attach the model. According to the resul
 The BERT masked language model (MLM) was employed by Garg \textit{et al.} \cite{garg_bae_2020}  to generate adversarial examples. Based on their approach, they first calculate the importance of words by computing the decrease in probability of predicting the correct label after deleting that particular word, similar to Textfooler \cite{jia_certified_2019}  and PWWS \cite{ren_generating_2019}. Using the BERT MLM model, replace a specific word with a MASK token and let the model predict context-specific words. Using the Universal Sentence Encoder \cite{cer_universal_2018} and removing words that do not fall into a similar part-of-speech (POS) as the original word, filter the top K tokens using the most similarity score (Threshold 0.8). Substitute top K(50) tokens for the original word, iterate from the most similar token in decreasing order until the attack is successful and trying all combinations. Figure \ref{diag:baeexp} shows a schematic working diagram.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.5\textwidth]{img/BAEexample.png}
+    \includegraphics[width=.65\textwidth]{img/BAEexample.png}
     \caption[Schematic working and example of BAE attack recipe]{Schematic working and example of BAE \cite{garg_bae_2020} }
     \label{diag:baeexp}
 \end{figure}
@@ -578,7 +575,6 @@ This particular task was accomplished by using the texthero python library, whic
 \subsection{Data Exploration}
 \label{subsection:dataexploration}
 In the experiment, models were trained with almost equal distributions of labels and the same training data is being used to generate unlabelled augmented data is shown in \ref{table:train/testtable}. During experiments, various exploration techniques were utilized such as word cloud, word distribution with/without respect to classes in the dataset, and length distribution mentioned in the appendix. However, the most relative information about the dataset i.e. about length is provided in the table \ref{table:Length stat } and figure \ref{fig:lendist}.
-The Covid-19 Fake tweets dataset is shorter than the IMDB dataset. The purpose of using two distinct length datasets is to better understand the behaviour of models and attack recipes in relation to the length.
 \begin{table}[!h]
 \centering
 \begin{tabular}{ |c|c| }
@@ -592,16 +588,16 @@ IMDB & 127  \\
 \caption[Length details of datasets]{Length details of both the datasets.}
 \label{table:Length stat }
 \end{table}
-\begin{figure}[ht]
-     \hspace*{3.0em}
-    \begin{minipage}[b]{0.4\linewidth}
+\begin{figure}[H]
+     \hspace*{-.7em}
+    \begin{minipage}[b]{0.5\linewidth}
         \centering
         \includegraphics[width=\textwidth]{img/fakenewsLengthdist.png}
         \caption{Length distribution of Covid-19 fake tweets dataset.}
         \label{fig:fklendist}
     \end{minipage}
     \hspace{0.1cm}
-    \begin{minipage}[b]{0.4\linewidth}
+    \begin{minipage}[b]{0.5\linewidth}
         \centering
         \includegraphics[width=\textwidth]{img/ImdbLengthdist.png}
         \caption{Length distribution of IMDB dataset.}{}
@@ -610,7 +606,7 @@ IMDB & 127  \\
     \caption[Length distribution of Covid-19 fake tweets and IMDB dataset]{\small Length Distribution of Covid-19 fake tweets and IMDB dataset.}
     \label{fig:lendist}
 \end{figure}
-
+The Covid-19 Fake tweets dataset is shorter than the IMDB dataset. The purpose of using two distinct length datasets is to better understand the behaviour of models and attack recipes in relation to the length.
 %\begin{figure}[H]
 %    \centering
 %%    \hspace*{1.0em}
@@ -648,7 +644,7 @@ In the case of implementing a specific attack recipe to create unlabelled data, 
 \begin{table}[H]
     \centering
     \hspace*{-1.2em}
-    \resizebox{.9\textwidth}{!}{
+    \resizebox{1.0\textwidth}{!}{
         \begin{tabular}{|p{10cm}|p{10cm}|}
             \hline
            \hspace{30mm} \textbf{ Original Text}  &   \hspace{30mm} \textbf{	Augmented Text} \\
@@ -670,7 +666,7 @@ A context-based augmentation replaces the words in the sentence without changing
 \begin{table}[H]
     \centering
     \hspace*{-1.2em}
-    \resizebox{.9\textwidth}{!}{
+    \resizebox{1.0\textwidth}{!}{
         \begin{tabular}{|p{10cm}|p{10cm}|}
             \hline
            \hspace{30mm} \textbf{ Original Text}  &   \hspace{30mm} \textbf{	Augmented Text} \\
@@ -688,7 +684,7 @@ During back translation, sentences are converted in different languages and then
 \begin{table}[H]
     \centering
     \hspace*{-1.2em}
-    \resizebox{.9\textwidth}{!}{
+    \resizebox{1.0\textwidth}{!}{
         \begin{tabular}{|p{10cm}|p{10cm}|}
             \hline
             \hspace{30mm} \textbf{ Original Text}  &   \hspace{30mm} \textbf{	Augmented Text} \\
@@ -705,7 +701,7 @@ Considering examples of all augmentation techniques, it is evident that  word pe
 
 \section{Experiment Environment Description}
 \label{section: experimentenv}
-The proposed experiment has been performed on two language models i.e. 1) $BERT_{Base}$ uncased version  and, 2) DistilBERT uncased version, model architecture is shown in figure \ref{fig:bertarch} and \ref{fig:DistilBERT} respectively. During this experiment baseline models will be referred to as BERT and DistilBERT, and the respective proposed models will be referred to as MTBERT and MTDistilBERT. For training the models, google colab provided GPU has been utilized as shown in figure \ref{fig:nvidiagpu}. The source code for the experiment are provided as a github project\footnote{https://github.com/bksaini078/Mean-Teacher-BERT-Robustness-Assessment} and complete code written in Goolge colab notebook with proper instruction of reproducing the experiments.
+The proposed experiment has been performed on two language models i.e. 1) $BERT_{Base}$ uncased version  and, 2) DistilBERT uncased version, model architecture is shown in figure \ref{fig:bertarch} and \ref{fig:DistilBERT} respectively. During this experiment baseline models will be referred as BERT and DistilBERT, and the respective proposed models will be referred as MTBERT and MTDistilBERT. For training the models, google colab provided GPU has been utilized as shown in figure \ref{fig:nvidiagpu}. The source code for the experiment are provided as a github project\footnote{https://github.com/bksaini078/Mean-Teacher-BERT-Robustness-Assessment} and complete code written in Goolge colab notebook with proper instruction of reproducing the experiments.
 \subsection{Hyperparameter Details}
 \label{subsection:hyperparameter}
 To train the baseline model and proposed model, we used the hyperparameter values shown in table \ref{table:HyperparameterTable}. Exploring the model under different settings is not under the scope of this experiment. 
@@ -716,7 +712,7 @@ To train the baseline model and proposed model, we used the hyperparameter value
 Hyper parameter 		& \multicolumn{2}{c}{Used parameters in this work}\\
 \hline
 Optimizer 				& \multicolumn{2}{c}{Adam} \\
-Learning rate 			& \multicolumn{2}{c}{ $2\epsilon -5$ } \\
+Learning rate 			& \multicolumn{2}{c}{ $2e - 5$ } \\
 Classification cost 			& \multicolumn{2}{c}{Binary Cross Entropy}  \\
 Consistency cost 			& \multicolumn{2}{c}{Mean Squared Error}  \\
 Epochs 				& \multicolumn{2}{c}{$3$} \\
@@ -725,53 +721,70 @@ Loss Ratio ($r$)			&\multicolumn{2}{c}{0.5}\\
 Alpha ($\alpha$)			&\multicolumn{2}{c}{0.999}\\
 Dropout  			& \multicolumn{2}{c}{0.2}  \\
 Max length 			 & \multicolumn{2}{c}{100}  \\
-Threshold ($\epsilon$) & \multicolumn{2}{c}{ $0.8$ }\\
+Threshold ($\delta$) & \multicolumn{2}{c}{ $0.8$ }\\
 \hline
 \end{tabular}
 \caption[Details of hyperparameters details]{Hyperparameters Details}
 \label{table:HyperparameterTable}
 \end{table}
-\section{Metrics}
+\section{Evaluation Metrics}
 \label{section:metrics}
-During the experiment, generalization of the model is calculated by using the accuracy of the target model on test samples, here referred to as original accuracy i.e. the percentage of correct predictions over the entire sample set as mentioned in equation \ref{eq:originalacc}.
+Given test input and its respective label ($X$,$Y$) consists of articles $(x_{1},x_{2},...,x_{n})$ formed by words $(w_{1},w_{2},...,w_{n})$. The ground truth of test input $X$ is $Y$ i.e. $(y_{1},y_{2},...,y_{n})$, respectively. The model $F$ is defined as a function which classifies inputs $X$ to its respective label $Y$ i.e. for a given input $x_{i}$, $F(x_{i})=y_{i}$ is defined as correct classification and $F(x_{i})\not=y_{i}$  as incorrectly classified as discussed in \ref{subsection:definition}. \\
+Therefore, the set of such correctly classified samples is  $C_{c}$.  During the experiment, generalization of the model is calculated by using the accuracy of the target model on test samples, referred as original accuracy i.e. the percentage of correct predictions over the entire sample set $X$ as mentioned in the equation \ref{eq:originalacc} \\
  \begin{equation}
     \begin{aligned}
-       \mbox{Original Accuracy}=\frac{\mbox{number of correct classification}}{\mbox{total number of inputs}}
+        \mbox{Original Accuracy}=\frac{|C_{c}|}{|X|} 
         \label{eq:originalacc}
     \end{aligned}
 \end{equation}
-Next, we calculate the robustness of the target models based on four different metrics: 
+An attack would be called successful when $F(x'_{i})\not=y_{i}$, given $F(x_{i})=y_{i}$, where $x'_{i}$ is perturbed input crafted by attack recipe using correctly classified sample $x_{i}$ by querying the model  $F$ $q_{i}$ times and set of such samples is ($s_{c}$). Similarly, the attack is called failed when $F(x'_{i})=y_{i}$ given $F(x_{i})=y_{i}$ and set of such samples are  ($s_{f}$). The attack recipes skips certain set of samples ($s_{k}$) which comes under the scenario where  $F(x_{i})\not=y_{i}$,  which means model has already failed to classifying inputs correctly.\\ 
+ The robustness of the target models are based on five different metrics: 
 \begin{enumerate}
     \item Accuracy under attack 
     \item Attack success rate
-    \item  Average number of queries
-    \item Perturbation Score
+    \item Average number of queries
+    \item Average word perturbation 
+    \item Perturbation score
 \end{enumerate}
-A target model's accuracy under attack is the percentage of correct predictions given crafted test samples by attack recipes, i.e. adversarial test samples as shown in equation \ref{eq:acc_under}. In the experiment, given legitimate test samples to attack recipes for attacking, first attack recipes decide given single input can be a prominent adversarial input if not then that input is skipped. 
-% \begin{equation}
-%    \begin{aligned}
-%        \mbox{Accuracy under attack}=\frac{\mbox{number of correct classification}}{\mbox{number of  adversarial inputs + number of legitimate inputs }}
-%        \label{eq:acc_under}
-%    \end{aligned}
-%\end{equation}
+A target model's accuracy under attack is the percentage of correct predictions given the number of perturbed test samples $n_{s}$ by attack recipes excluding the skipped attacks ($s_{k}$) i.e $n_{s}$ = ${|X|-|s_{k}|}$, as shown in equation \ref{eq:acc_under}. 
+ \begin{equation}
+    \begin{aligned}
+        \mbox{Accuracy under attack}=\frac{|s_{f}|}{n_{s}}
+        \label{eq:acc_under}
+    \end{aligned}
+\end{equation}
 Compared to the original accuracy, accuracy under attack can provide significant information about the efficiency of the target model and attack recipes. Significant positive difference between original accuracy and accuracy under attack  indicate lower robustness against attack. A counter-part of accuracy under attack is the attack success rate, which indicates the effectiveness of attack recipes.\\
-% \begin{equation}
-%    \begin{aligned}
-%        \mbox{Accuracy under attack}=\frac{\mbox{number of correct attempts }}{\mbox{number of  adversarial inputs}
-%        \label{eq:attack_success_rate}
-%    \end{aligned}
-%\end{equation}
-A metric other than accuracy is the average perturbed word in percentage, which is an average number of words that need to change for a successful attack. Higher word perturbation indicates less robustness, and this metric is also dependent on the length of the text. Furthermore, an average number of queries i.e. a number of times attacks recipes sends perturbed text sample input to target models for successful attacks. A higher number of queries is a sign of robustness.\\
-Finally, the perturbation score is a confidence score or a predicted probability of the target model under attack. A lower average perturbation score of only successful attacks can be a signal of better robustness. 
+ \begin{equation}
+    \begin{aligned}
+        \mbox{Attack success rate}=\frac{|s_{c}|}{n_{s}}
+        \label{eq:attack_success_rate}
+    \end{aligned}
+\end{equation}
+For given input $x_{k}$ i.e. $(w_{k1},w_{k2},..,w_{kn})$, perturbed input $x'_{k}$ i.e $(w_{k1},w'_{k2},..,w'_{n})$ is created. A word perturbation $P_{k}$ is the ratio of words difference between original and perturbed input to the total number of words in $x_{k}$. Therefore, the average perturbed word of complete $X$ is defined as :
+ \begin{equation}
+    \begin{aligned}
+        \mbox{Average word perturbation}= \frac{\sum_{i=0}^{n_{s}} P_{i}} {n_{s}}
+        \label{eq:attack_success_rate}
+    \end{aligned}
+\end{equation}
+ Higher word perturbation indicates less robustness, and this metric is also dependent on the length of the text. \\
+ Furthermore,  $(q_{1},q_{2},..,q_{n})$ are the number of queries $q$ for inputs $(x_{1},x_{2},...,x_{n})$ to successfully attack the model $F$. Therefore average number of queries is number of times attacks recipes sends different perturbed inputs to the target model for successful attacks. And, the average number of queries is mean of those individual number of queries of all inputs $X$ as mentioned in equation \ref{eq:average_queries}. A higher number of queries is a sign of robustness.\\
+  \begin{equation}
+     \begin{aligned}
+         \mbox{Average number of queries }= \frac{|q|} {n_{s}}
+         \label{eq:average_queries}
+     \end{aligned}
+ \end{equation}
+Finally, the perturbation score is a confidence score or a predicted probability of the target model $F$ under attack. A lower average perturbation score of only successful attacks can be a signal of better robustness. 
 
 \section{Threat Model}
 \label{section:threadmodel}
 In this experiment, attack recipes are chosen based on level of knowledge, target, perturbation level, and assumptions. Considering most attacks are done under black-box settings, the threat agent is only exposed to the target model output and test samples from the same corpus. Under this black-box setting, a threat agent can only query the target model with perturbed inputs and get the corresponding confidence score or prediction. In addition, the threat agent is unaware of the model architecture, parameters, or training data. And, the agent can only query the target model with provided inputs. \\
 As test samples are from the original corpus of the data, it is assumed that present test samples have been taken from different corpora. It is also assumed that attackers have access to similar baseline models. Because, similar tokenizers are used for tokenization in both while training and attacking, i.e. from the huggingface\footnote{https://huggingface.co/} an open-source python package for language models.\\
 Evaluation of the models have been performed for the binary classification task, hence the attacks are mainly un-targeted but, because of binary classification, it is assumed as targeted classification. And, only word-level and multi-level which includes word and char level of word perturbation are considered. As, most of the attacks are basically word level and character level hence, clear the intent of this selection.\\
-The robustness of target models is evaluated against the four attack recipes mentioned in\ref{section:attackrecipes}, hence it is assumed that the threat agent has access to those attack recipes. And, the performance of the model could be different if some other attack recipes are utilized.\\
+The robustness of target models is evaluated against the four attack recipes mentioned in \ref{section:attackrecipes}, hence it is assumed that the threat agent has access to those attack recipes. And, the performance of the model could be different if some other attack recipes are utilized.\\
  Furthermore, it is also assumed that the attack test samples are syntactically and semantically similar as per the claimed based on the attack recipes studies, hence, similarity metrics are not included in this experiment.\\
- The model is trained in mentioned settings  \ref{subsection:hyperparameter}, and the model can perform better or worse in different settings.In terms of transferability, the experiment is conducted on two separate language models that differ in pre-training, it is expected that the approach would perform similarly if additional language models were used. 
+ The model is trained in mentioned settings  \ref{subsection:hyperparameter}, and the model can perform better or worse in different settings. In terms of transferability, the experiment is conducted on two separate language models that differ in pre-training, it is expected that the approach would perform similarly if additional language models were used. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%CHAPTER RESULT ANALYSIS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Experiment Results}
 \label{chapter:result}
@@ -780,41 +793,42 @@ The robustness of target models is evaluated against the four attack recipes men
 The result presented in tables \ref{table:IMDBExpRes} and \ref{table:FakeNewsExpRes} demonstrates that MTBERT has outperformed all the other language models in almost all metrics. 
 \begin{table}[H]
     \centering
-    \hspace*{-0.8em}
-    \resizebox{1.0\textwidth}{!}{
+    \hspace*{-1.em}
+    \resizebox{.96\textwidth}{!}{
         \begin{tabular}{|c|c|c|c|c|c|c|}%{|l|l|r|r|r|r|r|}
             \toprule
             Attack Recipe&Model&  Ori. Acc.(\%)& Acc. und Attack(\%) &  Acc. Succ. Rate(\%) &   Avg. Pert. Word(\%) &   Avg. No. Queries  \\
             % Attack Recipe & Model &                     &                     &                      &                    &               \\
             \toprule
-                      & BERT &                		\underline{	93.67} &                    33.93 &                  63.77 &                     \textbf{ 3.78} &          \underline{ 242.24} \\
-            BAE   & DistilBERT &                  92.85 &                    33.55 &                  63.87 &                     \underline{ 3.57} &           238.49 \\
-                      & MT BERT &                \textbf{94.13} &                    \textbf{56.45} &                 \textbf{ 40.03} &                      3.55 &           198.26 \\
-                      & MT DistilBERT &                93.17 &                    \underline{53.60} &                 \underline{ 42.47} &                      3.35 &           \textbf{284.94} \\
+                      & BERT &                		\underline{93.67} &                    33.93 &                  63.77 &                     \textbf{3.78} &          \underline{242.24} \\
+            BAE   & DistilBERT &                  92.85 &                    33.55 &                  63.87 &                     \underline{3.57} &           238.49 \\
+                      & MTBERT &                \textbf{94.13} &                    \textbf{56.45} &                 \textbf{ 40.03} &                      3.55 &           198.26 \\
+                      & MTDistilBERT &                93.17 &                    \underline{53.60} &                 \underline{ 42.47} &                      3.35 &           \textbf{284.94} \\
                 \midrule
-                      & BERT &                		\underline{	93.67} &                     0.60 &                  99.36 &                      3.97 &           749.33 \\
+                      & BERT &                		\underline{93.67} &                     0.60 &                  99.36 &                      3.97 &           749.33 \\
          PWWS & DistilBERT &                   92.85 &                     1.70 &                  98.17 &                      4.07 &           750.24 \\
-                     & MT BERT &              \textbf{  94.13 }&                   \textbf{ 23.20} &                 \textbf{ 75.35} &                      \textbf{5.70} &          \textbf{ 890.84} \\
-                     & MT DistilBERT &                93.17 &                   \underline{ 17.82} &                  \underline{80.88} &                     \underline{ 5.38} &           \underline{866.78} \\
+                     & MTBERT &              \textbf{94.13}&                   \textbf{23.20} &                 \textbf{75.35} &                      \textbf{5.70} &          \textbf{890.84} \\
+                     & MTDistilBERT &                93.17 &                   \underline{17.82} &                  \underline{80.88} &                     \underline{5.38} &           \underline{866.78} \\
                 \midrule
-                     & BERT &               		\underline{ 93.67} &                     2.30 &                  97.54 &                     22.04 &           235.27 \\
+                     & BERT &               		\underline{93.67} &                     2.30 &                  97.54 &                     22.04 &           235.27 \\
  TextBugger & DistilBERT &                92.85 &                     5.57 &                  93.94 &                     21.30 &           259.16 \\
-                     & MT BERT &                \textbf{94.13} &                    \textbf{35.13} &                 \textbf{ 62.68} &                     \textbf{28.57} &           \textbf{449.96} \\
-                     & MT DistilBERT &          93.17 &                   \underline{ 30.07} &                  \underline{67.73} &                     \underline{26.68} &           \underline{421.23} \\
+                     & MTBERT &                \textbf{94.13} &                    \textbf{35.13} &                 \textbf{62.68} &                     \textbf{28.57} &           \textbf{449.96} \\
+                     & MTDistilBERT &          93.17 &                   \underline{30.07} &                  \underline{67.73} &                     \underline{26.68} &           \underline{421.23} \\
                 \midrule
                     & BERT &                		\underline{93.67} &                     0.10 &                  99.89 &                      5.14 &           279.12 \\
   TextFooler & DistilBERT &                92.85 &                     1.07 &                  98.85 &                      5.07 &           278.73 \\
-                    & MT BERT &                \textbf{94.13} &          \textbf{ 30.92}&     \textbf{67.16} &        \textbf{8.04} &   \textbf{720.77} \\
-                    & MT DistilBERT &          93.17 &                    \underline{25.48 }&                  \underline{72.64} &                     \underline{ 7.54 }&           \underline{613.91} \\
- \bottomrule
+                    & MTBERT &                \textbf{94.13} &          \textbf{30.92}&     \textbf{67.16} &        \textbf{8.04} &   \textbf{720.77} \\
+                    & MTDistilBERT  &          93.17 &                    \underline{25.48} &                  \underline{72.64} &                     \underline{7.54} &           \underline{613.91} \\
+                    \bottomrule
  \end{tabular}
     }
     \caption[Experiment result of IMDB dataset]{IMDB dataset: MTBERT model has performed well overall followed by MTDistilBERT. Bold and underlined values represent first and second best value respectively.}
     \label{table:IMDBExpRes}
 \end{table}
+
 \begin{table}[H]
     \hspace*{0.0em}
-    \resizebox{1.0\textwidth}{!}{
+    \resizebox{.96\textwidth}{!}{
         \begin{tabular}{|c|c|c|c|c|c|c|}%{|llrrrrr|}
             \toprule
             Attack Recipe& Model&   Ori. Acc.(\%)&Acc. und Attack(\%) &  Acc. Succ. Rate(\%) &   Avg. Pert. Word(\%) &   Avg. No. Queries  \\
@@ -822,31 +836,31 @@ The result presented in tables \ref{table:IMDBExpRes} and \ref{table:FakeNewsExp
             \toprule
                  & BERT &                94.17 &                    67.53 &                  28.30 &                    \textbf{ 20.30} &            82.10 \\
          BAE & DistilBERT &                94.41 &                    67.66 &                  28.34 &                     18.99 &            79.12 \\
-                & MT BERT &               \textbf{ 95.64} &                    \textbf{77.62} &                  \textbf{18.83} &                     16.57 &            \textbf{88.64 }\\
-                & MT DistilBERT &                \underline{95.29} &                    \underline{74.04} &                 \underline{ 22.30} &                     \underline{19.46} &            \underline{86.47} \\
+                & MTBERT &               \textbf{95.64} &                    \textbf{77.62} &                  \textbf{18.83} &                     16.57 &            \textbf{88.64 }\\
+                & MTDistilBERT &                \underline{95.29} &                    \underline{74.04} &                 \underline{22.30} &                     \underline{19.46} &            \underline{86.47} \\
                 \midrule
                  & BERT &                94.17 &                    24.68 &                  73.80 &                    \textbf{ 20.16 }&           215.04 \\
     PWWS & DistilBERT &                94.41 &                    25.68 &                  72.80 &                     \underline{19.18 }&           210.62 \\
-                & MT BERT &               \textbf{95.64} &                  \textbf{59.16} &                  \textbf{38.14} &                     17.93 &           \textbf{236.90} \\
-                & MT DistilBERT &                \underline{95.29} &                    \underline{48.75} &                  \underline{48.84 }&                     18.66 &           \underline{227.98} \\
+                & MTBERT &               \textbf{95.64} &                  \textbf{59.16} &                  \textbf{38.14} &                     17.93 &           \textbf{236.90} \\
+                & MTDistilBERT &                \underline{95.29} &                    \underline{48.75} &                  \underline{48.84}&                     18.66 &           \underline{227.98} \\
                 \midrule
                  & BERT &                94.17 &                    30.66 &                  66.69 &                    \textbf{ 24.87} &            82.55 \\
 TextBugger & DistilBERT &                94.41 &                    25.36 &                  73.14 &                     22.21 &            76.57 \\
-                & MT BERT &               \textbf{ 95.64} &                    \textbf{65.61} &                  \textbf{31.39}&                     23.29 &           \textbf{114.25} \\
-                & MT DistilBERT &                \underline{95.29} &                    \underline{53.99} &                  \underline{43.34} &                    \underline{ 24.54} &            \underline{96.1}4 \\
+                & MTBERT &               \textbf{95.64} &                    \textbf{65.61} &                  \textbf{31.39}&                     23.29 &           \textbf{114.25} \\
+                & MTDistilBERT &                \underline{95.29} &                    \underline{53.99} &                  \underline{43.34} &                    \underline{24.54} &            \underline{96.14} \\
                 \midrule
                  & BERT &                94.17 &                     7.62 &                  91.90 &                     22.48 &           180.55 \\
 TextFooler & DistilBERT &                94.41 &                     7.58 &                  91.98 &                     21.37 &           164.40 \\
-                & MT BERT &                \textbf{95.64} &                   \textbf{ 54.05} &                  \textbf{43.48} &                     21.25 &           \textbf{282.66} \\
-                & MT DistilBERT &                \underline{95.29} &                    \underline{40.90} &                 \underline{ 57.06} &                    \textbf{ 24.19} &           \underline{211.85 }\\
-            \bottomrule
+                & MTBERT &                \textbf{95.64} &                   \textbf{ 54.05} &                  \textbf{43.48} &                     21.25 &           \textbf{282.66} \\
+                & MTDistilBERT &         \underline{95.29} &             \underline{40.90} &          \underline{57.06} &          \textbf{ 24.19} &     \underline{211.85} \\
+                \bottomrule
         \end{tabular}
     }
     \caption[Experiment result of Covid-19 fake tweets]{Covid-19 fake tweets dataset: MTBERT model has performed well overall followed by MTDistilBERT. Bold and underlined values represent first and second best value respectively.}
     \label{table:FakeNewsExpRes}
 \end{table}
 
-The proposed approach models i.e. MTBERT and MTDistilBERT also performed better than the respective baseline models, i.e. BERT and DistilBERT.  As shown in figure \ref{fig:moaandauaimdb}, the MT BERT model showed 0$\sim$2\% improvement in accuracy over the baseline model in both datasets and 20$\sim$30\% improvement in accuracy under attack. The proposed model also shows the comparatively higher requirement for the number of queries and word perturbations. Furthermore, the drop in accuracy is lowest in proposed approaches than baseline models.
+The proposed approach models i.e. MTBERT and MTDistilBERT also performed better than the respective baseline models, i.e. BERT and DistilBERT.  As shown in figure \ref{fig:moaandauaimdb}, the MTBERT model showed 0$\sim$2\% improvement in accuracy over the baseline model considering both datasets and 20$\sim$30\% improvement in accuracy under attack. The proposed model also shows the comparatively higher requirement for the number of queries and word perturbations. Furthermore, the drop in accuracy is lowest in proposed approaches than baseline models.
 %\begin{figure}[ht]
 %    \begin{minipage}[b]{0.5\linewidth}
 %        \centering
@@ -885,7 +899,7 @@ The proposed approach models i.e. MTBERT and MTDistilBERT also performed better 
   \label{fig:moaandauaimdb}
 \end{figure}
 \subsection{Number of Queries}
-In terms of queries, it is observed that overall MTBERT has a high need for the number of queries to be attacked shown in bar plot \ref{fig:avgnquebyattackrecipes}. As shown in the box plot \ref{fig:numofqueriesdist}, the interquartile range of the MTBERT and MTDistilBERT model is comparatively broader than any other model and has also shown incident crossing 2000 queries. 
+In terms of queries, it is observed that overall MTBERT has a high need for the number of queries to be attacked as shown in bar plot \ref{fig:avgnquebyattackrecipes}. As shown in the box plot \ref{fig:numofqueriesdist}, the interquartile range of the MTBERT and MTDistilBERT model is comparatively broader than any other model and has also shown incident crossing 2000 queries. 
 \begin{figure}[H]
 	\centering
      \hspace*{2.5em}
@@ -910,14 +924,14 @@ To understand the robustness of models with respect to word perturbation, the di
     \label{fig:avgpertbyattackrecipes}
 \end{figure}
 \subsection{Perturbation Score}
-Intuitively, while running the experiments we logged perturbation score that is predicted probability under attack in other term confidence score. To answer the question, how much proposed and baseline model let the attacker change the confidence score of successful attacks. As shown in the figure \ref{fig:pertscoredist}, a huge improvement is being observed in the proposed model  with respect to the baseline model and the distribution of the proposed model is comparatively more left-shifted than baseline models. The proposed model does not let attack recipes go beyond a particular limit i.e. 0.70, however, baseline models are more uniform and show less resilience.  The range of the MT BERT model is 0.50 to 0.55, but for the BERT model, it is 0.50 to 0.66, which is a significant improvement in the model.
+Intuitively, while running the experiments we logged perturbation score that is predicted probability under attack in other term confidence score. To answer the question, how much proposed and baseline model let the attacker change the confidence score of successful attacks. As shown in the figure \ref{fig:pertscoredist}, a huge improvement is being observed in the proposed model  with respect to the baseline model and the distribution of the proposed model is comparatively more left-shifted than baseline models. The proposed model does not let attack recipes go beyond a particular limit i.e. 0.70, however, baseline models are more uniform and show less resilience.  The range of the MTBERT model is 0.50 to 0.55, but for the BERT model, it is 0.50 to 0.66, which is a significant improvement in the model.
 \begin{figure}[H]
     \centering
     \includegraphics[width=.75\linewidth]{img/PertScoreDist}
-    \caption[Box-plot of perturbation score]{\small Box-plot of perturbation score. MT BERT model has managed attacks confidence score in the leaner interquartile range and does not cross 0.70 in a single instance which is a significant improvement over BERT.}
+    \caption[Box-plot of perturbation score]{\small Box-plot of perturbation score. MTBERT model has managed attacks confidence score in the leaner interquartile range and does not cross 0.70 in a single instance which is a significant improvement over BERT.}
     \label{fig:pertscoredist}
 \end{figure}
- Overall, the model fine-tuned using the proposed approach has shown significant improvements over the conventional way of fine-tuning and MT BERT has shown maximum robustness as compared to other models. In the experiment, it is also observed that compact model i.e. DistilBERT created using knowledge distillation process are performing comparative to its base model i.e. BERT. Furthermore, PWWS and TextFooler appeared to be more successful attacks recipes compared to other attack recipes. 
+ Overall, the model fine-tuned using the proposed approach has shown significant improvements over the conventional way of fine-tuning and MTBERT has shown maximum robustness as compared to other models. In the experiment, it is also observed that compact model i.e. DistilBERT created using knowledge distillation process are performing comparative to its base model i.e. BERT. Furthermore, PWWS and TextFooler appeared to be more successful attacks recipes compared to other attack recipes. 
 %\begin{figure}
 %    \centering
 %    \begin{minipage}{.5\textwidth}
