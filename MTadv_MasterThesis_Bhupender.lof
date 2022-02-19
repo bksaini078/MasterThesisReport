@@ -63,36 +63,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Bar plot of the number of queries}}{37}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Box-plot of the number of queries.\relax }}{37}{figure.caption.36}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Box plot of the number of queries.}}{37}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Bar plot of word perturbation rate}}{38}{figure.caption.37}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Box plot of perturbation score}}{38}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Box-plot of perturbation score}}{39}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Bar plot of word perturbation rate}}{39}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Bar plot of attack success rate}}{40}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Details of GPU}}{51}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Details of GPU}}{50}{figure.caption.40}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Layer diagram of BERT model used in the experiment}}{51}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Layer diagram of BERT model used in the experiment}}{50}{figure.caption.41}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Layer diagram of DistilBERT model used in the experiment}}{52}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Layer diagram of DistilBERT model used in the experiment}}{51}{figure.caption.42}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Distribution of perturbation score for IMDB Dataset}}{52}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Bar plot of attack success rate}}{51}{figure.caption.43}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Distribution of perturbation score for Covid-19 fake tweets Dataset}}{53}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Distribution of perturbation score for IMDB Dataset}}{52}{figure.caption.44}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Distribution of number of queries of IMDB Dataset}}{53}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Distribution of perturbation score for Covid-19 fake tweets Dataset}}{52}{figure.caption.45}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Distribution of number of queries of Covid-19 fake tweets Dataset}}{54}{figure.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Distribution of number of queries of IMDB Dataset}}{53}{figure.caption.46}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Bar plot of successful attack on different class labels for IMDB dataset}}{54}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Distribution of number of queries of Covid-19 fake tweets Dataset}}{53}{figure.caption.47}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Bar plot of successful attack on different class labels for IMDB dataset}}{54}{figure.caption.48}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Bar plot of successful attack on different class labels for Covid-19 fake tweets dataset}}{54}{figure.caption.49}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Bar plot of successful attack on different class labels for Covid-19 fake tweets dataset}}{55}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
