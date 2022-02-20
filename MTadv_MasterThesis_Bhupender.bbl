@@ -2987,19 +2987,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Today text classification models have been widely used. However, these classifiers are found to be easily fooled by adversarial examples. Fortunately, standard attacking methods generate adversarial texts in a pair-wise way, that is, an adversarial text can only be created from a real-world text by replacing a few words. In many applications, these texts are limited in numbers, therefore their corresponding adversarial examples are often not diverse enough and sometimes hard to read, thus can be easily detected by humans and cannot create chaos at a large scale. In this paper, we propose an end to end solution to efficiently generate adversarial texts from scratch using generative models, which are not restricted to perturbing the given texts. We call it unrestricted adversarial text generation. Specifically, we train a conditional variational autoencoder (VAE) with an additional adversarial loss to guide the generation of adversarial examples. Moreover, to improve the validity of adversarial texts, we utilize discrimators and the training framework of generative adversarial networks (GANs) to make adversarial texts consistent with real data. Experimental results on sentiment analysis demonstrate the scalability and efficiency of our method. It can attack text classification models with a higher success rate than existing methods, and provide acceptable quality for humans in the meantime.}
-      \field{eprintclass}{cs, stat}
-      \field{eprinttype}{arxiv}
-      \field{journaltitle}{arXiv:2003.10388 [cs, stat]}
+      \field{langid}{english}
       \field{month}{3}
       \field{title}{Generating {{Natural Language Adversarial Examples}} on a {{Large Scale}} with {{Generative Models}}}
       \field{year}{2020}
-      \verb{eprint}
-      \verb 2003.10388
-      \endverb
       \verb{file}
-      \verb /Users/teetusaini/Zotero/storage/7F5VJUWM/Ren et al. - 2020 - Generating Natural Language Adversarial Examples o.pdf;/Users/teetusaini/Zotero/storage/LAIZQFWZ/2003.html
+      \verb /Users/teetusaini/Zotero/storage/GE62AIGN/Ren et al. - 2020 - Generating Natural Language Adversarial Examples o.pdf;/Users/teetusaini/Zotero/storage/MKHRYVBE/2003.html
       \endverb
-      \keyw{Computer Science - Computation and Language,Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
     \entry{salton_vector_1975}{article}{}
       \name{author}{3}{}{%
@@ -3196,6 +3190,70 @@
       \endverb
       \verb{file}
       \verb /Users/teetusaini/Zotero/storage/99C258HW/Si et al. - 2021 - Better Robustness by More Coverage Adversarial an.pdf
+      \endverb
+    \endentry
+    \entry{socher_recursive_2013}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=d5670b2600fea169724521e252d9d09d}{%
+           family={Socher},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d353b3b0ddb25592692eb6cb7c08cc1d}{%
+           family={Perelygin},
+           familyi={P\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d5565a209f6dff10d31d090cf8d77853}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8e5c02ba2cc4095aa510449351c450ee}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2214edb8305f7ccd7cdc310b3a8ae1b4}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=bdb4d740fc9548d1c32a62103c30169d}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=699d626ef41a1a827d623529c1a45e5a}{%
+           family={Potts},
+           familyi={P\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Seattle, Washington, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{e7c60479e674fc5df9f60993d72cca39}
+      \strng{fullhash}{255f10c9a8cf3c8098b84dda6d80db1e}
+      \strng{bibnamehash}{e7c60479e674fc5df9f60993d72cca39}
+      \strng{authorbibnamehash}{e7c60479e674fc5df9f60993d72cca39}
+      \strng{authornamehash}{e7c60479e674fc5df9f60993d72cca39}
+      \strng{authorfullhash}{255f10c9a8cf3c8098b84dda6d80db1e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2013 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}}
+      \field{month}{10}
+      \field{title}{Recursive {{Deep Models}} for {{Semantic Compositionality Over}} a {{Sentiment Treebank}}}
+      \field{year}{2013}
+      \field{pages}{1631\bibrangedash 1642}
+      \range{pages}{12}
+      \verb{file}
+      \verb /Users/teetusaini/Zotero/storage/L55U2D3R/Socher et al. - 2013 - Recursive Deep Models for Semantic Compositionalit.pdf
       \endverb
     \endentry
     \entry{sun_adv-bert_2020}{article}{}
