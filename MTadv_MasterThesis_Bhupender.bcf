@@ -2499,13 +2499,12 @@
     <bcf:citekey order="127">maas_learning_2011-1</bcf:citekey>
     <bcf:citekey order="128">miller_wordnet_1995</bcf:citekey>
     <bcf:citekey order="129">ma_nlpaug_2022</bcf:citekey>
-    <bcf:citekey order="130">https://huggingface.co/Helsinki-NLP</bcf:citekey>
-    <bcf:citekey order="131">englesson_consistency_2021</bcf:citekey>
-    <bcf:citekey order="132">miyato_virtual_2018</bcf:citekey>
-    <bcf:citekey order="133">belinkov_synthetic_2018</bcf:citekey>
-    <bcf:citekey order="134">laine_temporal_2017</bcf:citekey>
-    <bcf:citekey order="135">tarvainen_mean_2018</bcf:citekey>
-    <bcf:citekey order="136">polyak_acceleration_1992</bcf:citekey>
+    <bcf:citekey order="130">englesson_consistency_2021</bcf:citekey>
+    <bcf:citekey order="131">miyato_virtual_2018</bcf:citekey>
+    <bcf:citekey order="132">belinkov_synthetic_2018</bcf:citekey>
+    <bcf:citekey order="133">laine_temporal_2017</bcf:citekey>
+    <bcf:citekey order="134">tarvainen_mean_2018</bcf:citekey>
+    <bcf:citekey order="135">polyak_acceleration_1992</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  20 FEB 2022 21:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  20 FEB 2022 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1811,7 +1811,7 @@ File: img/attack_classification.png Graphic file (type bmp)
  [15] [16] [17]
 chapter 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 361.
+(Font)              <9> on input line 360.
 [18
 
 
@@ -1820,7 +1820,7 @@ chapter 4.
 File: img/Methodology.png Graphic file (type bmp)
 <img/Methodology.png>
 
-Overfull \hbox (43.10855pt too wide) in paragraph at lines 406--407
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 405--406
  [][] 
  []
 
@@ -1832,21 +1832,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 433.
+put line 432.
  [23] [24]
 File: img/textfooler_example.png Graphic file (type bmp)
 <img/textfooler_example.png>
  [25]
 File: img/textbugger_5strat.png Graphic file (type bmp)
 <img/textbugger_5strat.png>
- [26]
 File: img/PWWSexample.png Graphic file (type bmp)
 <img/PWWSexample.png>
+ [26]
 File: img/BAEexample.png Graphic file (type bmp)
 <img/BAEexample.png>
- [27] [28]
+ [27]
 chapter 5.
-[29
+[28
 
 
 ]
@@ -1855,33 +1855,28 @@ File: img/fakenewsLengthdist.png Graphic file (type bmp)
 File: img/ImdbLengthdist.png Graphic file (type bmp)
 <img/ImdbLengthdist.png>
 
-Underfull \hbox (badness 4181) in paragraph at lines 604--604
+Underfull \hbox (badness 4181) in paragraph at lines 603--603
 [][][]\TU/lmss/m/n/10.95 Figure 5.2[][]: []|Length distribution of IMDB
  []
 
 
-Overfull \hbox (2.47319pt too wide) in paragraph at lines 593--607
+Overfull \hbox (2.47319pt too wide) in paragraph at lines 592--606
 []|  []   [] 
  []
 
-[30]
-Overfull \hbox (1.10654pt too wide) in paragraph at lines 633--657
+[29]
+Overfull \hbox (1.10654pt too wide) in paragraph at lines 632--656
 \TU/lmss/m/n/10.95 For creating the unlabelled augmented dataset, we have utili
 zed three strategies i.e. 1) Synonym-
  []
 
-[31]
-
-LaTeX Warning: Citation 'https://huggingface.co/Helsinki-NLP' on page 32 undefi
-ned on input line 678.
-
-[32] [33] [34] [35]
+[30] [31] [32] [33] [34]
 chapter 6.
 File: img/MOAandAUA_Imdb.png Graphic file (type bmp)
 <img/MOAandAUA_Imdb.png>
 File: img/MOAandAUA_fknews.png Graphic file (type bmp)
 <img/MOAandAUA_fknews.png>
-[36
+[35
 
 
 ]
@@ -1889,15 +1884,15 @@ File: img/AvgNQuebyDataset.png Graphic file (type bmp)
 <img/AvgNQuebyDataset.png>
 File: img/NumQueriesDist_box_IMDB.png Graphic file (type bmp)
 <img/NumQueriesDist_box_IMDB.png>
- [37] [38]
+ [36] [37]
 File: img/PertScoreDist.png Graphic file (type bmp)
 <img/PertScoreDist.png>
- [39]
+ [38]
 File: img/AvgPertByDataset.png Graphic file (type bmp)
 <img/AvgPertByDataset.png>
 File: img/attack_success_rate.png Graphic file (type bmp)
 <img/attack_success_rate.png>
- [40] [41]
+ [39] [40]
 Underfull \hbox (badness 10000) in paragraph at lines 980--982
 
  []
@@ -1907,12 +1902,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 983--984
 
  []
 
-[42] [43]
+[41] [42]
 chapter 7.
-[44
+[43
 
 
-] [45]
+] [44]
 chapter without number
 
 Overfull \hbox (45.49426pt too wide) in paragraph at lines 1031--1031
@@ -1920,7 +1915,7 @@ Overfull \hbox (45.49426pt too wide) in paragraph at lines 1031--1031
 rsarial Examples”. In: \TU/lmss/m/sl/10.95 arXiv:1804.07998
  []
 
-[46
+[45
 
 
 ]
@@ -1935,7 +1930,7 @@ Overfull \hbox (18.78723pt too wide) in paragraph at lines 1031--1031
  Substitutions”. In: \TU/lmss/m/sl/10.95 arXiv:1909.00986
  []
 
-[47]
+[46]
 Overfull \hbox (0.94724pt too wide) in paragraph at lines 1031--1031
 []\TU/lmss/m/n/10.95 L. Li et al. “BERT-ATTACK: Adversarial Attack Against BERT
  Using BERT”. In: \TU/lmss/m/sl/10.95 EMNLP\TU/lmss/m/n/10.95 .
@@ -1947,7 +1942,7 @@ Overfull \hbox (36.9533pt too wide) in paragraph at lines 1031--1031
  Language Models”. In: \TU/lmss/m/sl/10.95 arXiv:2004.08994
  []
 
-[48]
+[47]
 Overfull \hbox (10.06377pt too wide) in paragraph at lines 1031--1031
 \TU/lmss/m/n/10.95 Classical to State-Of-The-Art Word Representation Language M
 odels”. In: \TU/lmss/m/sl/10.95 arXiv:2010.15036
@@ -1959,13 +1954,13 @@ Overfull \hbox (26.39262pt too wide) in paragraph at lines 1031--1031
 ews Dataset”. In: \TU/lmss/m/sl/10.95 arXiv:2011.03327
  []
 
-[49] [50]
+[48] [49]
 Overfull \hbox (49.58232pt too wide) in paragraph at lines 1031--1031
 \TU/lmss/m/n/10.95 averaged Consistency Targets Improve Semi-Supervised Deep Le
 arning Results”. In: \TU/lmss/m/sl/10.95 arXiv:1703.01780
  []
 
-[51]
+[50]
 chapter 8.
 File: img/nvidiagpu.png Graphic file (type bmp)
 <img/nvidiagpu.png>
@@ -1973,7 +1968,7 @@ File: img/bert_arch.png Graphic file (type bmp)
 <img/bert_arch.png>
 File: img/DistilBERTarch.png Graphic file (type bmp)
 <img/DistilBERTarch.png>
-[52
+[51
 
 
 ]
@@ -1998,7 +1993,7 @@ Overfull \hbox (43.10855pt too wide) in paragraph at lines 1070--1071
  [][] 
  []
 
-[53]
+[52]
 File: img/NumQueriesDist_fknews.png Graphic file (type bmp)
 <img/NumQueriesDist_fknews.png>
 
@@ -2008,10 +2003,10 @@ Overfull \hbox (43.10855pt too wide) in paragraph at lines 1077--1078
 
 File: img/IMDB_class_attack_1.png Graphic file (type bmp)
 <img/IMDB_class_attack_1.png>
-[54]
+[53]
 File: img/fakenews_class_attack_1.png Graphic file (type bmp)
 <img/fakenews_class_attack_1.png>
- [55] [56] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
+ [54] [55] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
 (./inc/Acknowledgement.aux) (./inc/Abstract.aux))
 
 LaTeX Warning: There were undefined references.
@@ -2033,12 +2028,12 @@ Package logreq Info: Writing requests to 'MTadv_MasterThesis_Bhupender.run.xml'
 
  ) 
 Here is how much of TeX's memory you used:
- 44063 strings out of 476919
- 947218 string characters out of 5821840
- 1881807 words of memory out of 5000000
- 63333 multiletter control sequences out of 15000+600000
- 424211 words of font info for 73 fonts, out of 8000000 for 9000
+ 44061 strings out of 476919
+ 947171 string characters out of 5821840
+ 1881735 words of memory out of 5000000
+ 63332 multiletter control sequences out of 15000+600000
+ 424203 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  111i,18n,116p,10623b,4805s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MTadv_MasterThesis_Bhupender.pdf (66 pages).
+Output written on MTadv_MasterThesis_Bhupender.pdf (65 pages).

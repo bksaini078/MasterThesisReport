@@ -43,56 +43,56 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Example of PWWS attack recipe}}{27}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Schematic working and example of BAE attack recipe}}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Schematic working and example of BAE attack recipe}}{27}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Length distribution of Covid-19 fake tweets dataset.\relax }}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Length distribution of Covid-19 fake tweets dataset.\relax }}{29}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Length distribution of IMDB dataset.\relax }}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Length distribution of IMDB dataset.\relax }}{29}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Length distribution of Covid-19 fake tweets and IMDB dataset}}{30}{figure.caption.27}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces IMDB Dataset: Comparative bar plot of between original accuracy and accuracy under attack.\relax }}{37}{figure.caption.34}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Covid-19 fake tweets dataset: Comparative bar plot of between original accuracy and accuracy under attack. \relax }}{37}{figure.caption.34}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparative bar plot between original accuracy and accuracy under attack}}{37}{figure.caption.34}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Bar plot of the number of queries}}{38}{figure.caption.35}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Box plot of the number of queries.}}{38}{figure.caption.36}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Box plot of perturbation score}}{39}{figure.caption.37}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Bar plot of word perturbation rate}}{40}{figure.caption.38}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Bar plot of attack success rate}}{41}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Length distribution of Covid-19 fake tweets and IMDB dataset}}{29}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces IMDB Dataset: Comparative bar plot of between original accuracy and accuracy under attack.\relax }}{36}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Covid-19 fake tweets dataset: Comparative bar plot of between original accuracy and accuracy under attack.\relax }}{36}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparative bar plot between original accuracy and accuracy under attack}}{36}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Bar plot of the number of queries}}{37}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Box plot of the number of queries.}}{37}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Box plot of perturbation score}}{38}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Bar plot of word perturbation rate}}{39}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Bar plot of attack success rate}}{40}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Details of GPU}}{52}{figure.caption.41}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Details of GPU}}{51}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Layer diagram of BERT model used in the experiment}}{52}{figure.caption.42}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Layer diagram of BERT model used in the experiment}}{51}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Layer diagram of DistilBERT model used in the experiment}}{53}{figure.caption.43}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Layer diagram of DistilBERT model used in the experiment}}{52}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Distribution plot of perturbation score for IMDB Dataset}}{53}{figure.caption.44}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Distribution plot of perturbation score for IMDB Dataset}}{52}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Distribution plot of perturbation score for Covid-19 fake tweets Dataset}}{54}{figure.caption.45}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Distribution plot of perturbation score for Covid-19 fake tweets Dataset}}{53}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Distribution plot of number of queries of IMDB Dataset}}{54}{figure.caption.46}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Distribution plot of number of queries of IMDB Dataset}}{53}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Distribution plot of number of queries of Covid-19 fake tweets Dataset}}{55}{figure.caption.47}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Distribution plot of number of queries of Covid-19 fake tweets Dataset}}{54}{figure.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Bar plot of successful attack on different class labels for IMDB dataset}}{55}{figure.caption.48}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Bar plot of successful attack on different class labels for IMDB dataset}}{54}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Bar plot of successful attack on different class labels for Covid-19 fake tweets dataset}}{56}{figure.caption.49}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Bar plot of successful attack on different class labels for Covid-19 fake tweets dataset}}{55}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

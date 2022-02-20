@@ -215,12 +215,12 @@ In machine translation, the main difficulty was to translate variable-length inp
 For example, the task is to translate the English sentence ``I am good. How are you ?'' to German language , given input sequence of tokens ``I``, ``am'', ``good'',...,``?'' to encoder which generates the fixed shape representation $z_{1},z_{2},z_{3}$. Using this representation, the decoder outputs the ``Mir Geht es gut. Wie Geht es dir ?'' in the token format as shown in the figure \ref{diag:EncoderDecoderExp}.\\
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.25\textwidth]{img/EncoderDecoder2.png}
+    \includegraphics[width=.30\textwidth]{img/EncoderDecoder2.png}
     \caption[Basic example of encoder-decoder working]{Basic working example of encoder-decoder.}
     \label{diag:EncoderDecoderExp}
 \end{figure}
  Later, several sequence to sequence models utilize this encoder-decoder architecture to perform tasks such as text summarization, question answering, and machine translation. However, the encoder-decoder architecture in the transformer differs significantly.\\
-A transformer encoder block is further divided into three layers as shown in the figure \ref{diag:EncoderArch}: multi-head attention, normalization layer, and feed-forward network. The input embedding component converts the input text tokens into embedding vectors $EM$ of shape $d_{model}$.
+A transformer encoder block is further divided into three layers i.e. multi-head attention, normalization layer, and feed-forward network as shown in the figure \ref{diag:EncoderArch}. The input embedding component converts the input text tokens into embedding vectors $EM$ of shape $d_{model}$.
 \begin{figure}[H]
 \centering
 \includegraphics[width=.50\textwidth]{img/EncoderArch.png}
@@ -297,7 +297,7 @@ In NSP, BERT models are given two pairs of sentences, with [CLS] as the sentence
 To enable BERT models to handle a variety of downstream tasks, the input representations created by summing three different embeddings (position embeddings, segment embeddings, and token embeddings), as shown in the figure \ref{fig:bert_inp}.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.60\linewidth]{img/bert_inp.png}
+    \includegraphics[width=0.67\textwidth]{img/bert_inp.png}
     \caption[Three different embeddings in BERT model]{\small BERT model input includes three different embedding information to perform the various downstream tasks\cite{devlin_bert_2019-1}. }
     \label{fig:bert_inp}
 \end{figure}
@@ -308,7 +308,7 @@ A BERT paper \cite{devlin_bert_2019-1} described two BERT models on which they c
 \end{enumerate}
 The BERT model showed state-of-the-art performances in several natural language processing task and showed 94.9\% accuracy on  Stanford Sentiment Treebank (SST-2) dataset \cite{socher_recursive_2013}. In this master thesis experiment, $BERT_{BASE}$ model pre-trained on lower case words is utilized. 
 \subsection{DistilBERT- A distilled version of BERT}
-DistilBERT is a compact version of BERT proposed by Victor \textit{et al.} \cite{sanh_distilbert_2020}. As compared to BERT, the DistilBERT model does not incorporate token embeddings, poolers, and have comparatively half-hidden layers. The principle behind this model is based on knowledge distillation \cite{hinton_distilling_2015}, which can be defined as a process of transferring knowledge from large  to small models. \\
+DistilBERT is a compact version of BERT proposed by Victor \textit{et al.} \cite{sanh_distilbert_2020}. As compared to BERT, the DistilBERT model does not incorporate token embeddings, poolers, and have comparatively half-hidden layers. The principle is based on knowledge distillation \cite{hinton_distilling_2015} method, which can be defined as a process of transferring knowledge from large to small models. \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\linewidth]{img/DistilBERT.png}
@@ -316,8 +316,7 @@ DistilBERT is a compact version of BERT proposed by Victor \textit{et al.} \cite
     \label{fig:DistilBERT}
 \end{figure}
 As illustrated in the figure \ref{fig:DistilBERT}, a small model is trained to mimic the behaviour of a larger model. In the task of mask word prediction, masked sentences are supplied to both the BERT and DistilBERT models.\\
-This approach aims to minimize three losses: 1) the loss between BERT and DistilBERT predictions, 2) the loss between DistilBERT predictions and ground truth, and 3) the cosine embedding loss, which measures the distance between the representations learned by BERT and DistilBERT. Cosine embedding loss reduction makes representation more accurate and tries to copy the BERT embeddings.\\
- The proposed approach is 40\% compact, retaining 97\% of its language understanding capabilities and 60\% faster \cite{sanh_distilbert_2020}, which has proven it is possible to reduce the size of large language models with minimal compromise.
+This approach aims to minimize three losses: 1) the loss between BERT and DistilBERT predictions, 2) the loss between DistilBERT predictions and ground truth, and 3) the cosine embedding loss, which measures the distance between the representations learned by BERT and DistilBERT. Cosine embedding loss reduction makes representation more accurate and tries to copy the BERT embeddings. The proposed model is 40\% compact, retaining 97\% of its language understanding capabilities,and 60\% faster \cite{sanh_distilbert_2020}, which has proven it is possible to reduce the size of large language models with minimal compromise.
 \section{Adversarial Attacks}
 \label{section:advattacks}
 In the year 2013, Szegedy \textit{et al.} \cite{szegedy_intriguing_2014} proposed study in the image-domain discovered that deep neural networks are vulnerable to perturbations, which can result in unexpected behaviours and such case was referred as adversarial attacks. It was first demonstrated by Papernot \textit{et al.}  \cite{papernot_crafting_2016} that an adversarial example can also lead to an unexpected outcome in the text domain. Later various papers on different attack recipes were published in text domain \cite{alzantot_generating_2018,li_bert-attack_2020,gao_black-box_2018,li_bert-attack_2020,ren_generating_2019,garg_bae_2020,chen_robustness_2019}.  Sun \textit{et al.}  \cite{sun_adv-bert_2020} proposed an approach of  generating adversarial misspelling and evaluated the performance of  attack recipes  against BERT model. Based on their experiment on Stanford Sentiment Treebank (SST) dataset, the BERT model is vulnerable to misspelling attacks and its accuracy decreases by 22.6\% under their proposed attack.\\
@@ -393,8 +392,8 @@ Focused research on verification of language models against attacks and defence 
 The proposed method calls for fine-tuning the language models using the semi-supervised approach for classification task which utilizes the prominent adversarial unlabelled dataset. A pictorial representation of methodology is illustrated in the figure \ref{diag:advMTBERT}.\\
 The approach  starts with creating adversarial samples for training. As shown in the figure \ref{diag:advMTBERT}, after pre-processing, the training dataset is being split into three equal parts and then, each part utilized by three augmentation strategies  i.e. 1) Synonym based, 2) Context-based and, 3) Back translation, to create adversarial data.  Labels of those adversarial datasets are discarded hence called \textit{prominent unlabelled adversarial} data. After creating the unlabelled data, proposed semi-supervised fine-tuning starts.\\
 The proposed semi-supervised approach is based on the mean teacher approach \cite{tarvainen_mean_2018} implemented in the computer vision domain. In the mean teacher model, two identical models called student and teacher are trained with two different strategies. In which, only student model is trained, however, during training exponential moving weights are assigned to the teacher. The intuition behind this approach can be understood as, instead of taking an average of many models decision, teacher model is a mean of consecutive students models weights hence called \textit{mean teacher}. \\
- For given inputs $x$ and ground truth $y$, a model is a function of inputs and weights $\theta$ such that $f(x,\theta)=y$. Initially, two models $f$ were initialized using weights called student $f(x,\theta)$and teacher $f(x,\hat\theta)$.
-As shown in the figure \ref{diag:advMTBERT}, two cost function plays important role while back-propagating i.e. classification cost and consistency cost. Classification cost ($C(\theta)$) is calculated as binary cross-entropy between label predicted by student model and ground truth label.  As in this master thesis, evaluation is performed against binary classification task, hence, binary cross-entropy loss is used. However, loss function can be utilized as per task.\\ 
+ For given inputs $x$ and ground truth $y$, a model is a function of inputs and weights $\theta$ such that $f(x,\theta)=y$. Initially, two models $f$ were initialized using weights called student $f(x,\theta)$ and teacher $f(x,\hat\theta)$.
+As shown in the figure \ref{diag:advMTBERT}, two cost function plays important role while back-propagating i.e. classification cost and consistency cost. Classification cost ($C(\theta)$) is calculated as binary cross-entropy between label predicted by student model and ground truth label.  In this master thesis, evaluation is performed against binary classification task, hence, binary cross-entropy loss is used. However, different loss function can be utilized based on task.\\ 
 \begin{equation}
     \begin{aligned}
         C( \theta )=-y \log (f(x,\theta))-(1-y) \log(1-f(x,\theta))
@@ -505,11 +504,11 @@ The TextBugger system proposed by Li \textit{et al.} \cite{li_textbugger_2019} u
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.70\textwidth]{img/textbugger_5strat.png}
+    \includegraphics[width=.65\textwidth]{img/textbugger_5strat.png}
     \caption[Example of 5 bug generation strategies of TextBugger]{TextBugger 5 bug generation strategies \cite{li_textbugger_2019} }
     \label{diag:textbug}
 \end{figure}
-In their study, evaluation is conducted using the IMDB movie review dataset and sequential models. As per their result, Logistics Regression, CNN, and LSTM  showed 95.2\%, 90.5\%, and 86.7\% success rate with perturbed words of 4.9\%, 4.2\%, and 6.9\%, respectively. But, their study did not assess the effectiveness of the BERT model. TextBugger generates adversarial attacks in much fewer time in contrast to TextFooler because of its sub-linear relationship to text length.
+In their study, evaluation is conducted using the IMDB movie review dataset and sequential models. As per their result, Logistics Regression, CNN, and LSTM  showed 95.2\%, 90.5\%, and 86.7\% success rate with perturbed words of 4.9\%, 4.2\%, and 6.9\%, respectively. But, their study did not assess the effectiveness of the BERT model. TextBugger generates adversarial attacks quickly than TextFooler because of its sub-linear relationship to text length.
 
 \subsection{Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency (PWWS)}
 \label{subsection:generatingadversarialexample}
@@ -534,7 +533,7 @@ The BERT masked language model (MLM) was employed by Garg \textit{et al.} \cite{
 Using the Universal Sentence Encoder \cite{cer_universal_2018},  removing words that do not fall into a similar part-of-speech (POS) as the original word, and then filtering the top K tokens using the similarity score (Threshold 0.8). Later, substituting top K (50) tokens for the original word and iterating through the most similar token in decreasing order until the attack is successful and then trying all combinations. Figure \ref{diag:baeexp} shows a schematic working diagram.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.60\textwidth]{img/BAEexample.png}
+    \includegraphics[width=.59\textwidth]{img/BAEexample.png}
     \caption[Schematic working and example of BAE attack recipe]{Schematic working and example of BAE \cite{garg_bae_2020} }
     \label{diag:baeexp}
 \end{figure}
@@ -607,7 +606,7 @@ IMDB & 127  \\
     \caption[Length distribution of Covid-19 fake tweets and IMDB dataset]{\small Length Distribution of Covid-19 fake tweets and IMDB dataset.}
     \label{fig:lendist}
 \end{figure}
-The Covid-19 Fake tweets dataset is shorter than the IMDB dataset. The purpose of using two distinct length datasets is to better understand the behaviour of models and attack recipes in relation to the length.
+The Covid-19 Fake tweets dataset  length is comparatively shorter than the IMDB dataset. The purpose of using two distinct length datasets is to better understand the behaviour of models and attack recipes in relation to the length.
 %\begin{figure}[H]
 %    \centering
 %%    \hspace*{1.0em}
@@ -675,7 +674,7 @@ A context-based augmentation the words in the sentence without changing the cont
     \label{table:conaugment}
 \end{table}
 %\subsubsection{Back Translation Based}
-During back translation, sentences are converted to different language and then translated back to the original language. For this purpose, Marian's translation framework \cite{ma_nlpaug_2022}  is used, which is open source and more efficient than other available approaches. As part of our experiment, we are converting sentences into Romance language and back to the English. Two pre-trained models  from Helsinki-NLP\footcite{https://huggingface.co/Helsinki-NLP}  from HuggingFace are utilized for the translation. It was observed in this experiment that word perturbation are highest in back translation followed by context-based which can be observed in examples provided.
+During back translation, sentences are converted to different language and then translated back to the original language. For this purpose, Marian's translation framework \cite{ma_nlpaug_2022}  is used, which is open source and more efficient than other available approaches. As part of our experiment, we are converting sentences into Romance language and back to the English. Two pre-trained models  from Helsinki-NLP\footnote{https://huggingface.co/Helsinki-NLP}  from HuggingFace are utilized for the translation. It was observed in this experiment that word perturbation are highest in back translation followed by context-based which can be observed in examples provided.
 \begin{table}[H]
     \centering
     \hspace*{-1.2em}
@@ -694,7 +693,7 @@ During back translation, sentences are converted to different language and then 
 \end{table}
 \section{Experiment Environment Description}
 \label{section: experimentenv}
-The proposed experiment has been performed on two language models i.e. 1) $BERT_{Base}$ uncased version  and, 2) DistilBERT uncased version, model architecture is shown in figure \ref{fig:bertarch} and \ref{fig:DistilBERT} respectively. During this experiment, baseline models  are referred as BERT and DistilBERT, and the proposed models are referred as MTBERT and MTDistilBERT. For training the models, google colab provided GPU has been utilized, GPU details are shown in figure \ref{fig:nvidiagpu}. The source code for the experiment are provided as a github project\footnote{https://github.com/bksaini078/mean teacher-BERT-Robustness-Assessment} and complete code written in Goolge colab notebook with instruction of reproducing the experiments.
+The proposed experiment has been performed on two language models i.e. 1) $BERT_{Base}$ uncased version  and, 2) DistilBERT uncased version, model architecture is shown in figure \ref{fig:bertarch} and \ref{fig:DistilBERT} respectively. In this experiment, baseline models  are referred as BERT and DistilBERT, and the proposed models are referred as MTBERT and MTDistilBERT. For training the models, Google  provided GPU are utilized,  configuration details are shown in figure \ref{fig:nvidiagpu}. The source code are provided as a github project\footnote{https://github.com/bksaini078/mean teacher-BERT-Robustness-Assessment} with instruction of reproducing the experiments.
 \subsection{Hyperparameter Details}
 \label{subsection:hyperparameter}
 To train the baseline model and proposed model, we used the hyperparameter values shown in table \ref{table:HyperparameterTable}. Exploring the model under different settings is not under the scope of this experiment. 
@@ -722,15 +721,16 @@ Threshold ($\delta$) & \multicolumn{2}{c}{ $0.8$ }\\
 \end{table}
 \section{Evaluation Metrics}
 \label{section:metrics}
-Given test input and its respective label ($X$,$Y$) consists of articles $(x_{1},x_{2},...,x_{n})$ formed by words $(w_{1},w_{2},...,w_{n})$. The ground truth of test input $X$ is $Y$ i.e. $(y_{1},y_{2},...,y_{n})$, respectively. The model $F$ is defined as a function which classifies inputs $X$ to its respective label $Y$ i.e. for a given input $x_{i}$, $F(x_{i})=y_{i}$ is defined as correct classification and $F(x_{i})\not=y_{i}$  as incorrectly classified. \\
-Therefore, the set of such correctly classified samples is  $C_{c}$.  During the experiment, generalization of the model is calculated by using the accuracy of the target model on test samples, referred as original accuracy i.e. the percentage of correct predictions over the entire test sample set $X$ as mentioned in the equation \ref{eq:originalacc} \\
+Given test input and its respective label ($X$,$Y$) consists of articles $(x_{1},x_{2},...,x_{n})$ formed by words $(w_{1},w_{2},...,w_{n})$. The ground truth of test input $X$ is $Y$ i.e. $(y_{1},y_{2},...,y_{n})$, respectively. The model $F$ is defined as a function which classifies inputs $X$ to its respective label $Y$ i.e. for a given input $x_{i}$, $F(x_{i})=y_{i}$ is defined as correct classification and $F(x_{i})\not=y_{i}$  as incorrectly classified.  Therefore, the set of such correctly classified samples is  $C_{c}$. \\
+ During the experiment, generalization of the model is calculated by using the accuracy of the target model on test samples, referred as original accuracy i.e. the percentage of correct predictions over the entire test sample set $X$ as mentioned in the equation \ref{eq:originalacc} \\
  \begin{equation}
     \begin{aligned}
         \mbox{Original Accuracy}=\frac{|C_{c}|}{|X|} 
         \label{eq:originalacc}
     \end{aligned}
 \end{equation}
-An attack is successful when $F(x'_{i})\not=y_{i}$, given $F(x_{i})=y_{i}$, where $x'_{i}$ is perturbed input crafted by attack recipe using correctly classified sample $x_{i}$ by querying $F$ model $q_{i}$ times. The set of such successful attack samples is denoted by $s_{c}$. Similarly, the attack is called failed when $F(x'_{i})=y_{i}$ given $F(x_{i})=y_{i}$, which means model $F$ has correctly classifying the sample under attack and $s_{f}$ is the set of such samples. The attack recipes skips certain set of samples ($s_{k}$) which comes under the scenario where  $F(x_{i})\not=y_{i}$,  which means model has already failed to correctly classify the input. The evaluation of target models robustness are based on five different metrics: 
+An attack is successful when $F(x'_{i})\not=y_{i}$, given $F(x_{i})=y_{i}$, where $x'_{i}$ is perturbed input crafted by attack recipe using correctly classified sample $x_{i}$ by querying $F$ model $q_{i}$ times. The set of such successful attack samples is denoted by $s_{c}$. Similarly, the attack is called failed when $F(x'_{i})=y_{i}$ given $F(x_{i})=y_{i}$, which means model $F$ has correctly classifying the sample under attack and $s_{f}$ is the set of such samples.  The attack recipes skips certain set of samples ($s_{k}$) which comes under the scenario where  $F(x_{i})\not=y_{i}$,  which means model has already failed to correctly classify the input.
+The evaluation of target models robustness are based on five different metrics: 
 \begin{enumerate}
     \item Accuracy under attack 
     \item Attack success rate
@@ -745,28 +745,28 @@ A target model's accuracy under attack is the percentage of correct predictions 
         \label{eq:acc_under}
     \end{aligned}
 \end{equation}
-Compared to the original accuracy, accuracy under attack can provide significant information about the efficiency of the target model and attack recipes. Significant positive difference between original accuracy and accuracy under attack  indicates lower robustness.\\A counter-part of accuracy under attack is the attack success rate defined as the ratio of number of successful attacks $s_{c}$ to the total number of attack attempts i.e. $n_{s}$ which exclude the skipped attacks ($s_{k}$), hence,  $n_{s}$ = ${|X|-|s_{k}|}$. The number of attack attempts $n_{s}$ can also be defined as the sum of failed and successful attempts i.e. $n_{s}$ = ${|s_{f}|+|s_{c}|}$. This metric  indicates the effectiveness of attack recipes .\\
+Accuracy under attack can provide significant information about the efficiency of the target model and attack recipes. Significant positive difference between original accuracy and accuracy under attack  indicates lower robustness.\\A counter-part of accuracy under attack is the attack success rate defined as the ratio of number of successful attacks $s_{c}$ to the total number of attack attempts i.e. $n_{s}$ which exclude the skipped attacks ($s_{k}$), hence,  $n_{s}$ = ${|X|-|s_{k}|}$. The number of attack attempts $n_{s}$ can also be defined as the sum of failed and successful attempts i.e. $n_{s}$ = ${|s_{f}|+|s_{c}|}$. This metric  indicates the effectiveness of attack recipes .\\
  \begin{equation}
     \begin{aligned}
         \mbox{Attack success rate}=\frac{|s_{c}|}{n_{s}}
         \label{eq:attack_success_rate}
     \end{aligned}
 \end{equation}
-For given input $x_{k}$ i.e. $(w_{k1},w_{k2},..,w_{kn})$, perturbed input $x'_{k}$ i.e. $(w_{k1},w'_{k2},..,w'_{n})$ is created. A word perturbation $P_{k}$ is the ratio of words difference between original and perturbed input to the total number of words in $x_{k}$. Higher word perturbation indicates less robustness. The average perturbed word of complete $X$ is :
+For given input $x_{k}$ i.e. $(w_{k1},w_{k2},..,w_{kn})$, perturbed input $x'_{k}$ i.e. $(w_{k1},w'_{k2},..,w'_{n})$ is created. A word perturbation $P_{k}$ is the ratio of words difference between original and perturbed input to the total number of words in $x_{k}$. Higher word perturbation indicates robustness. The average perturbed word of complete $X$ is :
  \begin{equation}
     \begin{aligned}
         \mbox{Average word perturbation}= \frac{\sum_{i=0}^{|X|} P_{i}} {|X|}
         \label{eq:attack_success_rate}
     \end{aligned}
 \end{equation}
- Furthermore,  $(q_{1},q_{2},..,q_{n})$ are the number of queries $q$ for inputs $(x_{1},x_{2},...,x_{n})$ to successfully attack the model $F$. Therefore, the average number of queries is number of times attack recipes sends different perturbed inputs to the target model. Furthermore, the average number of queries is mean of those individual number of queries of all inputs $X$ as mentioned in equation \ref{eq:average_queries}. A higher number of queries is a sign of robustness.\\
+ Furthermore,  $(q_{1},q_{2},..,q_{n})$ are the number of queries for inputs $(x_{1},x_{2},...,x_{n})$ to successfully attack the model $F$. Therefore, the average number of queries is the mean of those individual number of queries of all inputs $X$ as mentioned in equation \ref{eq:average_queries}. A higher number of queries is a sign of robustness.\\
   \begin{equation}
      \begin{aligned}
          \mbox{Average number of queries }= \frac{|q|} {|X|}
          \label{eq:average_queries}
      \end{aligned}
  \end{equation}
-Finally, the perturbation score is a confidence score or a predicted probability of the target model $F$ under attack. A lower average perturbation score of successful attacks can be a signal of better robustness. 
+Finally, the perturbation score is a confidence score or a predicted probability of the target model $F$ under attack. Lower average perturbation score indicated robustness. 
 
 \section{Threat Model}
 \label{section:threadmodel}
@@ -882,7 +882,7 @@ The proposed approach models also shows the comparatively higher requirement for
             \centering
             \hspace*{2.9em}
             \includegraphics[width=.90\linewidth]{img/MOAandAUA_fknews}
-            \caption{Covid-19 fake tweets dataset: Comparative bar plot of between original accuracy and accuracy under attack. }{}
+            \caption{Covid-19 fake tweets dataset: Comparative bar plot of between original accuracy and accuracy under attack.}{}
               \label{fig:sub2}
         \end{subfigure}
  \caption[Comparative bar plot between original accuracy and accuracy under attack]{\small Comparative bar plot of original accuracy and accuracy under attack in different datasets. MTBERT showed better performance in both metrics followed by MTDistilBERT. And, the highest drop is observed in baseline models (BERT and DistilBERT).}
