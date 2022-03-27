@@ -7,88 +7,112 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Background}{4}{chapter.2}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Text Representations (2 pages)}{4}{section.2.1}%
+\contentsline {section}{\numberline {1.2}Research Question and Objectives}{3}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Word Embeddings}{4}{subsection.2.1.1}%
+\contentsline {section}{\numberline {1.3}Thesis Contribution}{4}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Contextualized Embeddings}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {1.4}Thesis Structure}{4}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Transformers}{6}{section.2.2}%
+\contentsline {chapter}{\numberline {2}Background of Language Models and Adversarial Attacks}{5}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Encoder Architecture}{8}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.1}Text Representations}{5}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Positional Encoding}{9}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {2.1.1}Word Embeddings}{5}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Attention Mechanism}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.1.2}Contextualized Embeddings}{6}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Language Models}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.2}Transformers}{7}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}BERT (Bidirectional Encoder Representation From Transformers)}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.2.1}Encoder}{9}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}DistilBERT- A distilled version of BERT}{13}{subsection.2.3.2}%
+\contentsline {subsubsection}{\nonumberline Positional Encoding}{10}{subsubsection*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Adversarial Attacks}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2.2.2}Attention Mechanism}{11}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Definition}{14}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.3}Language Models}{12}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Types of Adversarial attacks}{14}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.3.1}BERT (Bidirectional Encoder Representation From Transformers)}{13}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Adversarial Training}{16}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.3.2}DistilBERT- A distilled version of BERT}{14}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Related Work}{17}{chapter.3}%
+\contentsline {section}{\numberline {2.4}Adversarial Attacks}{15}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Proposed Methodology}{19}{chapter.4}%
+\contentsline {subsection}{\numberline {2.4.1}Definition}{15}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Mean Teacher Fine-Tuning}{19}{section.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Types of Adversarial Attacks}{16}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Text Attack Recipes and Tool}{21}{section.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Adversarial Training}{17}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}TextFooler}{21}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {3}Related Research on Adversarial Training}{18}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}TextBugger}{22}{subsection.4.2.2}%
+\contentsline {section}{\numberline {3.1}Gradient-Based}{18}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency (PWWS)}{23}{subsection.4.2.3}%
+\contentsline {section}{\numberline {3.2}Augmentation-Based}{19}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}BAE: BERT-Based Adversarial Examples}{24}{subsection.4.2.4}%
+\contentsline {section}{\numberline {3.3}Other Strategies}{20}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Research Question}{25}{section.4.3}%
+\contentsline {chapter}{\numberline {4}Proposed Methodology of Adversarial Fine-Tuning and Attack Recipes}{22}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Experiment Setup}{26}{chapter.5}%
+\contentsline {section}{\numberline {4.1}Mean Teacher Fine-Tuning}{22}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Dataset}{26}{section.5.1}%
+\contentsline {section}{\numberline {4.2}Text Attack Recipes and Tool}{24}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Data Pre-processing and Exploration}{26}{section.5.2}%
+\contentsline {subsection}{\numberline {4.2.1}TextFooler}{24}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Data Exploration}{27}{subsubsection*.27}%
+\contentsline {subsection}{\numberline {4.2.2}TextBugger}{25}{subsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Data Augmentation}{28}{section.5.3}%
+\contentsline {subsection}{\numberline {4.2.3}Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency (PWWS)}{26}{subsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Experiment Environment description}{29}{section.5.4}%
+\contentsline {subsection}{\numberline {4.2.4}BAE: BERT-Based Adversarial Examples}{27}{subsection.4.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Hyperparameter Details}{30}{subsection.5.4.1}%
+\contentsline {chapter}{\numberline {5}Experiment Setup}{28}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Metrics}{30}{section.5.5}%
+\contentsline {section}{\numberline {5.1}Dataset}{28}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Threat Model}{31}{section.5.6}%
+\contentsline {section}{\numberline {5.2}Data Pre-processing and Exploration}{28}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Experiment Result}{32}{chapter.6}%
+\contentsline {subsection}{\numberline {5.2.1}Data Exploration}{29}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Analysis of Result}{32}{section.6.1}%
+\contentsline {section}{\numberline {5.3}Data Augmentation}{30}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Discussing on Research Question}{36}{section.6.2}%
+\contentsline {section}{\numberline {5.4}Experiment Environment Description}{31}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Limitation, Future Work and Conclusion}{38}{chapter.7}%
+\contentsline {subsection}{\numberline {5.4.1}Hyperparameter Details}{32}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Limitations}{38}{section.7.1}%
+\contentsline {section}{\numberline {5.5}Evaluation Metrics}{32}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Future Work}{38}{section.7.2}%
+\contentsline {section}{\numberline {5.6}Threat Model}{34}{section.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Conclusion}{39}{section.7.3}%
+\contentsline {chapter}{\numberline {6}Experiment Results}{35}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{40}{chapter*.41}%
+\contentsline {section}{\numberline {6.1}Evaluation of Results}{35}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}APPENDIX}{46}{chapter.8}%
+\contentsline {subsection}{\numberline {6.1.1}Number of Queries}{36}{subsection.6.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Perturbation Score}{38}{subsection.6.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}Word Perturbation}{39}{subsection.6.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.4}Attack Success Rate}{40}{subsection.6.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Discussion on Research Question}{41}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Data-Augmentation}{41}{subsection.6.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Exponential Moving Average}{42}{subsection.6.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusion, Limitation, and Future Work}{43}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Conclusion}{43}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Limitation}{44}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Future Work}{44}{section.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliography}{45}{chapter*.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}APPENDIX}{51}{chapter.8}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  30 JAN 2022 07:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.5)  27 MAR 2022 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,193 +450,6 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count269
 \enitdp@description=\count270
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
-\@mathmargin=\skip73
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen155
-))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen156
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count271
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count272
-\leftroot@=\count273
-LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count274
-\DOTSCASE@=\count275
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
-\big@size=\dimen157
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count276
-\c@MaxMatrixCols=\count277
-\dotsspace@=\muskip16
-\c@parentequation=\count278
-\dspbrk@lvl=\count279
-\tag@help=\toks22
-\row@=\count280
-\column@=\count281
-\maxfields@=\count282
-\andhelp@=\toks23
-\eqnshift@=\dimen158
-\alignsep@=\dimen159
-\tagshift@=\dimen160
-\tagwidth@=\dimen161
-\totwidth@=\dimen162
-\lineht@=\dimen163
-\@envbody=\toks24
-\multlinegap=\skip74
-\multlinetaggap=\skip75
-\mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/doublestroke/dsfont.sty
-Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count283
-\float@exts=\toks26
-\float@box=\box54
-\@float@everytoks=\toks27
-\@floatcapt=\box55
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
-Package: layout 2014/10/28 v1.2c Show layout parameters
-\oneinch=\count284
-\cnt@paperwidth=\count285
-\cnt@paperheight=\count286
-\cnt@hoffset=\count287
-\cnt@voffset=\count288
-\cnt@textheight=\count289
-\cnt@textwidth=\count290
-\cnt@topmargin=\count291
-\cnt@oddsidemargin=\count292
-\cnt@evensidemargin=\count293
-\cnt@headheight=\count294
-\cnt@headsep=\count295
-\cnt@marginparsep=\count296
-\cnt@marginparwidth=\count297
-\cnt@marginparpush=\count298
-\cnt@footskip=\count299
-\fheight=\count300
-\ref@top=\count301
-\ref@hoffset=\count302
-\ref@voffset=\count303
-\ref@head=\count304
-\ref@body=\count305
-\ref@foot=\count306
-\ref@margin=\count307
-\ref@marginwidth=\count308
-\ref@marginpar=\count309
-\Interval=\count310
-\ExtraYPos=\count311
-\PositionX=\count312
-\PositionY=\count313
-\ArrowLength=\count314
-)
-
-Class scrbook Warning: Usage of package `fancyhdr' together
-(scrbook)              with a KOMA-Script class is not recommended.
-(scrbook)              I'd suggest to use 
-(scrbook)              package `scrlayer' or `scrlayer-scrpage', because
-(scrbook)              they support KOMA-Script classes.
-(scrbook)              With `fancyhdr' several features of class `scrbook'
-(scrbook)              like options `headsepline', `footsepline' or command
-(scrbook)              `\MakeMarkcase' and the commands `\setkomafont' and
-(scrbook)              `\addtokomafont' for the page style elements need
-(scrbook)              explicite user intervention to work.
-(scrbook)              Nevertheless, using requested
-(scrbook)              package `fancyhdr' on input line 52.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
-rs
-\f@nch@headwidth=\skip76
-\f@nch@O@elh=\skip77
-\f@nch@O@erh=\skip78
-\f@nch@O@olh=\skip79
-\f@nch@O@orh=\skip80
-\f@nch@O@elf=\skip81
-\f@nch@O@erf=\skip82
-\f@nch@O@olf=\skip83
-\f@nch@O@orf=\skip84
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: xetex.def on input line 105.
-)
-\Gin@req@height=\dimen164
-\Gin@req@width=\dimen165
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen166
-\lightrulewidth=\dimen167
-\cmidrulewidth=\dimen168
-\belowrulesep=\dimen169
-\belowbottomsep=\dimen170
-\aboverulesep=\dimen171
-\abovetopsep=\dimen172
-\cmidrulesep=\dimen173
-\cmidrulekern=\dimen174
-\defaultaddspace=\dimen175
-\@cmidla=\count315
-\@cmidlb=\count316
-\@aboverulesep=\dimen176
-\@belowrulesep=\dimen177
-\@thisruleclass=\count317
-\@lastruleclass=\count318
-\@thisrulewidth=\dimen178
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
-Package: chngcntr 2018/04/09 v1.1a change counter resetting
-Package chngcntr Info: \counterwithout already defined.
-(chngcntr)             Quitting chngcntr on input line 21.
-)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
@@ -655,9 +468,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen179
-\Hy@linkcounter=\count319
-\Hy@pagecounter=\count320
+\@linkdim=\dimen155
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
@@ -671,7 +484,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count321
+\Hy@SavedSpaceFactor=\count273
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -683,9 +496,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count322
+\c@Hy@tempcnt=\count274
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen180
+\XeTeXLinkMargin=\dimen156
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -694,9 +512,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count323
-\Field@Width=\dimen181
-\Fld@charsize=\dimen182
+\Fld@menulength=\count275
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -712,9 +530,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count324
-\c@Item=\count325
-\c@Hfootnote=\count326
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -725,11 +543,11 @@ File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box56
-\c@Hy@AnnotLevel=\count327
-\HyField@AnnotCount=\count328
-\Fld@listcount=\count329
-\c@bookmark@seq@number=\count330
+\pdfm@box=\box52
+\c@Hy@AnnotLevel=\count279
+\HyField@AnnotCount=\count280
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -744,8 +562,191 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip85
-) (/usr/local/texlive/2021/texmf-dist/tex/latex/forest/forest.sty
+\Hy@SectionHShift=\skip73
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen159
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen160
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen161
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count288
+\c@MaxMatrixCols=\count289
+\dotsspace@=\muskip17
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks22
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks23
+\eqnshift@=\dimen162
+\alignsep@=\dimen163
+\tagshift@=\dimen164
+\tagwidth@=\dimen165
+\totwidth@=\dimen166
+\lineht@=\dimen167
+\@envbody=\toks24
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks26
+\float@box=\box55
+\@float@everytoks=\toks27
+\@floatcapt=\box56
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2014/10/28 v1.2c Show layout parameters
+\oneinch=\count296
+\cnt@paperwidth=\count297
+\cnt@paperheight=\count298
+\cnt@hoffset=\count299
+\cnt@voffset=\count300
+\cnt@textheight=\count301
+\cnt@textwidth=\count302
+\cnt@topmargin=\count303
+\cnt@oddsidemargin=\count304
+\cnt@evensidemargin=\count305
+\cnt@headheight=\count306
+\cnt@headsep=\count307
+\cnt@marginparsep=\count308
+\cnt@marginparwidth=\count309
+\cnt@marginparpush=\count310
+\cnt@footskip=\count311
+\fheight=\count312
+\ref@top=\count313
+\ref@hoffset=\count314
+\ref@voffset=\count315
+\ref@head=\count316
+\ref@body=\count317
+\ref@foot=\count318
+\ref@margin=\count319
+\ref@marginwidth=\count320
+\ref@marginpar=\count321
+\Interval=\count322
+\ExtraYPos=\count323
+\PositionX=\count324
+\PositionY=\count325
+\ArrowLength=\count326
+)
+
+Class scrbook Warning: Usage of package `fancyhdr' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use 
+(scrbook)              package `scrlayer' or `scrlayer-scrpage', because
+(scrbook)              they support KOMA-Script classes.
+(scrbook)              With `fancyhdr' several features of class `scrbook'
+(scrbook)              like options `headsepline', `footsepline' or command
+(scrbook)              `\MakeMarkcase' and the commands `\setkomafont' and
+(scrbook)              `\addtokomafont' for the page style elements need
+(scrbook)              explicite user intervention to work.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `fancyhdr' on input line 53.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip77
+\f@nch@O@elh=\skip78
+\f@nch@O@erh=\skip79
+\f@nch@O@olh=\skip80
+\f@nch@O@orh=\skip81
+\f@nch@O@elf=\skip82
+\f@nch@O@erf=\skip83
+\f@nch@O@olf=\skip84
+\f@nch@O@orf=\skip85
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count327
+\@cmidlb=\count328
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count329
+\@lastruleclass=\count330
+\@thisrulewidth=\dimen182
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/forest/forest.sty
 Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -1468,45 +1469,48 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count525
 \@quotereset=\count526
 (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
-(./inc/Acknowledgement.aux) (./inc/Abstract.aux))
+(./inc/Acknowledgement.aux) (./inc/Abstract.aux)
+
+LaTeX Warning: Label `eq:attack_success_rate' multiply defined.
+
+)
 \openout1 = `MTadv_MasterThesis_Bhupender.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
-3.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+4.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-Package scrbase Info: activating english \contentsname on input line 73.
-Package scrbase Info: activating english \listfigurename on input line 73.
-Package scrbase Info: activating english \listtablename on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+Package scrbase Info: activating english \contentsname on input line 74.
+Package scrbase Info: activating english \listfigurename on input line 74.
+Package scrbase Info: activating english \listtablename on input line 74.
 \c@lstlisting=\count527
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 74.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1520,9 +1524,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count528
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
  (./MTadv_MasterThesis_Bhupender.out) (./MTadv_MasterThesis_Bhupender.out)
 \@outlinefile=\write6
 \openout6 = `MTadv_MasterThesis_Bhupender.out'.
@@ -1534,7 +1538,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 73.
+(scrbook)           before \begin{document} on input line 74.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
@@ -1567,17 +1571,9 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MTadv_MasterThesis_Bhupender.bbl' found.
 
-(./MTadv_MasterThesis_Bhupender.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                moradi_evaluating_2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 73.
-Package biblatex Info: Reference segment=0 on input line 73.
+(./MTadv_MasterThesis_Bhupender.bbl)
+Package biblatex Info: Reference section=0 on input line 74.
+Package biblatex Info: Reference segment=0 on input line 74.
 \openout2 = `inc/Titlepage.aux'.
 
  (./inc/Titlepage.tex
@@ -1662,12 +1658,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--25
 \openout2 = `inc/Acknowledgement.aux'.
 
  (./inc/Acknowledgement.tex
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
 
  []
 
@@ -1677,12 +1668,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--14
 \openout2 = `inc/Abstract.aux'.
 
  (./inc/Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
 
-Overfull \hbox (5.81277pt too wide) in paragraph at lines 9--12
+Overfull \hbox (5.81277pt too wide) in paragraph at lines 9--11
 \TU/lmss/m/n/10.95 Sprachmodelle haben bei verschiedenen Aufgaben der natürlich
 en Sprachverarbeitung
  []
@@ -1692,7 +1683,7 @@ en Sprachverarbeitung
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
  []
 
@@ -1739,257 +1730,237 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface.
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 109.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
 File: img/Introduction-Fig-1.png Graphic file (type bmp)
 <img/Introduction-Fig-1.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--119
+Underfull \hbox (badness 10000) in paragraph at lines 111--122
 
  []
 
 [1
 
 
-] [2] [3]
-chapter 2.
-File: img/onehot.png Graphic file (type bmp)
-<img/onehot.png>
-[4
-
-
-]
-File: img/cbowandskip.png Graphic file (type bmp)
-<img/cbowandskip.png>
- [5]
-File: img/elmo.png Graphic file (type bmp)
-<img/elmo.png>
-File: img/TransformerArchitecture.png Graphic file (type bmp)
-<img/TransformerArchitecture.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6]
-File: img/encoderDecoder.png Graphic file (type bmp)
-<img/encoderDecoder.png>
-File: img/EncoderDecoder2.png Graphic file (type bmp)
-<img/EncoderDecoder2.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--207
+] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 137--147
 
  []
 
-[7]
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--147
+
+ []
+
+[3] [4]
+chapter 2.
+File: img/onehot.png Graphic file (type bmp)
+<img/onehot.png>
+File: img/cbowandskip.png Graphic file (type bmp)
+<img/cbowandskip.png>
+[5
+
+
+]
+File: img/elmo.png Graphic file (type bmp)
+<img/elmo.png>
+ [6]
+File: img/TransformerArchitecture.png Graphic file (type bmp)
+<img/TransformerArchitecture.png>
+ [7]
+File: img/encoderDecoder.png Graphic file (type bmp)
+<img/encoderDecoder.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--211
+
+ []
+
+[8]
+File: img/EncoderDecoder2.png Graphic file (type bmp)
+<img/EncoderDecoder2.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--221
+
+ []
+
 File: img/EncoderArch.png Graphic file (type bmp)
 <img/EncoderArch.png>
- [8] [9]
+[9] [10]
 File: screenshot001.png Graphic file (type bmp)
 <screenshot001.png>
- [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--278
+
+ []
+
+[11]
 File: img/pre_fintune.png Graphic file (type bmp)
 <img/pre_fintune.png>
 File: img/bert_inp.png Graphic file (type bmp)
 <img/bert_inp.png>
- [11]
+ [12] [13]
 File: img/DistilBERT.png Graphic file (type bmp)
 <img/DistilBERT.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--306
+Underfull \hbox (badness 10000) in paragraph at lines 311--317
 
  []
 
-[12] [13]
+[14]
 File: img/attack_classification.png Graphic file (type bmp)
 <img/attack_classification.png>
- [14] [15] [16]
+ [15] [16] [17]
 chapter 3.
-[17
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 360.
+[18
 
 
-] [18]
+] [19] [20] [21]
 chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 371--375
-
- []
-
 File: img/Methodology.png Graphic file (type bmp)
 <img/Methodology.png>
 
-Overfull \hbox (43.10855pt too wide) in paragraph at lines 383--384
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 405--406
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19
+[22
 
 
 ]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 410.
- [20] [21]
+put line 432.
+ [23] [24]
 File: img/textfooler_example.png Graphic file (type bmp)
 <img/textfooler_example.png>
- [22]
+ [25]
 File: img/textbugger_5strat.png Graphic file (type bmp)
 <img/textbugger_5strat.png>
- [23]
 File: img/PWWSexample.png Graphic file (type bmp)
 <img/PWWSexample.png>
+ [26]
 File: img/BAEexample.png Graphic file (type bmp)
 <img/BAEexample.png>
- [24] [25]
+ [27]
 chapter 5.
-[26
+[28
 
 
 ]
-
-LaTeX Warning: Reference `table:train/test table ' on page 27 undefined on inpu
-t line 570.
-
 File: img/fakenewsLengthdist.png Graphic file (type bmp)
 <img/fakenewsLengthdist.png>
-
-Underfull \hbox (badness 2065) in paragraph at lines 591--591
-[][][]\TU/lmss/m/n/10.95 Figure 5.1[][]: []|Length distribution of
- []
-
 File: img/ImdbLengthdist.png Graphic file (type bmp)
 <img/ImdbLengthdist.png>
 
-Underfull \hbox (badness 2065) in paragraph at lines 598--598
-[][][]\TU/lmss/m/n/10.95 Figure 5.2[][]: []|Length distribution of
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 633--656
-
+Underfull \hbox (badness 4181) in paragraph at lines 603--603
+[][][]\TU/lmss/m/n/10.95 Figure 5.2[][]: []|Length distribution of IMDB
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--673
-
+Overfull \hbox (2.47319pt too wide) in paragraph at lines 592--606
+[]|  []   [] 
  []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 674--690
-
+[29]
+Overfull \hbox (1.10654pt too wide) in paragraph at lines 632--656
+\TU/lmss/m/n/10.95 For creating the unlabelled augmented dataset, we have utili
+zed three strategies i.e. 1) Synonym-
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 695.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 695.
-[29] [30] [31]
+[30] [31] [32] [33] [34]
 chapter 6.
-
-Overfull \hbox (2.43741pt too wide) in paragraph at lines 783--812
-[]| [] 
- []
-
-[32
-
-
-]
 File: img/MOAandAUA_Imdb.png Graphic file (type bmp)
 <img/MOAandAUA_Imdb.png>
 File: img/MOAandAUA_fknews.png Graphic file (type bmp)
 <img/MOAandAUA_fknews.png>
+[35
 
-Underfull \hbox (badness 10000) in paragraph at lines 854--855
+
+]
+File: img/AvgNQuebyDataset.png Graphic file (type bmp)
+<img/AvgNQuebyDataset.png>
+File: img/NumQueriesDist_box_IMDB.png Graphic file (type bmp)
+<img/NumQueriesDist_box_IMDB.png>
+ [36] [37]
+File: img/PertScoreDist.png Graphic file (type bmp)
+<img/PertScoreDist.png>
+ [38]
+File: img/AvgPertByDataset.png Graphic file (type bmp)
+<img/AvgPertByDataset.png>
+File: img/attack_success_rate.png Graphic file (type bmp)
+<img/attack_success_rate.png>
+ [39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 980--982
 
  []
 
-File: img/AvgNQuebyDataset.png Graphic file (type bmp)
-<img/AvgNQuebyDataset.png>
-[33]
-File: img/NumQueriesDist_IMDB.png Graphic file (type bmp)
-<img/NumQueriesDist_IMDB.png>
-File: img/AvgPertByDataset.png Graphic file (type bmp)
-<img/AvgPertByDataset.png>
- [34]
-File: img/PertScoreDist.png Graphic file (type bmp)
-<img/PertScoreDist.png>
- [35] [36] [37]
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--984
+
+ []
+
+[41] [42]
 chapter 7.
-[38
+[43
 
 
-] [39]
+] [44]
 chapter without number
 
-Overfull \hbox (45.49426pt too wide) in paragraph at lines 972--972
+Overfull \hbox (45.49426pt too wide) in paragraph at lines 1031--1031
 []\TU/lmss/m/n/10.95 Moustafa Alzantot et al. “Generating Natural Language Adve
 rsarial Examples”. In: \TU/lmss/m/sl/10.95 arXiv:1804.07998
  []
 
-
-Overfull \hbox (15.42319pt too wide) in paragraph at lines 972--972
-[]\TU/lmss/m/sl/10.95 Connected Papers | Find and Explore Academic Papers\TU/lm
-ss/m/n/10.95 . https://www.connectedpapers.com/. 
- []
-
-[40
+[45
 
 
 ]
-Overfull \hbox (10.12216pt too wide) in paragraph at lines 972--972
+Overfull \hbox (10.12216pt too wide) in paragraph at lines 1031--1031
 []\TU/lmss/m/n/10.95 Alex Graves, Greg Wayne, and Ivo Danihelka. “Neural Turing
  Machines”. In: \TU/lmss/m/sl/10.95 arXiv:1410.5401
  []
 
 
-Overfull \hbox (18.78723pt too wide) in paragraph at lines 972--972
+Overfull \hbox (18.78723pt too wide) in paragraph at lines 1031--1031
 []\TU/lmss/m/n/10.95 Robin Jia et al. “Certified Robustness to Adversarial Word
  Substitutions”. In: \TU/lmss/m/sl/10.95 arXiv:1909.00986
  []
 
-[41]
-Overfull \hbox (8.49423pt too wide) in paragraph at lines 972--972
-[]\TU/lmss/m/n/10.95 Yoon Kim. “Convolutional Neural Networks for Sentence Clas
-sification”. In: \TU/lmss/m/sl/10.95 arXiv:1408.5882
- []
-
-
-Overfull \hbox (0.94724pt too wide) in paragraph at lines 972--972
+[46]
+Overfull \hbox (0.94724pt too wide) in paragraph at lines 1031--1031
 []\TU/lmss/m/n/10.95 L. Li et al. “BERT-ATTACK: Adversarial Attack Against BERT
  Using BERT”. In: \TU/lmss/m/sl/10.95 EMNLP\TU/lmss/m/n/10.95 .
  []
 
 
-Overfull \hbox (36.9533pt too wide) in paragraph at lines 972--972
+Overfull \hbox (36.9533pt too wide) in paragraph at lines 1031--1031
 []\TU/lmss/m/n/10.95 Xiaodong Liu et al. “Adversarial Training for Large Neural
  Language Models”. In: \TU/lmss/m/sl/10.95 arXiv:2004.08994
  []
 
-
-Overfull \hbox (10.55652pt too wide) in paragraph at lines 972--972
-\TU/lmss/m/n/10.95 rization by Fine-Tuning Pre-Trained Contextualized Language 
-Models”. In: \TU/lmss/m/sl/10.95 arXiv:1909.03564
- []
-
-[42]
-Overfull \hbox (10.06377pt too wide) in paragraph at lines 972--972
+[47]
+Overfull \hbox (10.06377pt too wide) in paragraph at lines 1031--1031
 \TU/lmss/m/n/10.95 Classical to State-Of-The-Art Word Representation Language M
 odels”. In: \TU/lmss/m/sl/10.95 arXiv:2010.15036
  []
 
 
-Overfull \hbox (26.39262pt too wide) in paragraph at lines 972--972
+Overfull \hbox (26.39262pt too wide) in paragraph at lines 1031--1031
 []\TU/lmss/m/n/10.95 Parth Patwa et al. “Fighting an Infodemic: COVID-19 Fake N
 ews Dataset”. In: \TU/lmss/m/sl/10.95 arXiv:2011.03327
  []
 
-[43]
-Overfull \hbox (49.58232pt too wide) in paragraph at lines 972--972
+[48] [49]
+Overfull \hbox (49.58232pt too wide) in paragraph at lines 1031--1031
 \TU/lmss/m/n/10.95 averaged Consistency Targets Improve Semi-Supervised Deep Le
 arning Results”. In: \TU/lmss/m/sl/10.95 arXiv:1703.01780
  []
 
-[44] [45]
+[50]
 chapter 8.
 File: img/nvidiagpu.png Graphic file (type bmp)
 <img/nvidiagpu.png>
@@ -1997,13 +1968,51 @@ File: img/bert_arch.png Graphic file (type bmp)
 <img/bert_arch.png>
 File: img/DistilBERTarch.png Graphic file (type bmp)
 <img/DistilBERTarch.png>
-[46
+[51
 
 
-] [47] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
+]
+File: img/PertScoreDist_IMDB.png Graphic file (type bmp)
+<img/PertScoreDist_IMDB.png>
+
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 1056--1057
+ [][] 
+ []
+
+File: img/PertScoreDist_fakenews.png Graphic file (type bmp)
+<img/PertScoreDist_fakenews.png>
+
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 1063--1064
+ [][] 
+ []
+
+File: img/NumQueriesDist_IMDB.png Graphic file (type bmp)
+<img/NumQueriesDist_IMDB.png>
+
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 1070--1071
+ [][] 
+ []
+
+[52]
+File: img/NumQueriesDist_fknews.png Graphic file (type bmp)
+<img/NumQueriesDist_fknews.png>
+
+Overfull \hbox (43.10855pt too wide) in paragraph at lines 1077--1078
+ [][] 
+ []
+
+File: img/IMDB_class_attack_1.png Graphic file (type bmp)
+<img/IMDB_class_attack_1.png>
+[53]
+File: img/fakenews_class_attack_1.png Graphic file (type bmp)
+<img/fakenews_class_attack_1.png>
+ [54] [55] (./MTadv_MasterThesis_Bhupender.aux (./inc/Titlepage.aux)
 (./inc/Acknowledgement.aux) (./inc/Abstract.aux))
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `MTadv_MasterThesis_Bhupender.out' has not ch
 anged.
@@ -2019,12 +2028,12 @@ Package logreq Info: Writing requests to 'MTadv_MasterThesis_Bhupender.run.xml'
 
  ) 
 Here is how much of TeX's memory you used:
- 43997 strings out of 476919
- 945814 string characters out of 5821840
- 1879609 words of memory out of 5000000
- 63276 multiletter control sequences out of 15000+600000
- 424195 words of font info for 71 fonts, out of 8000000 for 9000
+ 44061 strings out of 476919
+ 947171 string characters out of 5821840
+ 1881734 words of memory out of 5000000
+ 63332 multiletter control sequences out of 15000+600000
+ 424203 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 111i,15n,116p,10623b,4802s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,18n,116p,10623b,4805s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on MTadv_MasterThesis_Bhupender.pdf (57 pages).
+Output written on MTadv_MasterThesis_Bhupender.pdf (65 pages).
